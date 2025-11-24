@@ -144,7 +144,7 @@ def generate_category_section(category: str, topics: List[Dict], srs_data: Dict)
             review_info = f" `{num_reviews} reviews, avg {avg_score:.1f}/5`"
 
         topic_link = f"[{topic['name']}]({filepath})"
-        lines.append(f"- {topic_link}: {question_preview}{review_info}")
+        lines.append(f"- {emoji} {topic_link}: {question_preview}{review_info}")
 
     # Add category progress bar at top
     progress_line = generate_progress_bar(mastered, total, width=30)
