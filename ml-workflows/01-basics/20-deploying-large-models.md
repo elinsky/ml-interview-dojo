@@ -68,6 +68,7 @@ Deploying large ML models presents significant operational and engineering chall
 **Connection to ML Fundamentals:**
 
 The challenges stem from the bias-variance trade-off and model capacity:
+
 - Larger models have more parameters → lower bias, better approximation of f(X)
 - But more parameters → more memory, slower inference, higher cost
 - In training, we optimize for accuracy; in deployment, we must optimize for accuracy AND operational constraints

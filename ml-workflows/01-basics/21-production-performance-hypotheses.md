@@ -15,6 +15,7 @@ When a model performs well on test data but poorly in production, the root cause
 **From the notes**: "There is a probability distribution over examples that remains stationary over time." When this assumption is violated (non-stationary distribution), test performance no longer predicts production performance.
 
 **Specific manifestations**:
+
 - **Temporal drift**: Test set from 2022, production is 2024 with shifted patterns
 - **Population shift**: Test data from one user segment, production serves different segment
 - **Environmental changes**: External factors (economy, regulations, technology) change P(X) or P(Y|X)
@@ -26,11 +27,13 @@ When a model performs well on test data but poorly in production, the root cause
 **Hypothesis**: Test set suffers from selection bias—it's not a truly random sample from the production distribution.
 
 **From the notes**: Sample bias occurs when "not having a truly random sample." The three criteria for random samples are:
+
 1. Equal likelihood principle: every unit has equal probability of being chosen
 2. Observer can't predict who will be chosen
 3. Must be possible to choose every combination
 
 **Specific causes**:
+
 - **Geographic bias**: Test data from US only, production serves globally
 - **Temporal bias**: Random train/test split on time-series data (violates temporal structure)
 - **Cherry-picking**: Test set curated to avoid edge cases
@@ -45,6 +48,7 @@ When a model performs well on test data but poorly in production, the root cause
 **From the notes**: "Sample error is due to randomness. You can reduce sample error by increasing your sample size."
 
 **Specific issues**:
+
 - High variance in test metrics (especially for rare cases)
 - "If little data is available, then your validation and test sets may contain too few samples to be statistically representative of the data at hand"
 - Bootstrap can measure this uncertainty: "The bootstrap allows you to estimate the standard error of a sample statistic"
@@ -58,6 +62,7 @@ When a model performs well on test data but poorly in production, the root cause
 **From the notes**: "Remember though, that every time you get feedback from the validation set and use it to tweak hyperparameters, you leak information."
 
 **Specific causes**:
+
 - **Hyperparameter tuning on test set**: Used test set for model selection, contaminating it
 - **Data leakage**: Test examples or near-duplicates in training data
 - **Feature leakage**: Features using future information or target proxies
@@ -70,6 +75,7 @@ When a model performs well on test data but poorly in production, the root cause
 **Hypothesis**: Used inappropriate splitting strategy that doesn't respect data structure.
 
 **Specific examples**:
+
 - Random split on grouped data (e.g., multiple samples per patient—test "patients" seen in training)
 - Random split on time-series (violates temporal causality)
 - Stratification on wrong variable (stratified by class but not by important covariate)
@@ -79,6 +85,7 @@ When a model performs well on test data but poorly in production, the root cause
 **Hypothesis**: Model or preprocessing differs between test environment and production.
 
 **Specific causes**:
+
 - Different feature computation logic
 - Different preprocessing statistics (normalization using train vs. production stats)
 - Model version mismatch
@@ -87,6 +94,7 @@ When a model performs well on test data but poorly in production, the root cause
 **Diagnostic Approach:**
 
 From the validation workflow (see notes):
+
 1. **Decide on evaluation protocol**: Hold-out vs. K-fold vs. other
 2. **Check stationarity**: Does distribution change over time?
 3. **Verify randomness**: Does test set meet random sampling criteria?

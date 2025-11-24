@@ -39,6 +39,7 @@ ML models degrade in production because the real-world data they encounter diffe
 **Connection to Core ML Concepts:**
 
 From statistical learning theory, we assume: `Y = f(X) + ε`, where f is a fixed function and ε is irreducible error. In production:
+
 - **Data drift** means the distribution P(X) changes
 - **Concept drift** means the function f itself changes
 - **Both** violate the i.i.d. (independent and identically distributed) assumption underlying cross-validation

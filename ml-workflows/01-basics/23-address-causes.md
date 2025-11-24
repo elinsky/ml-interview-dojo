@@ -13,6 +13,7 @@ Addressing production model failures requires targeted interventions based on th
 **Problem**: Test set doesn't represent production distribution
 
 **Solutions**:
+
 - **Improve train/test splitting strategy**:
   - Use temporal splits for time-series data (train on past, test on future)
   - Stratify by important subgroups to ensure representation
@@ -31,6 +32,7 @@ Addressing production model failures requires targeted interventions based on th
 **Problem**: Production distribution shifts over time (P(X) or P(Y|X) changes)
 
 **Solutions**:
+
 - **Continuous model retraining**:
   - Schedule periodic retraining (weekly, monthly) on recent data
   - Automated retraining pipelines triggered by performance degradation
@@ -53,6 +55,7 @@ Addressing production model failures requires targeted interventions based on th
 **Problem**: Information from test set leaked into training, inflating test performance
 
 **Solutions**:
+
 - **Rebuild train/test split properly**:
   - Ensure strict separation (no duplicates, no temporal leakage)
   - Create test set from strictly future or held-out data
@@ -73,6 +76,7 @@ Addressing production model failures requires targeted interventions based on th
 **Problem**: Model or preprocessing pipeline differs between training and production
 
 **Solutions**:
+
 - **Unify training and serving pipelines**:
   - Use same code for preprocessing in both environments
   - Package feature engineering as reusable library
@@ -95,6 +99,7 @@ Addressing production model failures requires targeted interventions based on th
 **Problem**: Optimizing for wrong metric
 
 **Solutions**:
+
 - **Align metrics with business goals**:
   - Work with stakeholders to define success metrics
   - Incorporate business costs into loss function
@@ -114,6 +119,7 @@ Addressing production model failures requires targeted interventions based on th
 **Problem**: Test set too small for reliable estimates
 
 **Solutions**:
+
 - **Collect more test data**:
   - Expand test set to reduce variance
   - Ensure adequate samples for rare but important cases
@@ -137,6 +143,7 @@ Addressing production model failures requires targeted interventions based on th
 **Prevention is Better than Cure:**
 
 Many issues can be prevented with good practices:
+
 - Proper train/test splitting from the start
 - Careful feature engineering avoiding leakage
 - Unified training/serving pipelines

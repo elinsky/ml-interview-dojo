@@ -43,6 +43,7 @@ There are several approaches to hyperparameter tuning, each with different trade
 7. **Final evaluation**: Retrain with best hyperparameters and evaluate on held-out test set
 
 **Best Practices:**
+
 - Use cross-validation to get robust performance estimates
 - Search on log scale for parameters like learning rate (e.g., 0.001, 0.01, 0.1, 1.0)
 - Start with coarse search, then refine around promising regions

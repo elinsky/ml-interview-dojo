@@ -19,6 +19,7 @@ Key insight: "Uncertainty is a feature of the observer, not the thing being meas
 Model validation is an iterative process. We have inputs (hypotheses, data, statistical techniques, assumptions) and outputs (test statistics, performance metrics, graphical displays). We "diagnose, validate, and criticize" the outputs, then modify inputs and repeat until reaching a satisfactory result.
 
 The goal is to answer three questions:
+
 1. What are the required assumptions for each hypothesis?
 2. For each assumption, how do we determine whether it's valid?
 3. What can we do if assumptions don't hold?
@@ -28,6 +29,7 @@ The goal is to answer three questions:
 **1. Validating Distribution Shift (Stationarity Violation)**
 
 **Tests:**
+
 - **Visual comparison**: Plot feature distributions over time
   - Look for gradual drift or sudden shifts
 - **Statistical tests**: Compare P(X)_test vs P(X)_production
@@ -41,6 +43,7 @@ The goal is to answer three questions:
 **2. Validating Sample Bias**
 
 **Tests:**
+
 - **Representativeness check**: Verify test set satisfies random sampling criteria
   - Equal likelihood principle met?
   - Observer can't predict selection?
@@ -51,6 +54,7 @@ The goal is to answer three questions:
   - Wide intervals indicate high sample error
 
 **Connection to measurement**: Before validating, take three measurements:
+
 1. Uncertainty: Measure 90% confidence interval on the variable
 2. Risk: What's the downside?
 3. Value of information: How much can we justify spending to reduce uncertainty?
@@ -58,6 +62,7 @@ The goal is to answer three questions:
 **3. Validating Model Assumptions Through Residual Analysis**
 
 **Tests:**
+
 - **Residual plots**: Primary diagnostic for validating model assumptions
   - Look for outliers on x and y axes
   - Check for curved patterns (indicates wrong functional form)
@@ -73,6 +78,7 @@ The goal is to answer three questions:
 **4. Validating Classification Performance**
 
 **Tests:**
+
 - **ROC curves**: Assess tradeoff between sensitivity and specificity
   - Random classifier = diagonal line
   - Better models push curve up and left
@@ -84,6 +90,7 @@ The goal is to answer three questions:
 **5. Validating Cross-Validation Reliability**
 
 **Tests:**
+
 - **Variance across folds**: High variance indicates problems
   - "Helpful when the performance of your model shows significant variance based on your train-test split"
   - Suggests either sample size issues or distribution heterogeneity
@@ -92,6 +99,7 @@ The goal is to answer three questions:
   - Example: "4-8 weeks with 90% confidence"
 
 **Calibration improvement techniques**:
+
 1. Equivalent Bet Test (single best method)
 2. Repetition and feedback
 3. Consider potential problems (list 2 reasons to doubt estimate)
@@ -101,18 +109,21 @@ The goal is to answer three questions:
 **General Validation Framework:**
 
 **From EDA principles**:
+
 - Emphasis on understanding "what is going on here?"
 - Graphic representations of data
 - Iterative model specification and hypothesis generation
 - Skepticism and flexibility about which methods to apply
 
 **From model criticism**:
+
 - Validate assumptions systematically
 - Use residuals as diagnostic tool
 - Modify model when assumptions violated
 - Iterate until satisfactory
 
 **From measurement theory**:
+
 - Quantify uncertainty reduction
 - Use confidence intervals, not point estimates
 - Recognize observer's role in uncertainty

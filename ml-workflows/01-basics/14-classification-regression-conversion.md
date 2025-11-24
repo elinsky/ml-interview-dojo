@@ -11,10 +11,12 @@ Yes, classification and regression problems can often be converted between one a
 **How:** Treat discrete class labels as numerical values.
 
 **Examples:**
+
 - **Ordinal regression**: When classes have a natural ordering (e.g., movie ratings 1-5 stars, disease severity low/medium/high), you can treat labels as continuous numerical targets
 - **Probability regression**: Instead of predicting discrete classes, predict class probabilities as continuous values between 0 and 1
 
 **Trade-offs:**
+
 - **Advantage:** Can leverage regression techniques and loss functions (MSE); may provide finer-grained predictions
 - **Disadvantage:** Loses categorical structure; implies ordering/distance between classes that may not exist; may predict invalid intermediate values
 
@@ -23,10 +25,12 @@ Yes, classification and regression problems can often be converted between one a
 **How:** Discretize continuous outputs into categorical bins or apply threshold boundaries.
 
 **Examples:**
+
 - **Binning**: Convert house prices into categories (budget/mid-range/luxury) or temperature into ranges (cold/mild/warm/hot)
 - **Thresholding**: Convert continuous predictions to binary classes (e.g., income > $50K → "high income" class)
 
 **Trade-offs:**
+
 - **Advantage:** Simplifies problem; can be more robust to outliers; may align better with business needs
 - **Disadvantage:** Loses information and precision; reduces statistical power; introduces arbitrary boundaries; cutpoints don't replicate across studies; assumes discontinuities at boundaries that rarely exist; residual confounding
 
@@ -35,14 +39,17 @@ Yes, classification and regression problems can often be converted between one a
 Some algorithms can naturally handle both classification and regression with minimal modification:
 
 **Decision Trees / CART Algorithm**: The same tree-based algorithm can do both:
+
 - **Classification**: Uses Gini impurity or cross-entropy to split; leaf nodes return most common class
 - **Regression**: Uses MSE to split; leaf nodes return average of training examples
 
 **Neural Networks**: Can switch between tasks by changing the final layer:
+
 - **Classification**: Softmax/sigmoid activation + cross-entropy loss
 - **Regression**: Linear activation + MSE loss
 
 **Notable Misnomers:**
+
 - **Logistic Regression**: Despite the name "regression," it's actually a binary **classification** model that outputs probabilities
 
 ---

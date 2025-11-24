@@ -7,6 +7,7 @@ What's the difference between parametric and non-parametric methods? Give exampl
 The fundamental difference between parametric and non-parametric models lies in whether they make assumptions about the functional form of the underlying function being learned.
 
 **Parametric Models:**
+
 - Have a fixed number of parameters determined before training (independent of training set size)
 - Make explicit assumptions about the functional form of the function being learned
 - Reduce the learning problem to estimating a fixed set of parameters
@@ -14,6 +15,7 @@ The fundamental difference between parametric and non-parametric models lies in 
 - **Disadvantage**: Risk choosing wrong functional form; may not approximate true function well; limited flexibility
 
 **Non-Parametric Models:**
+
 - Number of parameters grows with the training data (unbounded parameter set)
 - Make no explicit assumptions about the functional form
 - Often retain training examples as part of the model (instance-based/memory-based learning)

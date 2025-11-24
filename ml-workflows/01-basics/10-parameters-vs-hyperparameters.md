@@ -18,6 +18,7 @@ What are the differences between parameters and hyperparameters?
 | **Optimization** | Optimized by gradient descent | Optimized by hyperparameter tuning (grid search, random search, Bayesian optimization) |
 
 **Examples of parameters:**
+
 - **Weights** (W): Connection strengths between neurons in neural networks
 - **Biases** (b): Offset terms added to weighted sums
 - Coefficients in linear regression
