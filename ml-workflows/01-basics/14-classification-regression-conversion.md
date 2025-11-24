@@ -58,10 +58,9 @@ Some algorithms can naturally handle both classification and regression with min
 
 ### 202107301904 Dichotomizing Continuous Variables.txt
 
-```
-Dichotomizing continuous variables is the process of taking a continuous variable and cutting it up into categorical groups. E.g. taking a data set of test scores expressed as percentages, dropping the percentage variable, and replacing it with a grade variable (A, B, C, ...).
+> Dichotomizing continuous variables is the process of taking a continuous variable and cutting it up into categorical groups. E.g. taking a data set of test scores expressed as percentages, dropping the percentage variable, and replacing it with a grade variable (A, B, C, ...).
 
-While dichotomizing variables simplifies the analysis, most statisticians are opposed to the idea [@AltmanDouglasG2006Tcod, p. 1080] [@harrell2015regression, p.19]. Harrell lists quite a few problems with dichotomization [@harrell2015regression, p.19]:
+> While dichotomizing variables simplifies the analysis, most statisticians are opposed to the idea [@AltmanDouglasG2006Tcod, p. 1080] [@harrell2015regression, p.19]. Harrell lists quite a few problems with dichotomization [@harrell2015regression, p.19]:
 
 > 1. Estimated values will have reduced precision, and associated tests will have reduced power.
 > 2. Categorization assumes that the relationship between the predictor and the response is flat within intervals; this assumption is far less reasonable than a linearity assumption in most cases.
@@ -73,12 +72,11 @@ While dichotomizing variables simplifies the analysis, most statisticians are op
 > 10. Cutpoints are arbitrary and manipulatable; cutpoints can be found that can result in both positive and negative associations.
 > 11. If a confounder is adjusted for by categorization, there will be residual confounding that can be explained away by inclusion of the continuous form of the predictor in the model in addition to the categories.
 
-A brief summary by me:
+> A brief summary by me:
 
-* Cutpoints reduce precision and power.
-* Cutpoints require you to spend more degrees of freedom on the model than necessary.
-* Comparisons across studies are difficult when cutpoints are introduced.
-```
+> * Cutpoints reduce precision and power.
+> * Cutpoints require you to spend more degrees of freedom on the model than necessary.
+> * Comparisons across studies are difficult when cutpoints are introduced.
 
 ### 202104160853 Classification and Regression Tree (CART) Algorithm.txt
 
@@ -86,9 +84,9 @@ A brief summary by me:
 >
 > For **classification** problems, CART attempts to minimize the following cost function [@geron2017hands, p. 179]:
 >
-> $$J(k, t_k) = \frac{m_{\text{left}}}{m}G_{\text{left}} + \frac{m_{\text{right}}}{m}G_{\text{right}}$$
->
-> $$\text{Where}
+$$J(k, t_k) = \frac{m_{\text{left}}}{m}G_{\text{left}} + \frac{m_{\text{right}}}{m}G_{\text{right}}$$
+
+$$\text{Where}
 >     \begin{cases}
 >       G_{\text{left/right}} \text{ measures the impurity of the left/right subset,} \\
 >       m_{\text{left/right}} \text{ is the number of instances in the left/right subset.}
@@ -96,9 +94,9 @@ A brief summary by me:
 >
 > For **regression** problems, the following cost function is used [@geron2017hands, p. 184]:
 >
-> $$J(k, t_k) = \frac{m_{\text{left}}}{m}\text{MSE}_{\text{left}} + \frac{m_{\text{right}}}{m}\text{MSE}_{\text{right}}$$
->
-> $$\text{Where}
+$$J(k, t_k) = \frac{m_{\text{left}}}{m}\text{MSE}_{\text{left}} + \frac{m_{\text{right}}}{m}\text{MSE}_{\text{right}}$$
+
+$$\text{Where}
 >     \begin{cases}
 >       \text{MSE}_{\text{node}} = \sum_{i \in \text{node}}(\hat y_{\text{node}} - y^{(i)})^2 \\
 >       \hat y_{\text{node}} = \frac{1 }{m_{\text{node}}} \sum_{i \in \text{node}}(y^{(i)})
@@ -106,11 +104,9 @@ A brief summary by me:
 
 ### 202104151745 Decision Trees.txt
 
-```
-Decision trees can be used for classification and regression tasks.  The model's **representation** takes the form of a binary tree.  Each internal node in the tree represents a test of the value of one of the attributes/features.  Each branch from the node is labelled with possible values of the splitting attribute.  Each leaf specifies a value to be returned by the function.
+> Decision trees can be used for classification and regression tasks.  The model's **representation** takes the form of a binary tree.  Each internal node in the tree represents a test of the value of one of the attributes/features.  Each branch from the node is labelled with possible values of the splitting attribute.  Each leaf specifies a value to be returned by the function.
 
-At inference time, you take the features of the sample, then traverse the decision tree until you reach a root.  For classification, the probability of each class is determined by the probability of each class in your leaf node.  For regression tasks, the output value is the average of all the training examples in your leaf node.
-```
+> At inference time, you take the features of the sample, then traverse the decision tree until you reach a root.  For classification, the probability of each class is determined by the probability of each class in your leaf node.  For regression tasks, the output value is the average of all the training examples in your leaf node.
 
 ### 202107200915 Logistic Regression.txt
 
@@ -120,13 +116,12 @@ At inference time, you take the features of the sample, then traverse the decisi
 >
 > A logistic regression model takes the following functional form [@james2013introduction, p. 135]:
 >
-> $$p(X) = \frac{{\mathrm e}^{\beta_0 + \beta_1 X_1 + \dots + \beta_p X_p}}{1 + {\mathrm e}^{\beta_0 + \beta_1 X_1 + \dots + \beta_p X_p}}$$
->
-> You can think of logistic regression as a linear regression model in the log odds [@harrell2015regression, p.221].
+$$p(X) = \frac{{\mathrm e}^{\beta_0 + \beta_1 X_1 + \dots + \beta_p X_p}}{1 + {\mathrm e}^{\beta_0 + \beta_1 X_1 + \dots + \beta_p X_p}}$$
+
+You can think of logistic regression as a linear regression model in the log odds [@harrell2015regression, p.221].
 
 ### 202101120811 Activation Functions.txt
 
-```
 Chollet recommends the following activation functions for the final layer [@chollet2018deep, p. 114]:
 
 | Problem Type                            | Last-Layer Activation | Loss Function              |
@@ -135,7 +130,6 @@ Chollet recommends the following activation functions for the final layer [@chol
 | Multiclass, single-label classification | Softmax               | categorical_crossentropy   |
 | Regression to arbitrary values          | None                  | mse                        |
 | Regression to values between 0 and 1    | Sigmoid               | mse or binary_crossentropy |
-```
 
 ## Gaps filled by me (not from notes)
 

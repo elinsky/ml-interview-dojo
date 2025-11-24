@@ -35,72 +35,64 @@ The key assumption is that models' errors should be uncorrelated. While perfect 
 
 ### 202104171003 Ensemble Learning.txt
 
-```
-From Russell and Norvig [@russell2010artificial, p. 748]:
-
-> The idea of ensemble learning methods is to select a collection, or ensemble, of hypotheses from the hypothesis space and combine their predictions.
-
-Ideally, you want the errors made by each hypothesis to be independent of each other.  You don't want each model to make the same mistakes.
-
-From Russell and Norvig [@russell2010artificial, p. 748]:
-
-> Now, obviously the assumption of independence is unreasonable, because hypotheses are likely to be misled in the same way by any misleading aspects of the training data.  But if the hypotheses are at least a little bit different, thereby reducing the correlation between their errors, then ensemble learning can be very useful.
-
-## Type of Ensemble Learning Algorithms
-
-* [[202104161650 Boosting (Hypothesis Boosting)]]
-    * [[202104161654 Gradient Boosting]]
-    * [[202104161653 AdaBoost (Adaptive Boosting)]]
-* [[202104161606 Bagging (Bootstrap Aggregating)]]
-    * [[202104160934 Random Forests]]
-* [[202104190752 Stacking (Stacked Generalization)]]
-
-## Ensembles and Imbalanced Classification
-
-Ensemble models work particularly well when you have an imbalanced classification problem, and you decide to downsample your training dataset. See [[202202230815 Combining Downsampling and Ensemble Learning for Imbalanced Classification]].
-```
+> From Russell and Norvig [@russell2010artificial, p. 748]:
+>
+> > The idea of ensemble learning methods is to select a collection, or ensemble, of hypotheses from the hypothesis space and combine their predictions.
+>
+> Ideally, you want the errors made by each hypothesis to be independent of each other.  You don't want each model to make the same mistakes.
+>
+> From Russell and Norvig [@russell2010artificial, p. 748]:
+>
+> > Now, obviously the assumption of independence is unreasonable, because hypotheses are likely to be misled in the same way by any misleading aspects of the training data.  But if the hypotheses are at least a little bit different, thereby reducing the correlation between their errors, then ensemble learning can be very useful.
+>
+> ## Type of Ensemble Learning Algorithms
+>
+> * [[202104161650 Boosting (Hypothesis Boosting)]]
+>     * [[202104161654 Gradient Boosting]]
+>     * [[202104161653 AdaBoost (Adaptive Boosting)]]
+> * [[202104161606 Bagging (Bootstrap Aggregating)]]
+>     * [[202104160934 Random Forests]]
+> * [[202104190752 Stacking (Stacked Generalization)]]
+>
+> ## Ensembles and Imbalanced Classification
+>
+> Ensemble models work particularly well when you have an imbalanced classification problem, and you decide to downsample your training dataset. See [[202202230815 Combining Downsampling and Ensemble Learning for Imbalanced Classification]].
 
 ### 202104161606 Bagging (Bootstrap Aggregating).txt
 
-```
-### Objective
-
-The idea behind bagging is to train many models with bootstrap samples (see [[202101080707 The Bootstrap]]), then aggregate each model's prediction into an ensemble model that makes the final prediction.
-
-Geron describes the benefit of this approach [@geron2017hands, p. 193]:
-
-> Each individual predictor has a higher bias than if it were trained on the original training set, but aggregation reduces both bias and variance.  Generally, the net result is that the ensemble has similar bias but a lower variance than a single predictor trained on the original training set.
-
-A bagging predictor will work particularly well when a small change in your dataset causes a large change in the predictor model constructed [@BreimanLeo1996Bp, p. 123].  You could describe this as an ```instability of the prediction method``` [@BreimanLeo1996Bp, p. 123].  ```Bagging unstable classifiers usually improves them.  Bagging stable classifiers is not a good idea.``` [@BreimanLeo1996Bp, p. 131].
-
-### Pros
-
-* Increased accuracy [@BreimanLeo1996Bp, p. 137].
-
-### Cons
-
-* Reduced interpretability [@BreimanLeo1996Bp, p. 137].
-```
+> ### Objective
+>
+> The idea behind bagging is to train many models with bootstrap samples (see [[202101080707 The Bootstrap]]), then aggregate each model's prediction into an ensemble model that makes the final prediction.
+>
+> Geron describes the benefit of this approach [@geron2017hands, p. 193]:
+>
+> > Each individual predictor has a higher bias than if it were trained on the original training set, but aggregation reduces both bias and variance.  Generally, the net result is that the ensemble has similar bias but a lower variance than a single predictor trained on the original training set.
+>
+> A bagging predictor will work particularly well when a small change in your dataset causes a large change in the predictor model constructed [@BreimanLeo1996Bp, p. 123].  You could describe this as an ```instability of the prediction method``` [@BreimanLeo1996Bp, p. 123].  ```Bagging unstable classifiers usually improves them.  Bagging stable classifiers is not a good idea.``` [@BreimanLeo1996Bp, p. 131].
+>
+> ### Pros
+>
+> * Increased accuracy [@BreimanLeo1996Bp, p. 137].
+>
+> ### Cons
+>
+> * Reduced interpretability [@BreimanLeo1996Bp, p. 137].
 
 ### 202104161650 Boosting (Hypothesis Boosting).txt
 
-```
-The big idea behind boosting is to combine **many weak learners** (see [[202104171015 Weak Learner]]) to produce a **strong learner**.  Generally boosting methods will train predictors sequentially, with each predictor trying to correct for the mistakes of the previous predictor.
-
-There are many boosting methods, but three of the most popular are AdaBoost (see [[202104161653 AdaBoost (Adaptive Boosting)]]) , and Gradient Boosting (see [[202104161654 Gradient Boosting]]) [@geron2017hands, p. 199].
-
-## See Also
-
-* [[202107170842 XGBoost]]
-```
+> The big idea behind boosting is to combine **many weak learners** (see [[202104171015 Weak Learner]]) to produce a **strong learner**.  Generally boosting methods will train predictors sequentially, with each predictor trying to correct for the mistakes of the previous predictor.
+>
+> There are many boosting methods, but three of the most popular are AdaBoost (see [[202104161653 AdaBoost (Adaptive Boosting)]]) , and Gradient Boosting (see [[202104161654 Gradient Boosting]]) [@geron2017hands, p. 199].
+>
+> ## See Also
+>
+> * [[202107170842 XGBoost]]
 
 ### 202104171015 Weak Learner.txt
 
-```
-A weak learning algorithm is an algorithm that [@russell2010artificial, p. 749]:
-
-> always returns a hypothesis with accuracy on the training set that is slightly better than random guessing (i.e., 50% + $\epsilon$ for Boolean classification).
-```
+> A weak learning algorithm is an algorithm that [@russell2010artificial, p. 749]:
+>
+> > always returns a hypothesis with accuracy on the training set that is slightly better than random guessing (i.e., 50% + $\epsilon$ for Boolean classification).
 
 ## Gaps filled by me (not from notes)
 

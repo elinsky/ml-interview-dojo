@@ -54,51 +54,47 @@ From the neural network training workflow, hyperparameters include:
 
 ### 202101050719 How to Build and Train Neural Network.txt
 
-```
-The following steps describe how to build and train a simple vanilla feedforward neural network [@nielsen2015neural, Ch. 1].  This is a high level overview of all of the components.
+> The following steps describe how to build and train a simple vanilla feedforward neural network [@nielsen2015neural, Ch. 1].  This is a high level overview of all of the components.
+>
+> 1. Choose your architecture.
+>     1. Choose the type(s) of neurons and their associated **activation function** (e.g. Perceptron, Sigmoid, ReLU). [[202101120811 Activation Functions]]
+>     2. Choose the number of **layers** (see [[202101120654 Neural Network Layers]]).
+>     3. Choose the number of neurons in your input layer, hidden layers, and output layer.
+> 2. **Initialize the weights**.  There are many different initialization strategies.  Often the strategy depends on the activation function that you choose.  Two common strategies are random initialization over a Gaussian distribution, and initializing all weights at 0.
+> 3. Choose a **cost function** (e.g. mean squared error or cross entropy) (see [[202012261442 Cost Functions]])
+> 4. Choose an **optimizer** (e.g. gradient descent, stochastic gradient descent, mini-batch gradient descent, Adagrad, Adam...).
+> 5. Train your model, one epoch at a time, until some criteria.  As an example, you could train the model until the error on the test set doesn't go down for 5 straight epochs.
 
-1. Choose your architecture.
-    1. Choose the type(s) of neurons and their associated **activation function** (e.g. Perceptron, Sigmoid, ReLU). [[202101120811 Activation Functions]]
-    2. Choose the number of **layers** (see [[202101120654 Neural Network Layers]]).
-    3. Choose the number of neurons in your input layer, hidden layers, and output layer.
-2. **Initialize the weights**.  There are many different initialization strategies.  Often the strategy depends on the activation function that you choose.  Two common strategies are random initialization over a Gaussian distribution, and initializing all weights at 0.
-3. Choose a **cost function** (e.g. mean squared error or cross entropy) (see [[202012261442 Cost Functions]])
-4. Choose an **optimizer** (e.g. gradient descent, stochastic gradient descent, mini-batch gradient descent, Adagrad, Adam...).
-5. Train your model, one epoch at a time, until some criteria.  As an example, you could train the model until the error on the test set doesn't go down for 5 straight epochs.
-```
 
 ### 202012261442 Cost Functions.txt
 
-```
-A cost function measures how poorly a model does at predicting the right answer.  The output of a cost function can also be thought of as a 'distance score' [@chollet2018deep, p. 10].  The score is a measure of the distance between the desired model output (or ground truth) and the actual model output.
+> A cost function measures how poorly a model does at predicting the right answer.  The output of a cost function can also be thought of as a 'distance score' [@chollet2018deep, p. 10].  The score is a measure of the distance between the desired model output (or ground truth) and the actual model output.
+>
+> Why are cost functions important?  The inputs to a cost function are your model parameters.  So if you have an optimization algorithm (e.g. gradient descent), then you can use it to find the set of parameters that minimize your cost function.  A cost function plus an optimization algorithm essentially enables you to fit your model.
 
-Why are cost functions important?  The inputs to a cost function are your model parameters.  So if you have an optimization algorithm (e.g. gradient descent), then you can use it to find the set of parameters that minimize your cost function.  A cost function plus an optimization algorithm essentially enables you to fit your model.
-```
 
 ### 202106191115 Bias-Variance Trade-Off.txt
 
-```
-From _An Introduction to Statistical Learning_ [@james2013introduction, p. 33]:
+> From _An Introduction to Statistical Learning_ [@james2013introduction, p. 33]:
+>
+> > It is possible to show that the expected test MSE, for a given value $x_0$, can always be decomposed into the sum off three fundamental quantities: the variance of $\hat f (x_0)$, the squared bias of $\hat f (x_0)$ and the variance of the error terms $\epsilon$. That is,
+> > $$E(y_0 - \hat f (x_0))^2 = Var(\hat f(x_0)) + [Bias(\hat f (x_0))]^2 + Var(\epsilon)$$
+>
+> Variance refers to the amount by which $\hat f$ would change if we estimated it using a different training data set. In general, more flexible statistical models have higher variance.
+>
+> Bias refers to the error that is introduced by approximating a real-life problem, which may be extremely complicated, by a much simpler model.
+>
+> The goal is to find a learning method that has both low variance and low bias. But generally, as you increase the flexibility of a learning method, the bias will decrease and the variance will increase.
+>
+> As an example, a linear regression model will tend to have high bias but low variance. As for a random forest, it will tend to have high variance and low bias.
 
-> It is possible to show that the expected test MSE, for a given value $x_0$, can always be decomposed into the sum off three fundamental quantities: the variance of $\hat f (x_0)$, the squared bias of $\hat f (x_0)$ and the variance of the error terms $\epsilon$. That is,
-> $$E(y_0 - \hat f (x_0))^2 = Var(\hat f(x_0)) + [Bias(\hat f (x_0))]^2 + Var(\epsilon)$$
-
-Variance refers to the amount by which $\hat f$ would change if we estimated it using a different training data set. In general, more flexible statistical models have higher variance.
-
-Bias refers to the error that is introduced by approximating a real-life problem, which may be extremely complicated, by a much simpler model.
-
-The goal is to find a learning method that has both low variance and low bias. But generally, as you increase the flexibility of a learning method, the bias will decrease and the variance will increase.
-
-As an example, a linear regression model will tend to have high bias but low variance. As for a random forest, it will tend to have high variance and low bias.
-```
 
 ### 202101171833 Hyperparameter Tuning for Learning Rate in Neural Networks.txt
 
-```
-With true gradient descent, small learning rates are more prone to get stuck in local minima.  Large learning rates are prone to overshooting.
+> With true gradient descent, small learning rates are more prone to get stuck in local minima.  Large learning rates are prone to overshooting.
+>
+> I think you want to start with the largest learning rate for which your loss starts decreasing.  Then step down the learning rate over time, using a learning schedule.
 
-I think you want to start with the largest learning rate for which your loss starts decreasing.  Then step down the learning rate over time, using a learning schedule.
-```
 
 ## Gaps filled by me (not from notes)
 

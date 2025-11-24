@@ -26,66 +26,63 @@ In summary: The Universal Approximation Theorem guarantees representational capa
 
 ### 202106191115 Bias-Variance Trade-Off.txt
 
-```
-From _An Introduction to Statistical Learning_ [@james2013introduction, p. 33]:
-
-> It is possible to show that the expected test MSE, for a given value $x_0$, can always be decomposed into the sum off three fundamental quantities: the variance of $\hat f (x_0)$, the squared bias of $\hat f (x_0)$ and the variance of the error terms $\epsilon$. That is,
-> $$E(y_0 - \hat f (x_0))^2 = Var(\hat f(x_0)) + [Bias(\hat f (x_0))]^2 + Var(\epsilon)$$
+> From _An Introduction to Statistical Learning_ [@james2013introduction, p. 33]:
 >
-> Here the notation $E(y_0 - \hat f (x_0))^2$ defines the expected test MSE, and refers to the average test MSE that we would obtain if we repeatedly estimated $f$ using a large number of training sets, and tested each at $x_0$. The overall expected test MSE can be computed by averaging $E(y_0 - \hat f (x_0))^2$ over all possible values of $x_0$ in the test set.
+> > It is possible to show that the expected test MSE, for a given value $x_0$, can always be decomposed into the sum off three fundamental quantities: the variance of $\hat f (x_0)$, the squared bias of $\hat f (x_0)$ and the variance of the error terms $\epsilon$. That is,
+> > $$E(y_0 - \hat f (x_0))^2 = Var(\hat f(x_0)) + [Bias(\hat f (x_0))]^2 + Var(\epsilon)$$
+> >
+> > Here the notation $E(y_0 - \hat f (x_0))^2$ defines the expected test MSE, and refers to the average test MSE that we would obtain if we repeatedly estimated $f$ using a large number of training sets, and tested each at $x_0$. The overall expected test MSE can be computed by averaging $E(y_0 - \hat f (x_0))^2$ over all possible values of $x_0$ in the test set.
+>
+> Our goal is to develop a function $\hat f$ that closely approximates the true function $f$ (see [[202106191014 Statistical Learning]]). We cannot reduce the irreducible error $\epsilon$. But we can reduce the bias and variance.
+>
+> From _An Introduction to Statistical Learning_ [@james2013introduction, p. 34]:
+>
+> > Variance refers to the amount by which $\hat f$ would change if we estimated it using a different training data set. Since the training data are used to fit the statistical learning method, different training data sets will result in a different $\hat f$. But ideally the estimate for $f$ should not vary too much between training sets. However, if a method has high variance then small changes in the training data can result in large changes in $\hat f$. In general, more flexible statistical models have higher variance.
+>
+> From _An Introduction to Statistical Learning_ [@james2013introduction, p. 35]:
+>
+> > On the other hand, bias refers to the error that is introduced by approximating a real-life problem, which may be extremely complicated, by a much simpler model.
+>
+> The goal is to find a learning method that has both low variance and low bias. But generally, as you increase the flexibility of a learning method, the bias will decrease and the variance will increase. Usually, the bias will decrease at a faster rate than the variance increases. This produces a net reduction in test error. But eventually, test error will start to increase again as you start to overfit the dataset.
 
-Our goal is to develop a function $\hat f$ that closely approximates the true function $f$ (see [[202106191014 Statistical Learning]]). We cannot reduce the irreducible error $\epsilon$. But we can reduce the bias and variance.
-
-From _An Introduction to Statistical Learning_ [@james2013introduction, p. 34]:
-
-> Variance refers to the amount by which $\hat f$ would change if we estimated it using a different training data set. Since the training data are used to fit the statistical learning method, different training data sets will result in a different $\hat f$. But ideally the estimate for $f$ should not vary too much between training sets. However, if a method has high variance then small changes in the training data can result in large changes in $\hat f$. In general, more flexible statistical models have higher variance.
-
-From _An Introduction to Statistical Learning_ [@james2013introduction, p. 35]:
-
-> On the other hand, bias refers to the error that is introduced by approximating a real-life problem, which may be extremely complicated, by a much simpler model.
-
-The goal is to find a learning method that has both low variance and low bias. But generally, as you increase the flexibility of a learning method, the bias will decrease and the variance will increase. Usually, the bias will decrease at a faster rate than the variance increases. This produces a net reduction in test error. But eventually, test error will start to increase again as you start to overfit the dataset.
-```
 
 ### 202106191014 Statistical Learning.txt
 
-```
-From _An Introduction to Statistical Learning_ [@james2013introduction, p. 16]:
-
-> More generally, supposed that we observe a quantitative response $Y$ and $p$ different predictors, $X_1, X_2, \dots, X_p$. We assume that there is some relationship between $Y$ and $X = (X_1, X_2, \dots, X_p), which can be written in the very general form
+> From _An Introduction to Statistical Learning_ [@james2013introduction, p. 16]:
 >
-> $$Y = f(X) + \epsilon$$
+> > More generally, supposed that we observe a quantitative response $Y$ and $p$ different predictors, $X_1, X_2, \dots, X_p$. We assume that there is some relationship between $Y$ and $X = (X_1, X_2, \dots, X_p), which can be written in the very general form
+> >
+> > $$Y = f(X) + \epsilon$$
+> >
+> > Here $f$ is some fixed but unknown function of $X_1, \dots , X_p$, and $\epsilon$ is a random error term, which is independent of $X$ and has mean zero. In this formulation, $f$ represents the systematic information that $X$ provides about $Y$.
 >
-> Here $f$ is some fixed but unknown function of $X_1, \dots , X_p$, and $\epsilon$ is a random error term, which is independent of $X$ and has mean zero. In this formulation, $f$ represents the systematic information that $X$ provides about $Y$.
+> Note $f$ is the best that we can do _given only_ $X$. If we were to have more predictor variables in $X$ that provided additional information, we would be able to produce a better $f$ and reduce $\epsilon$. In this sense, the irreducible error $\epsilon$ cannot be reduced given $X$. But if you augment $X$, it _can_ be reduced.
+>
+> From _An Introduction to Statistical Learning_ [@james2013introduction, p. 17:
+>
+> > In essence, statistical learning refers to a set of approaches for estimating $f$.
 
-Note $f$ is the best that we can do _given only_ $X$. If we were to have more predictor variables in $X$ that provided additional information, we would be able to produce a better $f$ and reduce $\epsilon$. In this sense, the irreducible error $\epsilon$ cannot be reduced given $X$. But if you augment $X$, it _can_ be reduced.
-
-From _An Introduction to Statistical Learning_ [@james2013introduction, p. 17:
-
-> In essence, statistical learning refers to a set of approaches for estimating $f$.
-```
 
 ### 202101241721 Preventing Overfitting in Neural Networks.txt
 
-```
-Preventing overfitting is important because it reduces your generalization error.  Said another way, models that aren't overfit generalize better than overfit models.
+> Preventing overfitting is important because it reduces your generalization error.  Said another way, models that aren't overfit generalize better than overfit models.
+>
+> One common method of measuring overfitting is to compare the spread between your training error and your test/validation error (see [[202101080742 Cross Validation (K-Fold)]]).
+>
+> The single best method to prevent overfitting is to get more training data [@chollet2018deep, p. 104].  The next best solution is to figure out how to constrain the model.  E.g. dropout, regularization (see [[202104170846 Regularization]]), or reducing the number of model parameters).
+>
+> * Get more training data
+> * Reduce the capacity of the network
+> * Add weight regularization
+> * Add dropout
+> * Data augmentation (primarily for CNNs) (see [[202101260751 Data Augmentation]])
+>
+> ## When to Worry About Overfitting
+>
+> Overfitting is something to think about when:
+>
+> * You have a small dataset
 
-One common method of measuring overfitting is to compare the spread between your training error and your test/validation error (see [[202101080742 Cross Validation (K-Fold)]]).
-
-The single best method to prevent overfitting is to get more training data [@chollet2018deep, p. 104].  The next best solution is to figure out how to constrain the model.  E.g. dropout, regularization (see [[202104170846 Regularization]]), or reducing the number of model parameters).
-
-* Get more training data
-* Reduce the capacity of the network
-* Add weight regularization
-* Add dropout
-* Data augmentation (primarily for CNNs) (see [[202101260751 Data Augmentation]])
-
-## When to Worry About Overfitting
-
-Overfitting is something to think about when:
-
-* You have a small dataset
-```
 
 ## Gaps filled by me (not from notes)
 

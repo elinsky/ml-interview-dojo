@@ -30,37 +30,35 @@ What are saddle points and local minima? Which are thought to cause more problem
 
 ### 202101110722 Main Challenges of Gradient Descent.txt
 
-```
-## Chollet and Geron's List
+> ## Chollet and Geron's List
+>
+> There exist two main challenges to learning with gradient descent [@geron2017hands, p118] [@chollet2018deep, p. 50]:
+>
+> 1. Slow convergence speed / plateaus
+> 2. Getting stuck in local minima
+>
+> Plateaus mean that training can stall for epochs on end.  It can be difficult to determine if you found the global maximum, or if the model will continue to improve if only you train longer.  Similarly, a model can get stuck in a local minimum.
+>
+> The momentum algorithm addresses both of these issues ([[202101110723 Momentum Gradient Descent Optimizer]])
+>
+> ## Ruder's List
+>
+> Sebastian Ruder lists four challenges with vanilla mini-batch gradient descent [@DBLP:journals/corr/Ruder16, p. 3]:
+>
+> 1. It is difficult to know what the optimal learning rate is.  It's another hyperparameter you need to set.
+> 2. Learning rate schedules attempt to solve this problem, but they need to be set ahead of time.  They don't adapt to the data.
+> 3. The learning rate applies to all parameters equally.  Some parameters may not need to be updated very frequently.  E.g. your model inputs could be sparse, and you might not need to update the weights for a rarely occurring feature very frequently.
+> 4. Mini-batch gradient descent is susceptible to getting stuck in local minima or saddle points.
 
-There exist two main challenges to learning with gradient descent [@geron2017hands, p118] [@chollet2018deep, p. 50]:
-
-1. Slow convergence speed / plateaus
-2. Getting stuck in local minima
-
-Plateaus mean that training can stall for epochs on end.  It can be difficult to determine if you found the global maximum, or if the model will continue to improve if only you train longer.  Similarly, a model can get stuck in a local minimum.
-
-The momentum algorithm addresses both of these issues ([[202101110723 Momentum Gradient Descent Optimizer]])
-
-## Ruder's List
-
-Sebastian Ruder lists four challenges with vanilla mini-batch gradient descent [@DBLP:journals/corr/Ruder16, p. 3]:
-
-1. It is difficult to know what the optimal learning rate is.  It's another hyperparameter you need to set.
-2. Learning rate schedules attempt to solve this problem, but they need to be set ahead of time.  They don't adapt to the data.
-3. The learning rate applies to all parameters equally.  Some parameters may not need to be updated very frequently.  E.g. your model inputs could be sparse, and you might not need to update the weights for a rarely occurring feature very frequently.
-4. Mini-batch gradient descent is susceptible to getting stuck in local minima or saddle points.
-```
 
 ### 202101201802 Three Factors Led to the Adoption of Gradient Descent for ML.txt
 
-```
-According to Yann LeCun, three factors led to the widespread adoption of gradient descent (see [[202101050843 Gradient Descent]]) within the machine learning community [@lecun1998gradient, p. 3]:
+> According to Yann LeCun, three factors led to the widespread adoption of gradient descent (see [[202101050843 Gradient Descent]]) within the machine learning community [@lecun1998gradient, p. 3]:
+>
+> 1. The first was the realization that getting stuck in a local minima wasn't a problem in practice.  This was noticed when attempting to train Boltzmann machines with gradient-based learning-techniques.
+> 2. Second, Rumelhart, Hinton, and Williams [@RumelhartDavidE1987LIRb] showed that it was possible to efficiently compute gradients via backpropagation.
+> 3. Third, it was shown that multi-layer neural networks could be trained efficiently with the sigmoid activation function (see [[202012261450 Sigmoid Neuron]]) and backpropagation (see [[202101130721 Mathematics of Backpropagation]]).
 
-1. The first was the realization that getting stuck in a local minima wasn't a problem in practice.  This was noticed when attempting to train Boltzmann machines with gradient-based learning-techniques.
-2. Second, Rumelhart, Hinton, and Williams [@RumelhartDavidE1987LIRb] showed that it was possible to efficiently compute gradients via backpropagation.
-3. Third, it was shown that multi-layer neural networks could be trained efficiently with the sigmoid activation function (see [[202012261450 Sigmoid Neuron]]) and backpropagation (see [[202101130721 Mathematics of Backpropagation]]).
-```
 
 ## Gaps filled by me (not from notes)
 

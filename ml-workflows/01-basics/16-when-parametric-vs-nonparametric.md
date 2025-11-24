@@ -46,92 +46,88 @@ As you increase model flexibility (moving from parametric to non-parametric), bi
 
 ### 202104170948 Parametric Models.txt
 
-```
-From Russell and Norvig [@russell2010artificial, p. 737]:
-
-> A learning model that summarizes data with a set of parameters of fixed size (independent of the number of training examples) is called a parametric model.
-
-From _An Introduction to Statistical Learning_ [@james2013introduction, p. 21]:
-
-> Parametric Methods involve a two-step model-based approach.
+> From Russell and Norvig [@russell2010artificial, p. 737]:
 >
-> 1. First, we make an assumption about the functional form, or shape, of $f$. For example, on very simple assumption is that $f$ is linear in $X$:
+> > A learning model that summarizes data with a set of parameters of fixed size (independent of the number of training examples) is called a parametric model.
 >
-> $$f(X) = \beta_0 + \beta_1X_1 + \beta_2X_2 + \dots + \beta_pX_p$$
-> ...
+> From _An Introduction to Statistical Learning_ [@james2013introduction, p. 21]:
 >
-> 2. After a model has been selected, we need a procedure that uses the training data to fit or train the model.
+> > Parametric Methods involve a two-step model-based approach.
+> >
+> > 1. First, we make an assumption about the functional form, or shape, of $f$. For example, on very simple assumption is that $f$ is linear in $X$:
+> >
+> > $$f(X) = \beta_0 + \beta_1X_1 + \beta_2X_2 + \dots + \beta_pX_p$$
+> > ...
+> >
+> > 2. After a model has been selected, we need a procedure that uses the training data to fit or train the model.
+>
+> Parametric modeling approaches essentially have the analyst choose a functional form. This then reduces the problem of estimating $f$ down to estimating a set of parameters for that model.
+>
+> The disadvantage of parametric models is that you might have chosen the wrong functional form. In this scenario, no matter how well you choose the model parameters, your function is too far off from the true $f$ to provide a good approximation. You can overcome this problem by giving your model more parameters (or degrees of freedom), but then you have to start worrying about overfitting.
+>
+> A few examples of parametric models are:
+>
+> * Linear regression (see [[202106150747 Linear Regression Model]])
+> * Neural networks
 
-Parametric modeling approaches essentially have the analyst choose a functional form. This then reduces the problem of estimating $f$ down to estimating a set of parameters for that model.
-
-The disadvantage of parametric models is that you might have chosen the wrong functional form. In this scenario, no matter how well you choose the model parameters, your function is too far off from the true $f$ to provide a good approximation. You can overcome this problem by giving your model more parameters (or degrees of freedom), but then you have to start worrying about overfitting.
-
-A few examples of parametric models are:
-
-* Linear regression (see [[202106150747 Linear Regression Model]])
-* Neural networks
-```
 
 ### 202104170946 Nonparametric Models.txt
 
-```
-From Russell and Norvig [@russell2010artificial, p. 737]:
+> From Russell and Norvig [@russell2010artificial, p. 737]:
+>
+> > A nonparametric model is one that cannot be characterized by a bounded set of parameters.  For example, suppose that each hypothesis we generate simply retains within itself all of the training examples and uses all of them to predict the next example.  Such a hypothesis family would be nonparametric because the effective number of parameters is unbounded--it grows with the number of examples.  This approach is called instance-based learning or memory-based learning.
+>
+> From _An Introduction to Statistical Learning_ [@james2013introduction, p. 23]:
+>
+> > Non-parameteric methods do not make explicit assumptions about the functional form of $f$.
+>
+> Since non-parametric models do not assume a specific functional form, they often have a bigger hypothesis space than parametric models. They can fit a wider range of $f$. However, non-parametric models typically require a large number of observations (many more than parametric models) to obtain an accurate estimate of $f$.
+>
+> Examples of nonparametric models include:
+>
+> * Decision trees [[202104151745 Decision Trees]]
+> * K-nearest neighbors
 
-> A nonparametric model is one that cannot be characterized by a bounded set of parameters.  For example, suppose that each hypothesis we generate simply retains within itself all of the training examples and uses all of them to predict the next example.  Such a hypothesis family would be nonparametric because the effective number of parameters is unbounded--it grows with the number of examples.  This approach is called instance-based learning or memory-based learning.
-
-From _An Introduction to Statistical Learning_ [@james2013introduction, p. 23]:
-
-> Non-parameteric methods do not make explicit assumptions about the functional form of $f$.
-
-Since non-parametric models do not assume a specific functional form, they often have a bigger hypothesis space than parametric models. They can fit a wider range of $f$. However, non-parametric models typically require a large number of observations (many more than parametric models) to obtain an accurate estimate of $f$.
-
-Examples of nonparametric models include:
-
-* Decision trees [[202104151745 Decision Trees]]
-* K-nearest neighbors
-```
 
 ### 202106191115 Bias-Variance Trade-Off.txt
 
-```
-From _An Introduction to Statistical Learning_ [@james2013introduction, p. 33]:
-
-> It is possible to show that the expected test MSE, for a given value $x_0$, can always be decomposed into the sum off three fundamental quantities: the variance of $\hat f (x_0)$, the squared bias of $\hat f (x_0)$ and the variance of the error terms $\epsilon$. That is,
-> $$E(y_0 - \hat f (x_0))^2 = Var(\hat f(x_0)) + [Bias(\hat f (x_0))]^2 + Var(\epsilon)$$
+> From _An Introduction to Statistical Learning_ [@james2013introduction, p. 33]:
 >
-> Here the notation $E(y_0 - \hat f (x_0))^2$ defines the expected test MSE, and refers to the average test MSE that we would obtain if we repeatedly estimated $f$ using a large number of training sets, and tested each at $x_0$. The overall expected test MSE can be computed by averaging $E(y_0 - \hat f (x_0))^2$ over all possible values of $x_0$ in the test set.
+> > It is possible to show that the expected test MSE, for a given value $x_0$, can always be decomposed into the sum off three fundamental quantities: the variance of $\hat f (x_0)$, the squared bias of $\hat f (x_0)$ and the variance of the error terms $\epsilon$. That is,
+> > $$E(y_0 - \hat f (x_0))^2 = Var(\hat f(x_0)) + [Bias(\hat f (x_0))]^2 + Var(\epsilon)$$
+> >
+> > Here the notation $E(y_0 - \hat f (x_0))^2$ defines the expected test MSE, and refers to the average test MSE that we would obtain if we repeatedly estimated $f$ using a large number of training sets, and tested each at $x_0$. The overall expected test MSE can be computed by averaging $E(y_0 - \hat f (x_0))^2$ over all possible values of $x_0$ in the test set.
+>
+> Our goal is to develop a function $\hat f$ that closely approximates the true function $f$ (see [[202106191014 Statistical Learning]]). We cannot reduce the irreducible error $\epsilon$. But we can reduce the bias and variance.
+>
+> From _An Introduction to Statistical Learning_ [@james2013introduction, p. 34]:
+>
+> > Variance refers to the amount by which $\hat f$ would change if we estimated it using a different training data set. Since the training data are used to fit the statistical learning method, different training data sets will result in a different $\hat f$. But ideally the estimate for $f$ should not vary too much between training sets. However, if a method has high variance then small changes in the training data can result in large changes in $\hat f$. In general, more flexible statistical models have higher variance.
+>
+> From _An Introduction to Statistical Learning_ [@james2013introduction, p. 35]:
+>
+> > On the other hand, bias refers to the error that is introduced by approximating a real-life problem, which may be extremely complicated, by a much simpler model.
+>
+> The goal is to find a learning method that has both low variance and low bias. But generally, as you increase the flexibility of a learning method, the bias will decrease and the variance will increase. Usually, the bias will decrease at a faster rate than the variance increases. This produces a net reduction in test error. But eventually, test error will start to increase again as you start to overfit the dataset.
+>
+> ### Example - Linear Regression
+>
+> As an example, a linear regression model will tend to have high bias but low variance. It will be high bias because $\hat f$ likely doesn't have the same functional form of $f$. $\\hat f$ is probably an oversimplification. No matter how much data you have, you likely won't produce a model that truly approximates $f$. However, a linear model will likely have low variance. If you add or remove a single data point, your model parameters likely won't change by much.
+>
+>
+> ### Example - Random Forest
+>
+> As for a random forest, it will tend to have high variance and low bias. A random forest is non-linear, and with enough data it is flexible enough to fit just about any function $f$. However, a random forest is low-bias. It needs a lot of data to perform well. And if the dataset changes, the model is likely to change as well.
 
-Our goal is to develop a function $\hat f$ that closely approximates the true function $f$ (see [[202106191014 Statistical Learning]]). We cannot reduce the irreducible error $\epsilon$. But we can reduce the bias and variance.
-
-From _An Introduction to Statistical Learning_ [@james2013introduction, p. 34]:
-
-> Variance refers to the amount by which $\hat f$ would change if we estimated it using a different training data set. Since the training data are used to fit the statistical learning method, different training data sets will result in a different $\hat f$. But ideally the estimate for $f$ should not vary too much between training sets. However, if a method has high variance then small changes in the training data can result in large changes in $\hat f$. In general, more flexible statistical models have higher variance.
-
-From _An Introduction to Statistical Learning_ [@james2013introduction, p. 35]:
-
-> On the other hand, bias refers to the error that is introduced by approximating a real-life problem, which may be extremely complicated, by a much simpler model.
-
-The goal is to find a learning method that has both low variance and low bias. But generally, as you increase the flexibility of a learning method, the bias will decrease and the variance will increase. Usually, the bias will decrease at a faster rate than the variance increases. This produces a net reduction in test error. But eventually, test error will start to increase again as you start to overfit the dataset.
-
-### Example - Linear Regression
-
-As an example, a linear regression model will tend to have high bias but low variance. It will be high bias because $\hat f$ likely doesn't have the same functional form of $f$. $\\hat f$ is probably an oversimplification. No matter how much data you have, you likely won't produce a model that truly approximates $f$. However, a linear model will likely have low variance. If you add or remove a single data point, your model parameters likely won't change by much.
-
-
-### Example - Random Forest
-
-As for a random forest, it will tend to have high variance and low bias. A random forest is non-linear, and with enough data it is flexible enough to fit just about any function $f$. However, a random forest is low-bias. It needs a lot of data to perform well. And if the dataset changes, the model is likely to change as well.
-```
 
 ### 202106191007 Prediction vs Inference.txt
 
-```
-In the field of statistical learning (see [[202106191014 Statistical Learning]]), we wish to estimate or approximate $f$. There are two main reasons to estimate $f$, prediction and inference [@james2013introduction, p. 17].
-
-### Prediction
-
-In prediction, the primary objective is to build a model that correctly predicts $Y$, given $X$. Our model can be written mathematically as [@james2013introduction, p. 17]:
-
+> In the field of statistical learning (see [[202106191014 Statistical Learning]]), we wish to estimate or approximate $f$. There are two main reasons to estimate $f$, prediction and inference [@james2013introduction, p. 17].
+>
+> ### Prediction
+>
+> In prediction, the primary objective is to build a model that correctly predicts $Y$, given $X$. Our model can be written mathematically as [@james2013introduction, p. 17]:
+>
 $$\hat Y = \hat f (X)$$
 
 As long as our model makes good predictions, we are OK treating the model as a black box.
@@ -146,7 +142,7 @@ When we want to build a model, but also understand the relationship between $X$ 
 Simpler models (e.g. [[202106150747 Linear Regression Model]]) are easier to understand, and are thus well-suited to inference problems. However, they tend to have lower accuracies than more complicated models well suited to prediction.
 
 **Hence, there is often a tradeoff between interpretable but lower accuracy models vs uninterpretable but higher accuracy models.**
-```
+
 
 ## Gaps filled by me (not from notes)
 

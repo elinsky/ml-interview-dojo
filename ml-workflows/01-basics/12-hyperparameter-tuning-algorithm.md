@@ -55,53 +55,45 @@ There are several approaches to hyperparameter tuning, each with different trade
 
 ### 202101080742 Cross Validation (K-Fold).txt
 
-```
-Cross validation is a general technique that estimates how well a model will **generalize** to new data.  K-Fold cross validation is a method that attempts to get the most out of your data.  **The goal is to use all the data for learning while still being able to measure an accurate generalization error** [@russell2010artificial, p. 708].
+> Cross validation is a general technique that estimates how well a model will **generalize** to new data.  K-Fold cross validation is a method that attempts to get the most out of your data.  **The goal is to use all the data for learning while still being able to measure an accurate generalization error** [@russell2010artificial, p. 708].
+>
+> How does it work?
+>
+> 1. First split the data into train and test sets.  Leave the test set alone until you have your final model.
+>
+> 1. Then take the training data, and partition it into $K$ (usually 5) folds.
+>
+> 1. Train $K$ models:
+> code
+> for i in k:
+>     train a model on all folds except fold i
+>     evaluate performance on i
 
-How does it work?
+> 4. When complete, you have $K$ performance scores for your model.  These can be used to estimate generalization error, and it's standard deviation.
 
-1. First split the data into train and test sets.  Leave the test set alone until you have your final model.
+> After evaluating the performance of a model, you can tweak the hyperparameters, and follow the same process again.  Only after you have chosen a final model do you evaluate on [the test set]
 
-1. Then take the training data, and partition it into $K$ (usually 5) folds.
-
-1. Train $K$ models:
-
-```code
-for i in k:
-    train a model on all folds except fold i
-    evaluate performance on i
-```
-
-4. When complete, you have $K$ performance scores for your model.  These can be used to estimate generalization error, and it's standard deviation.
-
-After evaluating the performance of a model, you can tweak the hyperparameters, and follow the same process again.  Only after you have chosen a final model do you evaluate on [the test set]
-
-**Note**:  These models are thrown away when you are done.  Usually you would then train your final model over **all** the training data.  Then do your final evaluation of the model on the test set, only using the test set once.
-```
+> **Note**:  These models are thrown away when you are done.  Usually you would then train your final model over **all** the training data.  Then do your final evaluation of the model on the test set, only using the test set once.
 
 ### 202101241506 Simple Hold-Out Validation.txt
 
-```
-This is the simplest validation technique.  Train on the training set.  Evaluate your performance on the validation set.  At this point you can tune your model, retrain it on the training set, and re-evaluate performance on the validation set.  Only once you have a final model do you evaluate performance on the test set.
-
-From François Chollet [@chollet2018deep, p. 99]:
-
-> This is the simplest evaluation protocol, and it suffers from one flaw; if little data is available, then your validation and test sets may contain too few samples to be statistically representative of the data at hand.
-```
+> This is the simplest validation technique.  Train on the training set.  Evaluate your performance on the validation set.  At this point you can tune your model, retrain it on the training set, and re-evaluate performance on the validation set.  Only once you have a final model do you evaluate performance on the test set.
+>
+> From François Chollet [@chollet2018deep, p. 99]:
+>
+> > This is the simplest evaluation protocol, and it suffers from one flaw; if little data is available, then your validation and test sets may contain too few samples to be statistically representative of the data at hand.
 
 ### 202107270653 Model Selection for Linear Regression.txt
 
-```
-Given a regression problem, model selection is the process of determining the functional form of the regression equation. This involves deciding which variables will be included in the model (see [[202107210815 Variable Selection Problem in Regression]]). It also involves deciding if there will be any transformations or interactions. Then given a set of candidate models, you need to decide how to compare them to each other.
-
-Wasserman lists a few methods that better estimate risk (test error) [@wasserman2004all, p. 219]:
-
-* Mallow's $C_p$
-* [[202107260847 Akaike information criterion (AIC)]]
-* [[202107271816 Bayesian information criterion (BIC)]]
-* Leave-one-out cross-validation
-* [[202101080742 Cross Validation (K-Fold)]] - this directly estimates test error. Whereas AIC, BIC, and Adjusted-R Squared make an adjustment to the training error to account for the bias due to overfitting.
-```
+> Given a regression problem, model selection is the process of determining the functional form of the regression equation. This involves deciding which variables will be included in the model (see [[202107210815 Variable Selection Problem in Regression]]). It also involves deciding if there will be any transformations or interactions. Then given a set of candidate models, you need to decide how to compare them to each other.
+>
+> Wasserman lists a few methods that better estimate risk (test error) [@wasserman2004all, p. 219]:
+>
+> * Mallow's $C_p$
+> * [[202107260847 Akaike information criterion (AIC)]]
+> * [[202107271816 Bayesian information criterion (BIC)]]
+> * Leave-one-out cross-validation
+> * [[202101080742 Cross Validation (K-Fold)]] - this directly estimates test error. Whereas AIC, BIC, and Adjusted-R Squared make an adjustment to the training error to account for the bias due to overfitting.
 
 ## Gaps filled by me (not from notes)
 
