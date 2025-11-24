@@ -82,29 +82,27 @@ A brief summary by me:
 
 ### 202104160853 Classification and Regression Tree (CART) Algorithm.txt
 
-```
-Classification and Regression Tree (CART) is a training algorithm used to train decision trees.
-
-For **classification** problems, CART attempts to minimize the following cost function [@geron2017hands, p. 179]:
-
-$$J(k, t_k) = \frac{m_{\text{left}}}{m}G_{\text{left}} + \frac{m_{\text{right}}}{m}G_{\text{right}}$$
-
-$$\text{Where}
-    \begin{cases}
-      G_{\text{left/right}} \text{ measures the impurity of the left/right subset,} \\
-      m_{\text{left/right}} \text{ is the number of instances in the left/right subset.}
-    \end{cases}$$
-
-For **regression** problems, the following cost function is used [@geron2017hands, p. 184]:
-
-$$J(k, t_k) = \frac{m_{\text{left}}}{m}\text{MSE}_{\text{left}} + \frac{m_{\text{right}}}{m}\text{MSE}_{\text{right}}$$
-
-$$\text{Where}
-    \begin{cases}
-      \text{MSE}_{\text{node}} = \sum_{i \in \text{node}}(\hat y_{\text{node}} - y^{(i)})^2 \\
-      \hat y_{\text{node}} = \frac{1 }{m_{\text{node}}} \sum_{i \in \text{node}}(y^{(i)})
-    \end{cases}$$
-```
+> Classification and Regression Tree (CART) is a training algorithm used to train decision trees.
+>
+> For **classification** problems, CART attempts to minimize the following cost function [@geron2017hands, p. 179]:
+>
+> $$J(k, t_k) = \frac{m_{\text{left}}}{m}G_{\text{left}} + \frac{m_{\text{right}}}{m}G_{\text{right}}$$
+>
+> $$\text{Where}
+>     \begin{cases}
+>       G_{\text{left/right}} \text{ measures the impurity of the left/right subset,} \\
+>       m_{\text{left/right}} \text{ is the number of instances in the left/right subset.}
+>     \end{cases}$$
+>
+> For **regression** problems, the following cost function is used [@geron2017hands, p. 184]:
+>
+> $$J(k, t_k) = \frac{m_{\text{left}}}{m}\text{MSE}_{\text{left}} + \frac{m_{\text{right}}}{m}\text{MSE}_{\text{right}}$$
+>
+> $$\text{Where}
+>     \begin{cases}
+>       \text{MSE}_{\text{node}} = \sum_{i \in \text{node}}(\hat y_{\text{node}} - y^{(i)})^2 \\
+>       \hat y_{\text{node}} = \frac{1 }{m_{\text{node}}} \sum_{i \in \text{node}}(y^{(i)})
+>     \end{cases}$$
 
 ### 202104151745 Decision Trees.txt
 
@@ -116,17 +114,15 @@ At inference time, you take the features of the sample, then traverse the decisi
 
 ### 202107200915 Logistic Regression.txt
 
-```
-Logistic regression is a binary classification model. It is a direct probability model, which means it directly estimates the probability of an event occurring.
-
-For classification, logistic regression is preferred over linear regression because use of the logistic function allows us to bound the probability between 0 and 1 (see [[202107290829 Logistic Function]]).
-
-A logistic regression model takes the following functional form [@james2013introduction, p. 135]:
-
-$$p(X) = \frac{{\mathrm e}^{\beta_0 + \beta_1 X_1 + \dots + \beta_p X_p}}{1 + {\mathrm e}^{\beta_0 + \beta_1 X_1 + \dots + \beta_p X_p}}$$
-
-You can think of logistic regression as a linear regression model in the log odds [@harrell2015regression, p.221].
-```
+> Logistic regression is a binary classification model. It is a direct probability model, which means it directly estimates the probability of an event occurring.
+>
+> For classification, logistic regression is preferred over linear regression because use of the logistic function allows us to bound the probability between 0 and 1 (see [[202107290829 Logistic Function]]).
+>
+> A logistic regression model takes the following functional form [@james2013introduction, p. 135]:
+>
+> $$p(X) = \frac{{\mathrm e}^{\beta_0 + \beta_1 X_1 + \dots + \beta_p X_p}}{1 + {\mathrm e}^{\beta_0 + \beta_1 X_1 + \dots + \beta_p X_p}}$$
+>
+> You can think of logistic regression as a linear regression model in the log odds [@harrell2015regression, p.221].
 
 ### 202101120811 Activation Functions.txt
 
