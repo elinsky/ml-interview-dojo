@@ -1,0 +1,24 @@
+# SRS System Data
+.srs-data.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
