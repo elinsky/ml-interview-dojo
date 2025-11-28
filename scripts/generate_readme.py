@@ -65,7 +65,7 @@ def get_status(flashcard_data):
 
 
 def scan_flashcards():
-    """Scan ml-rapid-fire for all PDF flashcards"""
+    """Scan ml-rapid-fire for all PDF and markdown flashcards"""
     flashcards_by_category = defaultdict(list)
 
     for base_dir in CONTENT_DIRS:
@@ -78,11 +78,23 @@ def scan_flashcards():
                 continue
 
             category = category_dir.name
+
+            # Scan PDFs directly in category
             for pdf_file in sorted(category_dir.glob('*.pdf')):
                 flashcards_by_category[category].append({
                     'file': str(pdf_file),
                     'name': pdf_file.stem.replace('_', ' '),
                 })
+
+            # Scan subdirectories for markdown files (e.g., logistic-regression/*.md)
+            for subdir in sorted(category_dir.iterdir()):
+                if subdir.is_dir():
+                    for md_file in sorted(subdir.glob('*.md')):
+                        flashcards_by_category[category].append({
+                            'file': str(md_file),
+                            'name': md_file.stem.replace('-', ' ').replace('_', ' '),
+                            'topic': subdir.name,
+                        })
 
     return flashcards_by_category
 
@@ -154,7 +166,7 @@ def generate_readme():
     lines.append("## Quick Start\n")
     lines.append("```bash")
     lines.append("# Log an attempt")
-    lines.append('python3 scripts/log_attempt.py --file "ml-rapid-fire/classical-ml/Logistic_Regression.pdf" --time 3 --hints false --looked false --recall full')
+    lines.append('python3 scripts/log_attempt.py --file "ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md" --time 2 --hints false --looked false --recall full')
     lines.append("")
     lines.append("# Update this README")
     lines.append("python3 scripts/generate_readme.py")

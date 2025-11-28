@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/300)
+**Mastery Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/307)
 
 | Status | Count |
 |--------|-------|
@@ -22,14 +22,14 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 0 |
 | ☑️ Attempted | 0 |
-| ⭐ New | 300 |
-| **Total** | **300** |
+| ⭐ New | 307 |
+| **Total** | **307** |
 
 ## Quick Start
 
 ```bash
 # Log an attempt
-python3 scripts/log_attempt.py --file "ml-rapid-fire/classical-ml/Logistic_Regression.pdf" --time 3 --hints false --looked false --recall full
+python3 scripts/log_attempt.py --file "ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md" --time 2 --hints false --looked false --recall full
 
 # Update this README
 python3 scripts/generate_readme.py
@@ -39,7 +39,7 @@ python3 scripts/generate_readme.py
 
 ### Classical Ml
 
-**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/62)
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/69)
 
 - ⭐ [AdaBoost](ml-rapid-fire/classical-ml/AdaBoost.pdf)
 - ⭐ [Aggomerative Clustering](ml-rapid-fire/classical-ml/Aggomerative_Clustering.pdf)
@@ -74,7 +74,6 @@ python3 scripts/generate_readme.py
 - ⭐ [Lasso For Feature Selection](ml-rapid-fire/classical-ml/Lasso_For_Feature_Selection.pdf)
 - ⭐ [Linear Discriminant Analysis For Dimensionality Reduction](ml-rapid-fire/classical-ml/Linear_Discriminant_Analysis_For_Dimensionality_Reduction.pdf)
 - ⭐ [Linearly Separable](ml-rapid-fire/classical-ml/Linearly_Separable.pdf)
-- ⭐ [Logistic Regression](ml-rapid-fire/classical-ml/Logistic_Regression.pdf)
 - ⭐ [Logistic Regression Vs Linear Regression](ml-rapid-fire/classical-ml/Logistic_Regression_Vs_Linear_Regression.pdf)
 - ⭐ [Logistic Sigmoid Function](ml-rapid-fire/classical-ml/Logistic_Sigmoid_Function.pdf)
 - ⭐ [Meanshift Clustering By Analogy](ml-rapid-fire/classical-ml/Meanshift_Clustering_By_Analogy.pdf)
@@ -103,6 +102,14 @@ python3 scripts/generate_readme.py
 - ⭐ [The Random In Random Forest](ml-rapid-fire/classical-ml/The_Random_In_Random_Forest.pdf)
 - ⭐ [Weak Learners](ml-rapid-fire/classical-ml/Weak_Learners.pdf)
 - ⭐ [k-Nearest Neighbors](ml-rapid-fire/classical-ml/k-Nearest_Neighbors.pdf)
+- ⭐ [01 what is logistic regression](ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md)
+- ⭐ [02 why not linear regression](ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md)
+- ⭐ [03 sigmoid function](ml-rapid-fire/classical-ml/logistic-regression/03-sigmoid-function.md)
+- ⭐ [04 how trained](ml-rapid-fire/classical-ml/logistic-regression/04-how-trained.md)
+- ⭐ [05 coefficient interpretation](ml-rapid-fire/classical-ml/logistic-regression/05-coefficient-interpretation.md)
+- ⭐ [06 decision boundary](ml-rapid-fire/classical-ml/logistic-regression/06-decision-boundary.md)
+- ⭐ [07 multi class](ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md)
+- ⭐ [08 loss function](ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md)
 
 ### Data Engineering
 
@@ -369,4 +376,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-28 12:01:15*
+*Last updated: 2025-11-28 12:34:02*

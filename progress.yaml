@@ -1,1 +1,41 @@
-flashcards: {}
+flashcards:
+  ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md:
+    name: What is Logistic Regression
+    category: classical-ml
+    topic: logistic-regression
+    attempts: []
+  ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md:
+    name: Why Not Linear Regression
+    category: classical-ml
+    topic: logistic-regression
+    attempts: []
+  ml-rapid-fire/classical-ml/logistic-regression/03-sigmoid-function.md:
+    name: Sigmoid Function
+    category: classical-ml
+    topic: logistic-regression
+    attempts: []
+  ml-rapid-fire/classical-ml/logistic-regression/04-how-trained.md:
+    name: How Trained
+    category: classical-ml
+    topic: logistic-regression
+    attempts: []
+  ml-rapid-fire/classical-ml/logistic-regression/05-coefficient-interpretation.md:
+    name: Coefficient Interpretation
+    category: classical-ml
+    topic: logistic-regression
+    attempts: []
+  ml-rapid-fire/classical-ml/logistic-regression/06-decision-boundary.md:
+    name: Decision Boundary
+    category: classical-ml
+    topic: logistic-regression
+    attempts: []
+  ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md:
+    name: Multi-class
+    category: classical-ml
+    topic: logistic-regression
+    attempts: []
+  ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md:
+    name: Loss Function
+    category: classical-ml
+    topic: logistic-regression
+    attempts: []
