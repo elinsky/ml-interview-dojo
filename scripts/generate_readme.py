@@ -61,46 +61,68 @@ def generate_progress_bar(current: int, total: int, width: int = 40) -> str:
     return f"[{bar}] {percentage:.1f}% ({current}/{total})"
 
 
-def parse_topic_structure() -> Dict[str, List[Dict]]:
+def parse_topic_structure() -> Dict[str, Dict[str, List[Dict]]]:
     """
-    Scan ml-workflows directory and organize topics by category
-    Returns: {category_name: [list of topic files]}
+    Scan content directories and organize topics by section and category
+    Returns: {section_name: {category_name: [list of topic files]}}
     """
-    base_path = Path('ml-workflows')
-    topics_by_category = defaultdict(list)
+    sections = {
+        'ML Workflows': 'ml-workflows',
+        'Math & Quant Foundations': 'math-quant-foundations'
+    }
 
-    if not base_path.exists():
-        return {}
+    result = {}
 
-    # Scan all subdirectories
-    for category_dir in sorted(base_path.iterdir()):
-        if not category_dir.is_dir():
+    for section_name, base_dir in sections.items():
+        base_path = Path(base_dir)
+        topics_by_category = defaultdict(list)
+
+        if not base_path.exists():
             continue
 
-        category_name = category_dir.name
+        # Check if directory has subdirectories or just files
+        subdirs = [d for d in base_path.iterdir() if d.is_dir()]
 
-        # Find all markdown files in this category
-        for md_file in sorted(category_dir.glob('*.md')):
-            # Read first line to get the question
-            try:
-                with open(md_file, 'r') as f:
-                    content = f.read()
-                    # Extract question
-                    if '# Question' in content:
-                        question = content.split('# Question')[1].split('# Answer')[0].strip()
-                    else:
-                        question = md_file.stem.replace('-', ' ').title()
-            except:
+        if subdirs:
+            # Scan subdirectories (like ml-workflows/01-basics)
+            for category_dir in sorted(subdirs):
+                category_name = category_dir.name
+                for md_file in sorted(category_dir.glob('*.md')):
+                    topics_by_category[category_name].append(
+                        _parse_md_file(md_file)
+                    )
+        else:
+            # Scan files directly (like math-quant-foundations/*.md)
+            category_name = base_dir  # Use dir name as category
+            for md_file in sorted(base_path.glob('*.md')):
+                topics_by_category[category_name].append(
+                    _parse_md_file(md_file)
+                )
+
+        if topics_by_category:
+            result[section_name] = dict(topics_by_category)
+
+    return result
+
+
+def _parse_md_file(md_file: Path) -> Dict:
+    """Parse a markdown file and extract question info"""
+    try:
+        with open(md_file, 'r') as f:
+            content = f.read()
+            if '# Question' in content:
+                question = content.split('# Question')[1].split('# Answer')[0].strip()
+            else:
                 question = md_file.stem.replace('-', ' ').title()
+    except:
+        question = md_file.stem.replace('-', ' ').title()
 
-            topics_by_category[category_name].append({
-                'file': str(md_file),
-                'name': md_file.stem,
-                'question': question,
-                'number': md_file.stem.split('-')[0] if '-' in md_file.stem else ''
-            })
-
-    return topics_by_category
+    return {
+        'file': str(md_file),
+        'name': md_file.stem,
+        'question': question,
+        'number': md_file.stem.split('-')[0] if '-' in md_file.stem else ''
+    }
 
 
 def generate_category_section(category: str, topics: List[Dict], srs_data: Dict) -> str:
@@ -153,30 +175,32 @@ def generate_category_section(category: str, topics: List[Dict], srs_data: Dict)
     return '\n'.join(lines)
 
 
-def generate_overall_stats(srs_data: Dict, topics_by_category: Dict) -> str:
+def generate_overall_stats(srs_data: Dict, sections: Dict) -> str:
     """Generate overall statistics section"""
     stats = srs_data.get('stats', {})
 
     # Count all cards by status
-    total_cards = sum(len(topics) for topics in topics_by_category.values())
+    total_cards = 0
     mastered = 0
     learning = 0
     new = 0
 
-    for topics in topics_by_category.values():
-        for topic in topics:
-            filepath = topic['file']
-            card_data = srs_data['items'].get(filepath)
-            _, _, tier = get_card_status(card_data)
+    for section_name, topics_by_category in sections.items():
+        for topics in topics_by_category.values():
+            total_cards += len(topics)
+            for topic in topics:
+                filepath = topic['file']
+                card_data = srs_data['items'].get(filepath)
+                _, _, tier = get_card_status(card_data)
 
-            if tier == 3:
-                mastered += 1
-            elif tier == 2:
-                learning += 1
-            elif tier == 0:
-                new += 1
-            else:
-                learning += 1
+                if tier == 3:
+                    mastered += 1
+                elif tier == 2:
+                    learning += 1
+                elif tier == 0:
+                    new += 1
+                else:
+                    learning += 1
 
     lines = []
     lines.append("## Progress Scorecard\n")
@@ -227,7 +251,7 @@ def generate_overall_stats(srs_data: Dict, topics_by_category: Dict) -> str:
 def generate_readme():
     """Generate the complete README"""
     srs_data = load_srs_data()
-    topics_by_category = parse_topic_structure()
+    sections = parse_topic_structure()
 
     lines = []
 
@@ -237,11 +261,11 @@ def generate_readme():
 
     # Source material
     lines.append("## Source Material\n")
-    lines.append("Questions are from [Machine Learning Interviews Book](https://huyenchip.com/ml-interviews-book/) by Chip Huyen:")
-    lines.append("- Questions: https://github.com/chiphuyen/ml-interviews-book/tree/master/contents\n")
+    lines.append("ML questions are from [Machine Learning Interviews Book](https://huyenchip.com/ml-interviews-book/) by Chip Huyen.")
+    lines.append("Math & Quant questions are curated for market-making and quant-adjacent roles.\n")
 
     # Overall stats
-    lines.append(generate_overall_stats(srs_data, topics_by_category))
+    lines.append(generate_overall_stats(srs_data, sections))
 
     # Quick start
     lines.append("## Quick Start\n")
@@ -273,12 +297,14 @@ def generate_readme():
     lines.append("- 📖 **Practicing**: Reviewed but needs more work")
     lines.append("- ⭐ **New**: Not yet reviewed\n")
 
-    # Topics by category
-    lines.append("## Topics by Category\n")
+    # Generate each section
+    for section_name in sorted(sections.keys()):
+        topics_by_category = sections[section_name]
+        lines.append(f"## {section_name}\n")
 
-    for category in sorted(topics_by_category.keys()):
-        topics = topics_by_category[category]
-        lines.append(generate_category_section(category, topics, srs_data))
+        for category in sorted(topics_by_category.keys()):
+            topics = topics_by_category[category]
+            lines.append(generate_category_section(category, topics, srs_data))
 
     # Footer
     lines.append("\n---")

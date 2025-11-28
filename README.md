@@ -4,15 +4,15 @@ Personal repository for preparing for machine learning interviews.
 
 ## Source Material
 
-Questions are from [Machine Learning Interviews Book](https://huyenchip.com/ml-interviews-book/) by Chip Huyen:
-- Questions: https://github.com/chiphuyen/ml-interviews-book/tree/master/contents
+ML questions are from [Machine Learning Interviews Book](https://huyenchip.com/ml-interviews-book/) by Chip Huyen.
+Math & Quant questions are curated for market-making and quant-adjacent roles.
 
 ## Progress Scorecard
 
 ### Overall Mastery
 
 ```
-[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/23)
+[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/47)
 ```
 
 ### Card Status
@@ -21,8 +21,8 @@ Questions are from [Machine Learning Interviews Book](https://huyenchip.com/ml-i
 |--------|-------|------------|
 | 🏆 Mastered | 0 | 0.0% |
 | 💪 Learning | 0 | 0.0% |
-| ⭐ New | 23 | 100.0% |
-| **Total** | **23** | **100%** |
+| ⭐ New | 47 | 100.0% |
+| **Total** | **47** | **100%** |
 
 
 ## Quick Start
@@ -57,7 +57,7 @@ This uses a **queue-based spaced repetition system** (not date-based like Anki):
 - 📖 **Practicing**: Reviewed but needs more work
 - ⭐ **New**: Not yet reviewed
 
-## Topics by Category
+## ML Workflows
 
 
 ### 01 Basics
@@ -87,9 +87,60 @@ This uses a **queue-based spaced repetition system** (not date-based like Anki):
 - ⭐ [21-production-performance-hypotheses](ml-workflows/01-basics/21-production-performance-hypotheses.md): What are your hypotheses about the causes of good test performance but poor prod...
 - ⭐ [22-validate-hypotheses](ml-workflows/01-basics/22-validate-hypotheses.md): How do you validate whether your hypotheses are correct?
 - ⭐ [23-address-causes](ml-workflows/01-basics/23-address-causes.md): How would you address the identified causes?
+## Math & Quant Foundations
+
+
+### 01 Probability Stats
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/5) | 🏆 0 | 💪 0 | ⭐ 5
+
+- ⭐ [01-conditional-expectation](math-quant-foundations/01-probability-stats/01-conditional-expectation.md): What is conditional expectation and why is it central to quantitative finance?
+- ⭐ [02-variance-decomposition](math-quant-foundations/01-probability-stats/02-variance-decomposition.md): Explain the Law of Total Variance and its applications in finance.
+- ⭐ [03-maximum-likelihood](math-quant-foundations/01-probability-stats/03-maximum-likelihood.md): Explain Maximum Likelihood Estimation (MLE) and when it might fail.
+- ⭐ [04-bayes-theorem](math-quant-foundations/01-probability-stats/04-bayes-theorem.md): State Bayes' theorem and explain its role in updating beliefs with new informati...
+- ⭐ [05-central-limit-theorem](math-quant-foundations/01-probability-stats/05-central-limit-theorem.md): State the Central Limit Theorem and explain why it's fundamental to quantitative...
+
+### 02 Linear Algebra
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/5) | 🏆 0 | 💪 0 | ⭐ 5
+
+- ⭐ [01-eigenvectors-eigenvalues](math-quant-foundations/02-linear-algebra/01-eigenvectors-eigenvalues.md): What are eigenvectors and eigenvalues? Why do they matter for PCA and covariance...
+- ⭐ [02-pca-intuition](math-quant-foundations/02-linear-algebra/02-pca-intuition.md): Explain PCA intuitively and its applications in quantitative finance.
+- ⭐ [03-projections](math-quant-foundations/02-linear-algebra/03-projections.md): What is an orthogonal projection? How is it used in regression and least squares...
+- ⭐ [04-svd](math-quant-foundations/02-linear-algebra/04-svd.md): Explain Singular Value Decomposition (SVD) and its applications.
+- ⭐ [05-matrix-calculus](math-quant-foundations/02-linear-algebra/05-matrix-calculus.md): Summarize key matrix calculus results used in ML and optimization.
+
+### 03 Stochastic Processes
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/5) | 🏆 0 | 💪 0 | ⭐ 5
+
+- ⭐ [01-brownian-motion](math-quant-foundations/03-stochastic-processes/01-brownian-motion.md): Define Brownian motion (Wiener process) and its key properties.
+- ⭐ [02-geometric-brownian-motion](math-quant-foundations/03-stochastic-processes/02-geometric-brownian-motion.md): What is Geometric Brownian Motion and why is it used for stock prices?
+- ⭐ [03-ito-lemma](math-quant-foundations/03-stochastic-processes/03-ito-lemma.md): State Ito's lemma and explain why the extra term appears.
+- ⭐ [04-martingales](math-quant-foundations/03-stochastic-processes/04-martingales.md): What is a martingale and why is it central to derivative pricing?
+- ⭐ [05-mean-reversion](math-quant-foundations/03-stochastic-processes/05-mean-reversion.md): Explain mean reversion and the Ornstein-Uhlenbeck process.
+
+### 04 Numerical Methods
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/3) | 🏆 0 | 💪 0 | ⭐ 3
+
+- ⭐ [01-newton-raphson](math-quant-foundations/04-numerical-methods/01-newton-raphson.md): Explain Newton-Raphson root finding and its application to implied volatility.
+- ⭐ [02-interpolation](math-quant-foundations/04-numerical-methods/02-interpolation.md): Compare linear, polynomial, and spline interpolation. When would you use each?
+- ⭐ [03-cubic-splines](math-quant-foundations/04-numerical-methods/03-cubic-splines.md): Explain cubic splines in detail. Why are they preferred for yield curve construc...
+
+### 05 Options Greeks
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/6) | 🏆 0 | 💪 0 | ⭐ 6
+
+- ⭐ [01-black-scholes](math-quant-foundations/05-options-greeks/01-black-scholes.md): Derive the key intuition behind Black-Scholes. What assumptions does it make?
+- ⭐ [02-greeks](math-quant-foundations/05-options-greeks/02-greeks.md): Define the main Greeks and explain their practical significance for trading.
+- ⭐ [03-delta-hedging](math-quant-foundations/05-options-greeks/03-delta-hedging.md): Explain delta hedging. Why doesn't it eliminate all risk?
+- ⭐ [04-volatility-smile](math-quant-foundations/05-options-greeks/04-volatility-smile.md): What is the volatility smile/skew? What causes it?
+- ⭐ [05-term-structure](math-quant-foundations/05-options-greeks/05-term-structure.md): Explain the term structure of volatility and interest rates.
+- ⭐ [06-put-call-parity](math-quant-foundations/05-options-greeks/06-put-call-parity.md): State put-call parity and explain its arbitrage implications.
 
 ---
 
-*Last updated: 2025-11-24 01:17:47*
+*Last updated: 2025-11-27 23:37:53*
 
 *Generated by [scripts/generate_readme.py](scripts/generate_readme.py)*
