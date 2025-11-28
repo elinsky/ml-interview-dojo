@@ -11,9 +11,6 @@ from collections import defaultdict
 PROGRESS_FILE = Path(__file__).parent.parent / "progress.yaml"
 README_FILE = Path(__file__).parent.parent / "README.md"
 
-# Content directories to scan
-CONTENT_DIRS = ['ml-rapid-fire']
-
 
 def load_progress():
     if PROGRESS_FILE.exists():
@@ -64,37 +61,22 @@ def get_status(flashcard_data):
     return emoji, text, tier
 
 
-def scan_flashcards():
-    """Scan ml-rapid-fire for all PDF and markdown flashcards"""
+def get_flashcards_by_category(progress):
+    """Group flashcards from progress.yaml by category"""
     flashcards_by_category = defaultdict(list)
 
-    for base_dir in CONTENT_DIRS:
-        base_path = Path(base_dir)
-        if not base_path.exists():
-            continue
+    for file_path, data in progress.get('flashcards', {}).items():
+        category = data.get('category', 'uncategorized')
+        flashcards_by_category[category].append({
+            'file': file_path,
+            'name': data.get('name', Path(file_path).stem),
+            'topic': data.get('topic'),
+            'data': data,
+        })
 
-        for category_dir in sorted(base_path.iterdir()):
-            if not category_dir.is_dir():
-                continue
-
-            category = category_dir.name
-
-            # Scan PDFs directly in category
-            for pdf_file in sorted(category_dir.glob('*.pdf')):
-                flashcards_by_category[category].append({
-                    'file': str(pdf_file),
-                    'name': pdf_file.stem.replace('_', ' '),
-                })
-
-            # Scan subdirectories for markdown files (e.g., logistic-regression/*.md)
-            for subdir in sorted(category_dir.iterdir()):
-                if subdir.is_dir():
-                    for md_file in sorted(subdir.glob('*.md')):
-                        flashcards_by_category[category].append({
-                            'file': str(md_file),
-                            'name': md_file.stem.replace('-', ' ').replace('_', ' '),
-                            'topic': subdir.name,
-                        })
+    # Sort cards within each category by file path
+    for category in flashcards_by_category:
+        flashcards_by_category[category].sort(key=lambda x: x['file'])
 
     return flashcards_by_category
 
@@ -111,7 +93,7 @@ def generate_progress_bar(current, total, width=30):
 
 def generate_readme():
     progress = load_progress()
-    flashcards_by_category = scan_flashcards()
+    flashcards_by_category = get_flashcards_by_category(progress)
 
     lines = []
 
@@ -137,12 +119,8 @@ def generate_readme():
     for category, cards in flashcards_by_category.items():
         for card in cards:
             total += 1
-            card_data = progress['flashcards'].get(card['file'])
-            if card_data:
-                tier = get_best_tier(card_data)
-                by_tier[tier if tier is not None else -1] += 1
-            else:
-                by_tier[-1] += 1
+            tier = get_best_tier(card['data'])
+            by_tier[tier if tier is not None else -1] += 1
 
     mastered = by_tier[3]
     independent = by_tier[2]
@@ -173,7 +151,7 @@ def generate_readme():
     lines.append("```\n")
 
     # Flashcards by category
-    lines.append("## ML Rapid Fire\n")
+    lines.append("## Flashcards\n")
 
     for category in sorted(flashcards_by_category.keys()):
         cards = flashcards_by_category[category]
@@ -181,23 +159,18 @@ def generate_readme():
 
         # Category stats
         cat_total = len(cards)
-        cat_mastered = 0
-        for card in cards:
-            card_data = progress['flashcards'].get(card['file'])
-            if card_data and get_best_tier(card_data) == 3:
-                cat_mastered += 1
+        cat_mastered = sum(1 for card in cards if get_best_tier(card['data']) == 3)
 
         lines.append(f"### {category_display}\n")
         lines.append(f"**Progress:** {generate_progress_bar(cat_mastered, cat_total)} ({cat_mastered}/{cat_total})\n")
 
         for card in cards:
-            card_data = progress['flashcards'].get(card['file'])
-            if card_data:
-                emoji, status, tier = get_status(card_data)
-                attempts = len(card_data.get('attempts', []))
+            emoji, status, tier = get_status(card['data'])
+            attempts = len(card['data'].get('attempts', []))
+            if attempts > 0:
                 lines.append(f"- {emoji} [{card['name']}]({card['file']}) `{attempts} attempts`")
             else:
-                lines.append(f"- ⭐ [{card['name']}]({card['file']})")
+                lines.append(f"- {emoji} [{card['name']}]({card['file']})")
 
         lines.append("")
 
