@@ -264,3 +264,145 @@ flashcards:
       used_hints: false
       looked_at_answer: false
       recall_quality: full
+  ml-rapid-fire/fundamentals/ml-basics/01-what-is-ml.md:
+    name: 01-what-is-ml
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T16:15:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/fundamentals/ml-basics/02-traditional-vs-ml.md:
+    name: 02-traditional-vs-ml
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T16:45:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/fundamentals/ml-basics/03-three-components.md:
+    name: 03-three-components
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T16:47:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Got concepts, not exact terms (Representation, Evaluation, Optimization)
+  ml-rapid-fire/fundamentals/ml-basics/04-types-of-learning.md:
+    name: 04-types-of-learning
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T16:48:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/fundamentals/ml-basics/05-classification-vs-regression.md:
+    name: 05-classification-vs-regression
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T16:50:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Got concept, want to use technical terms (target/response, discrete/categorical, continuous)
+  ml-rapid-fire/fundamentals/ml-basics/06-what-is-a-model.md:
+    name: 06-what-is-a-model
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T16:52:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/fundamentals/ml-basics/07-what-is-loss-function.md:
+    name: 07-what-is-loss-function
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T16:53:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/fundamentals/ml-basics/08-what-is-optimization.md:
+    name: 08-what-is-optimization
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T16:55:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Got concept, want to nail all 3 parts (algorithm, finds params, minimizes loss)
+  ml-rapid-fire/fundamentals/ml-basics/09-loss-vs-metric.md:
+    name: 09-loss-vs-metric
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T16:57:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Got training vs eval distinction, missed differentiability point
+  ml-rapid-fire/fundamentals/ml-basics/10-params-vs-hyperparams.md:
+    name: 10-params-vs-hyperparams
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T16:59:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Missed key distinction - params LEARNED, hyperparams SET BEFORE training
+  ml-rapid-fire/fundamentals/ml-basics/11-what-is-regularization.md:
+    name: 11-what-is-regularization
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T17:01:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/fundamentals/ml-basics/12-training-vs-inference.md:
+    name: 12-training-vs-inference
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T17:03:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/fundamentals/ml-basics/13-overfitting-underfitting.md:
+    name: 13-overfitting-underfitting
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T17:05:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/fundamentals/ml-basics/14-bias-variance.md:
+    name: 14-bias-variance
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T17:07:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Got tradeoff and connection to over/underfit, need exact definitions of bias and variance
+  ml-rapid-fire/fundamentals/ml-basics/15-when-to-use-ml.md:
+    name: 15-when-to-use-ml
+    category: ml-basics
+    attempts:
+    - date: '2025-11-28T17:09:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Got 3/4, missed "problem changes frequently"
