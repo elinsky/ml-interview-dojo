@@ -14,15 +14,15 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/307)
+**Mastery Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 1.3% (4/307)
 
 | Status | Count |
 |--------|-------|
-| 🏆 Mastered | 0 |
+| 🏆 Mastered | 4 |
 | 💪 Independent | 0 |
-| 👍 Recalled | 0 |
-| ☑️ Attempted | 0 |
-| ⭐ New | 307 |
+| 👍 Recalled | 3 |
+| ☑️ Attempted | 1 |
+| ⭐ New | 299 |
 | **Total** | **307** |
 
 ## Quick Start
@@ -39,7 +39,7 @@ python3 scripts/generate_readme.py
 
 ### Classical Ml
 
-**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/69)
+**Progress:** [█░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 5.8% (4/69)
 
 - ⭐ [AdaBoost](ml-rapid-fire/classical-ml/AdaBoost.pdf)
 - ⭐ [Aggomerative Clustering](ml-rapid-fire/classical-ml/Aggomerative_Clustering.pdf)
@@ -102,14 +102,14 @@ python3 scripts/generate_readme.py
 - ⭐ [The Random In Random Forest](ml-rapid-fire/classical-ml/The_Random_In_Random_Forest.pdf)
 - ⭐ [Weak Learners](ml-rapid-fire/classical-ml/Weak_Learners.pdf)
 - ⭐ [k-Nearest Neighbors](ml-rapid-fire/classical-ml/k-Nearest_Neighbors.pdf)
-- ⭐ [01 what is logistic regression](ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md)
-- ⭐ [02 why not linear regression](ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md)
-- ⭐ [03 sigmoid function](ml-rapid-fire/classical-ml/logistic-regression/03-sigmoid-function.md)
-- ⭐ [04 how trained](ml-rapid-fire/classical-ml/logistic-regression/04-how-trained.md)
-- ⭐ [05 coefficient interpretation](ml-rapid-fire/classical-ml/logistic-regression/05-coefficient-interpretation.md)
-- ⭐ [06 decision boundary](ml-rapid-fire/classical-ml/logistic-regression/06-decision-boundary.md)
-- ⭐ [07 multi class](ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md)
-- ⭐ [08 loss function](ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md)
+- 👍 [01 what is logistic regression](ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md) `1 attempts`
+- 🏆 [02 why not linear regression](ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md) `1 attempts`
+- ☑️ [03 sigmoid function](ml-rapid-fire/classical-ml/logistic-regression/03-sigmoid-function.md) `1 attempts`
+- 🏆 [04 how trained](ml-rapid-fire/classical-ml/logistic-regression/04-how-trained.md) `1 attempts`
+- 👍 [05 coefficient interpretation](ml-rapid-fire/classical-ml/logistic-regression/05-coefficient-interpretation.md) `1 attempts`
+- 👍 [06 decision boundary](ml-rapid-fire/classical-ml/logistic-regression/06-decision-boundary.md) `1 attempts`
+- 🏆 [07 multi class](ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md) `1 attempts`
+- 🏆 [08 loss function](ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md) `1 attempts`
 
 ### Data Engineering
 
@@ -376,4 +376,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-28 12:34:02*
+*Last updated: 2025-11-28 13:21:37*

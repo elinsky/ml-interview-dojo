@@ -3,39 +3,83 @@ flashcards:
     name: What is Logistic Regression
     category: classical-ml
     topic: logistic-regression
-    attempts: []
+    attempts:
+    - date: '2025-11-28T12:40:19.779947'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Confused sigmoid with softmax
   ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md:
     name: Why Not Linear Regression
     category: classical-ml
     topic: logistic-regression
-    attempts: []
+    attempts:
+    - date: '2025-11-28T13:14:36.688697'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
   ml-rapid-fire/classical-ml/logistic-regression/03-sigmoid-function.md:
     name: Sigmoid Function
     category: classical-ml
     topic: logistic-regression
-    attempts: []
+    attempts:
+    - date: '2025-11-28T13:16:50.429576'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: none
+      notes: Said -1 to 1 (thats tanh), forgot formula
   ml-rapid-fire/classical-ml/logistic-regression/04-how-trained.md:
     name: How Trained
     category: classical-ml
     topic: logistic-regression
-    attempts: []
+    attempts:
+    - date: '2025-11-28T13:17:37.998837'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
   ml-rapid-fire/classical-ml/logistic-regression/05-coefficient-interpretation.md:
     name: Coefficient Interpretation
     category: classical-ml
     topic: logistic-regression
-    attempts: []
+    attempts:
+    - date: '2025-11-28T13:18:21.172664'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Knew log odds involved, forgot e^beta relationship
   ml-rapid-fire/classical-ml/logistic-regression/06-decision-boundary.md:
     name: Decision Boundary
     category: classical-ml
     topic: logistic-regression
-    attempts: []
+    attempts:
+    - date: '2025-11-28T13:19:34.202086'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Knew it was linear, but didnt understand why or what it means
   ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md:
     name: Multi-class
     category: classical-ml
     topic: logistic-regression
-    attempts: []
+    attempts:
+    - date: '2025-11-28T13:20:57.106630'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
   ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md:
     name: Loss Function
     category: classical-ml
     topic: logistic-regression
-    attempts: []
+    attempts:
+    - date: '2025-11-28T13:21:22.926173'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
