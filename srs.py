@@ -85,8 +85,14 @@ class SRSCard:
 class MLSRS:
     """Main SRS system controller"""
 
-    def __init__(self, base_path: str = "ml-workflows"):
-        self.base_path = Path(base_path)
+    # All content directories to scan
+    CONTENT_DIRS = [
+        'ml-workflows',
+        'ml-rapid-fire',
+        'math-quant-foundations'
+    ]
+
+    def __init__(self):
         self.data_file = Path(".srs-data.json")
         self.cards: Dict[str, SRSCard] = {}
         self.stats = {
@@ -100,14 +106,20 @@ class MLSRS:
         self.scan_cards()
 
     def scan_cards(self):
-        """Scan for all markdown files and initialize cards"""
-        pattern = str(self.base_path / "**/*.md")
-        all_files = glob.glob(pattern, recursive=True)
+        """Scan for all markdown and PDF files in content directories"""
+        for base_dir in self.CONTENT_DIRS:
+            base_path = Path(base_dir)
+            if not base_path.exists():
+                continue
 
-        for filepath in all_files:
-            # Use the filepath as-is (relative to base_path)
-            if filepath not in self.cards:
-                self.cards[filepath] = SRSCard(filepath)
+            # Scan for both .md and .pdf files
+            for ext in ['*.md', '*.pdf']:
+                pattern = str(base_path / "**" / ext)
+                all_files = glob.glob(pattern, recursive=True)
+
+                for filepath in all_files:
+                    if filepath not in self.cards:
+                        self.cards[filepath] = SRSCard(filepath)
 
     def load_data(self):
         """Load review history from JSON file"""
@@ -227,6 +239,20 @@ class MLSRS:
 
     def read_card_content(self, card: SRSCard) -> Dict[str, str]:
         """Read the question and answer from a card file"""
+        filepath = Path(card.filepath)
+
+        # Handle PDF files
+        if filepath.suffix.lower() == '.pdf':
+            # Use filename as question, prompt user to open PDF
+            question = filepath.stem.replace('_', ' ').replace('-', ' ')
+            return {
+                'question': f"[PDF Card] {question}",
+                'answer': f"📄 Open the PDF to see the answer:\n   {card.filepath}",
+                'filepath': card.filepath,
+                'is_pdf': True
+            }
+
+        # Handle markdown files
         with open(card.filepath, 'r') as f:
             content = f.read()
 
@@ -238,7 +264,8 @@ class MLSRS:
         return {
             'question': question,
             'answer': answer,
-            'filepath': card.filepath
+            'filepath': card.filepath,
+            'is_pdf': False
         }
 
 
