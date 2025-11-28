@@ -254,7 +254,8 @@ flashcards:
       used_hints: false
       looked_at_answer: false
       recall_quality: partial
-      notes: Confused with coefficient of variation, knew range 0-1 and higher=better, forgot interpretation
+      notes: Confused with coefficient of variation, knew range 0-1 and higher=better,
+        forgot interpretation
   ml-rapid-fire/classical-ml/linear-regression/11-mse-formula.md:
     name: 11-mse-formula
     category: linear-regression
@@ -310,7 +311,8 @@ flashcards:
       used_hints: false
       looked_at_answer: false
       recall_quality: partial
-      notes: Got concept, want to use technical terms (target/response, discrete/categorical, continuous)
+      notes: Got concept, want to use technical terms (target/response, discrete/categorical,
+        continuous)
   ml-rapid-fire/fundamentals/ml-basics/06-what-is-a-model.md:
     name: 06-what-is-a-model
     category: ml-basics
@@ -338,7 +340,8 @@ flashcards:
       used_hints: false
       looked_at_answer: false
       recall_quality: partial
-      notes: Got concept, want to nail all 3 parts (algorithm, finds params, minimizes loss)
+      notes: Got concept, want to nail all 3 parts (algorithm, finds params, minimizes
+        loss)
   ml-rapid-fire/fundamentals/ml-basics/09-loss-vs-metric.md:
     name: 09-loss-vs-metric
     category: ml-basics
@@ -395,7 +398,8 @@ flashcards:
       used_hints: false
       looked_at_answer: false
       recall_quality: partial
-      notes: Got tradeoff and connection to over/underfit, need exact definitions of bias and variance
+      notes: Got tradeoff and connection to over/underfit, need exact definitions
+        of bias and variance
   ml-rapid-fire/fundamentals/ml-basics/15-when-to-use-ml.md:
     name: 15-when-to-use-ml
     category: ml-basics
@@ -414,24 +418,58 @@ flashcards:
   ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-decomposition.md:
     name: Bias-Variance Decomposition
     category: ml-basics
-    attempts: []
+    attempts:
+    - date: '2025-11-28T17:41:38.702936'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Got 3 components, missed bias squared and definitions
   ml-rapid-fire/fundamentals/ml-basics/17-diagnosing-bias-variance.md:
     name: Diagnosing Bias vs Variance
     category: ml-basics
-    attempts: []
+    attempts:
+    - date: '2025-11-28T17:42:39.565150'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Right intuition about data helping variance, missed gap diagnostic
   ml-rapid-fire/fundamentals/ml-basics/18-causes-high-variance.md:
     name: Causes of High Variance
     category: ml-basics
-    attempts: []
+    attempts:
+    - date: '2025-11-28T17:43:55.549228'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: 'Got 2/6: too complex, no regularization. Missed: too many features,
+        too few examples, train too long, non-parametric'
   ml-rapid-fire/fundamentals/ml-basics/19-reduce-variance.md:
     name: How to Reduce Variance
     category: ml-basics
-    attempts: []
+    attempts:
+    - date: '2025-11-28T17:46:08.464943'
+      time_minutes: 2
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
   ml-rapid-fire/fundamentals/ml-basics/20-causes-high-bias.md:
     name: Causes of High Bias
     category: ml-basics
-    attempts: []
+    attempts:
+    - date: '2025-11-28T17:48:43.063694'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
   ml-rapid-fire/fundamentals/ml-basics/21-reduce-bias.md:
     name: How to Reduce Bias
     category: ml-basics
-    attempts: []
+    attempts:
+    - date: '2025-11-28T17:49:51.523376'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial

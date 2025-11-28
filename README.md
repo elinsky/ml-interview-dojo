@@ -20,9 +20,9 @@ Personal repository for ML interview prep flashcards.
 |--------|-------|
 | 🏆 Mastered | 19 |
 | 💪 Independent | 0 |
-| 👍 Recalled | 18 |
+| 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 7 |
+| ⭐ New | 1 |
 | **Total** | **49** |
 
 ## Quick Start
@@ -99,13 +99,13 @@ python3 scripts/generate_readme.py
 - 🏆 [13-overfitting-underfitting](ml-rapid-fire/fundamentals/ml-basics/13-overfitting-underfitting.md) `1 attempts`
 - 👍 [14-bias-variance](ml-rapid-fire/fundamentals/ml-basics/14-bias-variance.md) `1 attempts`
 - 👍 [15-when-to-use-ml](ml-rapid-fire/fundamentals/ml-basics/15-when-to-use-ml.md) `1 attempts`
-- ⭐ [Bias-Variance Decomposition](ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-decomposition.md)
-- ⭐ [Diagnosing Bias vs Variance](ml-rapid-fire/fundamentals/ml-basics/17-diagnosing-bias-variance.md)
-- ⭐ [Causes of High Variance](ml-rapid-fire/fundamentals/ml-basics/18-causes-high-variance.md)
-- ⭐ [How to Reduce Variance](ml-rapid-fire/fundamentals/ml-basics/19-reduce-variance.md)
-- ⭐ [Causes of High Bias](ml-rapid-fire/fundamentals/ml-basics/20-causes-high-bias.md)
-- ⭐ [How to Reduce Bias](ml-rapid-fire/fundamentals/ml-basics/21-reduce-bias.md)
+- 👍 [Bias-Variance Decomposition](ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-decomposition.md) `1 attempts`
+- 👍 [Diagnosing Bias vs Variance](ml-rapid-fire/fundamentals/ml-basics/17-diagnosing-bias-variance.md) `1 attempts`
+- 👍 [Causes of High Variance](ml-rapid-fire/fundamentals/ml-basics/18-causes-high-variance.md) `1 attempts`
+- 👍 [How to Reduce Variance](ml-rapid-fire/fundamentals/ml-basics/19-reduce-variance.md) `1 attempts`
+- 👍 [Causes of High Bias](ml-rapid-fire/fundamentals/ml-basics/20-causes-high-bias.md) `1 attempts`
+- 👍 [How to Reduce Bias](ml-rapid-fire/fundamentals/ml-basics/21-reduce-bias.md) `1 attempts`
 
 ---
 
-*Last updated: 2025-11-28 17:36:53*
+*Last updated: 2025-11-28 17:50:01*
