@@ -406,3 +406,32 @@ flashcards:
       looked_at_answer: false
       recall_quality: partial
       notes: Got 3/4, missed "problem changes frequently"
+  ml-rapid-fire/classical-ml/logistic-regression/09-linearly-separable.md:
+    name: Linearly Separable
+    category: classical-ml
+    topic: logistic-regression
+    attempts: []
+  ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-decomposition.md:
+    name: Bias-Variance Decomposition
+    category: ml-basics
+    attempts: []
+  ml-rapid-fire/fundamentals/ml-basics/17-diagnosing-bias-variance.md:
+    name: Diagnosing Bias vs Variance
+    category: ml-basics
+    attempts: []
+  ml-rapid-fire/fundamentals/ml-basics/18-causes-high-variance.md:
+    name: Causes of High Variance
+    category: ml-basics
+    attempts: []
+  ml-rapid-fire/fundamentals/ml-basics/19-reduce-variance.md:
+    name: How to Reduce Variance
+    category: ml-basics
+    attempts: []
+  ml-rapid-fire/fundamentals/ml-basics/20-causes-high-bias.md:
+    name: Causes of High Bias
+    category: ml-basics
+    attempts: []
+  ml-rapid-fire/fundamentals/ml-basics/21-reduce-bias.md:
+    name: How to Reduce Bias
+    category: ml-basics
+    attempts: []

@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [█████████████░░░░░░░░░░░░░░░░░] 45.2% (19/42)
+**Mastery Progress:** [███████████░░░░░░░░░░░░░░░░░░░] 38.8% (19/49)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 18 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 0 |
-| **Total** | **42** |
+| ⭐ New | 7 |
+| **Total** | **49** |
 
 ## Quick Start
 
@@ -39,7 +39,7 @@ python3 scripts/generate_readme.py
 
 ### Classical Ml
 
-**Progress:** [███████████████░░░░░░░░░░░░░░░] 50.0% (4/8)
+**Progress:** [█████████████░░░░░░░░░░░░░░░░░] 44.4% (4/9)
 
 - 👍 [What is Logistic Regression](ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md) `1 attempts`
 - 🏆 [Why Not Linear Regression](ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md) `1 attempts`
@@ -49,6 +49,7 @@ python3 scripts/generate_readme.py
 - 👍 [Decision Boundary](ml-rapid-fire/classical-ml/logistic-regression/06-decision-boundary.md) `1 attempts`
 - 🏆 [Multi-class](ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md) `1 attempts`
 - 🏆 [Loss Function](ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md) `1 attempts`
+- ⭐ [Linearly Separable](ml-rapid-fire/classical-ml/logistic-regression/09-linearly-separable.md)
 
 ### Cross Entropy
 
@@ -81,7 +82,7 @@ python3 scripts/generate_readme.py
 
 ### Ml Basics
 
-**Progress:** [████████████████░░░░░░░░░░░░░░] 53.3% (8/15)
+**Progress:** [███████████░░░░░░░░░░░░░░░░░░░] 38.1% (8/21)
 
 - 🏆 [01-what-is-ml](ml-rapid-fire/fundamentals/ml-basics/01-what-is-ml.md) `1 attempts`
 - 🏆 [02-traditional-vs-ml](ml-rapid-fire/fundamentals/ml-basics/02-traditional-vs-ml.md) `1 attempts`
@@ -98,7 +99,13 @@ python3 scripts/generate_readme.py
 - 🏆 [13-overfitting-underfitting](ml-rapid-fire/fundamentals/ml-basics/13-overfitting-underfitting.md) `1 attempts`
 - 👍 [14-bias-variance](ml-rapid-fire/fundamentals/ml-basics/14-bias-variance.md) `1 attempts`
 - 👍 [15-when-to-use-ml](ml-rapid-fire/fundamentals/ml-basics/15-when-to-use-ml.md) `1 attempts`
+- ⭐ [Bias-Variance Decomposition](ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-decomposition.md)
+- ⭐ [Diagnosing Bias vs Variance](ml-rapid-fire/fundamentals/ml-basics/17-diagnosing-bias-variance.md)
+- ⭐ [Causes of High Variance](ml-rapid-fire/fundamentals/ml-basics/18-causes-high-variance.md)
+- ⭐ [How to Reduce Variance](ml-rapid-fire/fundamentals/ml-basics/19-reduce-variance.md)
+- ⭐ [Causes of High Bias](ml-rapid-fire/fundamentals/ml-basics/20-causes-high-bias.md)
+- ⭐ [How to Reduce Bias](ml-rapid-fire/fundamentals/ml-basics/21-reduce-bias.md)
 
 ---
 
-*Last updated: 2025-11-28 17:34:38*
+*Last updated: 2025-11-28 17:36:53*
