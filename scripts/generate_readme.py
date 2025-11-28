@@ -88,16 +88,20 @@ def parse_topic_structure() -> Dict[str, Dict[str, List[Dict]]]:
             # Scan subdirectories (like ml-workflows/01-basics)
             for category_dir in sorted(subdirs):
                 category_name = category_dir.name
-                for md_file in sorted(category_dir.glob('*.md')):
+                # Scan both .md and .pdf files
+                files = list(category_dir.glob('*.md')) + list(category_dir.glob('*.pdf'))
+                for file_path in sorted(files):
                     topics_by_category[category_name].append(
-                        _parse_md_file(md_file)
+                        _parse_file(file_path)
                     )
         else:
             # Scan files directly (like math-quant-foundations/*.md)
             category_name = base_dir  # Use dir name as category
-            for md_file in sorted(base_path.glob('*.md')):
+            # Scan both .md and .pdf files
+            files = list(base_path.glob('*.md')) + list(base_path.glob('*.pdf'))
+            for file_path in sorted(files):
                 topics_by_category[category_name].append(
-                    _parse_md_file(md_file)
+                    _parse_file(file_path)
                 )
 
         if topics_by_category:
@@ -106,23 +110,34 @@ def parse_topic_structure() -> Dict[str, Dict[str, List[Dict]]]:
     return result
 
 
-def _parse_md_file(md_file: Path) -> Dict:
-    """Parse a markdown file and extract question info"""
+def _parse_file(file_path: Path) -> Dict:
+    """Parse a markdown or PDF file and extract question info"""
+    # For PDFs, use filename as the question (replace underscores with spaces)
+    if file_path.suffix.lower() == '.pdf':
+        question = file_path.stem.replace('_', ' ').replace('-', ' ')
+        return {
+            'file': str(file_path),
+            'name': file_path.stem,
+            'question': question,
+            'number': ''
+        }
+
+    # For markdown files, try to extract the question
     try:
-        with open(md_file, 'r') as f:
+        with open(file_path, 'r') as f:
             content = f.read()
             if '# Question' in content:
                 question = content.split('# Question')[1].split('# Answer')[0].strip()
             else:
-                question = md_file.stem.replace('-', ' ').title()
+                question = file_path.stem.replace('-', ' ').title()
     except:
-        question = md_file.stem.replace('-', ' ').title()
+        question = file_path.stem.replace('-', ' ').title()
 
     return {
-        'file': str(md_file),
-        'name': md_file.stem,
+        'file': str(file_path),
+        'name': file_path.stem,
         'question': question,
-        'number': md_file.stem.split('-')[0] if '-' in md_file.stem else ''
+        'number': file_path.stem.split('-')[0] if '-' in file_path.stem else ''
     }
 
 
