@@ -5,15 +5,18 @@
 **A:**
 
 **Bias**:
-- Error from **approximating a real-life problem with a simpler model**
+- Error from **approximating a complex problem with a simpler model**
 - High bias → underfitting
 
 **Variance**:
 - How much f̂ would **change with a different training dataset**
 - High variance → overfitting
 
-**Tradeoff**: Reducing one increases the other. Complex models = low bias, high variance. Simple models = high bias, low variance.
+**Tradeoff**:
+- As flexibility increases, **bias decreases but variance increases**
+- Eventually variance increases exceed bias reductions → overfitting
+- Goal: find the balance that minimizes total error
 
-[@james2013introduction, p. 34-35] — 202106191115 Bias-Variance Trade-Off
+[@james2013introduction, p. 33-35]
 
 ---

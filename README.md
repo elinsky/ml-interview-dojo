@@ -14,16 +14,16 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [████████████░░░░░░░░░░░░░░░░░░] 40.7% (11/27)
+**Mastery Progress:** [█████████████░░░░░░░░░░░░░░░░░] 45.2% (19/42)
 
 | Status | Count |
 |--------|-------|
-| 🏆 Mastered | 11 |
+| 🏆 Mastered | 19 |
 | 💪 Independent | 0 |
-| 👍 Recalled | 11 |
+| 👍 Recalled | 18 |
 | ☑️ Attempted | 5 |
 | ⭐ New | 0 |
-| **Total** | **27** |
+| **Total** | **42** |
 
 ## Quick Start
 
@@ -79,6 +79,26 @@ python3 scripts/generate_readme.py
 - 👍 [10-r-squared](ml-rapid-fire/classical-ml/linear-regression/10-r-squared.md) `1 attempts`
 - 🏆 [11-mse-formula](ml-rapid-fire/classical-ml/linear-regression/11-mse-formula.md) `1 attempts`
 
+### Ml Basics
+
+**Progress:** [████████████████░░░░░░░░░░░░░░] 53.3% (8/15)
+
+- 🏆 [01-what-is-ml](ml-rapid-fire/fundamentals/ml-basics/01-what-is-ml.md) `1 attempts`
+- 🏆 [02-traditional-vs-ml](ml-rapid-fire/fundamentals/ml-basics/02-traditional-vs-ml.md) `1 attempts`
+- 👍 [03-three-components](ml-rapid-fire/fundamentals/ml-basics/03-three-components.md) `1 attempts`
+- 🏆 [04-types-of-learning](ml-rapid-fire/fundamentals/ml-basics/04-types-of-learning.md) `1 attempts`
+- 👍 [05-classification-vs-regression](ml-rapid-fire/fundamentals/ml-basics/05-classification-vs-regression.md) `1 attempts`
+- 🏆 [06-what-is-a-model](ml-rapid-fire/fundamentals/ml-basics/06-what-is-a-model.md) `1 attempts`
+- 🏆 [07-what-is-loss-function](ml-rapid-fire/fundamentals/ml-basics/07-what-is-loss-function.md) `1 attempts`
+- 👍 [08-what-is-optimization](ml-rapid-fire/fundamentals/ml-basics/08-what-is-optimization.md) `1 attempts`
+- 👍 [09-loss-vs-metric](ml-rapid-fire/fundamentals/ml-basics/09-loss-vs-metric.md) `1 attempts`
+- 👍 [10-params-vs-hyperparams](ml-rapid-fire/fundamentals/ml-basics/10-params-vs-hyperparams.md) `1 attempts`
+- 🏆 [11-what-is-regularization](ml-rapid-fire/fundamentals/ml-basics/11-what-is-regularization.md) `1 attempts`
+- 🏆 [12-training-vs-inference](ml-rapid-fire/fundamentals/ml-basics/12-training-vs-inference.md) `1 attempts`
+- 🏆 [13-overfitting-underfitting](ml-rapid-fire/fundamentals/ml-basics/13-overfitting-underfitting.md) `1 attempts`
+- 👍 [14-bias-variance](ml-rapid-fire/fundamentals/ml-basics/14-bias-variance.md) `1 attempts`
+- 👍 [15-when-to-use-ml](ml-rapid-fire/fundamentals/ml-basics/15-when-to-use-ml.md) `1 attempts`
+
 ---
 
-*Last updated: 2025-11-28 15:29:04*
+*Last updated: 2025-11-28 17:34:38*
