@@ -68,6 +68,7 @@ def parse_topic_structure() -> Dict[str, Dict[str, List[Dict]]]:
     """
     sections = {
         'ML Workflows': 'ml-workflows',
+        'ML Rapid Fire': 'ml-rapid-fire',
         'Math & Quant Foundations': 'math-quant-foundations'
     }
 
