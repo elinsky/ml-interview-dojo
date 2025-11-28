@@ -14,16 +14,16 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [███████████████░░░░░░░░░░░░░░░] 50.0% (4/8)
+**Mastery Progress:** [███████████░░░░░░░░░░░░░░░░░░░] 37.5% (6/16)
 
 | Status | Count |
 |--------|-------|
-| 🏆 Mastered | 4 |
+| 🏆 Mastered | 6 |
 | 💪 Independent | 0 |
-| 👍 Recalled | 3 |
-| ☑️ Attempted | 1 |
+| 👍 Recalled | 6 |
+| ☑️ Attempted | 4 |
 | ⭐ New | 0 |
-| **Total** | **8** |
+| **Total** | **16** |
 
 ## Quick Start
 
@@ -50,6 +50,19 @@ python3 scripts/generate_readme.py
 - 🏆 [Multi-class](ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md) `1 attempts`
 - 🏆 [Loss Function](ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md) `1 attempts`
 
+### Cross Entropy
+
+**Progress:** [███████░░░░░░░░░░░░░░░░░░░░░░░] 25.0% (2/8)
+
+- 👍 [01-what-is-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/01-what-is-cross-entropy.md) `1 attempts`
+- ☑️ [02-why-not-mse](ml-rapid-fire/classical-ml/cross-entropy/02-why-not-mse.md) `1 attempts`
+- ☑️ [03-binary-cross-entropy-formula](ml-rapid-fire/classical-ml/cross-entropy/03-binary-cross-entropy-formula.md) `1 attempts`
+- 🏆 [04-confident-correct](ml-rapid-fire/classical-ml/cross-entropy/04-confident-correct.md) `1 attempts`
+- 👍 [05-confident-wrong](ml-rapid-fire/classical-ml/cross-entropy/05-confident-wrong.md) `1 attempts`
+- ☑️ [06-categorical-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/06-categorical-cross-entropy.md) `1 attempts`
+- 👍 [07-calculate-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/07-calculate-cross-entropy.md) `1 attempts`
+- 🏆 [08-calculate-categorical-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/08-calculate-categorical-cross-entropy.md) `1 attempts`
+
 ---
 
-*Last updated: 2025-11-28 13:23:56*
+*Last updated: 2025-11-28 15:03:28*

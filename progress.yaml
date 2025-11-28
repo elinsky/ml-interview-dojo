@@ -83,3 +83,80 @@ flashcards:
       used_hints: false
       looked_at_answer: false
       recall_quality: full
+  ml-rapid-fire/classical-ml/cross-entropy/01-what-is-cross-entropy.md:
+    name: 01-what-is-cross-entropy
+    category: cross-entropy
+    attempts:
+    - date: '2025-11-28T14:36:20.799548'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Got core concept, not surprise framing
+  ml-rapid-fire/classical-ml/cross-entropy/02-why-not-mse.md:
+    name: 02-why-not-mse
+    category: cross-entropy
+    attempts:
+    - date: '2025-11-28T14:48:51.788921'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: none
+      notes: Needed full explanation of sigmoid saturation and gradient issue
+  ml-rapid-fire/classical-ml/cross-entropy/03-binary-cross-entropy-formula.md:
+    name: 03-binary-cross-entropy-formula
+    category: cross-entropy
+    attempts:
+    - date: '2025-11-28T14:50:26.073924'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: none
+  ml-rapid-fire/classical-ml/cross-entropy/04-confident-correct.md:
+    name: 04-confident-correct
+    category: cross-entropy
+    attempts:
+    - date: '2025-11-28T14:50:57.569021'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/classical-ml/cross-entropy/05-confident-wrong.md:
+    name: 05-confident-wrong
+    category: cross-entropy
+    attempts:
+    - date: '2025-11-28T14:53:42.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Knew loss gets high, thought capped at 1 (actually approaches infinity)
+  ml-rapid-fire/classical-ml/cross-entropy/06-categorical-cross-entropy.md:
+    name: 06-categorical-cross-entropy
+    category: cross-entropy
+    attempts:
+    - date: '2025-11-28T15:02:15.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: none
+      notes: Knew it was for multiple classes, needed formula walkthrough
+  ml-rapid-fire/classical-ml/cross-entropy/07-calculate-cross-entropy.md:
+    name: 07-calculate-cross-entropy
+    category: cross-entropy
+    attempts:
+    - date: '2025-11-28T15:08:30.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Got formula structure, missed negative sign
+  ml-rapid-fire/classical-ml/cross-entropy/08-calculate-categorical-cross-entropy.md:
+    name: 08-calculate-categorical-cross-entropy
+    category: cross-entropy
+    attempts:
+    - date: '2025-11-28T15:10:45.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
