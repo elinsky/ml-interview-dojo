@@ -160,3 +160,107 @@ flashcards:
       used_hints: false
       looked_at_answer: false
       recall_quality: full
+  ml-rapid-fire/classical-ml/linear-regression/01-what-is-linear-regression.md:
+    name: 01-what-is-linear-regression
+    category: linear-regression
+    attempts:
+    - date: '2025-11-28T15:25:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/classical-ml/linear-regression/02-simple-vs-multiple.md:
+    name: 02-simple-vs-multiple
+    category: linear-regression
+    attempts:
+    - date: '2025-11-28T15:26:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/classical-ml/linear-regression/03-linear-regression-formula.md:
+    name: 03-linear-regression-formula
+    category: linear-regression
+    attempts:
+    - date: '2025-11-28T15:27:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Gave multiple regression formula instead of simple
+  ml-rapid-fire/classical-ml/linear-regression/04-loss-function.md:
+    name: 04-loss-function
+    category: linear-regression
+    attempts:
+    - date: '2025-11-28T15:29:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/classical-ml/linear-regression/05-ordinary-least-squares.md:
+    name: 05-ordinary-least-squares
+    category: linear-regression
+    attempts:
+    - date: '2025-11-28T15:31:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Confused OLS method with MSE formula
+  ml-rapid-fire/classical-ml/linear-regression/06-gradient-descent-for-lr.md:
+    name: 06-gradient-descent-for-lr
+    category: linear-regression
+    attempts:
+    - date: '2025-11-28T15:33:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: none
+  ml-rapid-fire/classical-ml/linear-regression/07-coefficient-interpretation.md:
+    name: 07-coefficient-interpretation
+    category: linear-regression
+    attempts:
+    - date: '2025-11-28T15:35:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full
+  ml-rapid-fire/classical-ml/linear-regression/08-assumptions.md:
+    name: 08-assumptions
+    category: linear-regression
+    attempts:
+    - date: '2025-11-28T15:38:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Got 2/5 - independence and homoscedasticity
+  ml-rapid-fire/classical-ml/linear-regression/09-ridge-vs-lasso.md:
+    name: 09-ridge-vs-lasso
+    category: linear-regression
+    attempts:
+    - date: '2025-11-28T15:42:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Knew one squares penalty, other doesnt - missed feature selection aspect
+  ml-rapid-fire/classical-ml/linear-regression/10-r-squared.md:
+    name: 10-r-squared
+    category: linear-regression
+    attempts:
+    - date: '2025-11-28T15:45:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+      notes: Confused with coefficient of variation, knew range 0-1 and higher=better, forgot interpretation
+  ml-rapid-fire/classical-ml/linear-regression/11-mse-formula.md:
+    name: 11-mse-formula
+    category: linear-regression
+    attempts:
+    - date: '2025-11-28T15:48:00.000000'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: full

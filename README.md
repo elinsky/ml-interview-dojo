@@ -14,16 +14,16 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [███████████░░░░░░░░░░░░░░░░░░░] 37.5% (6/16)
+**Mastery Progress:** [████████████░░░░░░░░░░░░░░░░░░] 40.7% (11/27)
 
 | Status | Count |
 |--------|-------|
-| 🏆 Mastered | 6 |
+| 🏆 Mastered | 11 |
 | 💪 Independent | 0 |
-| 👍 Recalled | 6 |
-| ☑️ Attempted | 4 |
+| 👍 Recalled | 11 |
+| ☑️ Attempted | 5 |
 | ⭐ New | 0 |
-| **Total** | **16** |
+| **Total** | **27** |
 
 ## Quick Start
 
@@ -63,6 +63,22 @@ python3 scripts/generate_readme.py
 - 👍 [07-calculate-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/07-calculate-cross-entropy.md) `1 attempts`
 - 🏆 [08-calculate-categorical-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/08-calculate-categorical-cross-entropy.md) `1 attempts`
 
+### Linear Regression
+
+**Progress:** [█████████████░░░░░░░░░░░░░░░░░] 45.5% (5/11)
+
+- 🏆 [01-what-is-linear-regression](ml-rapid-fire/classical-ml/linear-regression/01-what-is-linear-regression.md) `1 attempts`
+- 🏆 [02-simple-vs-multiple](ml-rapid-fire/classical-ml/linear-regression/02-simple-vs-multiple.md) `1 attempts`
+- 👍 [03-linear-regression-formula](ml-rapid-fire/classical-ml/linear-regression/03-linear-regression-formula.md) `1 attempts`
+- 🏆 [04-loss-function](ml-rapid-fire/classical-ml/linear-regression/04-loss-function.md) `1 attempts`
+- 👍 [05-ordinary-least-squares](ml-rapid-fire/classical-ml/linear-regression/05-ordinary-least-squares.md) `1 attempts`
+- ☑️ [06-gradient-descent-for-lr](ml-rapid-fire/classical-ml/linear-regression/06-gradient-descent-for-lr.md) `1 attempts`
+- 🏆 [07-coefficient-interpretation](ml-rapid-fire/classical-ml/linear-regression/07-coefficient-interpretation.md) `1 attempts`
+- 👍 [08-assumptions](ml-rapid-fire/classical-ml/linear-regression/08-assumptions.md) `1 attempts`
+- 👍 [09-ridge-vs-lasso](ml-rapid-fire/classical-ml/linear-regression/09-ridge-vs-lasso.md) `1 attempts`
+- 👍 [10-r-squared](ml-rapid-fire/classical-ml/linear-regression/10-r-squared.md) `1 attempts`
+- 🏆 [11-mse-formula](ml-rapid-fire/classical-ml/linear-regression/11-mse-formula.md) `1 attempts`
+
 ---
 
-*Last updated: 2025-11-28 15:03:28*
+*Last updated: 2025-11-28 15:29:04*
