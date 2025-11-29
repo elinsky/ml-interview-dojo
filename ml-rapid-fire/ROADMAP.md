@@ -18,7 +18,7 @@
 - [x] KNN (9)
 - [x] Naive Bayes (9)
 - [x] Clustering (9)
-- [ ] Dimensionality Reduction (PCA, t-SNE)
+- [x] Dimensionality Reduction (9)
 
 ## Deep Learning
 - [ ] Neural Network Basics (forward/backward pass, activations)
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 108 cards done**
+**Progress: 117 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)

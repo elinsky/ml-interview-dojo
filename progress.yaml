@@ -709,3 +709,39 @@ flashcards:
     name: Clustering Algorithm Comparison
     category: clustering
     attempts: []
+  ml-rapid-fire/classical-ml/dimensionality-reduction/01-what-is-dimensionality-reduction.md:
+    name: What is Dimensionality Reduction
+    category: dimensionality-reduction
+    attempts: []
+  ml-rapid-fire/classical-ml/dimensionality-reduction/02-pca-overview.md:
+    name: PCA Overview
+    category: dimensionality-reduction
+    attempts: []
+  ml-rapid-fire/classical-ml/dimensionality-reduction/03-pca-algorithm.md:
+    name: PCA Algorithm
+    category: dimensionality-reduction
+    attempts: []
+  ml-rapid-fire/classical-ml/dimensionality-reduction/04-choosing-components.md:
+    name: Choosing PCA Components
+    category: dimensionality-reduction
+    attempts: []
+  ml-rapid-fire/classical-ml/dimensionality-reduction/05-pca-limitations.md:
+    name: PCA Limitations
+    category: dimensionality-reduction
+    attempts: []
+  ml-rapid-fire/classical-ml/dimensionality-reduction/06-tsne-overview.md:
+    name: t-SNE Overview
+    category: dimensionality-reduction
+    attempts: []
+  ml-rapid-fire/classical-ml/dimensionality-reduction/07-tsne-algorithm.md:
+    name: t-SNE Algorithm
+    category: dimensionality-reduction
+    attempts: []
+  ml-rapid-fire/classical-ml/dimensionality-reduction/08-tsne-pitfalls.md:
+    name: t-SNE Pitfalls
+    category: dimensionality-reduction
+    attempts: []
+  ml-rapid-fire/classical-ml/dimensionality-reduction/09-pca-vs-tsne.md:
+    name: PCA vs t-SNE
+    category: dimensionality-reduction
+    attempts: []

@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 17.6% (19/108)
+**Mastery Progress:** [████░░░░░░░░░░░░░░░░░░░░░░░░░░] 16.2% (19/117)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 60 |
-| **Total** | **108** |
+| ⭐ New | 69 |
+| **Total** | **117** |
 
 ## Quick Start
 
@@ -98,6 +98,20 @@ python3 scripts/generate_readme.py
 - ⭐ [Gradient Boosting](ml-rapid-fire/classical-ml/decision-trees/14-gradient-boosting.md)
 - ⭐ [XGBoost](ml-rapid-fire/classical-ml/decision-trees/15-xgboost.md)
 - ⭐ [Boosting Bias or Variance](ml-rapid-fire/classical-ml/decision-trees/16-boosting-bias-variance.md)
+
+### Dimensionality Reduction
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+- ⭐ [What is Dimensionality Reduction](ml-rapid-fire/classical-ml/dimensionality-reduction/01-what-is-dimensionality-reduction.md)
+- ⭐ [PCA Overview](ml-rapid-fire/classical-ml/dimensionality-reduction/02-pca-overview.md)
+- ⭐ [PCA Algorithm](ml-rapid-fire/classical-ml/dimensionality-reduction/03-pca-algorithm.md)
+- ⭐ [Choosing PCA Components](ml-rapid-fire/classical-ml/dimensionality-reduction/04-choosing-components.md)
+- ⭐ [PCA Limitations](ml-rapid-fire/classical-ml/dimensionality-reduction/05-pca-limitations.md)
+- ⭐ [t-SNE Overview](ml-rapid-fire/classical-ml/dimensionality-reduction/06-tsne-overview.md)
+- ⭐ [t-SNE Algorithm](ml-rapid-fire/classical-ml/dimensionality-reduction/07-tsne-algorithm.md)
+- ⭐ [t-SNE Pitfalls](ml-rapid-fire/classical-ml/dimensionality-reduction/08-tsne-pitfalls.md)
+- ⭐ [PCA vs t-SNE](ml-rapid-fire/classical-ml/dimensionality-reduction/09-pca-vs-tsne.md)
 
 ### Knn
 
@@ -197,4 +211,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-28 18:51:37*
+*Last updated: 2025-11-28 18:55:49*
