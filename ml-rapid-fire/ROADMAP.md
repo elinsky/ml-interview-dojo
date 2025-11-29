@@ -13,7 +13,7 @@
 - [x] Regularization (L1/L2) (7)
 
 ## Classical ML
-- [ ] Decision Trees & Ensembles (Random Forest, XGBoost, Bagging/Boosting)
+- [x] Decision Trees & Ensembles (16)
 - [ ] SVM (kernels, margins)
 - [ ] KNN
 - [ ] Naive Bayes
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 56 cards done**
+**Progress: 72 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)

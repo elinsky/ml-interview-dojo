@@ -501,3 +501,67 @@ flashcards:
     name: Regularization Hyperparameter
     category: regularization
     attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/01-what-is-decision-tree.md:
+    name: What is a Decision Tree
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/02-how-splits-decided.md:
+    name: How Decision Trees Split
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/03-gini-impurity.md:
+    name: Gini Impurity
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/04-information-gain.md:
+    name: Information Gain / Entropy
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/05-prevent-overfitting.md:
+    name: Preventing Overfitting in Decision Trees
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/06-pros-cons.md:
+    name: Decision Tree Pros and Cons
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/07-ensemble-methods.md:
+    name: Ensemble Methods
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/08-bagging.md:
+    name: Bagging
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/09-random-forest.md:
+    name: Random Forest
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/10-why-rf-reduces-variance.md:
+    name: Why Random Forest Reduces Variance
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/11-boosting.md:
+    name: Boosting
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/12-bagging-vs-boosting.md:
+    name: Bagging vs Boosting
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/13-adaboost.md:
+    name: AdaBoost
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/14-gradient-boosting.md:
+    name: Gradient Boosting
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/15-xgboost.md:
+    name: XGBoost
+    category: decision-trees
+    attempts: []
+  ml-rapid-fire/classical-ml/decision-trees/16-boosting-bias-variance.md:
+    name: Boosting Bias or Variance
+    category: decision-trees
+    attempts: []

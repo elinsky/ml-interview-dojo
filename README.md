@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [██████████░░░░░░░░░░░░░░░░░░░░] 33.9% (19/56)
+**Mastery Progress:** [███████░░░░░░░░░░░░░░░░░░░░░░░] 26.4% (19/72)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 8 |
-| **Total** | **56** |
+| ⭐ New | 24 |
+| **Total** | **72** |
 
 ## Quick Start
 
@@ -63,6 +63,27 @@ python3 scripts/generate_readme.py
 - ☑️ [06-categorical-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/06-categorical-cross-entropy.md) `1 attempts`
 - 👍 [07-calculate-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/07-calculate-cross-entropy.md) `1 attempts`
 - 🏆 [08-calculate-categorical-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/08-calculate-categorical-cross-entropy.md) `1 attempts`
+
+### Decision Trees
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/16)
+
+- ⭐ [What is a Decision Tree](ml-rapid-fire/classical-ml/decision-trees/01-what-is-decision-tree.md)
+- ⭐ [How Decision Trees Split](ml-rapid-fire/classical-ml/decision-trees/02-how-splits-decided.md)
+- ⭐ [Gini Impurity](ml-rapid-fire/classical-ml/decision-trees/03-gini-impurity.md)
+- ⭐ [Information Gain / Entropy](ml-rapid-fire/classical-ml/decision-trees/04-information-gain.md)
+- ⭐ [Preventing Overfitting in Decision Trees](ml-rapid-fire/classical-ml/decision-trees/05-prevent-overfitting.md)
+- ⭐ [Decision Tree Pros and Cons](ml-rapid-fire/classical-ml/decision-trees/06-pros-cons.md)
+- ⭐ [Ensemble Methods](ml-rapid-fire/classical-ml/decision-trees/07-ensemble-methods.md)
+- ⭐ [Bagging](ml-rapid-fire/classical-ml/decision-trees/08-bagging.md)
+- ⭐ [Random Forest](ml-rapid-fire/classical-ml/decision-trees/09-random-forest.md)
+- ⭐ [Why Random Forest Reduces Variance](ml-rapid-fire/classical-ml/decision-trees/10-why-rf-reduces-variance.md)
+- ⭐ [Boosting](ml-rapid-fire/classical-ml/decision-trees/11-boosting.md)
+- ⭐ [Bagging vs Boosting](ml-rapid-fire/classical-ml/decision-trees/12-bagging-vs-boosting.md)
+- ⭐ [AdaBoost](ml-rapid-fire/classical-ml/decision-trees/13-adaboost.md)
+- ⭐ [Gradient Boosting](ml-rapid-fire/classical-ml/decision-trees/14-gradient-boosting.md)
+- ⭐ [XGBoost](ml-rapid-fire/classical-ml/decision-trees/15-xgboost.md)
+- ⭐ [Boosting Bias or Variance](ml-rapid-fire/classical-ml/decision-trees/16-boosting-bias-variance.md)
 
 ### Linear Regression
 
@@ -120,4 +141,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-28 18:07:51*
+*Last updated: 2025-11-28 18:12:31*
