@@ -961,3 +961,43 @@ flashcards:
     name: Encoder vs Decoder Models
     category: transformers
     attempts: []
+  ml-rapid-fire/model-evaluation/classification-metrics/01-confusion-matrix.md:
+    name: Confusion Matrix
+    category: classification-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/classification-metrics/02-accuracy.md:
+    name: Accuracy
+    category: classification-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/classification-metrics/03-precision.md:
+    name: Precision
+    category: classification-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/classification-metrics/04-recall.md:
+    name: Recall
+    category: classification-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/classification-metrics/05-f1-score.md:
+    name: F1 Score
+    category: classification-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/classification-metrics/06-precision-recall-tradeoff.md:
+    name: Precision-Recall Tradeoff
+    category: classification-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/classification-metrics/07-roc-curve.md:
+    name: ROC Curve
+    category: classification-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/classification-metrics/08-auc-roc.md:
+    name: AUC-ROC
+    category: classification-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/classification-metrics/09-pr-curve-vs-roc.md:
+    name: PR Curve vs ROC
+    category: classification-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/classification-metrics/10-specificity.md:
+    name: Specificity
+    category: classification-metrics
+    attempts: []

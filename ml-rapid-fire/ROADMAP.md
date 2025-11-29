@@ -29,7 +29,7 @@
 - [x] Transformers & Attention (9)
 
 ## Model Evaluation
-- [ ] Classification Metrics (precision, recall, F1, AUC, confusion matrix)
+- [x] Classification Metrics (10)
 - [ ] Regression Metrics (MSE, R², MAE)
 - [ ] Validation (cross-validation, train/val/test)
 - [ ] Model Selection (grid search, hyperparameter tuning)
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 171 cards done**
+**Progress: 181 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)
