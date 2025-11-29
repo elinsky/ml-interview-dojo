@@ -9,8 +9,8 @@
 - [x] Linear Regression (11)
 - [x] Logistic Regression (9)
 - [x] Cross-Entropy (8)
-- [ ] Bias-Variance & Overfitting
-- [ ] Regularization (L1/L2)
+- [x] Bias-Variance & Overfitting (6)
+- [x] Regularization (L1/L2) (7)
 
 ## Classical ML
 - [ ] Decision Trees & Ensembles (Random Forest, XGBoost, Bagging/Boosting)
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 43 cards done**
+**Progress: 56 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)

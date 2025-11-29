@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [███████████░░░░░░░░░░░░░░░░░░░] 38.8% (19/49)
+**Mastery Progress:** [██████████░░░░░░░░░░░░░░░░░░░░] 33.9% (19/56)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 1 |
-| **Total** | **49** |
+| ⭐ New | 8 |
+| **Total** | **56** |
 
 ## Quick Start
 
@@ -106,6 +106,18 @@ python3 scripts/generate_readme.py
 - 👍 [Causes of High Bias](ml-rapid-fire/fundamentals/ml-basics/20-causes-high-bias.md) `1 attempts`
 - 👍 [How to Reduce Bias](ml-rapid-fire/fundamentals/ml-basics/21-reduce-bias.md) `1 attempts`
 
+### Regularization
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/7)
+
+- ⭐ [L2 (Ridge) Penalty Formula](ml-rapid-fire/classical-ml/regularization/01-l2-ridge-formula.md)
+- ⭐ [L1 (Lasso) Penalty Formula](ml-rapid-fire/classical-ml/regularization/02-l1-lasso-formula.md)
+- ⭐ [Why L1 Produces Sparsity](ml-rapid-fire/classical-ml/regularization/03-why-l1-sparse.md)
+- ⭐ [Why L2 Only Shrinks Weights](ml-rapid-fire/classical-ml/regularization/04-why-l2-shrinks.md)
+- ⭐ [When to Choose L1 vs L2](ml-rapid-fire/classical-ml/regularization/05-when-l1-vs-l2.md)
+- ⭐ [Elastic Net](ml-rapid-fire/classical-ml/regularization/06-elastic-net.md)
+- ⭐ [Regularization Hyperparameter](ml-rapid-fire/classical-ml/regularization/07-lambda-hyperparameter.md)
+
 ---
 
-*Last updated: 2025-11-28 17:50:01*
+*Last updated: 2025-11-28 18:07:51*

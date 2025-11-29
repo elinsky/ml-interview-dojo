@@ -473,3 +473,31 @@ flashcards:
       used_hints: false
       looked_at_answer: false
       recall_quality: partial
+  ml-rapid-fire/classical-ml/regularization/01-l2-ridge-formula.md:
+    name: L2 (Ridge) Penalty Formula
+    category: regularization
+    attempts: []
+  ml-rapid-fire/classical-ml/regularization/02-l1-lasso-formula.md:
+    name: L1 (Lasso) Penalty Formula
+    category: regularization
+    attempts: []
+  ml-rapid-fire/classical-ml/regularization/03-why-l1-sparse.md:
+    name: Why L1 Produces Sparsity
+    category: regularization
+    attempts: []
+  ml-rapid-fire/classical-ml/regularization/04-why-l2-shrinks.md:
+    name: Why L2 Only Shrinks Weights
+    category: regularization
+    attempts: []
+  ml-rapid-fire/classical-ml/regularization/05-when-l1-vs-l2.md:
+    name: When to Choose L1 vs L2
+    category: regularization
+    attempts: []
+  ml-rapid-fire/classical-ml/regularization/06-elastic-net.md:
+    name: Elastic Net
+    category: regularization
+    attempts: []
+  ml-rapid-fire/classical-ml/regularization/07-lambda-hyperparameter.md:
+    name: Regularization Hyperparameter
+    category: regularization
+    attempts: []
