@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 12.4% (19/153)
+**Mastery Progress:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 11.7% (19/162)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 105 |
-| **Total** | **153** |
+| ⭐ New | 114 |
+| **Total** | **162** |
 
 ## Quick Start
 
@@ -246,6 +246,20 @@ python3 scripts/generate_readme.py
 - ⭐ [Weight Decay](ml-rapid-fire/deep-learning/regularization/08-weight-decay.md)
 - ⭐ [Label Smoothing](ml-rapid-fire/deep-learning/regularization/09-label-smoothing.md)
 
+### Rnns
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+- ⭐ [What is an RNN](ml-rapid-fire/deep-learning/rnns/01-what-is-rnn.md)
+- ⭐ [RNN Applications](ml-rapid-fire/deep-learning/rnns/02-rnn-applications.md)
+- ⭐ [RNN Limitations](ml-rapid-fire/deep-learning/rnns/03-rnn-limitations.md)
+- ⭐ [LSTM](ml-rapid-fire/deep-learning/rnns/04-lstm.md)
+- ⭐ [LSTM Gates](ml-rapid-fire/deep-learning/rnns/05-lstm-gates.md)
+- ⭐ [GRU](ml-rapid-fire/deep-learning/rnns/06-gru.md)
+- ⭐ [Sequence-to-Sequence](ml-rapid-fire/deep-learning/rnns/07-seq2seq.md)
+- ⭐ [Bidirectional RNNs](ml-rapid-fire/deep-learning/rnns/08-bidirectional-rnn.md)
+- ⭐ [Teacher Forcing](ml-rapid-fire/deep-learning/rnns/09-teacher-forcing.md)
+
 ### Svm
 
 **Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
@@ -262,4 +276,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-28 19:13:04*
+*Last updated: 2025-11-28 19:15:27*

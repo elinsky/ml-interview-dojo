@@ -25,7 +25,7 @@
 - [x] Optimizers (9)
 - [x] Regularization (9)
 - [x] CNNs (9)
-- [ ] RNNs & Sequences (LSTM, GRU)
+- [x] RNNs & Sequences (9)
 - [ ] Transformers & Attention (self-attention, BERT, GPT)
 
 ## Model Evaluation
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 153 cards done**
+**Progress: 162 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)

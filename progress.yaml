@@ -889,3 +889,39 @@ flashcards:
     name: Transfer Learning in CNNs
     category: cnns
     attempts: []
+  ml-rapid-fire/deep-learning/rnns/01-what-is-rnn.md:
+    name: What is an RNN
+    category: rnns
+    attempts: []
+  ml-rapid-fire/deep-learning/rnns/02-rnn-applications.md:
+    name: RNN Applications
+    category: rnns
+    attempts: []
+  ml-rapid-fire/deep-learning/rnns/03-rnn-limitations.md:
+    name: RNN Limitations
+    category: rnns
+    attempts: []
+  ml-rapid-fire/deep-learning/rnns/04-lstm.md:
+    name: LSTM
+    category: rnns
+    attempts: []
+  ml-rapid-fire/deep-learning/rnns/05-lstm-gates.md:
+    name: LSTM Gates
+    category: rnns
+    attempts: []
+  ml-rapid-fire/deep-learning/rnns/06-gru.md:
+    name: GRU
+    category: rnns
+    attempts: []
+  ml-rapid-fire/deep-learning/rnns/07-seq2seq.md:
+    name: Sequence-to-Sequence
+    category: rnns
+    attempts: []
+  ml-rapid-fire/deep-learning/rnns/08-bidirectional-rnn.md:
+    name: Bidirectional RNNs
+    category: rnns
+    attempts: []
+  ml-rapid-fire/deep-learning/rnns/09-teacher-forcing.md:
+    name: Teacher Forcing
+    category: rnns
+    attempts: []
