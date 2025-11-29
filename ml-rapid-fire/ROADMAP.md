@@ -36,7 +36,7 @@
 - [x] Loss Functions (10)
 
 ## Probability & Statistics
-- [ ] Probability Basics (Bayes, conditional, independence)
+- [x] Probability Basics (10)
 - [ ] Distributions (normal, binomial, Poisson, uniform)
 - [ ] Descriptive Stats (mean, variance, correlation, covariance)
 - [ ] Statistical Inference (hypothesis testing, p-values, confidence intervals)
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 218 cards done**
+**Progress: 228 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)
