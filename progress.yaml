@@ -925,3 +925,39 @@ flashcards:
     name: Teacher Forcing
     category: rnns
     attempts: []
+  ml-rapid-fire/deep-learning/transformers/01-what-is-attention.md:
+    name: What is Attention
+    category: transformers
+    attempts: []
+  ml-rapid-fire/deep-learning/transformers/02-scaled-dot-product-attention.md:
+    name: Scaled Dot-Product Attention
+    category: transformers
+    attempts: []
+  ml-rapid-fire/deep-learning/transformers/03-self-vs-cross-attention.md:
+    name: Self-Attention vs Cross-Attention
+    category: transformers
+    attempts: []
+  ml-rapid-fire/deep-learning/transformers/04-multi-head-attention.md:
+    name: Multi-Head Attention
+    category: transformers
+    attempts: []
+  ml-rapid-fire/deep-learning/transformers/05-positional-encoding.md:
+    name: Positional Encoding
+    category: transformers
+    attempts: []
+  ml-rapid-fire/deep-learning/transformers/06-transformer-architecture.md:
+    name: Transformer Architecture
+    category: transformers
+    attempts: []
+  ml-rapid-fire/deep-learning/transformers/07-bert-pretraining.md:
+    name: BERT Pre-training
+    category: transformers
+    attempts: []
+  ml-rapid-fire/deep-learning/transformers/08-gpt-vs-bert.md:
+    name: GPT vs BERT
+    category: transformers
+    attempts: []
+  ml-rapid-fire/deep-learning/transformers/09-encoder-vs-decoder-models.md:
+    name: Encoder vs Decoder Models
+    category: transformers
+    attempts: []

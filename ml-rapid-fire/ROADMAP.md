@@ -26,7 +26,7 @@
 - [x] Regularization (9)
 - [x] CNNs (9)
 - [x] RNNs & Sequences (9)
-- [ ] Transformers & Attention (self-attention, BERT, GPT)
+- [x] Transformers & Attention (9)
 
 ## Model Evaluation
 - [ ] Classification Metrics (precision, recall, F1, AUC, confusion matrix)
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 162 cards done**
+**Progress: 171 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)
