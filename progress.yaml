@@ -1,7 +1,7 @@
 flashcards:
   ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md:
     name: What is Logistic Regression
-    category: classical-ml
+    category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T12:40:19.779947'
@@ -12,7 +12,7 @@ flashcards:
       notes: Confused sigmoid with softmax
   ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md:
     name: Why Not Linear Regression
-    category: classical-ml
+    category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:14:36.688697'
@@ -22,7 +22,7 @@ flashcards:
       recall_quality: full
   ml-rapid-fire/classical-ml/logistic-regression/03-sigmoid-function.md:
     name: Sigmoid Function
-    category: classical-ml
+    category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:16:50.429576'
@@ -33,7 +33,7 @@ flashcards:
       notes: Said -1 to 1 (thats tanh), forgot formula
   ml-rapid-fire/classical-ml/logistic-regression/04-how-trained.md:
     name: How Trained
-    category: classical-ml
+    category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:17:37.998837'
@@ -43,7 +43,7 @@ flashcards:
       recall_quality: full
   ml-rapid-fire/classical-ml/logistic-regression/05-coefficient-interpretation.md:
     name: Coefficient Interpretation
-    category: classical-ml
+    category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:18:21.172664'
@@ -54,7 +54,7 @@ flashcards:
       notes: Knew log odds involved, forgot e^beta relationship
   ml-rapid-fire/classical-ml/logistic-regression/06-decision-boundary.md:
     name: Decision Boundary
-    category: classical-ml
+    category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:19:34.202086'
@@ -65,7 +65,7 @@ flashcards:
       notes: Knew it was linear, but didnt understand why or what it means
   ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md:
     name: Multi-class
-    category: classical-ml
+    category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:20:57.106630'
@@ -75,7 +75,7 @@ flashcards:
       recall_quality: full
   ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md:
     name: Loss Function
-    category: classical-ml
+    category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:21:22.926173'
@@ -412,7 +412,7 @@ flashcards:
       notes: Got 3/4, missed "problem changes frequently"
   ml-rapid-fire/classical-ml/logistic-regression/09-linearly-separable.md:
     name: Linearly Separable
-    category: classical-ml
+    category: logistic-regression
     topic: logistic-regression
     attempts: []
   ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-decomposition.md:
@@ -1148,4 +1148,44 @@ flashcards:
   ml-rapid-fire/model-evaluation/loss-functions/10-choosing-loss-function.md:
     name: Choosing a Loss Function
     category: loss-functions
+    attempts: []
+  ml-rapid-fire/statistics/probability-basics/01-probability-axioms.md:
+    name: Probability Axioms
+    category: probability-basics
+    attempts: []
+  ml-rapid-fire/statistics/probability-basics/02-conditional-probability.md:
+    name: Conditional Probability
+    category: probability-basics
+    attempts: []
+  ml-rapid-fire/statistics/probability-basics/03-bayes-theorem.md:
+    name: Bayes' Theorem
+    category: probability-basics
+    attempts: []
+  ml-rapid-fire/statistics/probability-basics/04-prior-likelihood-posterior.md:
+    name: Prior, Likelihood, Posterior
+    category: probability-basics
+    attempts: []
+  ml-rapid-fire/statistics/probability-basics/05-independence.md:
+    name: Independence
+    category: probability-basics
+    attempts: []
+  ml-rapid-fire/statistics/probability-basics/06-conditional-independence.md:
+    name: Conditional Independence
+    category: probability-basics
+    attempts: []
+  ml-rapid-fire/statistics/probability-basics/07-law-of-total-probability.md:
+    name: Law of Total Probability
+    category: probability-basics
+    attempts: []
+  ml-rapid-fire/statistics/probability-basics/08-joint-vs-marginal-probability.md:
+    name: Joint vs Marginal Probability
+    category: probability-basics
+    attempts: []
+  ml-rapid-fire/statistics/probability-basics/09-mutually-exclusive-vs-independent.md:
+    name: Mutually Exclusive vs Independent
+    category: probability-basics
+    attempts: []
+  ml-rapid-fire/statistics/probability-basics/10-chain-rule-of-probability.md:
+    name: Chain Rule of Probability
+    category: probability-basics
     attempts: []

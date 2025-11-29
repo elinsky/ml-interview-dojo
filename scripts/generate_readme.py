@@ -11,6 +11,85 @@ from collections import defaultdict
 PROGRESS_FILE = Path(__file__).parent.parent / "progress.yaml"
 README_FILE = Path(__file__).parent.parent / "README.md"
 
+# Display names for categories (when different from kebab-case title)
+CATEGORY_DISPLAY_NAMES = {
+    "ml-basics": "ML Basics",
+    "cnns": "CNNs",
+    "rnns": "RNNs",
+    "svm": "SVM",
+    "knn": "KNN",
+}
+
+# Define major sections and their subsections (in display order)
+# Maps category names to their parent section
+SECTION_STRUCTURE = {
+    "Core ML": [
+        "ml-basics",
+        "linear-regression",
+        "logistic-regression",
+        "cross-entropy",
+        "regularization",
+    ],
+    "Classical ML": [
+        "decision-trees",
+        "svm",
+        "knn",
+        "naive-bayes",
+        "clustering",
+        "dimensionality-reduction",
+    ],
+    "Deep Learning": [
+        "neural-network-basics",
+        "optimizers",
+        "cnns",
+        "rnns",
+        "transformers",
+    ],
+    "Model Evaluation": [
+        "classification-metrics",
+        "regression-metrics",
+        "validation",
+        "model-selection",
+        "loss-functions",
+    ],
+    "Probability & Statistics": [
+        "probability-basics",
+        "distributions",
+        "descriptive-stats",
+        "statistical-inference",
+        "mle-estimators",
+    ],
+    "Linear Algebra": [
+        "vectors-matrices",
+        "eigenvalues-eigenvectors",
+        "svd-decomposition",
+    ],
+    "Calculus & Optimization": [
+        "derivatives-gradients",
+        "convex-optimization",
+        "gradient-descent-variants",
+    ],
+    "Data Engineering": [
+        "feature-engineering",
+        "missing-data",
+        "imbalanced-data",
+        "text-processing",
+    ],
+    "Reinforcement Learning": [
+        "rl-core-concepts",
+        "rl-algorithms",
+        "exploration-exploitation",
+    ],
+    "Systems & Production": [
+        "ml-ops",
+        "scalability",
+    ],
+    "Information Theory": [
+        "entropy",
+        "kl-divergence",
+    ],
+}
+
 
 def load_progress():
     if PROGRESS_FILE.exists():
@@ -79,6 +158,14 @@ def get_flashcards_by_category(progress):
         flashcards_by_category[category].sort(key=lambda x: x['file'])
 
     return flashcards_by_category
+
+
+def get_section_for_category(category):
+    """Find which major section a category belongs to"""
+    for section, categories in SECTION_STRUCTURE.items():
+        if category in categories:
+            return section
+    return None
 
 
 def generate_progress_bar(current, total, width=30):
@@ -150,29 +237,93 @@ def generate_readme():
     lines.append("python3 scripts/generate_readme.py")
     lines.append("```\n")
 
-    # Flashcards by category
+    # Group categories by section
+    categories_by_section = defaultdict(list)
+    uncategorized = []
+
+    for category in flashcards_by_category.keys():
+        section = get_section_for_category(category)
+        if section:
+            categories_by_section[section].append(category)
+        else:
+            uncategorized.append(category)
+
+    # Flashcards by section
     lines.append("## Flashcards\n")
 
-    for category in sorted(flashcards_by_category.keys()):
-        cards = flashcards_by_category[category]
-        category_display = category.replace('-', ' ').title()
+    first_section = True
+    for section in SECTION_STRUCTURE.keys():
+        section_categories = categories_by_section.get(section, [])
+        if not section_categories:
+            continue
 
-        # Category stats
-        cat_total = len(cards)
-        cat_mastered = sum(1 for card in cards if get_best_tier(card['data']) == 3)
+        # Add divider between sections (not before first)
+        if not first_section:
+            lines.append("---\n")
+        first_section = False
 
-        lines.append(f"### {category_display}\n")
-        lines.append(f"**Progress:** {generate_progress_bar(cat_mastered, cat_total)} ({cat_mastered}/{cat_total})\n")
+        # Section header with aggregate stats
+        section_total = 0
+        section_mastered = 0
+        for category in section_categories:
+            cards = flashcards_by_category[category]
+            section_total += len(cards)
+            section_mastered += sum(1 for card in cards if get_best_tier(card['data']) == 3)
 
-        for card in cards:
-            emoji, status, tier = get_status(card['data'])
-            attempts = len(card['data'].get('attempts', []))
-            if attempts > 0:
-                lines.append(f"- {emoji} [{card['name']}]({card['file']}) `{attempts} attempts`")
-            else:
-                lines.append(f"- {emoji} [{card['name']}]({card['file']})")
+        lines.append(f"### {section}\n")
+        lines.append(f"**Section Progress:** {generate_progress_bar(section_mastered, section_total)} ({section_mastered}/{section_total})\n")
 
-        lines.append("")
+        # Sort categories by their order in SECTION_STRUCTURE
+        section_order = SECTION_STRUCTURE[section]
+        sorted_categories = sorted(
+            section_categories,
+            key=lambda c: section_order.index(c) if c in section_order else 999
+        )
+
+        for category in sorted_categories:
+            cards = flashcards_by_category[category]
+            category_display = CATEGORY_DISPLAY_NAMES.get(category, category.replace('-', ' ').title())
+
+            # Category stats
+            cat_total = len(cards)
+            cat_mastered = sum(1 for card in cards if get_best_tier(card['data']) == 3)
+
+            lines.append(f"#### {category_display}\n")
+            lines.append(f"**Progress:** {generate_progress_bar(cat_mastered, cat_total)} ({cat_mastered}/{cat_total})\n")
+
+            for card in cards:
+                emoji, status, tier = get_status(card['data'])
+                attempts = len(card['data'].get('attempts', []))
+                if attempts > 0:
+                    lines.append(f"- {emoji} [{card['name']}]({card['file']}) `{attempts} attempts`")
+                else:
+                    lines.append(f"- {emoji} [{card['name']}]({card['file']})")
+
+            lines.append("")
+
+    # Handle uncategorized if any
+    if uncategorized:
+        lines.append("---\n")
+        lines.append("### Other\n")
+        for category in sorted(uncategorized):
+            cards = flashcards_by_category[category]
+            category_display = CATEGORY_DISPLAY_NAMES.get(category, category.replace('-', ' ').title())
+
+            cat_total = len(cards)
+            cat_mastered = sum(1 for card in cards if get_best_tier(card['data']) == 3)
+
+            lines.append(f"#### {category_display}\n")
+            lines.append(f"**Progress:** {generate_progress_bar(cat_mastered, cat_total)} ({cat_mastered}/{cat_total})\n")
+
+            for card in cards:
+                emoji, status, tier = get_status(card['data'])
+                attempts = len(card['data'].get('attempts', []))
+                if attempts > 0:
+                    lines.append(f"- {emoji} [{card['name']}]({card['file']}) `{attempts} attempts`")
+                else:
+                    lines.append(f"- {emoji} [{card['name']}]({card['file']})")
+
+            lines.append("")
 
     # Footer
     lines.append("---")
