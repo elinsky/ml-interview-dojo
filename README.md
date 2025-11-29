@@ -14,16 +14,16 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 8.3% (19/228)
+**Mastery Progress:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 8.2% (19/231)
 
 | Status | Count |
 |--------|-------|
 | 🏆 Mastered | 19 |
 | 💪 Independent | 0 |
-| 👍 Recalled | 24 |
+| 👍 Recalled | 27 |
 | ☑️ Attempted | 5 |
 | ⭐ New | 180 |
-| **Total** | **228** |
+| **Total** | **231** |
 
 ## Quick Start
 
@@ -308,22 +308,25 @@ python3 scripts/generate_readme.py
 
 ### Model Evaluation
 
-**Section Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/47)
+**Section Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/50)
 
 #### Classification Metrics
 
-**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/13)
 
-- ⭐ [Confusion Matrix](ml-rapid-fire/model-evaluation/classification-metrics/01-confusion-matrix.md)
-- ⭐ [Accuracy](ml-rapid-fire/model-evaluation/classification-metrics/02-accuracy.md)
-- ⭐ [Precision](ml-rapid-fire/model-evaluation/classification-metrics/03-precision.md)
-- ⭐ [Recall](ml-rapid-fire/model-evaluation/classification-metrics/04-recall.md)
-- ⭐ [F1 Score](ml-rapid-fire/model-evaluation/classification-metrics/05-f1-score.md)
-- ⭐ [Precision-Recall Tradeoff](ml-rapid-fire/model-evaluation/classification-metrics/06-precision-recall-tradeoff.md)
-- ⭐ [ROC Curve](ml-rapid-fire/model-evaluation/classification-metrics/07-roc-curve.md)
-- ⭐ [AUC-ROC](ml-rapid-fire/model-evaluation/classification-metrics/08-auc-roc.md)
-- ⭐ [PR Curve vs ROC](ml-rapid-fire/model-evaluation/classification-metrics/09-pr-curve-vs-roc.md)
-- ⭐ [Specificity](ml-rapid-fire/model-evaluation/classification-metrics/10-specificity.md)
+- ⭐ [TP, FP, TN, FN](ml-rapid-fire/model-evaluation/classification-metrics/01-tp-fp-tn-fn.md)
+- 👍 [Confusion Matrix](ml-rapid-fire/model-evaluation/classification-metrics/02-confusion-matrix.md) `1 attempts`
+- ⭐ [Type I and Type II Errors](ml-rapid-fire/model-evaluation/classification-metrics/03-type-i-type-ii.md)
+- ⭐ [Total](ml-rapid-fire/model-evaluation/classification-metrics/04-total.md)
+- 👍 [Accuracy](ml-rapid-fire/model-evaluation/classification-metrics/05-accuracy.md) `1 attempts`
+- 👍 [Precision](ml-rapid-fire/model-evaluation/classification-metrics/06-precision.md) `1 attempts`
+- ⭐ [Recall](ml-rapid-fire/model-evaluation/classification-metrics/07-recall.md)
+- ⭐ [F1 Score](ml-rapid-fire/model-evaluation/classification-metrics/08-f1-score.md)
+- ⭐ [Precision-Recall Tradeoff](ml-rapid-fire/model-evaluation/classification-metrics/09-precision-recall-tradeoff.md)
+- ⭐ [ROC Curve](ml-rapid-fire/model-evaluation/classification-metrics/10-roc-curve.md)
+- ⭐ [AUC-ROC](ml-rapid-fire/model-evaluation/classification-metrics/11-auc-roc.md)
+- ⭐ [PR Curve vs ROC](ml-rapid-fire/model-evaluation/classification-metrics/12-pr-curve-vs-roc.md)
+- ⭐ [Specificity](ml-rapid-fire/model-evaluation/classification-metrics/13-specificity.md)
 
 #### Regression Metrics
 
@@ -405,4 +408,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-29 13:06:05*
+*Last updated: 2025-11-29 13:39:03*
