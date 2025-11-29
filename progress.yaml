@@ -1029,3 +1029,43 @@ flashcards:
     name: Adjusted R-Squared
     category: regression-metrics
     attempts: []
+  ml-rapid-fire/model-evaluation/validation/01-train-test-split.md:
+    name: Train/Test Split
+    category: validation
+    attempts: []
+  ml-rapid-fire/model-evaluation/validation/02-validation-set-purpose.md:
+    name: Validation Set Purpose
+    category: validation
+    attempts: []
+  ml-rapid-fire/model-evaluation/validation/03-k-fold-cross-validation.md:
+    name: K-Fold Cross-Validation
+    category: validation
+    attempts: []
+  ml-rapid-fire/model-evaluation/validation/04-stratified-k-fold.md:
+    name: Stratified K-Fold
+    category: validation
+    attempts: []
+  ml-rapid-fire/model-evaluation/validation/05-loocv.md:
+    name: Leave-One-Out Cross-Validation
+    category: validation
+    attempts: []
+  ml-rapid-fire/model-evaluation/validation/06-holdout-vs-cv.md:
+    name: Holdout vs Cross-Validation
+    category: validation
+    attempts: []
+  ml-rapid-fire/model-evaluation/validation/07-data-leakage.md:
+    name: Data Leakage
+    category: validation
+    attempts: []
+  ml-rapid-fire/model-evaluation/validation/08-time-series-validation.md:
+    name: Time Series Validation
+    category: validation
+    attempts: []
+  ml-rapid-fire/model-evaluation/validation/09-bias-variance-cv.md:
+    name: Bias-Variance in Cross-Validation
+    category: validation
+    attempts: []
+  ml-rapid-fire/model-evaluation/validation/10-nested-cross-validation.md:
+    name: Nested Cross-Validation
+    category: validation
+    attempts: []

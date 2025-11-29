@@ -31,7 +31,7 @@
 ## Model Evaluation
 - [x] Classification Metrics (10)
 - [x] Regression Metrics (7)
-- [ ] Validation (cross-validation, train/val/test)
+- [x] Validation (10)
 - [ ] Model Selection (grid search, hyperparameter tuning)
 - [ ] Loss Functions (cross-entropy, hinge, etc.)
 
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 188 cards done**
+**Progress: 198 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)

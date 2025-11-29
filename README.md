@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 11.7% (19/162)
+**Mastery Progress:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 9.6% (19/198)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 114 |
-| **Total** | **162** |
+| ⭐ New | 150 |
+| **Total** | **198** |
 
 ## Quick Start
 
@@ -50,6 +50,21 @@ python3 scripts/generate_readme.py
 - 🏆 [Multi-class](ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md) `1 attempts`
 - 🏆 [Loss Function](ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md) `1 attempts`
 - ⭐ [Linearly Separable](ml-rapid-fire/classical-ml/logistic-regression/09-linearly-separable.md)
+
+### Classification Metrics
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+
+- ⭐ [Confusion Matrix](ml-rapid-fire/model-evaluation/classification-metrics/01-confusion-matrix.md)
+- ⭐ [Accuracy](ml-rapid-fire/model-evaluation/classification-metrics/02-accuracy.md)
+- ⭐ [Precision](ml-rapid-fire/model-evaluation/classification-metrics/03-precision.md)
+- ⭐ [Recall](ml-rapid-fire/model-evaluation/classification-metrics/04-recall.md)
+- ⭐ [F1 Score](ml-rapid-fire/model-evaluation/classification-metrics/05-f1-score.md)
+- ⭐ [Precision-Recall Tradeoff](ml-rapid-fire/model-evaluation/classification-metrics/06-precision-recall-tradeoff.md)
+- ⭐ [ROC Curve](ml-rapid-fire/model-evaluation/classification-metrics/07-roc-curve.md)
+- ⭐ [AUC-ROC](ml-rapid-fire/model-evaluation/classification-metrics/08-auc-roc.md)
+- ⭐ [PR Curve vs ROC](ml-rapid-fire/model-evaluation/classification-metrics/09-pr-curve-vs-roc.md)
+- ⭐ [Specificity](ml-rapid-fire/model-evaluation/classification-metrics/10-specificity.md)
 
 ### Clustering
 
@@ -225,6 +240,18 @@ python3 scripts/generate_readme.py
 - ⭐ [Choosing an Optimizer](ml-rapid-fire/deep-learning/optimizers/08-choosing-optimizer.md)
 - ⭐ [Common Optimizer Problems](ml-rapid-fire/deep-learning/optimizers/09-common-problems.md)
 
+### Regression Metrics
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/7)
+
+- ⭐ [Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/01-mse.md)
+- ⭐ [Root Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/02-rmse.md)
+- ⭐ [Mean Absolute Error](ml-rapid-fire/model-evaluation/regression-metrics/03-mae.md)
+- ⭐ [MSE vs MAE](ml-rapid-fire/model-evaluation/regression-metrics/04-mse-vs-mae.md)
+- ⭐ [R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/05-r-squared.md)
+- ⭐ [R-Squared Limitations](ml-rapid-fire/model-evaluation/regression-metrics/06-r-squared-limitations.md)
+- ⭐ [Adjusted R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/07-adjusted-r-squared.md)
+
 ### Regularization
 
 **Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/16)
@@ -274,6 +301,35 @@ python3 scripts/generate_readme.py
 - ⭐ [SVM Pros and Cons](ml-rapid-fire/classical-ml/svm/08-pros-cons.md)
 - ⭐ [Multiclass SVM](ml-rapid-fire/classical-ml/svm/09-multiclass.md)
 
+### Transformers
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+- ⭐ [What is Attention](ml-rapid-fire/deep-learning/transformers/01-what-is-attention.md)
+- ⭐ [Scaled Dot-Product Attention](ml-rapid-fire/deep-learning/transformers/02-scaled-dot-product-attention.md)
+- ⭐ [Self-Attention vs Cross-Attention](ml-rapid-fire/deep-learning/transformers/03-self-vs-cross-attention.md)
+- ⭐ [Multi-Head Attention](ml-rapid-fire/deep-learning/transformers/04-multi-head-attention.md)
+- ⭐ [Positional Encoding](ml-rapid-fire/deep-learning/transformers/05-positional-encoding.md)
+- ⭐ [Transformer Architecture](ml-rapid-fire/deep-learning/transformers/06-transformer-architecture.md)
+- ⭐ [BERT Pre-training](ml-rapid-fire/deep-learning/transformers/07-bert-pretraining.md)
+- ⭐ [GPT vs BERT](ml-rapid-fire/deep-learning/transformers/08-gpt-vs-bert.md)
+- ⭐ [Encoder vs Decoder Models](ml-rapid-fire/deep-learning/transformers/09-encoder-vs-decoder-models.md)
+
+### Validation
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+
+- ⭐ [Train/Test Split](ml-rapid-fire/model-evaluation/validation/01-train-test-split.md)
+- ⭐ [Validation Set Purpose](ml-rapid-fire/model-evaluation/validation/02-validation-set-purpose.md)
+- ⭐ [K-Fold Cross-Validation](ml-rapid-fire/model-evaluation/validation/03-k-fold-cross-validation.md)
+- ⭐ [Stratified K-Fold](ml-rapid-fire/model-evaluation/validation/04-stratified-k-fold.md)
+- ⭐ [Leave-One-Out Cross-Validation](ml-rapid-fire/model-evaluation/validation/05-loocv.md)
+- ⭐ [Holdout vs Cross-Validation](ml-rapid-fire/model-evaluation/validation/06-holdout-vs-cv.md)
+- ⭐ [Data Leakage](ml-rapid-fire/model-evaluation/validation/07-data-leakage.md)
+- ⭐ [Time Series Validation](ml-rapid-fire/model-evaluation/validation/08-time-series-validation.md)
+- ⭐ [Bias-Variance in Cross-Validation](ml-rapid-fire/model-evaluation/validation/09-bias-variance-cv.md)
+- ⭐ [Nested Cross-Validation](ml-rapid-fire/model-evaluation/validation/10-nested-cross-validation.md)
+
 ---
 
-*Last updated: 2025-11-28 19:15:27*
+*Last updated: 2025-11-28 19:36:07*
