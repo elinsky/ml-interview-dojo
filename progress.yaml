@@ -781,3 +781,39 @@ flashcards:
     name: Vanishing and Exploding Gradients
     category: neural-network-basics
     attempts: []
+  ml-rapid-fire/deep-learning/optimizers/01-what-is-optimizer.md:
+    name: What is an Optimizer
+    category: optimizers
+    attempts: []
+  ml-rapid-fire/deep-learning/optimizers/02-gradient-descent-variants.md:
+    name: Gradient Descent Variants
+    category: optimizers
+    attempts: []
+  ml-rapid-fire/deep-learning/optimizers/03-learning-rate.md:
+    name: Learning Rate
+    category: optimizers
+    attempts: []
+  ml-rapid-fire/deep-learning/optimizers/04-learning-rate-schedules.md:
+    name: Learning Rate Schedules
+    category: optimizers
+    attempts: []
+  ml-rapid-fire/deep-learning/optimizers/05-momentum.md:
+    name: Momentum
+    category: optimizers
+    attempts: []
+  ml-rapid-fire/deep-learning/optimizers/06-rmsprop.md:
+    name: RMSprop
+    category: optimizers
+    attempts: []
+  ml-rapid-fire/deep-learning/optimizers/07-adam.md:
+    name: Adam Optimizer
+    category: optimizers
+    attempts: []
+  ml-rapid-fire/deep-learning/optimizers/08-choosing-optimizer.md:
+    name: Choosing an Optimizer
+    category: optimizers
+    attempts: []
+  ml-rapid-fire/deep-learning/optimizers/09-common-problems.md:
+    name: Common Optimizer Problems
+    category: optimizers
+    attempts: []

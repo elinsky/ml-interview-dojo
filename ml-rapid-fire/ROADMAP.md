@@ -22,7 +22,7 @@
 
 ## Deep Learning
 - [x] Neural Network Basics (9)
-- [ ] Optimizers (SGD, Adam, momentum)
+- [x] Optimizers (9)
 - [ ] Regularization (dropout, batch norm, early stopping)
 - [ ] CNNs (convolution, pooling, architectures)
 - [ ] RNNs & Sequences (LSTM, GRU)
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 126 cards done**
+**Progress: 135 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)
