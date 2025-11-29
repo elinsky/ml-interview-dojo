@@ -817,3 +817,39 @@ flashcards:
     name: Common Optimizer Problems
     category: optimizers
     attempts: []
+  ml-rapid-fire/deep-learning/regularization/01-what-is-regularization.md:
+    name: What is Regularization
+    category: regularization
+    attempts: []
+  ml-rapid-fire/deep-learning/regularization/02-dropout.md:
+    name: Dropout
+    category: regularization
+    attempts: []
+  ml-rapid-fire/deep-learning/regularization/03-why-dropout-works.md:
+    name: Why Dropout Works
+    category: regularization
+    attempts: []
+  ml-rapid-fire/deep-learning/regularization/04-batch-normalization.md:
+    name: Batch Normalization
+    category: regularization
+    attempts: []
+  ml-rapid-fire/deep-learning/regularization/05-why-batch-norm-works.md:
+    name: Why Batch Norm Works
+    category: regularization
+    attempts: []
+  ml-rapid-fire/deep-learning/regularization/06-early-stopping.md:
+    name: Early Stopping
+    category: regularization
+    attempts: []
+  ml-rapid-fire/deep-learning/regularization/07-data-augmentation.md:
+    name: Data Augmentation
+    category: regularization
+    attempts: []
+  ml-rapid-fire/deep-learning/regularization/08-weight-decay.md:
+    name: Weight Decay
+    category: regularization
+    attempts: []
+  ml-rapid-fire/deep-learning/regularization/09-label-smoothing.md:
+    name: Label Smoothing
+    category: regularization
+    attempts: []
