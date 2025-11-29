@@ -21,7 +21,7 @@
 - [x] Dimensionality Reduction (9)
 
 ## Deep Learning
-- [ ] Neural Network Basics (forward/backward pass, activations)
+- [x] Neural Network Basics (9)
 - [ ] Optimizers (SGD, Adam, momentum)
 - [ ] Regularization (dropout, batch norm, early stopping)
 - [ ] CNNs (convolution, pooling, architectures)
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 117 cards done**
+**Progress: 126 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)

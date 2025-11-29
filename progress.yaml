@@ -745,3 +745,39 @@ flashcards:
     name: PCA vs t-SNE
     category: dimensionality-reduction
     attempts: []
+  ml-rapid-fire/deep-learning/neural-network-basics/01-what-is-neural-network.md:
+    name: What is a Neural Network
+    category: neural-network-basics
+    attempts: []
+  ml-rapid-fire/deep-learning/neural-network-basics/02-forward-pass.md:
+    name: Forward Pass
+    category: neural-network-basics
+    attempts: []
+  ml-rapid-fire/deep-learning/neural-network-basics/03-backpropagation.md:
+    name: Backpropagation
+    category: neural-network-basics
+    attempts: []
+  ml-rapid-fire/deep-learning/neural-network-basics/04-why-activation-functions.md:
+    name: Why Activation Functions
+    category: neural-network-basics
+    attempts: []
+  ml-rapid-fire/deep-learning/neural-network-basics/05-common-activations.md:
+    name: Common Activation Functions
+    category: neural-network-basics
+    attempts: []
+  ml-rapid-fire/deep-learning/neural-network-basics/06-loss-functions.md:
+    name: Loss Functions
+    category: neural-network-basics
+    attempts: []
+  ml-rapid-fire/deep-learning/neural-network-basics/07-weight-initialization.md:
+    name: Weight Initialization
+    category: neural-network-basics
+    attempts: []
+  ml-rapid-fire/deep-learning/neural-network-basics/08-training-loop.md:
+    name: Training Loop
+    category: neural-network-basics
+    attempts: []
+  ml-rapid-fire/deep-learning/neural-network-basics/09-vanishing-exploding-gradients.md:
+    name: Vanishing and Exploding Gradients
+    category: neural-network-basics
+    attempts: []

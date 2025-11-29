@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [████░░░░░░░░░░░░░░░░░░░░░░░░░░] 16.2% (19/117)
+**Mastery Progress:** [████░░░░░░░░░░░░░░░░░░░░░░░░░░] 15.1% (19/126)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 69 |
-| **Total** | **117** |
+| ⭐ New | 78 |
+| **Total** | **126** |
 
 ## Quick Start
 
@@ -183,6 +183,20 @@ python3 scripts/generate_readme.py
 - ⭐ [Log Probabilities](ml-rapid-fire/classical-ml/naive-bayes/08-log-probabilities.md)
 - ⭐ [Naive Bayes Pros and Cons](ml-rapid-fire/classical-ml/naive-bayes/09-pros-cons.md)
 
+### Neural Network Basics
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+- ⭐ [What is a Neural Network](ml-rapid-fire/deep-learning/neural-network-basics/01-what-is-neural-network.md)
+- ⭐ [Forward Pass](ml-rapid-fire/deep-learning/neural-network-basics/02-forward-pass.md)
+- ⭐ [Backpropagation](ml-rapid-fire/deep-learning/neural-network-basics/03-backpropagation.md)
+- ⭐ [Why Activation Functions](ml-rapid-fire/deep-learning/neural-network-basics/04-why-activation-functions.md)
+- ⭐ [Common Activation Functions](ml-rapid-fire/deep-learning/neural-network-basics/05-common-activations.md)
+- ⭐ [Loss Functions](ml-rapid-fire/deep-learning/neural-network-basics/06-loss-functions.md)
+- ⭐ [Weight Initialization](ml-rapid-fire/deep-learning/neural-network-basics/07-weight-initialization.md)
+- ⭐ [Training Loop](ml-rapid-fire/deep-learning/neural-network-basics/08-training-loop.md)
+- ⭐ [Vanishing and Exploding Gradients](ml-rapid-fire/deep-learning/neural-network-basics/09-vanishing-exploding-gradients.md)
+
 ### Regularization
 
 **Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/7)
@@ -211,4 +225,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-28 18:55:49*
+*Last updated: 2025-11-28 19:01:57*
