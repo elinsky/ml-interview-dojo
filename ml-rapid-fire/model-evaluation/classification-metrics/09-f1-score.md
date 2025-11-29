@@ -1,6 +1,10 @@
 # F1 Score
 
 **Q:** What is F1 score and when should you use it?
+- Formula
+- Type of mean
+- Why that mean matters
+- When to use it
 
 **A:**
 

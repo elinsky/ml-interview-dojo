@@ -1,6 +1,10 @@
 # Precision
 
 **Q:** What is precision and when do you prioritize it?
+- Formula
+- Interpretation (one sentence)
+- When to prioritize
+- Example
 
 **A:**
 

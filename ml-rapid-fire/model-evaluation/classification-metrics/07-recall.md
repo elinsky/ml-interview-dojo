@@ -1,6 +1,11 @@
 # Recall
 
 **Q:** What is recall and when do you prioritize it?
+- Formula
+- Interpretation (one sentence)
+- Alternative names
+- When to prioritize
+- Example
 
 **A:**
 
