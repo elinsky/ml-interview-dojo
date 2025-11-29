@@ -565,3 +565,39 @@ flashcards:
     name: Boosting Bias or Variance
     category: decision-trees
     attempts: []
+  ml-rapid-fire/classical-ml/svm/01-what-is-svm.md:
+    name: What is an SVM
+    category: svm
+    attempts: []
+  ml-rapid-fire/classical-ml/svm/02-margin-support-vectors.md:
+    name: Margin and Support Vectors
+    category: svm
+    attempts: []
+  ml-rapid-fire/classical-ml/svm/03-hard-vs-soft-margin.md:
+    name: Hard Margin vs Soft Margin
+    category: svm
+    attempts: []
+  ml-rapid-fire/classical-ml/svm/04-kernel-trick.md:
+    name: The Kernel Trick
+    category: svm
+    attempts: []
+  ml-rapid-fire/classical-ml/svm/05-common-kernels.md:
+    name: Common Kernel Functions
+    category: svm
+    attempts: []
+  ml-rapid-fire/classical-ml/svm/06-c-parameter.md:
+    name: The C Parameter
+    category: svm
+    attempts: []
+  ml-rapid-fire/classical-ml/svm/07-gamma-parameter.md:
+    name: The Gamma Parameter
+    category: svm
+    attempts: []
+  ml-rapid-fire/classical-ml/svm/08-pros-cons.md:
+    name: SVM Pros and Cons
+    category: svm
+    attempts: []
+  ml-rapid-fire/classical-ml/svm/09-multiclass.md:
+    name: Multiclass SVM
+    category: svm
+    attempts: []

@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [███████░░░░░░░░░░░░░░░░░░░░░░░] 26.4% (19/72)
+**Mastery Progress:** [███████░░░░░░░░░░░░░░░░░░░░░░░] 23.5% (19/81)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 24 |
-| **Total** | **72** |
+| ⭐ New | 33 |
+| **Total** | **81** |
 
 ## Quick Start
 
@@ -139,6 +139,20 @@ python3 scripts/generate_readme.py
 - ⭐ [Elastic Net](ml-rapid-fire/classical-ml/regularization/06-elastic-net.md)
 - ⭐ [Regularization Hyperparameter](ml-rapid-fire/classical-ml/regularization/07-lambda-hyperparameter.md)
 
+### Svm
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+- ⭐ [What is an SVM](ml-rapid-fire/classical-ml/svm/01-what-is-svm.md)
+- ⭐ [Margin and Support Vectors](ml-rapid-fire/classical-ml/svm/02-margin-support-vectors.md)
+- ⭐ [Hard Margin vs Soft Margin](ml-rapid-fire/classical-ml/svm/03-hard-vs-soft-margin.md)
+- ⭐ [The Kernel Trick](ml-rapid-fire/classical-ml/svm/04-kernel-trick.md)
+- ⭐ [Common Kernel Functions](ml-rapid-fire/classical-ml/svm/05-common-kernels.md)
+- ⭐ [The C Parameter](ml-rapid-fire/classical-ml/svm/06-c-parameter.md)
+- ⭐ [The Gamma Parameter](ml-rapid-fire/classical-ml/svm/07-gamma-parameter.md)
+- ⭐ [SVM Pros and Cons](ml-rapid-fire/classical-ml/svm/08-pros-cons.md)
+- ⭐ [Multiclass SVM](ml-rapid-fire/classical-ml/svm/09-multiclass.md)
+
 ---
 
-*Last updated: 2025-11-28 18:12:31*
+*Last updated: 2025-11-28 18:35:13*
