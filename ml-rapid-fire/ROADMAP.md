@@ -15,7 +15,7 @@
 ## Classical ML
 - [x] Decision Trees & Ensembles (16)
 - [x] SVM (9)
-- [ ] KNN
+- [x] KNN (9)
 - [ ] Naive Bayes
 - [ ] Clustering (k-means, DBSCAN, hierarchical)
 - [ ] Dimensionality Reduction (PCA, t-SNE)
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 81 cards done**
+**Progress: 90 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)

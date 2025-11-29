@@ -601,3 +601,39 @@ flashcards:
     name: Multiclass SVM
     category: svm
     attempts: []
+  ml-rapid-fire/classical-ml/knn/01-what-is-knn.md:
+    name: What is KNN
+    category: knn
+    attempts: []
+  ml-rapid-fire/classical-ml/knn/02-prediction.md:
+    name: KNN Prediction
+    category: knn
+    attempts: []
+  ml-rapid-fire/classical-ml/knn/03-distance-metrics.md:
+    name: Distance Metrics
+    category: knn
+    attempts: []
+  ml-rapid-fire/classical-ml/knn/04-choosing-k.md:
+    name: Choosing K
+    category: knn
+    attempts: []
+  ml-rapid-fire/classical-ml/knn/05-curse-of-dimensionality.md:
+    name: Curse of Dimensionality
+    category: knn
+    attempts: []
+  ml-rapid-fire/classical-ml/knn/06-feature-scaling.md:
+    name: Feature Scaling for KNN
+    category: knn
+    attempts: []
+  ml-rapid-fire/classical-ml/knn/07-weighted-knn.md:
+    name: Weighted KNN
+    category: knn
+    attempts: []
+  ml-rapid-fire/classical-ml/knn/08-computational-complexity.md:
+    name: KNN Computational Complexity
+    category: knn
+    attempts: []
+  ml-rapid-fire/classical-ml/knn/09-pros-cons.md:
+    name: KNN Pros and Cons
+    category: knn
+    attempts: []

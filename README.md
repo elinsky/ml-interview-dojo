@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [███████░░░░░░░░░░░░░░░░░░░░░░░] 23.5% (19/81)
+**Mastery Progress:** [██████░░░░░░░░░░░░░░░░░░░░░░░░] 21.1% (19/90)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 33 |
-| **Total** | **81** |
+| ⭐ New | 42 |
+| **Total** | **90** |
 
 ## Quick Start
 
@@ -84,6 +84,20 @@ python3 scripts/generate_readme.py
 - ⭐ [Gradient Boosting](ml-rapid-fire/classical-ml/decision-trees/14-gradient-boosting.md)
 - ⭐ [XGBoost](ml-rapid-fire/classical-ml/decision-trees/15-xgboost.md)
 - ⭐ [Boosting Bias or Variance](ml-rapid-fire/classical-ml/decision-trees/16-boosting-bias-variance.md)
+
+### Knn
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+- ⭐ [What is KNN](ml-rapid-fire/classical-ml/knn/01-what-is-knn.md)
+- ⭐ [KNN Prediction](ml-rapid-fire/classical-ml/knn/02-prediction.md)
+- ⭐ [Distance Metrics](ml-rapid-fire/classical-ml/knn/03-distance-metrics.md)
+- ⭐ [Choosing K](ml-rapid-fire/classical-ml/knn/04-choosing-k.md)
+- ⭐ [Curse of Dimensionality](ml-rapid-fire/classical-ml/knn/05-curse-of-dimensionality.md)
+- ⭐ [Feature Scaling for KNN](ml-rapid-fire/classical-ml/knn/06-feature-scaling.md)
+- ⭐ [Weighted KNN](ml-rapid-fire/classical-ml/knn/07-weighted-knn.md)
+- ⭐ [KNN Computational Complexity](ml-rapid-fire/classical-ml/knn/08-computational-complexity.md)
+- ⭐ [KNN Pros and Cons](ml-rapid-fire/classical-ml/knn/09-pros-cons.md)
 
 ### Linear Regression
 
@@ -155,4 +169,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-28 18:35:13*
+*Last updated: 2025-11-28 18:37:35*
