@@ -1001,3 +1001,31 @@ flashcards:
     name: Specificity
     category: classification-metrics
     attempts: []
+  ml-rapid-fire/model-evaluation/regression-metrics/01-mse.md:
+    name: Mean Squared Error
+    category: regression-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/regression-metrics/02-rmse.md:
+    name: Root Mean Squared Error
+    category: regression-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/regression-metrics/03-mae.md:
+    name: Mean Absolute Error
+    category: regression-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/regression-metrics/04-mse-vs-mae.md:
+    name: MSE vs MAE
+    category: regression-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/regression-metrics/05-r-squared.md:
+    name: R-Squared
+    category: regression-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/regression-metrics/06-r-squared-limitations.md:
+    name: R-Squared Limitations
+    category: regression-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/regression-metrics/07-adjusted-r-squared.md:
+    name: Adjusted R-Squared
+    category: regression-metrics
+    attempts: []
