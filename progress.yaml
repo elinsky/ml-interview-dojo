@@ -1109,3 +1109,43 @@ flashcards:
     name: Information Criteria (AIC/BIC)
     category: model-selection
     attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/01-what-is-loss-function.md:
+    name: What is a Loss Function
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/02-mse-loss.md:
+    name: MSE Loss
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/03-mae-loss.md:
+    name: MAE Loss
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/04-binary-cross-entropy.md:
+    name: Binary Cross-Entropy
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/05-categorical-cross-entropy.md:
+    name: Categorical Cross-Entropy
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/06-hinge-loss.md:
+    name: Hinge Loss
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/07-huber-loss.md:
+    name: Huber Loss
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/08-log-loss-vs-cross-entropy.md:
+    name: Log Loss vs Cross-Entropy
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/09-softmax-cross-entropy.md:
+    name: Softmax Cross-Entropy
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/10-choosing-loss-function.md:
+    name: Choosing a Loss Function
+    category: loss-functions
+    attempts: []

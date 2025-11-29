@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 9.1% (19/208)
+**Mastery Progress:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 8.7% (19/218)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 160 |
-| **Total** | **208** |
+| ⭐ New | 170 |
+| **Total** | **218** |
 
 ## Quick Start
 
@@ -171,6 +171,21 @@ python3 scripts/generate_readme.py
 - 👍 [09-ridge-vs-lasso](ml-rapid-fire/classical-ml/linear-regression/09-ridge-vs-lasso.md) `1 attempts`
 - 👍 [10-r-squared](ml-rapid-fire/classical-ml/linear-regression/10-r-squared.md) `1 attempts`
 - 🏆 [11-mse-formula](ml-rapid-fire/classical-ml/linear-regression/11-mse-formula.md) `1 attempts`
+
+### Loss Functions
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+
+- ⭐ [What is a Loss Function](ml-rapid-fire/model-evaluation/loss-functions/01-what-is-loss-function.md)
+- ⭐ [MSE Loss](ml-rapid-fire/model-evaluation/loss-functions/02-mse-loss.md)
+- ⭐ [MAE Loss](ml-rapid-fire/model-evaluation/loss-functions/03-mae-loss.md)
+- ⭐ [Binary Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/04-binary-cross-entropy.md)
+- ⭐ [Categorical Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/05-categorical-cross-entropy.md)
+- ⭐ [Hinge Loss](ml-rapid-fire/model-evaluation/loss-functions/06-hinge-loss.md)
+- ⭐ [Huber Loss](ml-rapid-fire/model-evaluation/loss-functions/07-huber-loss.md)
+- ⭐ [Log Loss vs Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/08-log-loss-vs-cross-entropy.md)
+- ⭐ [Softmax Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/09-softmax-cross-entropy.md)
+- ⭐ [Choosing a Loss Function](ml-rapid-fire/model-evaluation/loss-functions/10-choosing-loss-function.md)
 
 ### Ml Basics
 
@@ -347,4 +362,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-28 19:39:32*
+*Last updated: 2025-11-28 19:42:47*

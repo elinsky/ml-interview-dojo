@@ -33,7 +33,7 @@
 - [x] Regression Metrics (7)
 - [x] Validation (10)
 - [x] Model Selection (10)
-- [ ] Loss Functions (cross-entropy, hinge, etc.)
+- [x] Loss Functions (10)
 
 ## Probability & Statistics
 - [ ] Probability Basics (Bayes, conditional, independence)
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 208 cards done**
+**Progress: 218 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)
