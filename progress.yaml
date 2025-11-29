@@ -637,3 +637,39 @@ flashcards:
     name: KNN Pros and Cons
     category: knn
     attempts: []
+  ml-rapid-fire/classical-ml/naive-bayes/01-what-is-naive-bayes.md:
+    name: What is Naive Bayes
+    category: naive-bayes
+    attempts: []
+  ml-rapid-fire/classical-ml/naive-bayes/02-bayes-theorem.md:
+    name: Bayes Theorem
+    category: naive-bayes
+    attempts: []
+  ml-rapid-fire/classical-ml/naive-bayes/03-naive-assumption.md:
+    name: The Naive Assumption
+    category: naive-bayes
+    attempts: []
+  ml-rapid-fire/classical-ml/naive-bayes/04-types-of-naive-bayes.md:
+    name: Types of Naive Bayes
+    category: naive-bayes
+    attempts: []
+  ml-rapid-fire/classical-ml/naive-bayes/05-gaussian-naive-bayes.md:
+    name: Gaussian Naive Bayes
+    category: naive-bayes
+    attempts: []
+  ml-rapid-fire/classical-ml/naive-bayes/06-multinomial-naive-bayes.md:
+    name: Multinomial Naive Bayes
+    category: naive-bayes
+    attempts: []
+  ml-rapid-fire/classical-ml/naive-bayes/07-laplace-smoothing.md:
+    name: Laplace Smoothing
+    category: naive-bayes
+    attempts: []
+  ml-rapid-fire/classical-ml/naive-bayes/08-log-probabilities.md:
+    name: Log Probabilities
+    category: naive-bayes
+    attempts: []
+  ml-rapid-fire/classical-ml/naive-bayes/09-pros-cons.md:
+    name: Naive Bayes Pros and Cons
+    category: naive-bayes
+    attempts: []

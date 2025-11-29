@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [██████░░░░░░░░░░░░░░░░░░░░░░░░] 21.1% (19/90)
+**Mastery Progress:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 19.2% (19/99)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 42 |
-| **Total** | **90** |
+| ⭐ New | 51 |
+| **Total** | **99** |
 
 ## Quick Start
 
@@ -141,6 +141,20 @@ python3 scripts/generate_readme.py
 - 👍 [Causes of High Bias](ml-rapid-fire/fundamentals/ml-basics/20-causes-high-bias.md) `1 attempts`
 - 👍 [How to Reduce Bias](ml-rapid-fire/fundamentals/ml-basics/21-reduce-bias.md) `1 attempts`
 
+### Naive Bayes
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+- ⭐ [What is Naive Bayes](ml-rapid-fire/classical-ml/naive-bayes/01-what-is-naive-bayes.md)
+- ⭐ [Bayes Theorem](ml-rapid-fire/classical-ml/naive-bayes/02-bayes-theorem.md)
+- ⭐ [The Naive Assumption](ml-rapid-fire/classical-ml/naive-bayes/03-naive-assumption.md)
+- ⭐ [Types of Naive Bayes](ml-rapid-fire/classical-ml/naive-bayes/04-types-of-naive-bayes.md)
+- ⭐ [Gaussian Naive Bayes](ml-rapid-fire/classical-ml/naive-bayes/05-gaussian-naive-bayes.md)
+- ⭐ [Multinomial Naive Bayes](ml-rapid-fire/classical-ml/naive-bayes/06-multinomial-naive-bayes.md)
+- ⭐ [Laplace Smoothing](ml-rapid-fire/classical-ml/naive-bayes/07-laplace-smoothing.md)
+- ⭐ [Log Probabilities](ml-rapid-fire/classical-ml/naive-bayes/08-log-probabilities.md)
+- ⭐ [Naive Bayes Pros and Cons](ml-rapid-fire/classical-ml/naive-bayes/09-pros-cons.md)
+
 ### Regularization
 
 **Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/7)
@@ -169,4 +183,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-28 18:37:35*
+*Last updated: 2025-11-28 18:41:38*
