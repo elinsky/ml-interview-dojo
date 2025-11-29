@@ -964,40 +964,54 @@ flashcards:
   ml-rapid-fire/model-evaluation/classification-metrics/01-confusion-matrix.md:
     name: Confusion Matrix
     category: classification-metrics
-    attempts: []
-  ml-rapid-fire/model-evaluation/classification-metrics/02-accuracy.md:
-    name: Accuracy
+    attempts:
+    - date: '2025-11-29T13:13:46.393402'
+      time_minutes: 2
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: partial
+  ml-rapid-fire/model-evaluation/classification-metrics/02-total.md:
+    name: Total
     category: classification-metrics
     attempts: []
-  ml-rapid-fire/model-evaluation/classification-metrics/03-precision.md:
+  ml-rapid-fire/model-evaluation/classification-metrics/03-accuracy.md:
+    name: Accuracy
+    category: classification-metrics
+    attempts:
+    - date: '2025-11-29T13:23:35.288084'
+      time_minutes: 2
+      used_hints: false
+      looked_at_answer: false
+      recall_quality: partial
+  ml-rapid-fire/model-evaluation/classification-metrics/04-precision.md:
     name: Precision
     category: classification-metrics
     attempts: []
-  ml-rapid-fire/model-evaluation/classification-metrics/04-recall.md:
+  ml-rapid-fire/model-evaluation/classification-metrics/05-recall.md:
     name: Recall
     category: classification-metrics
     attempts: []
-  ml-rapid-fire/model-evaluation/classification-metrics/05-f1-score.md:
+  ml-rapid-fire/model-evaluation/classification-metrics/06-f1-score.md:
     name: F1 Score
     category: classification-metrics
     attempts: []
-  ml-rapid-fire/model-evaluation/classification-metrics/06-precision-recall-tradeoff.md:
+  ml-rapid-fire/model-evaluation/classification-metrics/07-precision-recall-tradeoff.md:
     name: Precision-Recall Tradeoff
     category: classification-metrics
     attempts: []
-  ml-rapid-fire/model-evaluation/classification-metrics/07-roc-curve.md:
+  ml-rapid-fire/model-evaluation/classification-metrics/08-roc-curve.md:
     name: ROC Curve
     category: classification-metrics
     attempts: []
-  ml-rapid-fire/model-evaluation/classification-metrics/08-auc-roc.md:
+  ml-rapid-fire/model-evaluation/classification-metrics/09-auc-roc.md:
     name: AUC-ROC
     category: classification-metrics
     attempts: []
-  ml-rapid-fire/model-evaluation/classification-metrics/09-pr-curve-vs-roc.md:
+  ml-rapid-fire/model-evaluation/classification-metrics/10-pr-curve-vs-roc.md:
     name: PR Curve vs ROC
     category: classification-metrics
     attempts: []
-  ml-rapid-fire/model-evaluation/classification-metrics/10-specificity.md:
+  ml-rapid-fire/model-evaluation/classification-metrics/11-specificity.md:
     name: Specificity
     category: classification-metrics
     attempts: []
