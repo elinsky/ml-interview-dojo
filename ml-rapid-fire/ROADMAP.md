@@ -32,7 +32,7 @@
 - [x] Classification Metrics (10)
 - [x] Regression Metrics (7)
 - [x] Validation (10)
-- [ ] Model Selection (grid search, hyperparameter tuning)
+- [x] Model Selection (10)
 - [ ] Loss Functions (cross-entropy, hinge, etc.)
 
 ## Probability & Statistics
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 198 cards done**
+**Progress: 208 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)

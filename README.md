@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 9.6% (19/198)
+**Mastery Progress:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 9.1% (19/208)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 150 |
-| **Total** | **198** |
+| ⭐ New | 160 |
+| **Total** | **208** |
 
 ## Quick Start
 
@@ -198,6 +198,21 @@ python3 scripts/generate_readme.py
 - 👍 [Causes of High Bias](ml-rapid-fire/fundamentals/ml-basics/20-causes-high-bias.md) `1 attempts`
 - 👍 [How to Reduce Bias](ml-rapid-fire/fundamentals/ml-basics/21-reduce-bias.md) `1 attempts`
 
+### Model Selection
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+
+- ⭐ [What is Hyperparameter Tuning](ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md)
+- ⭐ [Grid Search](ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md)
+- ⭐ [Random Search](ml-rapid-fire/model-evaluation/model-selection/03-random-search.md)
+- ⭐ [Bayesian Optimization](ml-rapid-fire/model-evaluation/model-selection/04-bayesian-optimization.md)
+- ⭐ [Cross-Validation for Model Selection](ml-rapid-fire/model-evaluation/model-selection/05-cv-for-model-selection.md)
+- ⭐ [Learning Curves for Diagnosis](ml-rapid-fire/model-evaluation/model-selection/06-learning-curves.md)
+- ⭐ [Validation Curve](ml-rapid-fire/model-evaluation/model-selection/07-validation-curve.md)
+- ⭐ [Early Stopping as Model Selection](ml-rapid-fire/model-evaluation/model-selection/08-early-stopping.md)
+- ⭐ [Regularization Path](ml-rapid-fire/model-evaluation/model-selection/09-regularization-path.md)
+- ⭐ [Information Criteria (AIC/BIC)](ml-rapid-fire/model-evaluation/model-selection/10-information-criteria.md)
+
 ### Naive Bayes
 
 **Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
@@ -332,4 +347,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-28 19:36:07*
+*Last updated: 2025-11-28 19:39:32*

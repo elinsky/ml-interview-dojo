@@ -1069,3 +1069,43 @@ flashcards:
     name: Nested Cross-Validation
     category: validation
     attempts: []
+  ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md:
+    name: What is Hyperparameter Tuning
+    category: model-selection
+    attempts: []
+  ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md:
+    name: Grid Search
+    category: model-selection
+    attempts: []
+  ml-rapid-fire/model-evaluation/model-selection/03-random-search.md:
+    name: Random Search
+    category: model-selection
+    attempts: []
+  ml-rapid-fire/model-evaluation/model-selection/04-bayesian-optimization.md:
+    name: Bayesian Optimization
+    category: model-selection
+    attempts: []
+  ml-rapid-fire/model-evaluation/model-selection/05-cv-for-model-selection.md:
+    name: Cross-Validation for Model Selection
+    category: model-selection
+    attempts: []
+  ml-rapid-fire/model-evaluation/model-selection/06-learning-curves.md:
+    name: Learning Curves for Diagnosis
+    category: model-selection
+    attempts: []
+  ml-rapid-fire/model-evaluation/model-selection/07-validation-curve.md:
+    name: Validation Curve
+    category: model-selection
+    attempts: []
+  ml-rapid-fire/model-evaluation/model-selection/08-early-stopping.md:
+    name: Early Stopping as Model Selection
+    category: model-selection
+    attempts: []
+  ml-rapid-fire/model-evaluation/model-selection/09-regularization-path.md:
+    name: Regularization Path
+    category: model-selection
+    attempts: []
+  ml-rapid-fire/model-evaluation/model-selection/10-information-criteria.md:
+    name: Information Criteria (AIC/BIC)
+    category: model-selection
+    attempts: []
