@@ -24,7 +24,7 @@
 - [x] Neural Network Basics (9)
 - [x] Optimizers (9)
 - [x] Regularization (9)
-- [ ] CNNs (convolution, pooling, architectures)
+- [x] CNNs (9)
 - [ ] RNNs & Sequences (LSTM, GRU)
 - [ ] Transformers & Attention (self-attention, BERT, GPT)
 
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 144 cards done**
+**Progress: 153 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)

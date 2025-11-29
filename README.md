@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 13.2% (19/144)
+**Mastery Progress:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 12.4% (19/153)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 96 |
-| **Total** | **144** |
+| ⭐ New | 105 |
+| **Total** | **153** |
 
 ## Quick Start
 
@@ -64,6 +64,20 @@ python3 scripts/generate_readme.py
 - ⭐ [Linkage Methods](ml-rapid-fire/classical-ml/clustering/07-linkage-methods.md)
 - ⭐ [Clustering Evaluation](ml-rapid-fire/classical-ml/clustering/08-clustering-evaluation.md)
 - ⭐ [Clustering Algorithm Comparison](ml-rapid-fire/classical-ml/clustering/09-comparison.md)
+
+### Cnns
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+- ⭐ [What is a CNN](ml-rapid-fire/deep-learning/cnns/01-what-is-cnn.md)
+- ⭐ [Convolution Operation](ml-rapid-fire/deep-learning/cnns/02-convolution-operation.md)
+- ⭐ [CNN Hyperparameters](ml-rapid-fire/deep-learning/cnns/03-cnn-hyperparameters.md)
+- ⭐ [Pooling](ml-rapid-fire/deep-learning/cnns/04-pooling.md)
+- ⭐ [CNN Architecture](ml-rapid-fire/deep-learning/cnns/05-cnn-architecture.md)
+- ⭐ [Receptive Field](ml-rapid-fire/deep-learning/cnns/06-receptive-field.md)
+- ⭐ [1x1 Convolutions](ml-rapid-fire/deep-learning/cnns/07-1x1-convolutions.md)
+- ⭐ [Famous CNN Architectures](ml-rapid-fire/deep-learning/cnns/08-famous-architectures.md)
+- ⭐ [Transfer Learning in CNNs](ml-rapid-fire/deep-learning/cnns/09-transfer-learning.md)
 
 ### Cross Entropy
 
@@ -248,4 +262,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-28 19:10:46*
+*Last updated: 2025-11-28 19:13:04*

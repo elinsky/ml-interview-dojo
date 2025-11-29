@@ -853,3 +853,39 @@ flashcards:
     name: Label Smoothing
     category: regularization
     attempts: []
+  ml-rapid-fire/deep-learning/cnns/01-what-is-cnn.md:
+    name: What is a CNN
+    category: cnns
+    attempts: []
+  ml-rapid-fire/deep-learning/cnns/02-convolution-operation.md:
+    name: Convolution Operation
+    category: cnns
+    attempts: []
+  ml-rapid-fire/deep-learning/cnns/03-cnn-hyperparameters.md:
+    name: CNN Hyperparameters
+    category: cnns
+    attempts: []
+  ml-rapid-fire/deep-learning/cnns/04-pooling.md:
+    name: Pooling
+    category: cnns
+    attempts: []
+  ml-rapid-fire/deep-learning/cnns/05-cnn-architecture.md:
+    name: CNN Architecture
+    category: cnns
+    attempts: []
+  ml-rapid-fire/deep-learning/cnns/06-receptive-field.md:
+    name: Receptive Field
+    category: cnns
+    attempts: []
+  ml-rapid-fire/deep-learning/cnns/07-1x1-convolutions.md:
+    name: 1x1 Convolutions
+    category: cnns
+    attempts: []
+  ml-rapid-fire/deep-learning/cnns/08-famous-architectures.md:
+    name: Famous CNN Architectures
+    category: cnns
+    attempts: []
+  ml-rapid-fire/deep-learning/cnns/09-transfer-learning.md:
+    name: Transfer Learning in CNNs
+    category: cnns
+    attempts: []
