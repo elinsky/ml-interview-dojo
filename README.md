@@ -14,7 +14,7 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 19.2% (19/99)
+**Mastery Progress:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 17.6% (19/108)
 
 | Status | Count |
 |--------|-------|
@@ -22,8 +22,8 @@ Personal repository for ML interview prep flashcards.
 | 💪 Independent | 0 |
 | 👍 Recalled | 24 |
 | ☑️ Attempted | 5 |
-| ⭐ New | 51 |
-| **Total** | **99** |
+| ⭐ New | 60 |
+| **Total** | **108** |
 
 ## Quick Start
 
@@ -50,6 +50,20 @@ python3 scripts/generate_readme.py
 - 🏆 [Multi-class](ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md) `1 attempts`
 - 🏆 [Loss Function](ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md) `1 attempts`
 - ⭐ [Linearly Separable](ml-rapid-fire/classical-ml/logistic-regression/09-linearly-separable.md)
+
+### Clustering
+
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+- ⭐ [What is Clustering](ml-rapid-fire/classical-ml/clustering/01-what-is-clustering.md)
+- ⭐ [K-Means Clustering](ml-rapid-fire/classical-ml/clustering/02-k-means.md)
+- ⭐ [K-Means++ Initialization](ml-rapid-fire/classical-ml/clustering/03-k-means-plus-plus.md)
+- ⭐ [Choosing K](ml-rapid-fire/classical-ml/clustering/04-choosing-k.md)
+- ⭐ [DBSCAN](ml-rapid-fire/classical-ml/clustering/05-dbscan.md)
+- ⭐ [Hierarchical Clustering](ml-rapid-fire/classical-ml/clustering/06-hierarchical-clustering.md)
+- ⭐ [Linkage Methods](ml-rapid-fire/classical-ml/clustering/07-linkage-methods.md)
+- ⭐ [Clustering Evaluation](ml-rapid-fire/classical-ml/clustering/08-clustering-evaluation.md)
+- ⭐ [Clustering Algorithm Comparison](ml-rapid-fire/classical-ml/clustering/09-comparison.md)
 
 ### Cross Entropy
 
@@ -183,4 +197,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-28 18:41:38*
+*Last updated: 2025-11-28 18:51:37*

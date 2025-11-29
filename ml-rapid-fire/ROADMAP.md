@@ -17,7 +17,7 @@
 - [x] SVM (9)
 - [x] KNN (9)
 - [x] Naive Bayes (9)
-- [ ] Clustering (k-means, DBSCAN, hierarchical)
+- [x] Clustering (9)
 - [ ] Dimensionality Reduction (PCA, t-SNE)
 
 ## Deep Learning
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 99 cards done**
+**Progress: 108 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)

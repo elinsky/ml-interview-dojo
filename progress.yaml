@@ -673,3 +673,39 @@ flashcards:
     name: Naive Bayes Pros and Cons
     category: naive-bayes
     attempts: []
+  ml-rapid-fire/classical-ml/clustering/01-what-is-clustering.md:
+    name: What is Clustering
+    category: clustering
+    attempts: []
+  ml-rapid-fire/classical-ml/clustering/02-k-means.md:
+    name: K-Means Clustering
+    category: clustering
+    attempts: []
+  ml-rapid-fire/classical-ml/clustering/03-k-means-plus-plus.md:
+    name: K-Means++ Initialization
+    category: clustering
+    attempts: []
+  ml-rapid-fire/classical-ml/clustering/04-choosing-k.md:
+    name: Choosing K
+    category: clustering
+    attempts: []
+  ml-rapid-fire/classical-ml/clustering/05-dbscan.md:
+    name: DBSCAN
+    category: clustering
+    attempts: []
+  ml-rapid-fire/classical-ml/clustering/06-hierarchical-clustering.md:
+    name: Hierarchical Clustering
+    category: clustering
+    attempts: []
+  ml-rapid-fire/classical-ml/clustering/07-linkage-methods.md:
+    name: Linkage Methods
+    category: clustering
+    attempts: []
+  ml-rapid-fire/classical-ml/clustering/08-clustering-evaluation.md:
+    name: Clustering Evaluation
+    category: clustering
+    attempts: []
+  ml-rapid-fire/classical-ml/clustering/09-comparison.md:
+    name: Clustering Algorithm Comparison
+    category: clustering
+    attempts: []
