@@ -1064,23 +1064,53 @@ flashcards:
   ml-rapid-fire/model-evaluation/regression-metrics/01-mse.md:
     name: Mean Squared Error
     category: regression-metrics
-    attempts: []
+    attempts:
+    - date: '2025-11-29T19:07:34.403692'
+      time_minutes: 60
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: partial
+      notes: Got formula, missed loss function definition and OLS distinction
   ml-rapid-fire/model-evaluation/regression-metrics/02-rmse.md:
     name: Root Mean Squared Error
     category: regression-metrics
-    attempts: []
+    attempts:
+    - date: '2025-11-29T19:08:16.822233'
+      time_minutes: 30
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: none
+      notes: Didn't remember
   ml-rapid-fire/model-evaluation/regression-metrics/03-mae.md:
     name: Mean Absolute Error
     category: regression-metrics
-    attempts: []
+    attempts:
+    - date: '2025-11-29T19:18:19.289113'
+      time_minutes: 45
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: partial
+      notes: Got formula and outlier robustness, missed optimization tradeoff
   ml-rapid-fire/model-evaluation/regression-metrics/04-mse-vs-mae.md:
     name: MSE vs MAE
     category: regression-metrics
-    attempts: []
+    attempts:
+    - date: '2025-11-29T19:21:10.609439'
+      time_minutes: 30
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: none
+      notes: Looked at answer, summary card
   ml-rapid-fire/model-evaluation/regression-metrics/05-r-squared.md:
     name: R-Squared
     category: regression-metrics
-    attempts: []
+    attempts:
+    - date: '2025-11-29T19:22:20.245453'
+      time_minutes: 45
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: partial
+      notes: Got variance explained concept, missed formula and baseline interpretation
   ml-rapid-fire/model-evaluation/regression-metrics/06-r-squared-limitations.md:
     name: R-Squared Limitations
     category: regression-metrics
