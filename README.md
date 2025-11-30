@@ -20,9 +20,9 @@ Personal repository for ML interview prep flashcards.
 |--------|-------|
 | 🏆 Mastered | 20 |
 | 💪 Independent | 0 |
-| 👍 Recalled | 31 |
+| 👍 Recalled | 33 |
 | ☑️ Attempted | 11 |
-| ⭐ New | 170 |
+| ⭐ New | 168 |
 | **Total** | **232** |
 
 ## Quick Start
@@ -338,8 +338,8 @@ python3 scripts/generate_readme.py
 - ☑️ [MSE vs MAE](ml-rapid-fire/model-evaluation/regression-metrics/04-mse-vs-mae.md) `1 attempts`
 - ⭐ [Sum of Squares (SST, SSE, SSR)](ml-rapid-fire/model-evaluation/regression-metrics/05-sum-of-squares.md)
 - 👍 [R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/06-r-squared.md) `1 attempts`
-- ⭐ [R-Squared Limitations](ml-rapid-fire/model-evaluation/regression-metrics/07-r-squared-limitations.md)
-- ⭐ [Adjusted R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/08-adjusted-r-squared.md)
+- 👍 [R-Squared Limitations](ml-rapid-fire/model-evaluation/regression-metrics/07-r-squared-limitations.md) `1 attempts`
+- 👍 [Adjusted R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/08-adjusted-r-squared.md) `1 attempts`
 
 #### Validation
 
@@ -409,4 +409,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-29 19:34:21*
+*Last updated: 2025-11-29 19:48:49*
