@@ -14,17 +14,17 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Coverage:** [████████░░░░░░░░░░░░░░░░░░░░░░] 27.6% (64/232)
+**Coverage:** [████████░░░░░░░░░░░░░░░░░░░░░░] 29.7% (69/232)
 
-**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 8.6% (20/232)
+**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 9.9% (23/232)
 
 | Status | Count |
 |--------|-------|
 | 🟢 Full | 20 |
-| 🔵 Partial+ | 0 |
-| 🟡 Partial- | 33 |
+| 🔵 Partial+ | 3 |
+| 🟡 Partial- | 35 |
 | 🟠 None | 11 |
-| ⚫ New | 168 |
+| ⚫ New | 163 |
 | **Total** | **232** |
 
 ## Quick Start
@@ -348,9 +348,9 @@ python3 scripts/generate_readme.py
 
 ### Model Evaluation
 
-**Coverage:** [█████████░░░░░░░░░░░░░░░░░░░░░] 31.4% (16/51)
+**Coverage:** [████████████░░░░░░░░░░░░░░░░░░] 41.2% (21/51)
 
-**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 2.0% (1/51)
+**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 7.8% (4/51)
 
 #### Classification Metrics
 
@@ -389,15 +389,15 @@ python3 scripts/generate_readme.py
 
 #### Validation
 
-**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+**Coverage:** [███████████████░░░░░░░░░░░░░░░] 50.0% (5/10)
 
-**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+**Ready:** [█████████░░░░░░░░░░░░░░░░░░░░░] 30.0% (3/10)
 
-- ⚫ [Train/Test Split](ml-rapid-fire/model-evaluation/validation/01-train-test-split.md)
-- ⚫ [Validation Set Purpose](ml-rapid-fire/model-evaluation/validation/02-validation-set-purpose.md)
-- ⚫ [K-Fold Cross-Validation](ml-rapid-fire/model-evaluation/validation/03-k-fold-cross-validation.md)
-- ⚫ [Stratified K-Fold](ml-rapid-fire/model-evaluation/validation/04-stratified-k-fold.md)
-- ⚫ [Leave-One-Out Cross-Validation](ml-rapid-fire/model-evaluation/validation/05-loocv.md)
+- 🟡 [Train/Test Split](ml-rapid-fire/model-evaluation/validation/01-train-test-split.md) `1 attempts`
+- 🔵 [Validation Set Purpose](ml-rapid-fire/model-evaluation/validation/02-validation-set-purpose.md) `1 attempts`
+- 🔵 [K-Fold Cross-Validation](ml-rapid-fire/model-evaluation/validation/03-k-fold-cross-validation.md) `1 attempts`
+- 🔵 [Stratified K-Fold](ml-rapid-fire/model-evaluation/validation/04-stratified-k-fold.md) `1 attempts`
+- 🟡 [Leave-One-Out Cross-Validation](ml-rapid-fire/model-evaluation/validation/05-loocv.md) `1 attempts`
 - ⚫ [Holdout vs Cross-Validation](ml-rapid-fire/model-evaluation/validation/06-holdout-vs-cv.md)
 - ⚫ [Data Leakage](ml-rapid-fire/model-evaluation/validation/07-data-leakage.md)
 - ⚫ [Time Series Validation](ml-rapid-fire/model-evaluation/validation/08-time-series-validation.md)
@@ -465,4 +465,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-29 20:30:38*
+*Last updated: 2025-11-29 20:58:21*

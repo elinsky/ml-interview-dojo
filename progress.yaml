@@ -963,15 +963,26 @@ flashcards:
   ml-rapid-fire/model-evaluation/validation/03-k-fold-cross-validation.md:
     name: K-Fold Cross-Validation
     category: validation
-    attempts: []
+    attempts:
+    - date: '2025-11-29T20:44:53.143863'
+      recall: partial+
+      notes: Got k-fold rotation mechanics with examples, missed averaging step
   ml-rapid-fire/model-evaluation/validation/04-stratified-k-fold.md:
     name: Stratified K-Fold
     category: validation
-    attempts: []
+    attempts:
+    - date: '2025-11-29T20:49:35.578174'
+      recall: partial+
+      notes: Got class distribution preservation, imbalanced use case, good example;
+        missed variance reduction benefit
   ml-rapid-fire/model-evaluation/validation/05-loocv.md:
     name: Leave-One-Out Cross-Validation
     category: validation
-    attempts: []
+    attempts:
+    - date: '2025-11-29T20:53:55.394109'
+      recall: partial-
+      notes: Got mechanics (train n-1, test 1, rotate n times), missed tradeoffs (expensive,
+        high variance) and use case (small datasets)
   ml-rapid-fire/model-evaluation/validation/06-holdout-vs-cv.md:
     name: Holdout vs Cross-Validation
     category: validation
