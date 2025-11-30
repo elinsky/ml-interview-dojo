@@ -14,9 +14,9 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Coverage:** [███████░░░░░░░░░░░░░░░░░░░░░░░] 25.7% (77/300)
+**Coverage:** [██████░░░░░░░░░░░░░░░░░░░░░░░░] 20.1% (77/383)
 
-**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 9.3% (28/300)
+**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 7.3% (28/383)
 
 | Status | Count |
 |--------|-------|
@@ -24,8 +24,8 @@ Personal repository for ML interview prep flashcards.
 | 🔵 Partial+ | 8 |
 | 🟡 Partial- | 35 |
 | 🟠 None | 14 |
-| ⚫ New | 223 |
-| **Total** | **300** |
+| ⚫ New | 306 |
+| **Total** | **383** |
 
 ## Quick Start
 
@@ -529,6 +529,154 @@ python3 scripts/generate_readme.py
 
 ---
 
+### Data Engineering
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/40)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/40)
+
+#### Feature Engineering
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/12)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/12)
+
+- ⚫ [Why Feature Scaling](ml-rapid-fire/data-engineering/feature-engineering/01-feature-scaling-why.md)
+- ⚫ [Standardization (Z-Score Scaling)](ml-rapid-fire/data-engineering/feature-engineering/02-standardization.md)
+- ⚫ [Min-Max Scaling](ml-rapid-fire/data-engineering/feature-engineering/03-min-max-scaling.md)
+- ⚫ [Robust Scaling](ml-rapid-fire/data-engineering/feature-engineering/04-robust-scaling.md)
+- ⚫ [One-Hot Encoding](ml-rapid-fire/data-engineering/feature-engineering/05-one-hot-encoding.md)
+- ⚫ [Label Encoding](ml-rapid-fire/data-engineering/feature-engineering/06-label-encoding.md)
+- ⚫ [Target Encoding](ml-rapid-fire/data-engineering/feature-engineering/07-target-encoding.md)
+- ⚫ [Filter Methods for Feature Selection](ml-rapid-fire/data-engineering/feature-engineering/08-feature-selection-filter.md)
+- ⚫ [Wrapper Methods for Feature Selection](ml-rapid-fire/data-engineering/feature-engineering/09-feature-selection-wrapper.md)
+- ⚫ [Embedded Methods for Feature Selection](ml-rapid-fire/data-engineering/feature-engineering/10-feature-selection-embedded.md)
+- ⚫ [Numeric Feature Engineering](ml-rapid-fire/data-engineering/feature-engineering/11-feature-engineering-numeric.md)
+- ⚫ [Data Leakage](ml-rapid-fire/data-engineering/feature-engineering/12-data-leakage.md)
+
+#### Missing Data
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/8)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/8)
+
+- ⚫ [Types of Missing Data](ml-rapid-fire/data-engineering/missing-data/01-types-of-missingness.md)
+- ⚫ [Simple Imputation Methods](ml-rapid-fire/data-engineering/missing-data/02-simple-imputation.md)
+- ⚫ [KNN Imputation](ml-rapid-fire/data-engineering/missing-data/03-knn-imputation.md)
+- ⚫ [MICE (Multiple Imputation by Chained Equations)](ml-rapid-fire/data-engineering/missing-data/04-mice-imputation.md)
+- ⚫ [Missing Indicator Features](ml-rapid-fire/data-engineering/missing-data/05-missing-indicator.md)
+- ⚫ [Deletion Methods for Missing Data](ml-rapid-fire/data-engineering/missing-data/06-deletion-methods.md)
+- ⚫ [Time Series Imputation](ml-rapid-fire/data-engineering/missing-data/07-time-series-imputation.md)
+- ⚫ [Imputation Best Practices](ml-rapid-fire/data-engineering/missing-data/08-imputation-best-practices.md)
+
+#### Imbalanced Data
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+
+- ⚫ [Why Class Imbalance Matters](ml-rapid-fire/data-engineering/imbalanced-data/01-why-imbalance-matters.md)
+- ⚫ [Metrics for Imbalanced Data](ml-rapid-fire/data-engineering/imbalanced-data/02-metrics-for-imbalanced.md)
+- ⚫ [Random Oversampling](ml-rapid-fire/data-engineering/imbalanced-data/03-random-oversampling.md)
+- ⚫ [Random Undersampling](ml-rapid-fire/data-engineering/imbalanced-data/04-random-undersampling.md)
+- ⚫ [SMOTE](ml-rapid-fire/data-engineering/imbalanced-data/05-smote.md)
+- ⚫ [SMOTE Variants](ml-rapid-fire/data-engineering/imbalanced-data/06-smote-variants.md)
+- ⚫ [Class Weights](ml-rapid-fire/data-engineering/imbalanced-data/07-class-weights.md)
+- ⚫ [Threshold Tuning](ml-rapid-fire/data-engineering/imbalanced-data/08-threshold-tuning.md)
+- ⚫ [Ensemble Methods for Imbalanced Data](ml-rapid-fire/data-engineering/imbalanced-data/09-ensemble-methods.md)
+- ⚫ [Cost-Sensitive Learning](ml-rapid-fire/data-engineering/imbalanced-data/10-cost-sensitive-learning.md)
+
+#### Text Processing
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+
+- ⚫ [Tokenization](ml-rapid-fire/data-engineering/text-processing/01-tokenization.md)
+- ⚫ [Text Preprocessing](ml-rapid-fire/data-engineering/text-processing/02-text-preprocessing.md)
+- ⚫ [Bag of Words](ml-rapid-fire/data-engineering/text-processing/03-bag-of-words.md)
+- ⚫ [TF-IDF](ml-rapid-fire/data-engineering/text-processing/04-tfidf.md)
+- ⚫ [N-grams](ml-rapid-fire/data-engineering/text-processing/05-ngrams.md)
+- ⚫ [Word Embeddings Introduction](ml-rapid-fire/data-engineering/text-processing/06-word-embeddings-intro.md)
+- ⚫ [Word2Vec](ml-rapid-fire/data-engineering/text-processing/07-word2vec.md)
+- ⚫ [GloVe](ml-rapid-fire/data-engineering/text-processing/08-glove.md)
+- ⚫ [Document Embeddings](ml-rapid-fire/data-engineering/text-processing/09-document-embeddings.md)
+- ⚫ [Text Classification Pipeline](ml-rapid-fire/data-engineering/text-processing/10-text-classification-pipeline.md)
+
+---
+
+### Reinforcement Learning
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/43)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/43)
+
+#### Rl Core Concepts
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/15)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/15)
+
+- ⚫ [RL vs Supervised Learning](ml-rapid-fire/reinforcement-learning/core-concepts/01-rl-vs-supervised.md)
+- ⚫ [Markov Decision Process (MDP)](ml-rapid-fire/reinforcement-learning/core-concepts/02-mdp-definition.md)
+- ⚫ [Policy](ml-rapid-fire/reinforcement-learning/core-concepts/03-policy.md)
+- ⚫ [Value Function](ml-rapid-fire/reinforcement-learning/core-concepts/04-value-function.md)
+- ⚫ [Action-Value Function (Q-function)](ml-rapid-fire/reinforcement-learning/core-concepts/05-action-value-function.md)
+- ⚫ [Bellman Equation](ml-rapid-fire/reinforcement-learning/core-concepts/06-bellman-equation.md)
+- ⚫ [Discount Factor](ml-rapid-fire/reinforcement-learning/core-concepts/07-discount-factor.md)
+- ⚫ [Reward Design](ml-rapid-fire/reinforcement-learning/core-concepts/08-reward-design.md)
+- ⚫ [Model-Based vs Model-Free RL](ml-rapid-fire/reinforcement-learning/core-concepts/09-model-based-vs-free.md)
+- ⚫ [On-Policy vs Off-Policy Learning](ml-rapid-fire/reinforcement-learning/core-concepts/10-on-vs-off-policy.md)
+- ⚫ [Temporal Difference Learning](ml-rapid-fire/reinforcement-learning/core-concepts/11-temporal-difference.md)
+- ⚫ [Return - Episodic vs Continuing Tasks](ml-rapid-fire/reinforcement-learning/core-concepts/12-return-types.md)
+- ⚫ [Advantage Function](ml-rapid-fire/reinforcement-learning/core-concepts/13-advantage-function.md)
+- ⚫ [Function Approximation in RL](ml-rapid-fire/reinforcement-learning/core-concepts/14-function-approximation.md)
+- ⚫ [Partial Observability (POMDP)](ml-rapid-fire/reinforcement-learning/core-concepts/15-partial-observability.md)
+
+#### Rl Algorithms
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/18)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/18)
+
+- ⚫ [Value Iteration](ml-rapid-fire/reinforcement-learning/algorithms/01-value-iteration.md)
+- ⚫ [Policy Iteration](ml-rapid-fire/reinforcement-learning/algorithms/02-policy-iteration.md)
+- ⚫ [Monte Carlo Methods](ml-rapid-fire/reinforcement-learning/algorithms/03-monte-carlo-methods.md)
+- ⚫ [Q-Learning](ml-rapid-fire/reinforcement-learning/algorithms/04-q-learning.md)
+- ⚫ [SARSA](ml-rapid-fire/reinforcement-learning/algorithms/05-sarsa.md)
+- ⚫ [Experience Replay](ml-rapid-fire/reinforcement-learning/algorithms/06-experience-replay.md)
+- ⚫ [DQN (Deep Q-Network)](ml-rapid-fire/reinforcement-learning/algorithms/07-dqn.md)
+- ⚫ [Double DQN](ml-rapid-fire/reinforcement-learning/algorithms/08-double-dqn.md)
+- ⚫ [Policy Gradient Basics](ml-rapid-fire/reinforcement-learning/algorithms/09-policy-gradient-basics.md)
+- ⚫ [Actor-Critic Methods](ml-rapid-fire/reinforcement-learning/algorithms/10-actor-critic.md)
+- ⚫ [PPO (Proximal Policy Optimization)](ml-rapid-fire/reinforcement-learning/algorithms/11-ppo.md)
+- ⚫ [DDPG (Deep Deterministic Policy Gradient)](ml-rapid-fire/reinforcement-learning/algorithms/12-ddpg.md)
+- ⚫ [SAC (Soft Actor-Critic)](ml-rapid-fire/reinforcement-learning/algorithms/13-sac.md)
+- ⚫ [Imitation Learning](ml-rapid-fire/reinforcement-learning/algorithms/14-imitation-learning.md)
+- ⚫ [Inverse Reinforcement Learning](ml-rapid-fire/reinforcement-learning/algorithms/15-inverse-rl.md)
+- ⚫ [Model-Based Planning](ml-rapid-fire/reinforcement-learning/algorithms/16-model-based-planning.md)
+- ⚫ [Hierarchical RL](ml-rapid-fire/reinforcement-learning/algorithms/17-hierarchical-rl.md)
+- ⚫ [Multi-Agent RL](ml-rapid-fire/reinforcement-learning/algorithms/18-multi-agent-rl.md)
+
+#### Exploration Exploitation
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+
+- ⚫ [Exploration-Exploitation Dilemma](ml-rapid-fire/reinforcement-learning/exploration-exploitation/01-exploration-exploitation-dilemma.md)
+- ⚫ [Multi-Armed Bandits](ml-rapid-fire/reinforcement-learning/exploration-exploitation/02-multi-armed-bandits.md)
+- ⚫ [Epsilon-Greedy](ml-rapid-fire/reinforcement-learning/exploration-exploitation/03-epsilon-greedy.md)
+- ⚫ [UCB (Upper Confidence Bound)](ml-rapid-fire/reinforcement-learning/exploration-exploitation/04-ucb.md)
+- ⚫ [Thompson Sampling](ml-rapid-fire/reinforcement-learning/exploration-exploitation/05-thompson-sampling.md)
+- ⚫ [Softmax (Boltzmann) Exploration](ml-rapid-fire/reinforcement-learning/exploration-exploitation/06-softmax-exploration.md)
+- ⚫ [Intrinsic Motivation](ml-rapid-fire/reinforcement-learning/exploration-exploitation/07-intrinsic-motivation.md)
+- ⚫ [Contextual Bandits](ml-rapid-fire/reinforcement-learning/exploration-exploitation/08-contextual-bandits.md)
+- ⚫ [Exploration in Deep RL](ml-rapid-fire/reinforcement-learning/exploration-exploitation/09-exploration-deep-rl.md)
+- ⚫ [Regret Bounds](ml-rapid-fire/reinforcement-learning/exploration-exploitation/10-regret-bounds.md)
+
+---
+
 ### Other
 
 #### Calculus Optimization
@@ -579,4 +727,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-29 21:56:36*
+*Last updated: 2025-11-29 22:11:33*

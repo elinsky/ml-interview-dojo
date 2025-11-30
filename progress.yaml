@@ -1420,3 +1420,335 @@ flashcards:
     name: Lagrange Multipliers
     category: calculus-optimization
     attempts: []
+  ml-rapid-fire/data-engineering/feature-engineering/01-feature-scaling-why.md:
+    name: Why Feature Scaling
+    category: feature-engineering
+    attempts: []
+  ml-rapid-fire/data-engineering/feature-engineering/02-standardization.md:
+    name: Standardization (Z-Score Scaling)
+    category: feature-engineering
+    attempts: []
+  ml-rapid-fire/data-engineering/feature-engineering/03-min-max-scaling.md:
+    name: Min-Max Scaling
+    category: feature-engineering
+    attempts: []
+  ml-rapid-fire/data-engineering/feature-engineering/04-robust-scaling.md:
+    name: Robust Scaling
+    category: feature-engineering
+    attempts: []
+  ml-rapid-fire/data-engineering/feature-engineering/05-one-hot-encoding.md:
+    name: One-Hot Encoding
+    category: feature-engineering
+    attempts: []
+  ml-rapid-fire/data-engineering/feature-engineering/06-label-encoding.md:
+    name: Label Encoding
+    category: feature-engineering
+    attempts: []
+  ml-rapid-fire/data-engineering/feature-engineering/07-target-encoding.md:
+    name: Target Encoding
+    category: feature-engineering
+    attempts: []
+  ml-rapid-fire/data-engineering/feature-engineering/08-feature-selection-filter.md:
+    name: Filter Methods for Feature Selection
+    category: feature-engineering
+    attempts: []
+  ml-rapid-fire/data-engineering/feature-engineering/09-feature-selection-wrapper.md:
+    name: Wrapper Methods for Feature Selection
+    category: feature-engineering
+    attempts: []
+  ml-rapid-fire/data-engineering/feature-engineering/10-feature-selection-embedded.md:
+    name: Embedded Methods for Feature Selection
+    category: feature-engineering
+    attempts: []
+  ml-rapid-fire/data-engineering/feature-engineering/11-feature-engineering-numeric.md:
+    name: Numeric Feature Engineering
+    category: feature-engineering
+    attempts: []
+  ml-rapid-fire/data-engineering/feature-engineering/12-data-leakage.md:
+    name: Data Leakage
+    category: feature-engineering
+    attempts: []
+  ml-rapid-fire/data-engineering/missing-data/01-types-of-missingness.md:
+    name: Types of Missing Data
+    category: missing-data
+    attempts: []
+  ml-rapid-fire/data-engineering/missing-data/02-simple-imputation.md:
+    name: Simple Imputation Methods
+    category: missing-data
+    attempts: []
+  ml-rapid-fire/data-engineering/missing-data/03-knn-imputation.md:
+    name: KNN Imputation
+    category: missing-data
+    attempts: []
+  ml-rapid-fire/data-engineering/missing-data/04-mice-imputation.md:
+    name: MICE (Multiple Imputation by Chained Equations)
+    category: missing-data
+    attempts: []
+  ml-rapid-fire/data-engineering/missing-data/05-missing-indicator.md:
+    name: Missing Indicator Features
+    category: missing-data
+    attempts: []
+  ml-rapid-fire/data-engineering/missing-data/06-deletion-methods.md:
+    name: Deletion Methods for Missing Data
+    category: missing-data
+    attempts: []
+  ml-rapid-fire/data-engineering/missing-data/07-time-series-imputation.md:
+    name: Time Series Imputation
+    category: missing-data
+    attempts: []
+  ml-rapid-fire/data-engineering/missing-data/08-imputation-best-practices.md:
+    name: Imputation Best Practices
+    category: missing-data
+    attempts: []
+  ml-rapid-fire/data-engineering/imbalanced-data/01-why-imbalance-matters.md:
+    name: Why Class Imbalance Matters
+    category: imbalanced-data
+    attempts: []
+  ml-rapid-fire/data-engineering/imbalanced-data/02-metrics-for-imbalanced.md:
+    name: Metrics for Imbalanced Data
+    category: imbalanced-data
+    attempts: []
+  ml-rapid-fire/data-engineering/imbalanced-data/03-random-oversampling.md:
+    name: Random Oversampling
+    category: imbalanced-data
+    attempts: []
+  ml-rapid-fire/data-engineering/imbalanced-data/04-random-undersampling.md:
+    name: Random Undersampling
+    category: imbalanced-data
+    attempts: []
+  ml-rapid-fire/data-engineering/imbalanced-data/05-smote.md:
+    name: SMOTE
+    category: imbalanced-data
+    attempts: []
+  ml-rapid-fire/data-engineering/imbalanced-data/06-smote-variants.md:
+    name: SMOTE Variants
+    category: imbalanced-data
+    attempts: []
+  ml-rapid-fire/data-engineering/imbalanced-data/07-class-weights.md:
+    name: Class Weights
+    category: imbalanced-data
+    attempts: []
+  ml-rapid-fire/data-engineering/imbalanced-data/08-threshold-tuning.md:
+    name: Threshold Tuning
+    category: imbalanced-data
+    attempts: []
+  ml-rapid-fire/data-engineering/imbalanced-data/09-ensemble-methods.md:
+    name: Ensemble Methods for Imbalanced Data
+    category: imbalanced-data
+    attempts: []
+  ml-rapid-fire/data-engineering/imbalanced-data/10-cost-sensitive-learning.md:
+    name: Cost-Sensitive Learning
+    category: imbalanced-data
+    attempts: []
+  ml-rapid-fire/data-engineering/text-processing/01-tokenization.md:
+    name: Tokenization
+    category: text-processing
+    attempts: []
+  ml-rapid-fire/data-engineering/text-processing/02-text-preprocessing.md:
+    name: Text Preprocessing
+    category: text-processing
+    attempts: []
+  ml-rapid-fire/data-engineering/text-processing/03-bag-of-words.md:
+    name: Bag of Words
+    category: text-processing
+    attempts: []
+  ml-rapid-fire/data-engineering/text-processing/04-tfidf.md:
+    name: TF-IDF
+    category: text-processing
+    attempts: []
+  ml-rapid-fire/data-engineering/text-processing/05-ngrams.md:
+    name: N-grams
+    category: text-processing
+    attempts: []
+  ml-rapid-fire/data-engineering/text-processing/06-word-embeddings-intro.md:
+    name: Word Embeddings Introduction
+    category: text-processing
+    attempts: []
+  ml-rapid-fire/data-engineering/text-processing/07-word2vec.md:
+    name: Word2Vec
+    category: text-processing
+    attempts: []
+  ml-rapid-fire/data-engineering/text-processing/08-glove.md:
+    name: GloVe
+    category: text-processing
+    attempts: []
+  ml-rapid-fire/data-engineering/text-processing/09-document-embeddings.md:
+    name: Document Embeddings
+    category: text-processing
+    attempts: []
+  ml-rapid-fire/data-engineering/text-processing/10-text-classification-pipeline.md:
+    name: Text Classification Pipeline
+    category: text-processing
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/01-rl-vs-supervised.md:
+    name: RL vs Supervised Learning
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/02-mdp-definition.md:
+    name: Markov Decision Process (MDP)
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/03-policy.md:
+    name: Policy
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/04-value-function.md:
+    name: Value Function
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/05-action-value-function.md:
+    name: Action-Value Function (Q-function)
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/06-bellman-equation.md:
+    name: Bellman Equation
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/07-discount-factor.md:
+    name: Discount Factor
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/08-reward-design.md:
+    name: Reward Design
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/09-model-based-vs-free.md:
+    name: Model-Based vs Model-Free RL
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/10-on-vs-off-policy.md:
+    name: On-Policy vs Off-Policy Learning
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/11-temporal-difference.md:
+    name: Temporal Difference Learning
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/12-return-types.md:
+    name: Return - Episodic vs Continuing Tasks
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/13-advantage-function.md:
+    name: Advantage Function
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/14-function-approximation.md:
+    name: Function Approximation in RL
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/core-concepts/15-partial-observability.md:
+    name: Partial Observability (POMDP)
+    category: rl-core-concepts
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/01-value-iteration.md:
+    name: Value Iteration
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/02-policy-iteration.md:
+    name: Policy Iteration
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/03-monte-carlo-methods.md:
+    name: Monte Carlo Methods
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/04-q-learning.md:
+    name: Q-Learning
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/05-sarsa.md:
+    name: SARSA
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/06-experience-replay.md:
+    name: Experience Replay
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/07-dqn.md:
+    name: DQN (Deep Q-Network)
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/08-double-dqn.md:
+    name: Double DQN
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/09-policy-gradient-basics.md:
+    name: Policy Gradient Basics
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/10-actor-critic.md:
+    name: Actor-Critic Methods
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/11-ppo.md:
+    name: PPO (Proximal Policy Optimization)
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/12-ddpg.md:
+    name: DDPG (Deep Deterministic Policy Gradient)
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/13-sac.md:
+    name: SAC (Soft Actor-Critic)
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/14-imitation-learning.md:
+    name: Imitation Learning
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/15-inverse-rl.md:
+    name: Inverse Reinforcement Learning
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/16-model-based-planning.md:
+    name: Model-Based Planning
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/17-hierarchical-rl.md:
+    name: Hierarchical RL
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/algorithms/18-multi-agent-rl.md:
+    name: Multi-Agent RL
+    category: rl-algorithms
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/exploration-exploitation/01-exploration-exploitation-dilemma.md:
+    name: Exploration-Exploitation Dilemma
+    category: exploration-exploitation
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/exploration-exploitation/02-multi-armed-bandits.md:
+    name: Multi-Armed Bandits
+    category: exploration-exploitation
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/exploration-exploitation/03-epsilon-greedy.md:
+    name: Epsilon-Greedy
+    category: exploration-exploitation
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/exploration-exploitation/04-ucb.md:
+    name: UCB (Upper Confidence Bound)
+    category: exploration-exploitation
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/exploration-exploitation/05-thompson-sampling.md:
+    name: Thompson Sampling
+    category: exploration-exploitation
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/exploration-exploitation/06-softmax-exploration.md:
+    name: Softmax (Boltzmann) Exploration
+    category: exploration-exploitation
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/exploration-exploitation/07-intrinsic-motivation.md:
+    name: Intrinsic Motivation
+    category: exploration-exploitation
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/exploration-exploitation/08-contextual-bandits.md:
+    name: Contextual Bandits
+    category: exploration-exploitation
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/exploration-exploitation/09-exploration-deep-rl.md:
+    name: Exploration in Deep RL
+    category: exploration-exploitation
+    attempts: []
+  ml-rapid-fire/reinforcement-learning/exploration-exploitation/10-regret-bounds.md:
+    name: Regret Bounds
+    category: exploration-exploitation
+    attempts: []

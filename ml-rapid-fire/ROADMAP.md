@@ -53,15 +53,15 @@
 - [x] Gradient Descent Variants (6)
 
 ## Data Engineering
-- [ ] Feature Engineering (scaling, encoding, selection)
-- [ ] Missing Data & Imputation
-- [ ] Imbalanced Data (SMOTE, over/undersampling)
-- [ ] Text Processing (TF-IDF, tokenization, embeddings)
+- [x] Feature Engineering (12)
+- [x] Missing Data & Imputation (8)
+- [x] Imbalanced Data (10)
+- [x] Text Processing (10)
 
 ## Reinforcement Learning
-- [ ] Core Concepts (MDP, policy, value functions, rewards)
-- [ ] Algorithms (Q-learning, SARSA, policy gradients)
-- [ ] Exploration vs Exploitation (bandits, epsilon-greedy)
+- [x] Core Concepts (15)
+- [x] Algorithms (18)
+- [x] Exploration vs Exploitation (10)
 
 ## Quantitative Finance (if applicable)
 - [ ] Returns & Risk (Sharpe, VaR, volatility)
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 296 cards done**
+**Progress: 379 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)
