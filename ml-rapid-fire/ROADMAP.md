@@ -43,14 +43,14 @@
 - [x] MLE & Estimators (8)
 
 ## Linear Algebra
-- [ ] Vectors & Matrices (multiplication, transpose, norms)
-- [ ] Eigenvalues & Eigenvectors
-- [ ] SVD & Matrix Decomposition
+- [x] Vectors & Matrices (10)
+- [x] Eigenvalues & Eigenvectors (4)
+- [x] SVD & Matrix Decomposition (3)
 
 ## Calculus & Optimization
-- [ ] Derivatives & Gradients (chain rule, partial derivatives)
-- [ ] Convex Optimization
-- [ ] Gradient Descent Variants
+- [x] Derivatives & Gradients (7)
+- [x] Convex Optimization (2)
+- [x] Gradient Descent Variants (6)
 
 ## Data Engineering
 - [ ] Feature Engineering (scaling, encoding, selection)
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 264 cards done**
+**Progress: 296 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)

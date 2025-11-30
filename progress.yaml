@@ -1292,3 +1292,131 @@ flashcards:
     name: Method of Moments
     category: mle-estimators
     attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/01-dot-product.md:
+    name: Dot Product
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/02-matrix-multiplication.md:
+    name: Matrix Multiplication
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/03-transpose.md:
+    name: Matrix Transpose
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/04-vector-norms.md:
+    name: Vector Norms
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/05-matrix-inverse.md:
+    name: Matrix Inverse
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/06-rank.md:
+    name: Matrix Rank
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/07-orthogonality.md:
+    name: Orthogonality
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/08-positive-definite.md:
+    name: Positive Definite Matrices
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/09-linear-independence.md:
+    name: Linear Independence
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/10-determinant.md:
+    name: Determinant
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/11-eigenvalues-definition.md:
+    name: Eigenvalues and Eigenvectors Definition
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/12-eigenvalue-properties.md:
+    name: Eigenvalue Properties
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/13-spectral-theorem.md:
+    name: Spectral Theorem
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/14-pca-connection.md:
+    name: PCA and Eigenvalues
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/15-svd-definition.md:
+    name: SVD Definition
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/16-svd-applications.md:
+    name: SVD Applications
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/linear-algebra/17-matrix-decompositions.md:
+    name: Matrix Decompositions
+    category: linear-algebra
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/01-derivative-definition.md:
+    name: Derivative Definition
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/02-common-derivatives.md:
+    name: Common Derivatives
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/03-chain-rule.md:
+    name: Chain Rule
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/04-partial-derivatives.md:
+    name: Partial Derivatives
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/05-gradient.md:
+    name: Gradient
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/06-jacobian.md:
+    name: Jacobian
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/07-hessian.md:
+    name: Hessian
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/08-convex-functions.md:
+    name: Convex Functions
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/09-convex-sets.md:
+    name: Convex Sets and Optimization
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/10-gradient-descent-basics.md:
+    name: Gradient Descent Basics
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/11-sgd-vs-batch.md:
+    name: SGD vs Batch Gradient Descent
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/12-momentum.md:
+    name: Momentum
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/13-learning-rate-schedules.md:
+    name: Learning Rate Schedules
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/14-local-minima-saddle.md:
+    name: Local Minima and Saddle Points
+    category: calculus-optimization
+    attempts: []
+  ml-rapid-fire/mathematics/calculus-optimization/15-lagrange-multipliers.md:
+    name: Lagrange Multipliers
+    category: calculus-optimization
+    attempts: []

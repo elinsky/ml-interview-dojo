@@ -14,9 +14,9 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Coverage:** [████████░░░░░░░░░░░░░░░░░░░░░░] 28.7% (77/268)
+**Coverage:** [███████░░░░░░░░░░░░░░░░░░░░░░░] 25.7% (77/300)
 
-**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 10.4% (28/268)
+**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 9.3% (28/300)
 
 | Status | Count |
 |--------|-------|
@@ -24,8 +24,8 @@ Personal repository for ML interview prep flashcards.
 | 🔵 Partial+ | 8 |
 | 🟡 Partial- | 35 |
 | 🟠 None | 14 |
-| ⚫ New | 191 |
-| **Total** | **268** |
+| ⚫ New | 223 |
+| **Total** | **300** |
 
 ## Quick Start
 
@@ -529,4 +529,54 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-29 21:51:24*
+### Other
+
+#### Calculus Optimization
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/15)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/15)
+
+- ⚫ [Derivative Definition](ml-rapid-fire/mathematics/calculus-optimization/01-derivative-definition.md)
+- ⚫ [Common Derivatives](ml-rapid-fire/mathematics/calculus-optimization/02-common-derivatives.md)
+- ⚫ [Chain Rule](ml-rapid-fire/mathematics/calculus-optimization/03-chain-rule.md)
+- ⚫ [Partial Derivatives](ml-rapid-fire/mathematics/calculus-optimization/04-partial-derivatives.md)
+- ⚫ [Gradient](ml-rapid-fire/mathematics/calculus-optimization/05-gradient.md)
+- ⚫ [Jacobian](ml-rapid-fire/mathematics/calculus-optimization/06-jacobian.md)
+- ⚫ [Hessian](ml-rapid-fire/mathematics/calculus-optimization/07-hessian.md)
+- ⚫ [Convex Functions](ml-rapid-fire/mathematics/calculus-optimization/08-convex-functions.md)
+- ⚫ [Convex Sets and Optimization](ml-rapid-fire/mathematics/calculus-optimization/09-convex-sets.md)
+- ⚫ [Gradient Descent Basics](ml-rapid-fire/mathematics/calculus-optimization/10-gradient-descent-basics.md)
+- ⚫ [SGD vs Batch Gradient Descent](ml-rapid-fire/mathematics/calculus-optimization/11-sgd-vs-batch.md)
+- ⚫ [Momentum](ml-rapid-fire/mathematics/calculus-optimization/12-momentum.md)
+- ⚫ [Learning Rate Schedules](ml-rapid-fire/mathematics/calculus-optimization/13-learning-rate-schedules.md)
+- ⚫ [Local Minima and Saddle Points](ml-rapid-fire/mathematics/calculus-optimization/14-local-minima-saddle.md)
+- ⚫ [Lagrange Multipliers](ml-rapid-fire/mathematics/calculus-optimization/15-lagrange-multipliers.md)
+
+#### Linear Algebra
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/17)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/17)
+
+- ⚫ [Dot Product](ml-rapid-fire/mathematics/linear-algebra/01-dot-product.md)
+- ⚫ [Matrix Multiplication](ml-rapid-fire/mathematics/linear-algebra/02-matrix-multiplication.md)
+- ⚫ [Matrix Transpose](ml-rapid-fire/mathematics/linear-algebra/03-transpose.md)
+- ⚫ [Vector Norms](ml-rapid-fire/mathematics/linear-algebra/04-vector-norms.md)
+- ⚫ [Matrix Inverse](ml-rapid-fire/mathematics/linear-algebra/05-matrix-inverse.md)
+- ⚫ [Matrix Rank](ml-rapid-fire/mathematics/linear-algebra/06-rank.md)
+- ⚫ [Orthogonality](ml-rapid-fire/mathematics/linear-algebra/07-orthogonality.md)
+- ⚫ [Positive Definite Matrices](ml-rapid-fire/mathematics/linear-algebra/08-positive-definite.md)
+- ⚫ [Linear Independence](ml-rapid-fire/mathematics/linear-algebra/09-linear-independence.md)
+- ⚫ [Determinant](ml-rapid-fire/mathematics/linear-algebra/10-determinant.md)
+- ⚫ [Eigenvalues and Eigenvectors Definition](ml-rapid-fire/mathematics/linear-algebra/11-eigenvalues-definition.md)
+- ⚫ [Eigenvalue Properties](ml-rapid-fire/mathematics/linear-algebra/12-eigenvalue-properties.md)
+- ⚫ [Spectral Theorem](ml-rapid-fire/mathematics/linear-algebra/13-spectral-theorem.md)
+- ⚫ [PCA and Eigenvalues](ml-rapid-fire/mathematics/linear-algebra/14-pca-connection.md)
+- ⚫ [SVD Definition](ml-rapid-fire/mathematics/linear-algebra/15-svd-definition.md)
+- ⚫ [SVD Applications](ml-rapid-fire/mathematics/linear-algebra/16-svd-applications.md)
+- ⚫ [Matrix Decompositions](ml-rapid-fire/mathematics/linear-algebra/17-matrix-decompositions.md)
+
+---
+
+*Last updated: 2025-11-29 21:56:36*
