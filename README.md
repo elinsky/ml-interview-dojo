@@ -14,17 +14,17 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Coverage:** [████████░░░░░░░░░░░░░░░░░░░░░░] 29.7% (69/232)
+**Coverage:** [█████████░░░░░░░░░░░░░░░░░░░░░] 31.9% (74/232)
 
-**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 9.9% (23/232)
+**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 10.8% (25/232)
 
 | Status | Count |
 |--------|-------|
 | 🟢 Full | 20 |
-| 🔵 Partial+ | 3 |
+| 🔵 Partial+ | 5 |
 | 🟡 Partial- | 35 |
-| 🟠 None | 11 |
-| ⚫ New | 163 |
+| 🟠 None | 14 |
+| ⚫ New | 158 |
 | **Total** | **232** |
 
 ## Quick Start
@@ -348,9 +348,9 @@ python3 scripts/generate_readme.py
 
 ### Model Evaluation
 
-**Coverage:** [████████████░░░░░░░░░░░░░░░░░░] 41.2% (21/51)
+**Coverage:** [███████████████░░░░░░░░░░░░░░░] 51.0% (26/51)
 
-**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 7.8% (4/51)
+**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 11.8% (6/51)
 
 #### Classification Metrics
 
@@ -389,20 +389,20 @@ python3 scripts/generate_readme.py
 
 #### Validation
 
-**Coverage:** [███████████████░░░░░░░░░░░░░░░] 50.0% (5/10)
+**Coverage:** [██████████████████████████████] 100.0% (10/10)
 
-**Ready:** [█████████░░░░░░░░░░░░░░░░░░░░░] 30.0% (3/10)
+**Ready:** [███████████████░░░░░░░░░░░░░░░] 50.0% (5/10)
 
 - 🟡 [Train/Test Split](ml-rapid-fire/model-evaluation/validation/01-train-test-split.md) `1 attempts`
 - 🔵 [Validation Set Purpose](ml-rapid-fire/model-evaluation/validation/02-validation-set-purpose.md) `1 attempts`
 - 🔵 [K-Fold Cross-Validation](ml-rapid-fire/model-evaluation/validation/03-k-fold-cross-validation.md) `1 attempts`
 - 🔵 [Stratified K-Fold](ml-rapid-fire/model-evaluation/validation/04-stratified-k-fold.md) `1 attempts`
 - 🟡 [Leave-One-Out Cross-Validation](ml-rapid-fire/model-evaluation/validation/05-loocv.md) `1 attempts`
-- ⚫ [Holdout vs Cross-Validation](ml-rapid-fire/model-evaluation/validation/06-holdout-vs-cv.md)
-- ⚫ [Data Leakage](ml-rapid-fire/model-evaluation/validation/07-data-leakage.md)
-- ⚫ [Time Series Validation](ml-rapid-fire/model-evaluation/validation/08-time-series-validation.md)
-- ⚫ [Bias-Variance in Cross-Validation](ml-rapid-fire/model-evaluation/validation/09-bias-variance-cv.md)
-- ⚫ [Nested Cross-Validation](ml-rapid-fire/model-evaluation/validation/10-nested-cross-validation.md)
+- 🟠 [Holdout vs Cross-Validation](ml-rapid-fire/model-evaluation/validation/06-holdout-vs-cv.md) `1 attempts`
+- 🔵 [Data Leakage](ml-rapid-fire/model-evaluation/validation/07-data-leakage.md) `1 attempts`
+- 🔵 [Time Series Validation](ml-rapid-fire/model-evaluation/validation/08-time-series-validation.md) `1 attempts`
+- 🟠 [Bias-Variance in Cross-Validation](ml-rapid-fire/model-evaluation/validation/09-bias-variance-cv.md) `1 attempts`
+- 🟠 [Nested Cross-Validation](ml-rapid-fire/model-evaluation/validation/10-nested-cross-validation.md) `1 attempts`
 
 #### Model Selection
 
@@ -465,4 +465,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-29 20:58:21*
+*Last updated: 2025-11-29 21:22:58*

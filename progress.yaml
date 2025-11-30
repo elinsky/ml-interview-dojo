@@ -986,23 +986,39 @@ flashcards:
   ml-rapid-fire/model-evaluation/validation/06-holdout-vs-cv.md:
     name: Holdout vs Cross-Validation
     category: validation
-    attempts: []
+    attempts:
+    - date: '2025-11-29T21:02:12.960236'
+      recall: none
+      notes: Reviewed answer, learned holdout vs CV tradeoffs
   ml-rapid-fire/model-evaluation/validation/07-data-leakage.md:
     name: Data Leakage
     category: validation
-    attempts: []
+    attempts:
+    - date: '2025-11-29T21:05:40.930174'
+      recall: partial+
+      notes: Got target leakage concept with great quant finance example (OHLC), missed
+        preprocessing leakage and prevention strategies
   ml-rapid-fire/model-evaluation/validation/08-time-series-validation.md:
     name: Time Series Validation
     category: validation
-    attempts: []
+    attempts:
+    - date: '2025-11-29T21:15:00.000000'
+      recall: partial+
+      notes: Got core principle (train past, validate future); provided extended answer with 3 IID reasons and window approaches
   ml-rapid-fire/model-evaluation/validation/09-bias-variance-cv.md:
     name: Bias-Variance in Cross-Validation
     category: validation
-    attempts: []
+    attempts:
+    - date: '2025-11-29T21:25:00.000000'
+      recall: none
+      notes: Reviewed in depth; clarified that bias/variance refers to CV estimate, not model
   ml-rapid-fire/model-evaluation/validation/10-nested-cross-validation.md:
     name: Nested Cross-Validation
     category: validation
-    attempts: []
+    attempts:
+    - date: '2025-11-29T21:35:00.000000'
+      recall: none
+      notes: Reviewed with visual; understood after explanation - CV inside CV to avoid optimistic bias
   ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md:
     name: What is Hyperparameter Tuning
     category: model-selection
