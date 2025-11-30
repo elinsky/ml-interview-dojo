@@ -268,12 +268,15 @@ def generate_readme():
         # Section header with aggregate stats
         section_total = 0
         section_ready = 0
+        section_coverage = 0
         for category in section_categories:
             cards = flashcards_by_category[category]
             section_total += len(cards)
             section_ready += sum(1 for card in cards if get_best_tier(card['data']) is not None and get_best_tier(card['data']) >= 2)
+            section_coverage += sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
         lines.append(f"### {section}\n")
+        lines.append(f"**Coverage:** {generate_progress_bar(section_coverage, section_total)} ({section_coverage}/{section_total})\n")
         lines.append(f"**Ready:** {generate_progress_bar(section_ready, section_total)} ({section_ready}/{section_total})\n")
 
         # Sort categories by their order in SECTION_STRUCTURE
@@ -290,8 +293,10 @@ def generate_readme():
             # Category stats
             cat_total = len(cards)
             cat_ready = sum(1 for card in cards if get_best_tier(card['data']) is not None and get_best_tier(card['data']) >= 2)
+            cat_coverage = sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
             lines.append(f"#### {category_display}\n")
+            lines.append(f"**Coverage:** {generate_progress_bar(cat_coverage, cat_total)} ({cat_coverage}/{cat_total})\n")
             lines.append(f"**Ready:** {generate_progress_bar(cat_ready, cat_total)} ({cat_ready}/{cat_total})\n")
 
             for card in cards:
@@ -314,8 +319,10 @@ def generate_readme():
 
             cat_total = len(cards)
             cat_ready = sum(1 for card in cards if get_best_tier(card['data']) is not None and get_best_tier(card['data']) >= 2)
+            cat_coverage = sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
             lines.append(f"#### {category_display}\n")
+            lines.append(f"**Coverage:** {generate_progress_bar(cat_coverage, cat_total)} ({cat_coverage}/{cat_total})\n")
             lines.append(f"**Ready:** {generate_progress_bar(cat_ready, cat_total)} ({cat_ready}/{cat_total})\n")
 
             for card in cards:
