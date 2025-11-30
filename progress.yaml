@@ -1046,11 +1046,21 @@ flashcards:
   ml-rapid-fire/model-evaluation/classification-metrics/12-auc-roc.md:
     name: AUC-ROC
     category: classification-metrics
-    attempts: []
+    attempts:
+    - date: '2025-11-29T18:07:37.484874'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: none
   ml-rapid-fire/model-evaluation/classification-metrics/13-pr-curve-vs-roc.md:
     name: PR Curve vs ROC
     category: classification-metrics
-    attempts: []
+    attempts:
+    - date: '2025-11-29T18:14:16.291418'
+      time_minutes: 1
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: none
   ml-rapid-fire/model-evaluation/regression-metrics/01-mse.md:
     name: Mean Squared Error
     category: regression-metrics
