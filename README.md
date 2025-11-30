@@ -14,16 +14,16 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Mastery Progress:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 8.7% (20/231)
+**Mastery Progress:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 8.6% (20/232)
 
 | Status | Count |
 |--------|-------|
 | 🏆 Mastered | 20 |
 | 💪 Independent | 0 |
-| 👍 Recalled | 28 |
-| ☑️ Attempted | 7 |
-| ⭐ New | 176 |
-| **Total** | **231** |
+| 👍 Recalled | 31 |
+| ☑️ Attempted | 11 |
+| ⭐ New | 170 |
+| **Total** | **232** |
 
 ## Quick Start
 
@@ -308,7 +308,7 @@ python3 scripts/generate_readme.py
 
 ### Model Evaluation
 
-**Section Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 2.0% (1/50)
+**Section Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 2.0% (1/51)
 
 #### Classification Metrics
 
@@ -325,20 +325,21 @@ python3 scripts/generate_readme.py
 - ☑️ [F1 Score](ml-rapid-fire/model-evaluation/classification-metrics/09-f1-score.md) `1 attempts`
 - 👍 [Precision-Recall Tradeoff](ml-rapid-fire/model-evaluation/classification-metrics/10-precision-recall-tradeoff.md) `1 attempts`
 - ☑️ [ROC Curve](ml-rapid-fire/model-evaluation/classification-metrics/11-roc-curve.md) `1 attempts`
-- ⭐ [AUC-ROC](ml-rapid-fire/model-evaluation/classification-metrics/12-auc-roc.md)
-- ⭐ [PR Curve vs ROC](ml-rapid-fire/model-evaluation/classification-metrics/13-pr-curve-vs-roc.md)
+- ☑️ [AUC-ROC](ml-rapid-fire/model-evaluation/classification-metrics/12-auc-roc.md) `1 attempts`
+- ☑️ [PR Curve vs ROC](ml-rapid-fire/model-evaluation/classification-metrics/13-pr-curve-vs-roc.md) `1 attempts`
 
 #### Regression Metrics
 
-**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/7)
+**Progress:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/8)
 
-- ⭐ [Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/01-mse.md)
-- ⭐ [Root Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/02-rmse.md)
-- ⭐ [Mean Absolute Error](ml-rapid-fire/model-evaluation/regression-metrics/03-mae.md)
-- ⭐ [MSE vs MAE](ml-rapid-fire/model-evaluation/regression-metrics/04-mse-vs-mae.md)
-- ⭐ [R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/05-r-squared.md)
-- ⭐ [R-Squared Limitations](ml-rapid-fire/model-evaluation/regression-metrics/06-r-squared-limitations.md)
-- ⭐ [Adjusted R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/07-adjusted-r-squared.md)
+- 👍 [Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/01-mse.md) `1 attempts`
+- ☑️ [Root Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/02-rmse.md) `1 attempts`
+- 👍 [Mean Absolute Error](ml-rapid-fire/model-evaluation/regression-metrics/03-mae.md) `1 attempts`
+- ☑️ [MSE vs MAE](ml-rapid-fire/model-evaluation/regression-metrics/04-mse-vs-mae.md) `1 attempts`
+- ⭐ [Sum of Squares (SST, SSE, SSR)](ml-rapid-fire/model-evaluation/regression-metrics/05-sum-of-squares.md)
+- 👍 [R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/06-r-squared.md) `1 attempts`
+- ⭐ [R-Squared Limitations](ml-rapid-fire/model-evaluation/regression-metrics/07-r-squared-limitations.md)
+- ⭐ [Adjusted R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/08-adjusted-r-squared.md)
 
 #### Validation
 
@@ -408,4 +409,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-29 17:25:40*
+*Last updated: 2025-11-29 19:34:21*

@@ -1101,7 +1101,11 @@ flashcards:
       looked_at_answer: true
       recall_quality: none
       notes: Looked at answer, summary card
-  ml-rapid-fire/model-evaluation/regression-metrics/05-r-squared.md:
+  ml-rapid-fire/model-evaluation/regression-metrics/05-sum-of-squares.md:
+    name: Sum of Squares (SST, SSE, SSR)
+    category: regression-metrics
+    attempts: []
+  ml-rapid-fire/model-evaluation/regression-metrics/06-r-squared.md:
     name: R-Squared
     category: regression-metrics
     attempts:
@@ -1111,11 +1115,11 @@ flashcards:
       looked_at_answer: true
       recall_quality: partial
       notes: Got variance explained concept, missed formula and baseline interpretation
-  ml-rapid-fire/model-evaluation/regression-metrics/06-r-squared-limitations.md:
+  ml-rapid-fire/model-evaluation/regression-metrics/07-r-squared-limitations.md:
     name: R-Squared Limitations
     category: regression-metrics
     attempts: []
-  ml-rapid-fire/model-evaluation/regression-metrics/07-adjusted-r-squared.md:
+  ml-rapid-fire/model-evaluation/regression-metrics/08-adjusted-r-squared.md:
     name: Adjusted R-Squared
     category: regression-metrics
     attempts: []
