@@ -1148,3 +1148,147 @@ flashcards:
     name: Chain Rule of Probability
     category: probability-basics
     attempts: []
+  ml-rapid-fire/statistics/distributions/01-normal-distribution.md:
+    name: Normal Distribution
+    category: distributions
+    attempts: []
+  ml-rapid-fire/statistics/distributions/02-binomial-distribution.md:
+    name: Binomial Distribution
+    category: distributions
+    attempts: []
+  ml-rapid-fire/statistics/distributions/03-poisson-distribution.md:
+    name: Poisson Distribution
+    category: distributions
+    attempts: []
+  ml-rapid-fire/statistics/distributions/04-uniform-distribution.md:
+    name: Uniform Distribution
+    category: distributions
+    attempts: []
+  ml-rapid-fire/statistics/distributions/05-exponential-distribution.md:
+    name: Exponential Distribution
+    category: distributions
+    attempts: []
+  ml-rapid-fire/statistics/distributions/06-geometric-distribution.md:
+    name: Geometric Distribution
+    category: distributions
+    attempts: []
+  ml-rapid-fire/statistics/distributions/07-beta-distribution.md:
+    name: Beta Distribution
+    category: distributions
+    attempts: []
+  ml-rapid-fire/statistics/distributions/08-log-normal-distribution.md:
+    name: Log-Normal Distribution
+    category: distributions
+    attempts: []
+  ml-rapid-fire/statistics/distributions/09-central-limit-theorem.md:
+    name: Central Limit Theorem
+    category: distributions
+    attempts: []
+  ml-rapid-fire/statistics/distributions/10-heavy-tailed-distributions.md:
+    name: Heavy-Tailed Distributions
+    category: distributions
+    attempts: []
+  ml-rapid-fire/statistics/descriptive-stats/01-mean-median-mode.md:
+    name: Mean, Median, Mode
+    category: descriptive-stats
+    attempts: []
+  ml-rapid-fire/statistics/descriptive-stats/02-variance-std-dev.md:
+    name: Variance and Standard Deviation
+    category: descriptive-stats
+    attempts: []
+  ml-rapid-fire/statistics/descriptive-stats/03-covariance.md:
+    name: Covariance
+    category: descriptive-stats
+    attempts: []
+  ml-rapid-fire/statistics/descriptive-stats/04-correlation.md:
+    name: Correlation (Pearson)
+    category: descriptive-stats
+    attempts: []
+  ml-rapid-fire/statistics/descriptive-stats/05-pearson-vs-spearman.md:
+    name: Pearson vs Spearman Correlation
+    category: descriptive-stats
+    attempts: []
+  ml-rapid-fire/statistics/descriptive-stats/06-skewness.md:
+    name: Skewness
+    category: descriptive-stats
+    attempts: []
+  ml-rapid-fire/statistics/descriptive-stats/07-kurtosis.md:
+    name: Kurtosis
+    category: descriptive-stats
+    attempts: []
+  ml-rapid-fire/statistics/descriptive-stats/08-z-score.md:
+    name: Z-Score (Standardization)
+    category: descriptive-stats
+    attempts: []
+  ml-rapid-fire/statistics/descriptive-stats/09-law-of-large-numbers.md:
+    name: Law of Large Numbers
+    category: descriptive-stats
+    attempts: []
+  ml-rapid-fire/statistics/statistical-inference/01-hypothesis-testing.md:
+    name: Hypothesis Testing Framework
+    category: statistical-inference
+    attempts: []
+  ml-rapid-fire/statistics/statistical-inference/02-type-i-type-ii-errors.md:
+    name: Type I and Type II Errors
+    category: statistical-inference
+    attempts: []
+  ml-rapid-fire/statistics/statistical-inference/03-p-values.md:
+    name: P-Values
+    category: statistical-inference
+    attempts: []
+  ml-rapid-fire/statistics/statistical-inference/04-confidence-intervals.md:
+    name: Confidence Intervals
+    category: statistical-inference
+    attempts: []
+  ml-rapid-fire/statistics/statistical-inference/05-t-test-vs-z-test.md:
+    name: T-Test vs Z-Test
+    category: statistical-inference
+    attempts: []
+  ml-rapid-fire/statistics/statistical-inference/06-statistical-power.md:
+    name: Statistical Power
+    category: statistical-inference
+    attempts: []
+  ml-rapid-fire/statistics/statistical-inference/07-multiple-testing.md:
+    name: Multiple Testing Problem
+    category: statistical-inference
+    attempts: []
+  ml-rapid-fire/statistics/statistical-inference/08-ab-testing.md:
+    name: A/B Testing
+    category: statistical-inference
+    attempts: []
+  ml-rapid-fire/statistics/statistical-inference/09-parametric-vs-nonparametric.md:
+    name: Parametric vs Nonparametric Tests
+    category: statistical-inference
+    attempts: []
+  ml-rapid-fire/statistics/mle-estimators/01-what-is-an-estimator.md:
+    name: What is an Estimator?
+    category: mle-estimators
+    attempts: []
+  ml-rapid-fire/statistics/mle-estimators/02-bias-of-estimator.md:
+    name: Bias of an Estimator
+    category: mle-estimators
+    attempts: []
+  ml-rapid-fire/statistics/mle-estimators/03-variance-and-mse.md:
+    name: Variance and MSE of Estimators
+    category: mle-estimators
+    attempts: []
+  ml-rapid-fire/statistics/mle-estimators/04-consistency.md:
+    name: Consistency of Estimators
+    category: mle-estimators
+    attempts: []
+  ml-rapid-fire/statistics/mle-estimators/05-mle-intuition.md:
+    name: Maximum Likelihood Estimation (Intuition)
+    category: mle-estimators
+    attempts: []
+  ml-rapid-fire/statistics/mle-estimators/06-mle-derivation.md:
+    name: MLE Derivation Process
+    category: mle-estimators
+    attempts: []
+  ml-rapid-fire/statistics/mle-estimators/07-mle-vs-map.md:
+    name: MLE vs MAP
+    category: mle-estimators
+    attempts: []
+  ml-rapid-fire/statistics/mle-estimators/08-method-of-moments.md:
+    name: Method of Moments
+    category: mle-estimators
+    attempts: []

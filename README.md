@@ -14,9 +14,9 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Coverage:** [█████████░░░░░░░░░░░░░░░░░░░░░] 33.2% (77/232)
+**Coverage:** [████████░░░░░░░░░░░░░░░░░░░░░░] 28.7% (77/268)
 
-**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 12.1% (28/232)
+**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 10.4% (28/268)
 
 | Status | Count |
 |--------|-------|
@@ -24,8 +24,8 @@ Personal repository for ML interview prep flashcards.
 | 🔵 Partial+ | 8 |
 | 🟡 Partial- | 35 |
 | 🟠 None | 14 |
-| ⚫ New | 155 |
-| **Total** | **232** |
+| ⚫ New | 191 |
+| **Total** | **268** |
 
 ## Quick Start
 
@@ -442,9 +442,9 @@ python3 scripts/generate_readme.py
 
 ### Probability & Statistics
 
-**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/46)
 
-**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/46)
 
 #### Probability Basics
 
@@ -463,6 +463,70 @@ python3 scripts/generate_readme.py
 - ⚫ [Mutually Exclusive vs Independent](ml-rapid-fire/statistics/probability-basics/09-mutually-exclusive-vs-independent.md)
 - ⚫ [Chain Rule of Probability](ml-rapid-fire/statistics/probability-basics/10-chain-rule-of-probability.md)
 
+#### Distributions
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+
+- ⚫ [Normal Distribution](ml-rapid-fire/statistics/distributions/01-normal-distribution.md)
+- ⚫ [Binomial Distribution](ml-rapid-fire/statistics/distributions/02-binomial-distribution.md)
+- ⚫ [Poisson Distribution](ml-rapid-fire/statistics/distributions/03-poisson-distribution.md)
+- ⚫ [Uniform Distribution](ml-rapid-fire/statistics/distributions/04-uniform-distribution.md)
+- ⚫ [Exponential Distribution](ml-rapid-fire/statistics/distributions/05-exponential-distribution.md)
+- ⚫ [Geometric Distribution](ml-rapid-fire/statistics/distributions/06-geometric-distribution.md)
+- ⚫ [Beta Distribution](ml-rapid-fire/statistics/distributions/07-beta-distribution.md)
+- ⚫ [Log-Normal Distribution](ml-rapid-fire/statistics/distributions/08-log-normal-distribution.md)
+- ⚫ [Central Limit Theorem](ml-rapid-fire/statistics/distributions/09-central-limit-theorem.md)
+- ⚫ [Heavy-Tailed Distributions](ml-rapid-fire/statistics/distributions/10-heavy-tailed-distributions.md)
+
+#### Descriptive Stats
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+- ⚫ [Mean, Median, Mode](ml-rapid-fire/statistics/descriptive-stats/01-mean-median-mode.md)
+- ⚫ [Variance and Standard Deviation](ml-rapid-fire/statistics/descriptive-stats/02-variance-std-dev.md)
+- ⚫ [Covariance](ml-rapid-fire/statistics/descriptive-stats/03-covariance.md)
+- ⚫ [Correlation (Pearson)](ml-rapid-fire/statistics/descriptive-stats/04-correlation.md)
+- ⚫ [Pearson vs Spearman Correlation](ml-rapid-fire/statistics/descriptive-stats/05-pearson-vs-spearman.md)
+- ⚫ [Skewness](ml-rapid-fire/statistics/descriptive-stats/06-skewness.md)
+- ⚫ [Kurtosis](ml-rapid-fire/statistics/descriptive-stats/07-kurtosis.md)
+- ⚫ [Z-Score (Standardization)](ml-rapid-fire/statistics/descriptive-stats/08-z-score.md)
+- ⚫ [Law of Large Numbers](ml-rapid-fire/statistics/descriptive-stats/09-law-of-large-numbers.md)
+
+#### Statistical Inference
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/9)
+
+- ⚫ [Hypothesis Testing Framework](ml-rapid-fire/statistics/statistical-inference/01-hypothesis-testing.md)
+- ⚫ [Type I and Type II Errors](ml-rapid-fire/statistics/statistical-inference/02-type-i-type-ii-errors.md)
+- ⚫ [P-Values](ml-rapid-fire/statistics/statistical-inference/03-p-values.md)
+- ⚫ [Confidence Intervals](ml-rapid-fire/statistics/statistical-inference/04-confidence-intervals.md)
+- ⚫ [T-Test vs Z-Test](ml-rapid-fire/statistics/statistical-inference/05-t-test-vs-z-test.md)
+- ⚫ [Statistical Power](ml-rapid-fire/statistics/statistical-inference/06-statistical-power.md)
+- ⚫ [Multiple Testing Problem](ml-rapid-fire/statistics/statistical-inference/07-multiple-testing.md)
+- ⚫ [A/B Testing](ml-rapid-fire/statistics/statistical-inference/08-ab-testing.md)
+- ⚫ [Parametric vs Nonparametric Tests](ml-rapid-fire/statistics/statistical-inference/09-parametric-vs-nonparametric.md)
+
+#### Mle Estimators
+
+**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/8)
+
+**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/8)
+
+- ⚫ [What is an Estimator?](ml-rapid-fire/statistics/mle-estimators/01-what-is-an-estimator.md)
+- ⚫ [Bias of an Estimator](ml-rapid-fire/statistics/mle-estimators/02-bias-of-estimator.md)
+- ⚫ [Variance and MSE of Estimators](ml-rapid-fire/statistics/mle-estimators/03-variance-and-mse.md)
+- ⚫ [Consistency of Estimators](ml-rapid-fire/statistics/mle-estimators/04-consistency.md)
+- ⚫ [Maximum Likelihood Estimation (Intuition)](ml-rapid-fire/statistics/mle-estimators/05-mle-intuition.md)
+- ⚫ [MLE Derivation Process](ml-rapid-fire/statistics/mle-estimators/06-mle-derivation.md)
+- ⚫ [MLE vs MAP](ml-rapid-fire/statistics/mle-estimators/07-mle-vs-map.md)
+- ⚫ [Method of Moments](ml-rapid-fire/statistics/mle-estimators/08-method-of-moments.md)
+
 ---
 
-*Last updated: 2025-11-29 21:40:17*
+*Last updated: 2025-11-29 21:51:24*

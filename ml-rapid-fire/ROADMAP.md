@@ -37,10 +37,10 @@
 
 ## Probability & Statistics
 - [x] Probability Basics (10)
-- [ ] Distributions (normal, binomial, Poisson, uniform)
-- [ ] Descriptive Stats (mean, variance, correlation, covariance)
-- [ ] Statistical Inference (hypothesis testing, p-values, confidence intervals)
-- [ ] MLE & Estimators
+- [x] Distributions (10)
+- [x] Descriptive Stats (9)
+- [x] Statistical Inference (9)
+- [x] MLE & Estimators (8)
 
 ## Linear Algebra
 - [ ] Vectors & Matrices (multiplication, transpose, norms)
@@ -79,7 +79,7 @@
 
 ---
 
-**Progress: 228 cards done**
+**Progress: 264 cards done**
 
 **Priority Order:**
 1. Core ML + Classical ML (most common in interviews)
