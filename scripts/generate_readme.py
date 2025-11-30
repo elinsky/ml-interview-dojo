@@ -100,21 +100,20 @@ def load_progress():
 
 def get_tier(attempt):
     """Calculate tier from attempt data"""
-    recall = attempt.get('recall_quality', 'none')
-    used_hints = attempt.get('used_hints', False)
-    looked = attempt.get('looked_at_answer', False)
-    time_min = attempt.get('time_minutes', 999)
+    # Support both old format (recall_quality) and new format (recall)
+    recall = attempt.get('recall', attempt.get('recall_quality', 'none'))
 
-    if recall == 'none':
-        return 0
-    elif recall == 'partial' or used_hints or looked:
-        return 1
-    elif recall == 'full' and not used_hints and not looked:
-        if time_min <= 2:
-            return 3
-        else:
-            return 2
-    return 0
+    # Map old 'partial' to 'partial-' for backwards compatibility
+    if recall == 'partial':
+        recall = 'partial-'
+
+    tier_map = {
+        'none': 0,
+        'partial-': 1,
+        'partial+': 2,
+        'full': 3,
+    }
+    return tier_map.get(recall, 0)
 
 
 def get_best_tier(flashcard_data):
@@ -129,14 +128,14 @@ def get_status(flashcard_data):
     """Returns (emoji, status_text, tier)"""
     tier = get_best_tier(flashcard_data)
     if tier is None:
-        return '⭐', 'New', -1
+        return '⚫', 'New', -1
     tier_info = {
-        0: ('☑️', 'Attempted'),
-        1: ('👍', 'Recalled'),
-        2: ('💪', 'Independent'),
-        3: ('🏆', 'Mastered'),
+        0: ('🟠', 'None'),
+        1: ('🟡', 'Partial-'),
+        2: ('🔵', 'Partial+'),
+        3: ('🟢', 'Full'),
     }
-    emoji, text = tier_info.get(tier, ('⭐', 'New'))
+    emoji, text = tier_info.get(tier, ('⚫', 'New'))
     return emoji, text, tier
 
 
@@ -189,14 +188,14 @@ def generate_readme():
     lines.append("Personal repository for ML interview prep flashcards.\n")
 
     # Tier legend
-    lines.append("## Tier System\n")
-    lines.append("| Tier | Name | Criteria |")
-    lines.append("|------|------|----------|")
-    lines.append("| 0 | ☑️ Attempted | Tried but couldn't recall |")
-    lines.append("| 1 | 👍 Recalled | Partial recall, or used hints/peeked |")
-    lines.append("| 2 | 💪 Independent | Full recall, no hints, no peeking |")
-    lines.append("| 3 | 🏆 Mastered | Independent + answered in ≤2 min |")
-    lines.append("| - | ⭐ New | Not yet attempted |")
+    lines.append("## Recall Levels\n")
+    lines.append("| Level | Criteria |")
+    lines.append("|-------|----------|")
+    lines.append("| 🟢 Full | Got everything |")
+    lines.append("| 🔵 Partial+ | More than half of checklist |")
+    lines.append("| 🟡 Partial- | Less than half of checklist |")
+    lines.append("| 🟠 None | Didn't know it |")
+    lines.append("| ⚫ New | Not yet attempted |")
     lines.append("")
 
     # Overall stats
@@ -209,29 +208,33 @@ def generate_readme():
             tier = get_best_tier(card['data'])
             by_tier[tier if tier is not None else -1] += 1
 
-    mastered = by_tier[3]
-    independent = by_tier[2]
-    recalled = by_tier[1]
-    attempted = by_tier[0]
+    full = by_tier[3]
+    partial_plus = by_tier[2]
+    partial_minus = by_tier[1]
+    none_recall = by_tier[0]
     new = by_tier[-1]
 
+    coverage = full + partial_plus + partial_minus + none_recall  # anything attempted
+    ready = full + partial_plus  # interview ready
+
     lines.append("## Progress Summary\n")
-    lines.append(f"**Mastery Progress:** {generate_progress_bar(mastered, total)} ({mastered}/{total})\n")
+    lines.append(f"**Coverage:** {generate_progress_bar(coverage, total)} ({coverage}/{total})\n")
+    lines.append(f"**Ready:** {generate_progress_bar(ready, total)} ({ready}/{total})\n")
     lines.append("| Status | Count |")
     lines.append("|--------|-------|")
-    lines.append(f"| 🏆 Mastered | {mastered} |")
-    lines.append(f"| 💪 Independent | {independent} |")
-    lines.append(f"| 👍 Recalled | {recalled} |")
-    lines.append(f"| ☑️ Attempted | {attempted} |")
-    lines.append(f"| ⭐ New | {new} |")
+    lines.append(f"| 🟢 Full | {full} |")
+    lines.append(f"| 🔵 Partial+ | {partial_plus} |")
+    lines.append(f"| 🟡 Partial- | {partial_minus} |")
+    lines.append(f"| 🟠 None | {none_recall} |")
+    lines.append(f"| ⚫ New | {new} |")
     lines.append(f"| **Total** | **{total}** |")
     lines.append("")
 
     # Quick start
     lines.append("## Quick Start\n")
     lines.append("```bash")
-    lines.append("# Log an attempt")
-    lines.append('python3 scripts/log_attempt.py --file "ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md" --time 2 --hints false --looked false --recall full')
+    lines.append("# Log an attempt (recall: none, partial-, partial+, full)")
+    lines.append('python3 scripts/log_attempt.py --file "ml-rapid-fire/path/to/card.md" --recall full')
     lines.append("")
     lines.append("# Update this README")
     lines.append("python3 scripts/generate_readme.py")
@@ -264,14 +267,14 @@ def generate_readme():
 
         # Section header with aggregate stats
         section_total = 0
-        section_mastered = 0
+        section_ready = 0
         for category in section_categories:
             cards = flashcards_by_category[category]
             section_total += len(cards)
-            section_mastered += sum(1 for card in cards if get_best_tier(card['data']) == 3)
+            section_ready += sum(1 for card in cards if get_best_tier(card['data']) is not None and get_best_tier(card['data']) >= 2)
 
         lines.append(f"### {section}\n")
-        lines.append(f"**Section Progress:** {generate_progress_bar(section_mastered, section_total)} ({section_mastered}/{section_total})\n")
+        lines.append(f"**Ready:** {generate_progress_bar(section_ready, section_total)} ({section_ready}/{section_total})\n")
 
         # Sort categories by their order in SECTION_STRUCTURE
         section_order = SECTION_STRUCTURE[section]
@@ -286,10 +289,10 @@ def generate_readme():
 
             # Category stats
             cat_total = len(cards)
-            cat_mastered = sum(1 for card in cards if get_best_tier(card['data']) == 3)
+            cat_ready = sum(1 for card in cards if get_best_tier(card['data']) is not None and get_best_tier(card['data']) >= 2)
 
             lines.append(f"#### {category_display}\n")
-            lines.append(f"**Progress:** {generate_progress_bar(cat_mastered, cat_total)} ({cat_mastered}/{cat_total})\n")
+            lines.append(f"**Ready:** {generate_progress_bar(cat_ready, cat_total)} ({cat_ready}/{cat_total})\n")
 
             for card in cards:
                 emoji, status, tier = get_status(card['data'])
@@ -310,10 +313,10 @@ def generate_readme():
             category_display = CATEGORY_DISPLAY_NAMES.get(category, category.replace('-', ' ').title())
 
             cat_total = len(cards)
-            cat_mastered = sum(1 for card in cards if get_best_tier(card['data']) == 3)
+            cat_ready = sum(1 for card in cards if get_best_tier(card['data']) is not None and get_best_tier(card['data']) >= 2)
 
             lines.append(f"#### {category_display}\n")
-            lines.append(f"**Progress:** {generate_progress_bar(cat_mastered, cat_total)} ({cat_mastered}/{cat_total})\n")
+            lines.append(f"**Ready:** {generate_progress_bar(cat_ready, cat_total)} ({cat_ready}/{cat_total})\n")
 
             for card in cards:
                 emoji, status, tier = get_status(card['data'])

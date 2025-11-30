@@ -5,10 +5,7 @@ flashcards:
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T12:40:19.779947'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Confused sigmoid with softmax
   ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md:
     name: Why Not Linear Regression
@@ -16,20 +13,14 @@ flashcards:
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:14:36.688697'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/classical-ml/logistic-regression/03-sigmoid-function.md:
     name: Sigmoid Function
     category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:16:50.429576'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: none
+      recall: none
       notes: Said -1 to 1 (thats tanh), forgot formula
   ml-rapid-fire/classical-ml/logistic-regression/04-how-trained.md:
     name: How Trained
@@ -37,20 +28,14 @@ flashcards:
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:17:37.998837'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/classical-ml/logistic-regression/05-coefficient-interpretation.md:
     name: Coefficient Interpretation
     category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:18:21.172664'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Knew log odds involved, forgot e^beta relationship
   ml-rapid-fire/classical-ml/logistic-regression/06-decision-boundary.md:
     name: Decision Boundary
@@ -58,10 +43,7 @@ flashcards:
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:19:34.202086'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Knew it was linear, but didnt understand why or what it means
   ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md:
     name: Multi-class
@@ -69,191 +51,131 @@ flashcards:
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:20:57.106630'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md:
     name: Loss Function
     category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:21:22.926173'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/classical-ml/cross-entropy/01-what-is-cross-entropy.md:
     name: 01-what-is-cross-entropy
     category: cross-entropy
     attempts:
     - date: '2025-11-28T14:36:20.799548'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Got core concept, not surprise framing
   ml-rapid-fire/classical-ml/cross-entropy/02-why-not-mse.md:
     name: 02-why-not-mse
     category: cross-entropy
     attempts:
     - date: '2025-11-28T14:48:51.788921'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: none
+      recall: none
       notes: Needed full explanation of sigmoid saturation and gradient issue
   ml-rapid-fire/classical-ml/cross-entropy/03-binary-cross-entropy-formula.md:
     name: 03-binary-cross-entropy-formula
     category: cross-entropy
     attempts:
     - date: '2025-11-28T14:50:26.073924'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: none
+      recall: none
   ml-rapid-fire/classical-ml/cross-entropy/04-confident-correct.md:
     name: 04-confident-correct
     category: cross-entropy
     attempts:
     - date: '2025-11-28T14:50:57.569021'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/classical-ml/cross-entropy/05-confident-wrong.md:
     name: 05-confident-wrong
     category: cross-entropy
     attempts:
     - date: '2025-11-28T14:53:42.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Knew loss gets high, thought capped at 1 (actually approaches infinity)
   ml-rapid-fire/classical-ml/cross-entropy/06-categorical-cross-entropy.md:
     name: 06-categorical-cross-entropy
     category: cross-entropy
     attempts:
     - date: '2025-11-28T15:02:15.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: none
+      recall: none
       notes: Knew it was for multiple classes, needed formula walkthrough
   ml-rapid-fire/classical-ml/cross-entropy/07-calculate-cross-entropy.md:
     name: 07-calculate-cross-entropy
     category: cross-entropy
     attempts:
     - date: '2025-11-28T15:08:30.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Got formula structure, missed negative sign
   ml-rapid-fire/classical-ml/cross-entropy/08-calculate-categorical-cross-entropy.md:
     name: 08-calculate-categorical-cross-entropy
     category: cross-entropy
     attempts:
     - date: '2025-11-28T15:10:45.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/classical-ml/linear-regression/01-what-is-linear-regression.md:
     name: 01-what-is-linear-regression
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:25:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/classical-ml/linear-regression/02-simple-vs-multiple.md:
     name: 02-simple-vs-multiple
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:26:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/classical-ml/linear-regression/03-linear-regression-formula.md:
     name: 03-linear-regression-formula
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:27:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Gave multiple regression formula instead of simple
   ml-rapid-fire/classical-ml/linear-regression/04-loss-function.md:
     name: 04-loss-function
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:29:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/classical-ml/linear-regression/05-ordinary-least-squares.md:
     name: 05-ordinary-least-squares
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:31:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Confused OLS method with MSE formula
   ml-rapid-fire/classical-ml/linear-regression/06-gradient-descent-for-lr.md:
     name: 06-gradient-descent-for-lr
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:33:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: none
+      recall: none
   ml-rapid-fire/classical-ml/linear-regression/07-coefficient-interpretation.md:
     name: 07-coefficient-interpretation
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:35:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/classical-ml/linear-regression/08-assumptions.md:
     name: 08-assumptions
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:38:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Got 2/5 - independence and homoscedasticity
   ml-rapid-fire/classical-ml/linear-regression/09-ridge-vs-lasso.md:
     name: 09-ridge-vs-lasso
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:42:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Knew one squares penalty, other doesnt - missed feature selection aspect
   ml-rapid-fire/classical-ml/linear-regression/10-r-squared.md:
     name: 10-r-squared
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:45:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Confused with coefficient of variation, knew range 0-1 and higher=better,
         forgot interpretation
   ml-rapid-fire/classical-ml/linear-regression/11-mse-formula.md:
@@ -261,56 +183,38 @@ flashcards:
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:48:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/01-what-is-ml.md:
     name: 01-what-is-ml
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:15:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/02-traditional-vs-ml.md:
     name: 02-traditional-vs-ml
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:45:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/03-three-components.md:
     name: 03-three-components
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:47:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Got concepts, not exact terms (Representation, Evaluation, Optimization)
   ml-rapid-fire/fundamentals/ml-basics/04-types-of-learning.md:
     name: 04-types-of-learning
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:48:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/05-classification-vs-regression.md:
     name: 05-classification-vs-regression
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:50:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Got concept, want to use technical terms (target/response, discrete/categorical,
         continuous)
   ml-rapid-fire/fundamentals/ml-basics/06-what-is-a-model.md:
@@ -318,28 +222,19 @@ flashcards:
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:52:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/07-what-is-loss-function.md:
     name: 07-what-is-loss-function
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:53:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/08-what-is-optimization.md:
     name: 08-what-is-optimization
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:55:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Got concept, want to nail all 3 parts (algorithm, finds params, minimizes
         loss)
   ml-rapid-fire/fundamentals/ml-basics/09-loss-vs-metric.md:
@@ -347,57 +242,39 @@ flashcards:
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:57:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Got training vs eval distinction, missed differentiability point
   ml-rapid-fire/fundamentals/ml-basics/10-params-vs-hyperparams.md:
     name: 10-params-vs-hyperparams
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:59:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Missed key distinction - params LEARNED, hyperparams SET BEFORE training
   ml-rapid-fire/fundamentals/ml-basics/11-what-is-regularization.md:
     name: 11-what-is-regularization
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:01:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/12-training-vs-inference.md:
     name: 12-training-vs-inference
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:03:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/13-overfitting-underfitting.md:
     name: 13-overfitting-underfitting
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:05:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/14-bias-variance.md:
     name: 14-bias-variance
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:07:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Got tradeoff and connection to over/underfit, need exact definitions
         of bias and variance
   ml-rapid-fire/fundamentals/ml-basics/15-when-to-use-ml.md:
@@ -405,10 +282,7 @@ flashcards:
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:09:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Got 3/4, missed "problem changes frequently"
   ml-rapid-fire/classical-ml/logistic-regression/09-linearly-separable.md:
     name: Linearly Separable
@@ -420,30 +294,21 @@ flashcards:
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:41:38.702936'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Got 3 components, missed bias squared and definitions
   ml-rapid-fire/fundamentals/ml-basics/17-diagnosing-bias-variance.md:
     name: Diagnosing Bias vs Variance
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:42:39.565150'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Right intuition about data helping variance, missed gap diagnostic
   ml-rapid-fire/fundamentals/ml-basics/18-causes-high-variance.md:
     name: Causes of High Variance
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:43:55.549228'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: 'Got 2/6: too complex, no regularization. Missed: too many features,
         too few examples, train too long, non-parametric'
   ml-rapid-fire/fundamentals/ml-basics/19-reduce-variance.md:
@@ -451,28 +316,19 @@ flashcards:
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:46:08.464943'
-      time_minutes: 2
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
   ml-rapid-fire/fundamentals/ml-basics/20-causes-high-bias.md:
     name: Causes of High Bias
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:48:43.063694'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
   ml-rapid-fire/fundamentals/ml-basics/21-reduce-bias.md:
     name: How to Reduce Bias
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:49:51.523376'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
   ml-rapid-fire/classical-ml/regularization/01-l2-ridge-formula.md:
     name: L2 (Ridge) Penalty Formula
     category: regularization
@@ -970,10 +826,7 @@ flashcards:
     category: classification-metrics
     attempts:
     - date: '2025-11-29T13:13:46.393402'
-      time_minutes: 2
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: partial
+      recall: partial-
   ml-rapid-fire/model-evaluation/classification-metrics/03-type-i-type-ii.md:
     name: Type I and Type II Errors
     category: classification-metrics
@@ -987,28 +840,19 @@ flashcards:
     category: classification-metrics
     attempts:
     - date: '2025-11-29T13:23:35.288084'
-      time_minutes: 2
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
   ml-rapid-fire/model-evaluation/classification-metrics/06-precision.md:
     name: Precision
     category: classification-metrics
     attempts:
     - date: '2025-11-29T13:32:57.250643'
-      time_minutes: 2
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
   ml-rapid-fire/model-evaluation/classification-metrics/07-recall.md:
     name: Recall
     category: classification-metrics
     attempts:
     - date: '2025-11-29T14:15:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: full
+      recall: full
       notes: Got 4/5 - missed alternative names (sensitivity, TPR)
   ml-rapid-fire/model-evaluation/classification-metrics/08-specificity.md:
     name: Specificity
@@ -1019,19 +863,13 @@ flashcards:
     category: classification-metrics
     attempts:
     - date: '2025-11-29T14:18:00.000000'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: none
+      recall: none
   ml-rapid-fire/model-evaluation/classification-metrics/10-precision-recall-tradeoff.md:
     name: Precision-Recall Tradeoff
     category: classification-metrics
     attempts:
     - date: '2025-11-29T15:00:26.709486'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: false
-      recall_quality: partial
+      recall: partial-
       notes: Got tradeoff concept with examples, said 'accuracy' instead of 'precision',
         missed threshold framing
   ml-rapid-fire/model-evaluation/classification-metrics/11-roc-curve.md:
@@ -1039,67 +877,46 @@ flashcards:
     category: classification-metrics
     attempts:
     - date: '2025-11-29T17:18:14.708641'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: none
+      recall: none
   ml-rapid-fire/model-evaluation/classification-metrics/12-auc-roc.md:
     name: AUC-ROC
     category: classification-metrics
     attempts:
     - date: '2025-11-29T18:07:37.484874'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: none
+      recall: none
   ml-rapid-fire/model-evaluation/classification-metrics/13-pr-curve-vs-roc.md:
     name: PR Curve vs ROC
     category: classification-metrics
     attempts:
     - date: '2025-11-29T18:14:16.291418'
-      time_minutes: 1
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: none
+      recall: none
   ml-rapid-fire/model-evaluation/regression-metrics/01-mse.md:
     name: Mean Squared Error
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:07:34.403692'
-      time_minutes: 60
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: partial
+      recall: partial-
       notes: Got formula, missed loss function definition and OLS distinction
   ml-rapid-fire/model-evaluation/regression-metrics/02-rmse.md:
     name: Root Mean Squared Error
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:08:16.822233'
-      time_minutes: 30
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: none
+      recall: none
       notes: Didn't remember
   ml-rapid-fire/model-evaluation/regression-metrics/03-mae.md:
     name: Mean Absolute Error
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:18:19.289113'
-      time_minutes: 45
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: partial
+      recall: partial-
       notes: Got formula and outlier robustness, missed optimization tradeoff
   ml-rapid-fire/model-evaluation/regression-metrics/04-mse-vs-mae.md:
     name: MSE vs MAE
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:21:10.609439'
-      time_minutes: 30
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: none
+      recall: none
       notes: Looked at answer, summary card
   ml-rapid-fire/model-evaluation/regression-metrics/05-sum-of-squares.md:
     name: Sum of Squares (SST, SSE, SSR)
@@ -1110,20 +927,14 @@ flashcards:
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:22:20.245453'
-      time_minutes: 45
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: partial
+      recall: partial-
       notes: Got variance explained concept, missed formula and baseline interpretation
   ml-rapid-fire/model-evaluation/regression-metrics/07-r-squared-limitations.md:
     name: R-Squared Limitations
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:36:03.760073'
-      time_minutes: 45
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: partial
+      recall: partial-
       notes: Got key limitation (always increases with features), missed bias/overfitting/negative
         values
   ml-rapid-fire/model-evaluation/regression-metrics/08-adjusted-r-squared.md:
@@ -1131,10 +942,7 @@ flashcards:
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:43:43.407697'
-      time_minutes: 30
-      used_hints: false
-      looked_at_answer: true
-      recall_quality: partial
+      recall: partial-
       notes: Got key purpose (addresses complexity limitation), missed formula and
         mechanics
   ml-rapid-fire/model-evaluation/validation/01-train-test-split.md:
