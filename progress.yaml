@@ -948,7 +948,11 @@ flashcards:
   ml-rapid-fire/model-evaluation/validation/01-train-test-split.md:
     name: Train/Test Split
     category: validation
-    attempts: []
+    attempts:
+    - date: '2025-11-29T20:37:37.383484'
+      recall: partial-
+      notes: Got generalization, missed train purpose and once-only rule (no criteria
+        in Q)
   ml-rapid-fire/model-evaluation/validation/02-validation-set-purpose.md:
     name: Validation Set Purpose
     category: validation
