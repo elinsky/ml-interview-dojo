@@ -956,7 +956,10 @@ flashcards:
   ml-rapid-fire/model-evaluation/validation/02-validation-set-purpose.md:
     name: Validation Set Purpose
     category: validation
-    attempts: []
+    attempts:
+    - date: '2025-11-29T20:42:18.511144'
+      recall: partial+
+      notes: Got validation/test purposes and workflow, missed split ratios
   ml-rapid-fire/model-evaluation/validation/03-k-fold-cross-validation.md:
     name: K-Fold Cross-Validation
     category: validation
