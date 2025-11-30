@@ -1022,15 +1022,24 @@ flashcards:
   ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md:
     name: What is Hyperparameter Tuning
     category: model-selection
-    attempts: []
+    attempts:
+    - date: '2025-11-29T22:00:00.000000'
+      recall: partial+
+      notes: Got core concepts with good examples (tree depth, num trees); mentioned grid search; good insight on why necessary
   ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md:
     name: Grid Search
     category: model-selection
-    attempts: []
+    attempts:
+    - date: '2025-11-29T22:05:00.000000'
+      recall: partial+
+      notes: Got core concept of grid formation and search process; missed exhaustive nature and computational cost
   ml-rapid-fire/model-evaluation/model-selection/03-random-search.md:
     name: Random Search
     category: model-selection
-    attempts: []
+    attempts:
+    - date: '2025-11-29T22:10:00.000000'
+      recall: partial+
+      notes: Got mechanics and curse of dimensionality; missed Bergstra insight about important hyperparameters
   ml-rapid-fire/model-evaluation/model-selection/04-bayesian-optimization.md:
     name: Bayesian Optimization
     category: model-selection

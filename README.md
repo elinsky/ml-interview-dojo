@@ -14,17 +14,17 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Coverage:** [█████████░░░░░░░░░░░░░░░░░░░░░] 31.9% (74/232)
+**Coverage:** [█████████░░░░░░░░░░░░░░░░░░░░░] 33.2% (77/232)
 
-**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 10.8% (25/232)
+**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 12.1% (28/232)
 
 | Status | Count |
 |--------|-------|
 | 🟢 Full | 20 |
-| 🔵 Partial+ | 5 |
+| 🔵 Partial+ | 8 |
 | 🟡 Partial- | 35 |
 | 🟠 None | 14 |
-| ⚫ New | 158 |
+| ⚫ New | 155 |
 | **Total** | **232** |
 
 ## Quick Start
@@ -348,9 +348,9 @@ python3 scripts/generate_readme.py
 
 ### Model Evaluation
 
-**Coverage:** [███████████████░░░░░░░░░░░░░░░] 51.0% (26/51)
+**Coverage:** [█████████████████░░░░░░░░░░░░░] 56.9% (29/51)
 
-**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 11.8% (6/51)
+**Ready:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 17.6% (9/51)
 
 #### Classification Metrics
 
@@ -406,13 +406,13 @@ python3 scripts/generate_readme.py
 
 #### Model Selection
 
-**Coverage:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+**Coverage:** [█████████░░░░░░░░░░░░░░░░░░░░░] 30.0% (3/10)
 
-**Ready:** [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0.0% (0/10)
+**Ready:** [█████████░░░░░░░░░░░░░░░░░░░░░] 30.0% (3/10)
 
-- ⚫ [What is Hyperparameter Tuning](ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md)
-- ⚫ [Grid Search](ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md)
-- ⚫ [Random Search](ml-rapid-fire/model-evaluation/model-selection/03-random-search.md)
+- 🔵 [What is Hyperparameter Tuning](ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md) `1 attempts`
+- 🔵 [Grid Search](ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md) `1 attempts`
+- 🔵 [Random Search](ml-rapid-fire/model-evaluation/model-selection/03-random-search.md) `1 attempts`
 - ⚫ [Bayesian Optimization](ml-rapid-fire/model-evaluation/model-selection/04-bayesian-optimization.md)
 - ⚫ [Cross-Validation for Model Selection](ml-rapid-fire/model-evaluation/model-selection/05-cv-for-model-selection.md)
 - ⚫ [Learning Curves for Diagnosis](ml-rapid-fire/model-evaluation/model-selection/06-learning-curves.md)
@@ -465,4 +465,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-29 21:22:58*
+*Last updated: 2025-11-29 21:40:17*
