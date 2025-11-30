@@ -1118,11 +1118,25 @@ flashcards:
   ml-rapid-fire/model-evaluation/regression-metrics/07-r-squared-limitations.md:
     name: R-Squared Limitations
     category: regression-metrics
-    attempts: []
+    attempts:
+    - date: '2025-11-29T19:36:03.760073'
+      time_minutes: 45
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: partial
+      notes: Got key limitation (always increases with features), missed bias/overfitting/negative
+        values
   ml-rapid-fire/model-evaluation/regression-metrics/08-adjusted-r-squared.md:
     name: Adjusted R-Squared
     category: regression-metrics
-    attempts: []
+    attempts:
+    - date: '2025-11-29T19:43:43.407697'
+      time_minutes: 30
+      used_hints: false
+      looked_at_answer: true
+      recall_quality: partial
+      notes: Got key purpose (addresses complexity limitation), missed formula and
+        mechanics
   ml-rapid-fire/model-evaluation/validation/01-train-test-split.md:
     name: Train/Test Split
     category: validation
