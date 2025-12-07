@@ -16,13 +16,13 @@ Personal repository for ML interview prep flashcards.
 
 **Coverage:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 19.7% (76/386)
 
-**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 9.3% (36/386)
+**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 10.4% (40/386)
 
 | Status | Count |
 |--------|-------|
-| 🟢 Full | 26 |
-| 🔵 Partial+ | 10 |
-| 🟡 Partial- | 27 |
+| 🟢 Full | 27 |
+| 🔵 Partial+ | 13 |
+| 🟡 Partial- | 23 |
 | 🟠 None | 13 |
 | ⚫ New | 310 |
 | **Total** | **386** |
@@ -43,13 +43,13 @@ python3 scripts/generate_readme.py
 
 **Coverage:** [████████████████████░░░░░░░░░░] 69.1% (47/68)
 
-**Ready:** [███████████░░░░░░░░░░░░░░░░░░░] 39.7% (27/68)
+**Ready:** [█████████████░░░░░░░░░░░░░░░░░] 45.6% (31/68)
 
 #### ML Basics
 
 **Coverage:** [██████████████████████████████] 100.0% (21/21)
 
-**Ready:** [██████████████████░░░░░░░░░░░░] 61.9% (13/21)
+**Ready:** [████████████████████████░░░░░░] 81.0% (17/21)
 
 - 🟢 [01-what-is-ml](ml-rapid-fire/fundamentals/ml-basics/01-what-is-ml.md) `2 attempts`
 - 🟢 [02-traditional-vs-ml](ml-rapid-fire/fundamentals/ml-basics/02-traditional-vs-ml.md) `2 attempts`
@@ -65,13 +65,13 @@ python3 scripts/generate_readme.py
 - 🟢 [12-training-vs-inference](ml-rapid-fire/fundamentals/ml-basics/12-training-vs-inference.md) `2 attempts`
 - 🟢 [13-overfitting-underfitting](ml-rapid-fire/fundamentals/ml-basics/13-overfitting-underfitting.md) `2 attempts`
 - 🔵 [16-bias-variance-tradeoff](ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-tradeoff.md) `2 attempts`
-- 🟡 [17-when-to-use-ml](ml-rapid-fire/fundamentals/ml-basics/17-when-to-use-ml.md) `1 attempts`
-- 🟡 [Bias-Variance Decomposition](ml-rapid-fire/fundamentals/ml-basics/18-bias-variance-decomposition.md) `1 attempts`
-- 🟡 [Diagnosing Bias vs Variance](ml-rapid-fire/fundamentals/ml-basics/19-diagnosing-bias-variance.md) `1 attempts`
-- 🟡 [Causes of High Variance](ml-rapid-fire/fundamentals/ml-basics/20-causes-high-variance.md) `1 attempts`
-- 🟡 [How to Reduce Variance](ml-rapid-fire/fundamentals/ml-basics/21-reduce-variance.md) `1 attempts`
-- 🟡 [Causes of High Bias](ml-rapid-fire/fundamentals/ml-basics/22-causes-high-bias.md) `1 attempts`
-- 🟡 [How to Reduce Bias](ml-rapid-fire/fundamentals/ml-basics/23-reduce-bias.md) `1 attempts`
+- 🔵 [17-when-to-use-ml](ml-rapid-fire/fundamentals/ml-basics/17-when-to-use-ml.md) `2 attempts`
+- 🟡 [Bias-Variance Decomposition](ml-rapid-fire/fundamentals/ml-basics/18-bias-variance-decomposition.md) `2 attempts`
+- 🟢 [Diagnosing Bias vs Variance](ml-rapid-fire/fundamentals/ml-basics/19-diagnosing-bias-variance.md) `3 attempts`
+- 🟡 [Causes of High Variance](ml-rapid-fire/fundamentals/ml-basics/20-causes-high-variance.md) `2 attempts`
+- 🔵 [How to Reduce Variance](ml-rapid-fire/fundamentals/ml-basics/21-reduce-variance.md) `2 attempts`
+- 🔵 [Causes of High Bias](ml-rapid-fire/fundamentals/ml-basics/22-causes-high-bias.md) `2 attempts`
+- 🟡 [How to Reduce Bias](ml-rapid-fire/fundamentals/ml-basics/23-reduce-bias.md) `2 attempts`
 
 #### Linear Regression
 
@@ -730,4 +730,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 16:05:21*
+*Last updated: 2025-12-07 16:15:12*

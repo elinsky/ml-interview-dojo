@@ -339,6 +339,8 @@ flashcards:
     - date: '2025-11-28T17:09:00.000000'
       recall: partial-
       notes: Got 3/4, missed "problem changes frequently"
+    - date: '2025-12-07T16:06:42.174218'
+      recall: partial+
   ml-rapid-fire/classical-ml/logistic-regression/09-linearly-separable.md:
     name: Linearly Separable
     category: logistic-regression
@@ -351,6 +353,8 @@ flashcards:
     - date: '2025-11-28T17:41:38.702936'
       recall: partial-
       notes: Got 3 components, missed bias squared and definitions
+    - date: '2025-12-07T16:07:25.856727'
+      recall: none
   ml-rapid-fire/fundamentals/ml-basics/19-diagnosing-bias-variance.md:
     name: Diagnosing Bias vs Variance
     category: ml-basics
@@ -358,6 +362,10 @@ flashcards:
     - date: '2025-11-28T17:42:39.565150'
       recall: partial-
       notes: Right intuition about data helping variance, missed gap diagnostic
+    - date: '2025-12-07T16:10:32.768955'
+      recall: full
+    - date: '2025-12-07T16:11:22.484046'
+      recall: partial+
   ml-rapid-fire/fundamentals/ml-basics/20-causes-high-variance.md:
     name: Causes of High Variance
     category: ml-basics
@@ -366,23 +374,31 @@ flashcards:
       recall: partial-
       notes: 'Got 2/6: too complex, no regularization. Missed: too many features,
         too few examples, train too long, non-parametric'
+    - date: '2025-12-07T16:12:10.761402'
+      recall: partial-
   ml-rapid-fire/fundamentals/ml-basics/21-reduce-variance.md:
     name: How to Reduce Variance
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:46:08.464943'
       recall: partial-
+    - date: '2025-12-07T16:12:46.161614'
+      recall: partial+
   ml-rapid-fire/fundamentals/ml-basics/22-causes-high-bias.md:
     name: Causes of High Bias
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:48:43.063694'
       recall: partial-
+    - date: '2025-12-07T16:13:42.333912'
+      recall: partial+
   ml-rapid-fire/fundamentals/ml-basics/23-reduce-bias.md:
     name: How to Reduce Bias
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:49:51.523376'
+      recall: partial-
+    - date: '2025-12-07T16:14:44.486678'
       recall: partial-
   ml-rapid-fire/classical-ml/regularization/01-l2-ridge-formula.md:
     name: L2 (Ridge) Penalty Formula
