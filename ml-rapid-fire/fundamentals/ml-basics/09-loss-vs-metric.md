@@ -4,13 +4,11 @@
 
 **A:**
 
-**Loss function**:
-- Used during **training** to optimize the model
+**Loss function** → used during **training**
 - Must be **differentiable** for gradient-based methods
 - Examples: MSE, cross-entropy
 
-**Evaluation metric**:
-- Used to measure **real-world performance** (not during training)
+**Evaluation metric** → used to measure **real-world performance** (not during training)
 - Doesn't need to be differentiable
 - Examples: accuracy, F1, AUC
 

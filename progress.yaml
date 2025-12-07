@@ -217,12 +217,16 @@ flashcards:
     attempts:
     - date: '2025-11-28T16:15:00.000000'
       recall: full
+    - date: '2025-12-07T15:29:12.057017'
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/02-traditional-vs-ml.md:
     name: 02-traditional-vs-ml
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:45:00.000000'
       recall: full
+    - date: '2025-12-07T15:30:22.116145'
+      recall: none
   ml-rapid-fire/fundamentals/ml-basics/03-three-components.md:
     name: 03-three-components
     category: ml-basics
@@ -230,11 +234,15 @@ flashcards:
     - date: '2025-11-28T16:47:00.000000'
       recall: partial-
       notes: Got concepts, not exact terms (Representation, Evaluation, Optimization)
+    - date: '2025-12-07T15:32:09.502748'
+      recall: partial-
   ml-rapid-fire/fundamentals/ml-basics/04-types-of-learning.md:
     name: 04-types-of-learning
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:48:00.000000'
+      recall: full
+    - date: '2025-12-07T15:34:07.384082'
       recall: full
   ml-rapid-fire/fundamentals/ml-basics/05-classification-vs-regression.md:
     name: 05-classification-vs-regression
@@ -244,17 +252,23 @@ flashcards:
       recall: partial-
       notes: Got concept, want to use technical terms (target/response, discrete/categorical,
         continuous)
+    - date: '2025-12-07T15:35:53.212854'
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/06-what-is-a-model.md:
     name: 06-what-is-a-model
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:52:00.000000'
       recall: full
+    - date: '2025-12-07T15:38:27.825554'
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/07-what-is-loss-function.md:
     name: 07-what-is-loss-function
     category: ml-basics
     attempts:
     - date: '2025-11-28T16:53:00.000000'
+      recall: full
+    - date: '2025-12-07T15:41:52.945387'
       recall: full
   ml-rapid-fire/fundamentals/ml-basics/08-what-is-optimization.md:
     name: 08-what-is-optimization
@@ -264,6 +278,8 @@ flashcards:
       recall: partial-
       notes: Got concept, want to nail all 3 parts (algorithm, finds params, minimizes
         loss)
+    - date: '2025-12-07T15:43:18.992480'
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/09-loss-vs-metric.md:
     name: 09-loss-vs-metric
     category: ml-basics
@@ -271,6 +287,8 @@ flashcards:
     - date: '2025-11-28T16:57:00.000000'
       recall: partial-
       notes: Got training vs eval distinction, missed differentiability point
+    - date: '2025-12-07T15:45:18.795779'
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/10-params-vs-hyperparams.md:
     name: 10-params-vs-hyperparams
     category: ml-basics
@@ -278,11 +296,15 @@ flashcards:
     - date: '2025-11-28T16:59:00.000000'
       recall: partial-
       notes: Missed key distinction - params LEARNED, hyperparams SET BEFORE training
+    - date: '2025-12-07T15:49:02.511414'
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/11-what-is-regularization.md:
     name: 11-what-is-regularization
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:01:00.000000'
+      recall: full
+    - date: '2025-12-07T15:50:33.484550'
       recall: full
   ml-rapid-fire/fundamentals/ml-basics/12-training-vs-inference.md:
     name: 12-training-vs-inference
@@ -290,22 +312,28 @@ flashcards:
     attempts:
     - date: '2025-11-28T17:03:00.000000'
       recall: full
+    - date: '2025-12-07T15:51:30.352532'
+      recall: full
   ml-rapid-fire/fundamentals/ml-basics/13-overfitting-underfitting.md:
     name: 13-overfitting-underfitting
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:05:00.000000'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/14-bias-variance.md:
-    name: 14-bias-variance
+    - date: '2025-12-07T15:53:19.413458'
+      recall: full
+  ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-tradeoff.md:
+    name: 16-bias-variance-tradeoff
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:07:00.000000'
       recall: partial-
       notes: Got tradeoff and connection to over/underfit, need exact definitions
         of bias and variance
-  ml-rapid-fire/fundamentals/ml-basics/15-when-to-use-ml.md:
-    name: 15-when-to-use-ml
+    - date: '2025-12-07T15:54:55.404773'
+      recall: partial+
+  ml-rapid-fire/fundamentals/ml-basics/17-when-to-use-ml.md:
+    name: 17-when-to-use-ml
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:09:00.000000'
@@ -316,21 +344,21 @@ flashcards:
     category: logistic-regression
     topic: logistic-regression
     attempts: []
-  ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-decomposition.md:
+  ml-rapid-fire/fundamentals/ml-basics/18-bias-variance-decomposition.md:
     name: Bias-Variance Decomposition
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:41:38.702936'
       recall: partial-
       notes: Got 3 components, missed bias squared and definitions
-  ml-rapid-fire/fundamentals/ml-basics/17-diagnosing-bias-variance.md:
+  ml-rapid-fire/fundamentals/ml-basics/19-diagnosing-bias-variance.md:
     name: Diagnosing Bias vs Variance
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:42:39.565150'
       recall: partial-
       notes: Right intuition about data helping variance, missed gap diagnostic
-  ml-rapid-fire/fundamentals/ml-basics/18-causes-high-variance.md:
+  ml-rapid-fire/fundamentals/ml-basics/20-causes-high-variance.md:
     name: Causes of High Variance
     category: ml-basics
     attempts:
@@ -338,19 +366,19 @@ flashcards:
       recall: partial-
       notes: 'Got 2/6: too complex, no regularization. Missed: too many features,
         too few examples, train too long, non-parametric'
-  ml-rapid-fire/fundamentals/ml-basics/19-reduce-variance.md:
+  ml-rapid-fire/fundamentals/ml-basics/21-reduce-variance.md:
     name: How to Reduce Variance
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:46:08.464943'
       recall: partial-
-  ml-rapid-fire/fundamentals/ml-basics/20-causes-high-bias.md:
+  ml-rapid-fire/fundamentals/ml-basics/22-causes-high-bias.md:
     name: Causes of High Bias
     category: ml-basics
     attempts:
     - date: '2025-11-28T17:48:43.063694'
       recall: partial-
-  ml-rapid-fire/fundamentals/ml-basics/21-reduce-bias.md:
+  ml-rapid-fire/fundamentals/ml-basics/23-reduce-bias.md:
     name: How to Reduce Bias
     category: ml-basics
     attempts:
