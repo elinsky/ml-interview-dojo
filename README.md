@@ -14,18 +14,18 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Coverage:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 19.7% (76/385)
+**Coverage:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 19.7% (76/386)
 
-**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 7.8% (30/385)
+**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 8.0% (31/386)
 
 | Status | Count |
 |--------|-------|
 | 🟢 Full | 22 |
-| 🔵 Partial+ | 8 |
-| 🟡 Partial- | 33 |
+| 🔵 Partial+ | 9 |
+| 🟡 Partial- | 32 |
 | 🟠 None | 13 |
-| ⚫ New | 309 |
-| **Total** | **385** |
+| ⚫ New | 310 |
+| **Total** | **386** |
 
 ## Quick Start
 
@@ -41,9 +41,9 @@ python3 scripts/generate_readme.py
 
 ### Core ML
 
-**Coverage:** [█████████████████████░░░░░░░░░] 70.1% (47/67)
+**Coverage:** [████████████████████░░░░░░░░░░] 69.1% (47/68)
 
-**Ready:** [█████████░░░░░░░░░░░░░░░░░░░░░] 31.3% (21/67)
+**Ready:** [█████████░░░░░░░░░░░░░░░░░░░░░] 32.4% (22/68)
 
 #### ML Basics
 
@@ -75,9 +75,9 @@ python3 scripts/generate_readme.py
 
 #### Linear Regression
 
-**Coverage:** [███████████████████████░░░░░░░] 76.9% (10/13)
+**Coverage:** [█████████████████████░░░░░░░░░] 71.4% (10/14)
 
-**Ready:** [████████████████░░░░░░░░░░░░░░] 53.8% (7/13)
+**Ready:** [█████████████████░░░░░░░░░░░░░] 57.1% (8/14)
 
 - 🟢 [01-what-is-linear-regression](ml-rapid-fire/classical-ml/linear-regression/01-what-is-linear-regression.md) `2 attempts`
 - 🟢 [02-simple-vs-multiple](ml-rapid-fire/classical-ml/linear-regression/02-simple-vs-multiple.md) `2 attempts`
@@ -89,9 +89,10 @@ python3 scripts/generate_readme.py
 - ⚫ [08-ols-assumptions-overview](ml-rapid-fire/classical-ml/linear-regression/08-ols-assumptions-overview.md)
 - ⚫ [09-ols-error-assumptions](ml-rapid-fire/classical-ml/linear-regression/09-ols-error-assumptions.md)
 - ⚫ [10-ols-predictor-assumptions](ml-rapid-fire/classical-ml/linear-regression/10-ols-predictor-assumptions.md)
-- 🟡 [11-ridge-vs-lasso](ml-rapid-fire/classical-ml/linear-regression/11-ridge-vs-lasso.md) `1 attempts`
-- 🟡 [12-r-squared](ml-rapid-fire/classical-ml/linear-regression/12-r-squared.md) `1 attempts`
-- 🟢 [13-mse-formula](ml-rapid-fire/classical-ml/linear-regression/13-mse-formula.md) `1 attempts`
+- 🟡 [11-ridge-vs-lasso](ml-rapid-fire/classical-ml/linear-regression/11-ridge-vs-lasso.md) `2 attempts`
+- ⚫ [12-ridge-lasso-effects](ml-rapid-fire/classical-ml/linear-regression/12-ridge-lasso-effects.md)
+- 🔵 [13-r-squared](ml-rapid-fire/classical-ml/linear-regression/13-r-squared.md) `2 attempts`
+- 🟢 [14-mse-formula](ml-rapid-fire/classical-ml/linear-regression/14-mse-formula.md) `1 attempts`
 
 #### Logistic Regression
 
@@ -729,4 +730,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 15:08:14*
+*Last updated: 2025-12-07 15:25:38*

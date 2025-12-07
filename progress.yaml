@@ -189,16 +189,24 @@ flashcards:
     - date: '2025-11-28T15:42:00.000000'
       recall: partial-
       notes: Knew one squares penalty, other doesnt - missed feature selection aspect
-  ml-rapid-fire/classical-ml/linear-regression/12-r-squared.md:
-    name: 12-r-squared
+    - date: '2025-12-07T15:19:45.427859'
+      recall: partial-
+  ml-rapid-fire/classical-ml/linear-regression/12-ridge-lasso-effects.md:
+    name: 12-ridge-lasso-effects
+    category: linear-regression
+    attempts: []
+  ml-rapid-fire/classical-ml/linear-regression/13-r-squared.md:
+    name: 13-r-squared
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:45:00.000000'
       recall: partial-
       notes: Confused with coefficient of variation, knew range 0-1 and higher=better,
         forgot interpretation
-  ml-rapid-fire/classical-ml/linear-regression/13-mse-formula.md:
-    name: 13-mse-formula
+    - date: '2025-12-07T15:24:55.522286'
+      recall: partial+
+  ml-rapid-fire/classical-ml/linear-regression/14-mse-formula.md:
+    name: 14-mse-formula
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:48:00.000000'

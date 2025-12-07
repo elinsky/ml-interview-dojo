@@ -1,7 +1,10 @@
-# Ridge vs Lasso Regression
+# Ridge vs Lasso Regularization
 
 **Q:** What is the difference between Ridge and Lasso regularization?
 
-**A:** Ridge (L2): adds penalty on squared coefficients (λΣβ²). Shrinks coefficients but keeps all [@james2013introduction, p. 215]. Lasso (L1): adds penalty on absolute coefficients (λΣ|β|). Can shrink coefficients to exactly zero (feature selection) [@james2013introduction, p. 219]. — 202101171731 L2 Regularization, 202101171802 L1 Regularization
+**A:**
+- Both add a penalty term to the loss function (MSE + penalty)
+- Ridge (L2): penalty = λΣβ² (sum of squared coefficients)
+- Lasso (L1): penalty = λΣ|β| (sum of absolute coefficients)
 
 ---
