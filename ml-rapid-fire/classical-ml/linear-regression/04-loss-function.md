@@ -2,6 +2,8 @@
 
 **Q:** What loss function does linear regression use?
 
-**A:** Mean Squared Error (MSE), also called Residual Sum of Squares (RSS).
+**A:**
+- MSE (Mean Squared Error)
+- Sum of squared differences between actual and predicted values
 
 ---

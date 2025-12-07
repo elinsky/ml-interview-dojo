@@ -14,18 +14,18 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Coverage:** [██████░░░░░░░░░░░░░░░░░░░░░░░░] 20.1% (77/383)
+**Coverage:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 19.7% (76/385)
 
-**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 7.3% (28/383)
+**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 7.8% (30/385)
 
 | Status | Count |
 |--------|-------|
-| 🟢 Full | 20 |
+| 🟢 Full | 22 |
 | 🔵 Partial+ | 8 |
-| 🟡 Partial- | 35 |
-| 🟠 None | 14 |
-| ⚫ New | 306 |
-| **Total** | **383** |
+| 🟡 Partial- | 33 |
+| 🟠 None | 13 |
+| ⚫ New | 309 |
+| **Total** | **385** |
 
 ## Quick Start
 
@@ -41,9 +41,9 @@ python3 scripts/generate_readme.py
 
 ### Core ML
 
-**Coverage:** [██████████████████████░░░░░░░░] 73.8% (48/65)
+**Coverage:** [█████████████████████░░░░░░░░░] 70.1% (47/67)
 
-**Ready:** [████████░░░░░░░░░░░░░░░░░░░░░░] 29.2% (19/65)
+**Ready:** [█████████░░░░░░░░░░░░░░░░░░░░░] 31.3% (21/67)
 
 #### ML Basics
 
@@ -75,21 +75,23 @@ python3 scripts/generate_readme.py
 
 #### Linear Regression
 
-**Coverage:** [██████████████████████████████] 100.0% (11/11)
+**Coverage:** [███████████████████████░░░░░░░] 76.9% (10/13)
 
-**Ready:** [█████████████░░░░░░░░░░░░░░░░░] 45.5% (5/11)
+**Ready:** [████████████████░░░░░░░░░░░░░░] 53.8% (7/13)
 
-- 🟢 [01-what-is-linear-regression](ml-rapid-fire/classical-ml/linear-regression/01-what-is-linear-regression.md) `1 attempts`
-- 🟢 [02-simple-vs-multiple](ml-rapid-fire/classical-ml/linear-regression/02-simple-vs-multiple.md) `1 attempts`
-- 🟡 [03-linear-regression-formula](ml-rapid-fire/classical-ml/linear-regression/03-linear-regression-formula.md) `1 attempts`
-- 🟢 [04-loss-function](ml-rapid-fire/classical-ml/linear-regression/04-loss-function.md) `1 attempts`
-- 🟡 [05-ordinary-least-squares](ml-rapid-fire/classical-ml/linear-regression/05-ordinary-least-squares.md) `1 attempts`
-- 🟠 [06-gradient-descent-for-lr](ml-rapid-fire/classical-ml/linear-regression/06-gradient-descent-for-lr.md) `1 attempts`
-- 🟢 [07-coefficient-interpretation](ml-rapid-fire/classical-ml/linear-regression/07-coefficient-interpretation.md) `1 attempts`
-- 🟡 [08-assumptions](ml-rapid-fire/classical-ml/linear-regression/08-assumptions.md) `1 attempts`
-- 🟡 [09-ridge-vs-lasso](ml-rapid-fire/classical-ml/linear-regression/09-ridge-vs-lasso.md) `1 attempts`
-- 🟡 [10-r-squared](ml-rapid-fire/classical-ml/linear-regression/10-r-squared.md) `1 attempts`
-- 🟢 [11-mse-formula](ml-rapid-fire/classical-ml/linear-regression/11-mse-formula.md) `1 attempts`
+- 🟢 [01-what-is-linear-regression](ml-rapid-fire/classical-ml/linear-regression/01-what-is-linear-regression.md) `2 attempts`
+- 🟢 [02-simple-vs-multiple](ml-rapid-fire/classical-ml/linear-regression/02-simple-vs-multiple.md) `2 attempts`
+- 🟢 [03-linear-regression-formula](ml-rapid-fire/classical-ml/linear-regression/03-linear-regression-formula.md) `2 attempts`
+- 🟢 [04-loss-function](ml-rapid-fire/classical-ml/linear-regression/04-loss-function.md) `2 attempts`
+- 🟡 [05-ordinary-least-squares](ml-rapid-fire/classical-ml/linear-regression/05-ordinary-least-squares.md) `2 attempts`
+- 🟢 [06-gradient-descent-for-lr](ml-rapid-fire/classical-ml/linear-regression/06-gradient-descent-for-lr.md) `2 attempts`
+- 🟢 [07-coefficient-interpretation](ml-rapid-fire/classical-ml/linear-regression/07-coefficient-interpretation.md) `2 attempts`
+- ⚫ [08-ols-assumptions-overview](ml-rapid-fire/classical-ml/linear-regression/08-ols-assumptions-overview.md)
+- ⚫ [09-ols-error-assumptions](ml-rapid-fire/classical-ml/linear-regression/09-ols-error-assumptions.md)
+- ⚫ [10-ols-predictor-assumptions](ml-rapid-fire/classical-ml/linear-regression/10-ols-predictor-assumptions.md)
+- 🟡 [11-ridge-vs-lasso](ml-rapid-fire/classical-ml/linear-regression/11-ridge-vs-lasso.md) `1 attempts`
+- 🟡 [12-r-squared](ml-rapid-fire/classical-ml/linear-regression/12-r-squared.md) `1 attempts`
+- 🟢 [13-mse-formula](ml-rapid-fire/classical-ml/linear-regression/13-mse-formula.md) `1 attempts`
 
 #### Logistic Regression
 
@@ -727,4 +729,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-11-29 22:11:33*
+*Last updated: 2025-12-07 15:08:14*

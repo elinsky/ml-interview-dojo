@@ -118,11 +118,15 @@ flashcards:
     attempts:
     - date: '2025-11-28T15:25:00.000000'
       recall: full
+    - date: '2025-12-07T14:43:59.052827'
+      recall: full
   ml-rapid-fire/classical-ml/linear-regression/02-simple-vs-multiple.md:
     name: 02-simple-vs-multiple
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:26:00.000000'
+      recall: full
+    - date: '2025-12-07T14:44:13.589114'
       recall: full
   ml-rapid-fire/classical-ml/linear-regression/03-linear-regression-formula.md:
     name: 03-linear-regression-formula
@@ -131,12 +135,16 @@ flashcards:
     - date: '2025-11-28T15:27:00.000000'
       recall: partial-
       notes: Gave multiple regression formula instead of simple
+    - date: '2025-12-07T14:45:30.147019'
+      recall: full
   ml-rapid-fire/classical-ml/linear-regression/04-loss-function.md:
     name: 04-loss-function
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:29:00.000000'
       recall: full
+    - date: '2025-12-07T14:54:08.252938'
+      recall: partial-
   ml-rapid-fire/classical-ml/linear-regression/05-ordinary-least-squares.md:
     name: 05-ordinary-least-squares
     category: linear-regression
@@ -144,42 +152,53 @@ flashcards:
     - date: '2025-11-28T15:31:00.000000'
       recall: partial-
       notes: Confused OLS method with MSE formula
+    - date: '2025-12-07T14:54:11.339569'
+      recall: partial-
   ml-rapid-fire/classical-ml/linear-regression/06-gradient-descent-for-lr.md:
     name: 06-gradient-descent-for-lr
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:33:00.000000'
       recall: none
+    - date: '2025-12-07T14:55:14.124555'
+      recall: full
   ml-rapid-fire/classical-ml/linear-regression/07-coefficient-interpretation.md:
     name: 07-coefficient-interpretation
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:35:00.000000'
       recall: full
-  ml-rapid-fire/classical-ml/linear-regression/08-assumptions.md:
-    name: 08-assumptions
+    - date: '2025-12-07T14:58:31.059210'
+      recall: partial+
+  ml-rapid-fire/classical-ml/linear-regression/08-ols-assumptions-overview.md:
+    name: 08-ols-assumptions-overview
     category: linear-regression
-    attempts:
-    - date: '2025-11-28T15:38:00.000000'
-      recall: partial-
-      notes: Got 2/5 - independence and homoscedasticity
-  ml-rapid-fire/classical-ml/linear-regression/09-ridge-vs-lasso.md:
-    name: 09-ridge-vs-lasso
+    attempts: []
+  ml-rapid-fire/classical-ml/linear-regression/09-ols-error-assumptions.md:
+    name: 09-ols-error-assumptions
+    category: linear-regression
+    attempts: []
+  ml-rapid-fire/classical-ml/linear-regression/10-ols-predictor-assumptions.md:
+    name: 10-ols-predictor-assumptions
+    category: linear-regression
+    attempts: []
+  ml-rapid-fire/classical-ml/linear-regression/11-ridge-vs-lasso.md:
+    name: 11-ridge-vs-lasso
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:42:00.000000'
       recall: partial-
       notes: Knew one squares penalty, other doesnt - missed feature selection aspect
-  ml-rapid-fire/classical-ml/linear-regression/10-r-squared.md:
-    name: 10-r-squared
+  ml-rapid-fire/classical-ml/linear-regression/12-r-squared.md:
+    name: 12-r-squared
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:45:00.000000'
       recall: partial-
       notes: Confused with coefficient of variation, knew range 0-1 and higher=better,
         forgot interpretation
-  ml-rapid-fire/classical-ml/linear-regression/11-mse-formula.md:
-    name: 11-mse-formula
+  ml-rapid-fire/classical-ml/linear-regression/13-mse-formula.md:
+    name: 13-mse-formula
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:48:00.000000'
@@ -1004,42 +1023,48 @@ flashcards:
     attempts:
     - date: '2025-11-29T21:15:00.000000'
       recall: partial+
-      notes: Got core principle (train past, validate future); provided extended answer with 3 IID reasons and window approaches
+      notes: Got core principle (train past, validate future); provided extended answer
+        with 3 IID reasons and window approaches
   ml-rapid-fire/model-evaluation/validation/09-bias-variance-cv.md:
     name: Bias-Variance in Cross-Validation
     category: validation
     attempts:
     - date: '2025-11-29T21:25:00.000000'
       recall: none
-      notes: Reviewed in depth; clarified that bias/variance refers to CV estimate, not model
+      notes: Reviewed in depth; clarified that bias/variance refers to CV estimate,
+        not model
   ml-rapid-fire/model-evaluation/validation/10-nested-cross-validation.md:
     name: Nested Cross-Validation
     category: validation
     attempts:
     - date: '2025-11-29T21:35:00.000000'
       recall: none
-      notes: Reviewed with visual; understood after explanation - CV inside CV to avoid optimistic bias
+      notes: Reviewed with visual; understood after explanation - CV inside CV to
+        avoid optimistic bias
   ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md:
     name: What is Hyperparameter Tuning
     category: model-selection
     attempts:
     - date: '2025-11-29T22:00:00.000000'
       recall: partial+
-      notes: Got core concepts with good examples (tree depth, num trees); mentioned grid search; good insight on why necessary
+      notes: Got core concepts with good examples (tree depth, num trees); mentioned
+        grid search; good insight on why necessary
   ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md:
     name: Grid Search
     category: model-selection
     attempts:
     - date: '2025-11-29T22:05:00.000000'
       recall: partial+
-      notes: Got core concept of grid formation and search process; missed exhaustive nature and computational cost
+      notes: Got core concept of grid formation and search process; missed exhaustive
+        nature and computational cost
   ml-rapid-fire/model-evaluation/model-selection/03-random-search.md:
     name: Random Search
     category: model-selection
     attempts:
     - date: '2025-11-29T22:10:00.000000'
       recall: partial+
-      notes: Got mechanics and curse of dimensionality; missed Bergstra insight about important hyperparameters
+      notes: Got mechanics and curse of dimensionality; missed Bergstra insight about
+        important hyperparameters
   ml-rapid-fire/model-evaluation/model-selection/04-bayesian-optimization.md:
     name: Bayesian Optimization
     category: model-selection

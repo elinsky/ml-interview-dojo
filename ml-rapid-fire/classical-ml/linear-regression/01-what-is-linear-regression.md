@@ -2,6 +2,10 @@
 
 **Q:** What is linear regression?
 
-**A:** A supervised learning algorithm that models a linear relationship between input variables (X) and a continuous output variable (y). Predicts y as a weighted sum of inputs plus a bias term.
+**A:**
+- Supervised learning algorithm
+- Models a linear combination of input features (no inherent feature interactions)
+- Output is a continuous real number
+- Form: weighted sum of features plus bias term
 
 ---
