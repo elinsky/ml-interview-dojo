@@ -16,13 +16,13 @@ Personal repository for ML interview prep flashcards.
 
 **Coverage:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 19.7% (76/386)
 
-**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 8.0% (31/386)
+**Ready:** [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 9.3% (36/386)
 
 | Status | Count |
 |--------|-------|
-| 🟢 Full | 22 |
-| 🔵 Partial+ | 9 |
-| 🟡 Partial- | 32 |
+| 🟢 Full | 26 |
+| 🔵 Partial+ | 10 |
+| 🟡 Partial- | 27 |
 | 🟠 None | 13 |
 | ⚫ New | 310 |
 | **Total** | **386** |
@@ -43,35 +43,35 @@ python3 scripts/generate_readme.py
 
 **Coverage:** [████████████████████░░░░░░░░░░] 69.1% (47/68)
 
-**Ready:** [█████████░░░░░░░░░░░░░░░░░░░░░] 32.4% (22/68)
+**Ready:** [███████████░░░░░░░░░░░░░░░░░░░] 39.7% (27/68)
 
 #### ML Basics
 
 **Coverage:** [██████████████████████████████] 100.0% (21/21)
 
-**Ready:** [███████████░░░░░░░░░░░░░░░░░░░] 38.1% (8/21)
+**Ready:** [██████████████████░░░░░░░░░░░░] 61.9% (13/21)
 
-- 🟢 [01-what-is-ml](ml-rapid-fire/fundamentals/ml-basics/01-what-is-ml.md) `1 attempts`
-- 🟢 [02-traditional-vs-ml](ml-rapid-fire/fundamentals/ml-basics/02-traditional-vs-ml.md) `1 attempts`
-- 🟡 [03-three-components](ml-rapid-fire/fundamentals/ml-basics/03-three-components.md) `1 attempts`
-- 🟢 [04-types-of-learning](ml-rapid-fire/fundamentals/ml-basics/04-types-of-learning.md) `1 attempts`
-- 🟡 [05-classification-vs-regression](ml-rapid-fire/fundamentals/ml-basics/05-classification-vs-regression.md) `1 attempts`
-- 🟢 [06-what-is-a-model](ml-rapid-fire/fundamentals/ml-basics/06-what-is-a-model.md) `1 attempts`
-- 🟢 [07-what-is-loss-function](ml-rapid-fire/fundamentals/ml-basics/07-what-is-loss-function.md) `1 attempts`
-- 🟡 [08-what-is-optimization](ml-rapid-fire/fundamentals/ml-basics/08-what-is-optimization.md) `1 attempts`
-- 🟡 [09-loss-vs-metric](ml-rapid-fire/fundamentals/ml-basics/09-loss-vs-metric.md) `1 attempts`
-- 🟡 [10-params-vs-hyperparams](ml-rapid-fire/fundamentals/ml-basics/10-params-vs-hyperparams.md) `1 attempts`
-- 🟢 [11-what-is-regularization](ml-rapid-fire/fundamentals/ml-basics/11-what-is-regularization.md) `1 attempts`
-- 🟢 [12-training-vs-inference](ml-rapid-fire/fundamentals/ml-basics/12-training-vs-inference.md) `1 attempts`
-- 🟢 [13-overfitting-underfitting](ml-rapid-fire/fundamentals/ml-basics/13-overfitting-underfitting.md) `1 attempts`
-- 🟡 [14-bias-variance](ml-rapid-fire/fundamentals/ml-basics/14-bias-variance.md) `1 attempts`
-- 🟡 [15-when-to-use-ml](ml-rapid-fire/fundamentals/ml-basics/15-when-to-use-ml.md) `1 attempts`
-- 🟡 [Bias-Variance Decomposition](ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-decomposition.md) `1 attempts`
-- 🟡 [Diagnosing Bias vs Variance](ml-rapid-fire/fundamentals/ml-basics/17-diagnosing-bias-variance.md) `1 attempts`
-- 🟡 [Causes of High Variance](ml-rapid-fire/fundamentals/ml-basics/18-causes-high-variance.md) `1 attempts`
-- 🟡 [How to Reduce Variance](ml-rapid-fire/fundamentals/ml-basics/19-reduce-variance.md) `1 attempts`
-- 🟡 [Causes of High Bias](ml-rapid-fire/fundamentals/ml-basics/20-causes-high-bias.md) `1 attempts`
-- 🟡 [How to Reduce Bias](ml-rapid-fire/fundamentals/ml-basics/21-reduce-bias.md) `1 attempts`
+- 🟢 [01-what-is-ml](ml-rapid-fire/fundamentals/ml-basics/01-what-is-ml.md) `2 attempts`
+- 🟢 [02-traditional-vs-ml](ml-rapid-fire/fundamentals/ml-basics/02-traditional-vs-ml.md) `2 attempts`
+- 🟡 [03-three-components](ml-rapid-fire/fundamentals/ml-basics/03-three-components.md) `2 attempts`
+- 🟢 [04-types-of-learning](ml-rapid-fire/fundamentals/ml-basics/04-types-of-learning.md) `2 attempts`
+- 🟢 [05-classification-vs-regression](ml-rapid-fire/fundamentals/ml-basics/05-classification-vs-regression.md) `2 attempts`
+- 🟢 [06-what-is-a-model](ml-rapid-fire/fundamentals/ml-basics/06-what-is-a-model.md) `2 attempts`
+- 🟢 [07-what-is-loss-function](ml-rapid-fire/fundamentals/ml-basics/07-what-is-loss-function.md) `2 attempts`
+- 🟢 [08-what-is-optimization](ml-rapid-fire/fundamentals/ml-basics/08-what-is-optimization.md) `2 attempts`
+- 🟢 [09-loss-vs-metric](ml-rapid-fire/fundamentals/ml-basics/09-loss-vs-metric.md) `2 attempts`
+- 🟢 [10-params-vs-hyperparams](ml-rapid-fire/fundamentals/ml-basics/10-params-vs-hyperparams.md) `2 attempts`
+- 🟢 [11-what-is-regularization](ml-rapid-fire/fundamentals/ml-basics/11-what-is-regularization.md) `2 attempts`
+- 🟢 [12-training-vs-inference](ml-rapid-fire/fundamentals/ml-basics/12-training-vs-inference.md) `2 attempts`
+- 🟢 [13-overfitting-underfitting](ml-rapid-fire/fundamentals/ml-basics/13-overfitting-underfitting.md) `2 attempts`
+- 🔵 [16-bias-variance-tradeoff](ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-tradeoff.md) `2 attempts`
+- 🟡 [17-when-to-use-ml](ml-rapid-fire/fundamentals/ml-basics/17-when-to-use-ml.md) `1 attempts`
+- 🟡 [Bias-Variance Decomposition](ml-rapid-fire/fundamentals/ml-basics/18-bias-variance-decomposition.md) `1 attempts`
+- 🟡 [Diagnosing Bias vs Variance](ml-rapid-fire/fundamentals/ml-basics/19-diagnosing-bias-variance.md) `1 attempts`
+- 🟡 [Causes of High Variance](ml-rapid-fire/fundamentals/ml-basics/20-causes-high-variance.md) `1 attempts`
+- 🟡 [How to Reduce Variance](ml-rapid-fire/fundamentals/ml-basics/21-reduce-variance.md) `1 attempts`
+- 🟡 [Causes of High Bias](ml-rapid-fire/fundamentals/ml-basics/22-causes-high-bias.md) `1 attempts`
+- 🟡 [How to Reduce Bias](ml-rapid-fire/fundamentals/ml-basics/23-reduce-bias.md) `1 attempts`
 
 #### Linear Regression
 
@@ -730,4 +730,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 15:25:38*
+*Last updated: 2025-12-07 16:05:21*
