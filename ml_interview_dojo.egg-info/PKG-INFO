@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: ml-interview-dojo
+Version: 0.1.0
+Summary: ML interview preparation flashcards and drills
+Requires-Python: >=3.9
+Requires-Dist: pyyaml>=6.0

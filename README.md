@@ -14,17 +14,17 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Coverage:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 19.7% (76/386)
+**Coverage:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 19.9% (77/386)
 
-**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 10.4% (40/386)
+**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 11.1% (43/386)
 
 | Status | Count |
 |--------|-------|
-| 🟢 Full | 27 |
-| 🔵 Partial+ | 13 |
-| 🟡 Partial- | 23 |
+| 🟢 Full | 29 |
+| 🔵 Partial+ | 14 |
+| 🟡 Partial- | 21 |
 | 🟠 None | 13 |
-| ⚫ New | 310 |
+| ⚫ New | 309 |
 | **Total** | **386** |
 
 ## Quick Start
@@ -41,9 +41,9 @@ python3 scripts/generate_readme.py
 
 ### Core ML
 
-**Coverage:** [████████████████████░░░░░░░░░░] 69.1% (47/68)
+**Coverage:** [█████████████████████░░░░░░░░░] 70.6% (48/68)
 
-**Ready:** [█████████████░░░░░░░░░░░░░░░░░] 45.6% (31/68)
+**Ready:** [███████████████░░░░░░░░░░░░░░░] 50.0% (34/68)
 
 #### ML Basics
 
@@ -96,19 +96,19 @@ python3 scripts/generate_readme.py
 
 #### Logistic Regression
 
-**Coverage:** [██████████████████████████░░░░] 88.9% (8/9)
+**Coverage:** [██████████████████████████████] 100.0% (9/9)
 
-**Ready:** [█████████████░░░░░░░░░░░░░░░░░] 44.4% (4/9)
+**Ready:** [███████████████████████░░░░░░░] 77.8% (7/9)
 
-- 🟡 [What is Logistic Regression](ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md) `1 attempts`
-- 🟢 [Why Not Linear Regression](ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md) `1 attempts`
-- 🟠 [Sigmoid Function](ml-rapid-fire/classical-ml/logistic-regression/03-sigmoid-function.md) `1 attempts`
-- 🟢 [How Trained](ml-rapid-fire/classical-ml/logistic-regression/04-how-trained.md) `1 attempts`
-- 🟡 [Coefficient Interpretation](ml-rapid-fire/classical-ml/logistic-regression/05-coefficient-interpretation.md) `1 attempts`
-- 🟡 [Decision Boundary](ml-rapid-fire/classical-ml/logistic-regression/06-decision-boundary.md) `1 attempts`
-- 🟢 [Multi-class](ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md) `1 attempts`
+- 🔵 [What is Logistic Regression](ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md) `2 attempts`
+- 🟢 [Why Not Linear Regression](ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md) `2 attempts`
+- 🟠 [Sigmoid Function](ml-rapid-fire/classical-ml/logistic-regression/03-sigmoid-function.md) `2 attempts`
+- 🟢 [How Trained](ml-rapid-fire/classical-ml/logistic-regression/04-how-trained.md) `2 attempts`
+- 🟡 [Coefficient Interpretation](ml-rapid-fire/classical-ml/logistic-regression/05-coefficient-interpretation.md) `2 attempts`
+- 🟢 [Decision Boundary](ml-rapid-fire/classical-ml/logistic-regression/06-decision-boundary.md) `2 attempts`
+- 🟢 [Multi-class](ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md) `2 attempts`
 - 🟢 [Loss Function](ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md) `1 attempts`
-- ⚫ [Linearly Separable](ml-rapid-fire/classical-ml/logistic-regression/09-linearly-separable.md)
+- 🟢 [Linearly Separable](ml-rapid-fire/classical-ml/logistic-regression/09-linearly-separable.md) `1 attempts`
 
 #### Cross Entropy
 
@@ -730,4 +730,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 16:15:12*
+*Last updated: 2025-12-07 16:38:40*

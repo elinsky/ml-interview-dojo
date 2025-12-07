@@ -1,13 +1,11 @@
 # Loss Function
 
-**Q:** What loss function does logistic regression use?
+**Q:** What loss function does logistic regression use, and what is its formula?
 
-**A:** Log loss (binary cross-entropy).
+**A:**
+- **Log loss** (binary cross-entropy)
+- Formula: C = -1/n Σ [y ln(a) + (1-y) ln(1-a)]
 
-$$C = -\frac{1}{n} \sum_{x} [y \ln a + (1-y) \ln (1-a)]$$
-
-[@nielsen2015neural, p. 62]
-
-"Crossentropy is usually the best choice when you're dealing with models that output probabilities" [@chollet2018deep, p. 73]. — 202101120828 Cross-Entropy Cost
+[@nielsen2015neural, p. 62] — 202101120828 Cross-Entropy Cost
 
 ---
