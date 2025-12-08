@@ -983,7 +983,9 @@ flashcards:
   ml-rapid-fire/model-evaluation/classification-metrics/04-total.md:
     name: Total
     category: classification-metrics
-    attempts: []
+    attempts:
+    - date: '2025-12-07T20:41:20.072854'
+      recall: full
   ml-rapid-fire/model-evaluation/classification-metrics/05-accuracy.md:
     name: Accuracy
     category: classification-metrics
@@ -1206,24 +1208,26 @@ flashcards:
   ml-rapid-fire/model-evaluation/model-selection/05-cv-for-model-selection.md:
     name: Cross-Validation for Model Selection
     category: model-selection
-    attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/06-learning-curves.md:
+    attempts:
+    - date: '2025-12-07T20:42:18.009140'
+      recall: none
+  ml-rapid-fire/model-evaluation/model-selection/07-learning-curves.md:
     name: Learning Curves for Diagnosis
     category: model-selection
     attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/07-validation-curve.md:
+  ml-rapid-fire/model-evaluation/model-selection/08-validation-curve.md:
     name: Validation Curve
     category: model-selection
     attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/08-early-stopping.md:
+  ml-rapid-fire/model-evaluation/model-selection/09-early-stopping.md:
     name: Early Stopping as Model Selection
     category: model-selection
     attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/09-regularization-path.md:
+  ml-rapid-fire/model-evaluation/model-selection/10-regularization-path.md:
     name: Regularization Path
     category: model-selection
     attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/10-information-criteria.md:
+  ml-rapid-fire/model-evaluation/model-selection/11-information-criteria.md:
     name: Information Criteria (AIC/BIC)
     category: model-selection
     attempts: []

@@ -5,9 +5,7 @@
 **A:**
 
 - Get more reliable estimate of generalization
-- Reduces variance from single train/val split
-- Each hyperparameter setting evaluated on multiple folds
-- Average performance across folds for comparison
+  - Reduces variance from single train/val split
 
 **See also:** [[202101080742 Cross Validation (K-Fold)]], [[202107270653 Model Selection for Linear Regression]]
 

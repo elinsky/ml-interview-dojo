@@ -14,17 +14,17 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-<code>Coverage</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 24.6% (96/390)
+<code>Coverage</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 25.1% (98/390)
 
-<code>Ready   </code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 14.9% (58/390)
+<code>Ready   </code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.1% (59/390)
 
 | Status | Count |
 |--------|-------|
-| 🟢 Full | 39 |
+| 🟢 Full | 40 |
 | 🔵 Partial+ | 19 |
 | 🟡 Partial- | 23 |
-| 🟠 None | 15 |
-| ⚫ New | 294 |
+| 🟠 None | 16 |
+| ⚫ New | 292 |
 | **Total** | **390** |
 
 ## Quick Start
@@ -147,20 +147,20 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Model Evaluation</h2></td></tr></table>
 
-<code>Coverage</code> <code>[███████████████████░░░░░░░░░░░]</code> 64.7% (33/51)
+<code>Coverage</code> <code>[████████████████████░░░░░░░░░░]</code> 68.6% (35/51)
 
-<code>Ready   </code> <code>[██████░░░░░░░░░░░░░░░░░░░░░░░░]</code> 21.6% (11/51)
+<code>Ready   </code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 23.5% (12/51)
 
 ![Classification Metrics](https://img.shields.io/badge/Classification_Metrics-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[███████████████████████████░░░]</code> 92.3% (12/13)
+<code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (13/13)
 
-<code>Ready   </code> <code>[██████░░░░░░░░░░░░░░░░░░░░░░░░]</code> 23.1% (3/13)
+<code>Ready   </code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.8% (4/13)
 
 - 🟢 [TP, FP, TN, FN](ml-rapid-fire/model-evaluation/classification-metrics/01-tp-fp-tn-fn.md) `1 attempts`
 - 🟡 [Confusion Matrix](ml-rapid-fire/model-evaluation/classification-metrics/02-confusion-matrix.md) `1 attempts`
 - 🟢 [Type I and Type II Errors](ml-rapid-fire/model-evaluation/classification-metrics/03-type-i-type-ii.md) `1 attempts`
-- ⚫ [Total](ml-rapid-fire/model-evaluation/classification-metrics/04-total.md)
+- 🟢 [Total](ml-rapid-fire/model-evaluation/classification-metrics/04-total.md) `1 attempts`
 - 🟡 [Accuracy](ml-rapid-fire/model-evaluation/classification-metrics/05-accuracy.md) `1 attempts`
 - 🟡 [Precision](ml-rapid-fire/model-evaluation/classification-metrics/06-precision.md) `1 attempts`
 - 🟢 [Recall](ml-rapid-fire/model-evaluation/classification-metrics/07-recall.md) `1 attempts`
@@ -205,7 +205,7 @@ python3 scripts/generate_readme.py
 
 ![Model Selection](https://img.shields.io/badge/Model_Selection-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.0% (3/10)
+<code>Coverage</code> <code>[████████████░░░░░░░░░░░░░░░░░░]</code> 40.0% (4/10)
 
 <code>Ready   </code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.0% (3/10)
 
@@ -213,12 +213,12 @@ python3 scripts/generate_readme.py
 - 🔵 [Grid Search](ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md) `1 attempts`
 - 🔵 [Random Search](ml-rapid-fire/model-evaluation/model-selection/03-random-search.md) `1 attempts`
 - ⚫ [Bayesian Optimization](ml-rapid-fire/model-evaluation/model-selection/04-bayesian-optimization.md)
-- ⚫ [Cross-Validation for Model Selection](ml-rapid-fire/model-evaluation/model-selection/05-cv-for-model-selection.md)
-- ⚫ [Learning Curves for Diagnosis](ml-rapid-fire/model-evaluation/model-selection/06-learning-curves.md)
-- ⚫ [Validation Curve](ml-rapid-fire/model-evaluation/model-selection/07-validation-curve.md)
-- ⚫ [Early Stopping as Model Selection](ml-rapid-fire/model-evaluation/model-selection/08-early-stopping.md)
-- ⚫ [Regularization Path](ml-rapid-fire/model-evaluation/model-selection/09-regularization-path.md)
-- ⚫ [Information Criteria (AIC/BIC)](ml-rapid-fire/model-evaluation/model-selection/10-information-criteria.md)
+- 🟠 [Cross-Validation for Model Selection](ml-rapid-fire/model-evaluation/model-selection/05-cv-for-model-selection.md) `1 attempts`
+- ⚫ [Learning Curves for Diagnosis](ml-rapid-fire/model-evaluation/model-selection/07-learning-curves.md)
+- ⚫ [Validation Curve](ml-rapid-fire/model-evaluation/model-selection/08-validation-curve.md)
+- ⚫ [Early Stopping as Model Selection](ml-rapid-fire/model-evaluation/model-selection/09-early-stopping.md)
+- ⚫ [Regularization Path](ml-rapid-fire/model-evaluation/model-selection/10-regularization-path.md)
+- ⚫ [Information Criteria (AIC/BIC)](ml-rapid-fire/model-evaluation/model-selection/11-information-criteria.md)
 
 ![Loss Functions](https://img.shields.io/badge/Loss_Functions-blue?style=for-the-badge)
 
@@ -741,4 +741,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 20:40:19*
+*Last updated: 2025-12-07 20:46:02*
