@@ -18,6 +18,7 @@ CATEGORY_DISPLAY_NAMES = {
     "rnns": "RNNs",
     "svm": "SVM",
     "knn": "KNN",
+    "dl-regularization": "Regularization",
 }
 
 # Define major sections and their subsections (in display order)
@@ -44,6 +45,7 @@ SECTION_STRUCTURE = {
         "cnns",
         "rnns",
         "transformers",
+        "dl-regularization",
     ],
     "Model Evaluation": [
         "classification-metrics",

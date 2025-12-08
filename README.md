@@ -14,9 +14,9 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-<code>Coverage</code> <code>[██████░░░░░░░░░░░░░░░░░░░░░░░░]</code> 20.2% (78/387)
+<code>Coverage</code> <code>[██████░░░░░░░░░░░░░░░░░░░░░░░░]</code> 20.2% (78/386)
 
-<code>Ready   </code> <code>[███░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 11.9% (46/387)
+<code>Ready   </code> <code>[███░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 11.9% (46/386)
 
 | Status | Count |
 |--------|-------|
@@ -24,8 +24,8 @@ Personal repository for ML interview prep flashcards.
 | 🔵 Partial+ | 15 |
 | 🟡 Partial- | 20 |
 | 🟠 None | 12 |
-| ⚫ New | 309 |
-| **Total** | **387** |
+| ⚫ New | 308 |
+| **Total** | **386** |
 
 ## Quick Start
 
@@ -41,9 +41,9 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Core ML</h2></td></tr></table>
 
-<code>Coverage</code> <code>[█████████████████████░░░░░░░░░]</code> 71.0% (49/69)
+<code>Coverage</code> <code>[████████████████████████░░░░░░]</code> 81.7% (49/60)
 
-<code>Ready   </code> <code>[████████████████░░░░░░░░░░░░░░]</code> 53.6% (37/69)
+<code>Ready   </code> <code>[██████████████████░░░░░░░░░░░░]</code> 61.7% (37/60)
 
 ![ML Basics](https://img.shields.io/badge/ML_Basics-blue?style=for-the-badge)
 
@@ -128,9 +128,9 @@ python3 scripts/generate_readme.py
 
 ![Regularization](https://img.shields.io/badge/Regularization-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/16)
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/7)
 
-<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/16)
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/7)
 
 - ⚫ [L2 (Ridge) Penalty Formula](ml-rapid-fire/classical-ml/regularization/01-l2-ridge-formula.md)
 - ⚫ [L1 (Lasso) Penalty Formula](ml-rapid-fire/classical-ml/regularization/02-l1-lasso-formula.md)
@@ -139,15 +139,6 @@ python3 scripts/generate_readme.py
 - ⚫ [When to Choose L1 vs L2](ml-rapid-fire/classical-ml/regularization/05-when-l1-vs-l2.md)
 - ⚫ [Elastic Net](ml-rapid-fire/classical-ml/regularization/06-elastic-net.md)
 - ⚫ [Regularization Hyperparameter](ml-rapid-fire/classical-ml/regularization/07-lambda-hyperparameter.md)
-- ⚫ [What is Regularization](ml-rapid-fire/deep-learning/regularization/01-what-is-regularization.md)
-- ⚫ [Dropout](ml-rapid-fire/deep-learning/regularization/02-dropout.md)
-- ⚫ [Why Dropout Works](ml-rapid-fire/deep-learning/regularization/03-why-dropout-works.md)
-- ⚫ [Batch Normalization](ml-rapid-fire/deep-learning/regularization/04-batch-normalization.md)
-- ⚫ [Why Batch Norm Works](ml-rapid-fire/deep-learning/regularization/05-why-batch-norm-works.md)
-- ⚫ [Early Stopping](ml-rapid-fire/deep-learning/regularization/06-early-stopping.md)
-- ⚫ [Data Augmentation](ml-rapid-fire/deep-learning/regularization/07-data-augmentation.md)
-- ⚫ [Weight Decay](ml-rapid-fire/deep-learning/regularization/08-weight-decay.md)
-- ⚫ [Label Smoothing](ml-rapid-fire/deep-learning/regularization/09-label-smoothing.md)
 
 ---
 
@@ -264,9 +255,9 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Deep Learning</h2></td></tr></table>
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/45)
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/53)
 
-<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/45)
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/53)
 
 ![Neural Network Basics](https://img.shields.io/badge/Neural_Network_Basics-blue?style=for-the-badge)
 
@@ -347,6 +338,21 @@ python3 scripts/generate_readme.py
 - ⚫ [BERT Pre-training](ml-rapid-fire/deep-learning/transformers/07-bert-pretraining.md)
 - ⚫ [GPT vs BERT](ml-rapid-fire/deep-learning/transformers/08-gpt-vs-bert.md)
 - ⚫ [Encoder vs Decoder Models](ml-rapid-fire/deep-learning/transformers/09-encoder-vs-decoder-models.md)
+
+![Regularization](https://img.shields.io/badge/Regularization-blue?style=for-the-badge)
+
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
+
+- ⚫ [Dropout](ml-rapid-fire/deep-learning/regularization/01-dropout.md)
+- ⚫ [Why Dropout Works](ml-rapid-fire/deep-learning/regularization/02-why-dropout-works.md)
+- ⚫ [Batch Normalization](ml-rapid-fire/deep-learning/regularization/03-batch-normalization.md)
+- ⚫ [Why Batch Norm Works](ml-rapid-fire/deep-learning/regularization/04-why-batch-norm-works.md)
+- ⚫ [Early Stopping](ml-rapid-fire/deep-learning/regularization/05-early-stopping.md)
+- ⚫ [Data Augmentation](ml-rapid-fire/deep-learning/regularization/06-data-augmentation.md)
+- ⚫ [Weight Decay](ml-rapid-fire/deep-learning/regularization/07-weight-decay.md)
+- ⚫ [Label Smoothing](ml-rapid-fire/deep-learning/regularization/08-label-smoothing.md)
 
 ---
 
@@ -731,4 +737,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 19:26:20*
+*Last updated: 2025-12-07 19:29:17*
