@@ -9,4 +9,9 @@
 - **Type II error (False Negative)**: failing to reject a false null hypothesis
   - "Missed detection" - said negative when actually positive
 
+**Mnemonic:**
+
+- Type **I** error = **I**ncorrectly rejected the null = false positive
+- Type **II** error = failed **II** detect = missed it = false negative
+
 ---

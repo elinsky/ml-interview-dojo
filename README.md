@@ -14,17 +14,17 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-<code>Coverage</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 23.6% (92/390)
+<code>Coverage</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 24.6% (96/390)
 
-<code>Ready   </code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 14.4% (56/390)
+<code>Ready   </code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 14.9% (58/390)
 
 | Status | Count |
 |--------|-------|
-| 🟢 Full | 37 |
+| 🟢 Full | 39 |
 | 🔵 Partial+ | 19 |
-| 🟡 Partial- | 22 |
-| 🟠 None | 14 |
-| ⚫ New | 298 |
+| 🟡 Partial- | 23 |
+| 🟠 None | 15 |
+| ⚫ New | 294 |
 | **Total** | **390** |
 
 ## Quick Start
@@ -147,24 +147,24 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Model Evaluation</h2></td></tr></table>
 
-<code>Coverage</code> <code>[█████████████████░░░░░░░░░░░░░]</code> 56.9% (29/51)
+<code>Coverage</code> <code>[███████████████████░░░░░░░░░░░]</code> 64.7% (33/51)
 
-<code>Ready   </code> <code>[█████░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 17.6% (9/51)
+<code>Ready   </code> <code>[██████░░░░░░░░░░░░░░░░░░░░░░░░]</code> 21.6% (11/51)
 
 ![Classification Metrics](https://img.shields.io/badge/Classification_Metrics-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[████████████████████░░░░░░░░░░]</code> 69.2% (9/13)
+<code>Coverage</code> <code>[███████████████████████████░░░]</code> 92.3% (12/13)
 
-<code>Ready   </code> <code>[██░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 7.7% (1/13)
+<code>Ready   </code> <code>[██████░░░░░░░░░░░░░░░░░░░░░░░░]</code> 23.1% (3/13)
 
-- ⚫ [TP, FP, TN, FN](ml-rapid-fire/model-evaluation/classification-metrics/01-tp-fp-tn-fn.md)
+- 🟢 [TP, FP, TN, FN](ml-rapid-fire/model-evaluation/classification-metrics/01-tp-fp-tn-fn.md) `1 attempts`
 - 🟡 [Confusion Matrix](ml-rapid-fire/model-evaluation/classification-metrics/02-confusion-matrix.md) `1 attempts`
-- ⚫ [Type I and Type II Errors](ml-rapid-fire/model-evaluation/classification-metrics/03-type-i-type-ii.md)
+- 🟢 [Type I and Type II Errors](ml-rapid-fire/model-evaluation/classification-metrics/03-type-i-type-ii.md) `1 attempts`
 - ⚫ [Total](ml-rapid-fire/model-evaluation/classification-metrics/04-total.md)
 - 🟡 [Accuracy](ml-rapid-fire/model-evaluation/classification-metrics/05-accuracy.md) `1 attempts`
 - 🟡 [Precision](ml-rapid-fire/model-evaluation/classification-metrics/06-precision.md) `1 attempts`
 - 🟢 [Recall](ml-rapid-fire/model-evaluation/classification-metrics/07-recall.md) `1 attempts`
-- ⚫ [Specificity](ml-rapid-fire/model-evaluation/classification-metrics/08-specificity.md)
+- 🟠 [Specificity](ml-rapid-fire/model-evaluation/classification-metrics/08-specificity.md) `1 attempts`
 - 🟠 [F1 Score](ml-rapid-fire/model-evaluation/classification-metrics/09-f1-score.md) `1 attempts`
 - 🟡 [Precision-Recall Tradeoff](ml-rapid-fire/model-evaluation/classification-metrics/10-precision-recall-tradeoff.md) `1 attempts`
 - 🟠 [ROC Curve](ml-rapid-fire/model-evaluation/classification-metrics/11-roc-curve.md) `1 attempts`
@@ -173,7 +173,7 @@ python3 scripts/generate_readme.py
 
 ![Regression Metrics](https://img.shields.io/badge/Regression_Metrics-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[██████████████████████████░░░░]</code> 87.5% (7/8)
+<code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (8/8)
 
 <code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
 
@@ -181,7 +181,7 @@ python3 scripts/generate_readme.py
 - 🟠 [Root Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/02-rmse.md) `1 attempts`
 - 🟡 [Mean Absolute Error](ml-rapid-fire/model-evaluation/regression-metrics/03-mae.md) `1 attempts`
 - 🟠 [MSE vs MAE](ml-rapid-fire/model-evaluation/regression-metrics/04-mse-vs-mae.md) `1 attempts`
-- ⚫ [Sum of Squares (SST, SSE, SSR)](ml-rapid-fire/model-evaluation/regression-metrics/05-sum-of-squares.md)
+- 🟡 [Sum of Squares (SST, SSE, SSR)](ml-rapid-fire/model-evaluation/regression-metrics/05-sum-of-squares.md) `1 attempts`
 - 🟡 [R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/06-r-squared.md) `1 attempts`
 - 🟡 [R-Squared Limitations](ml-rapid-fire/model-evaluation/regression-metrics/07-r-squared-limitations.md) `1 attempts`
 - 🟡 [Adjusted R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/08-adjusted-r-squared.md) `1 attempts`
@@ -741,4 +741,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 20:29:33*
+*Last updated: 2025-12-07 20:40:19*
