@@ -173,8 +173,11 @@ def generate_progress_bar(current, total, width=30):
     else:
         filled = int(width * current / total)
     bar = '█' * filled + '░' * (width - filled)
-    pct = (current / total * 100) if total > 0 else 0
-    return f"[{bar}] {pct:.1f}%"
+    return f"[{bar}]"
+
+
+def calc_pct(current, total):
+    return (current / total * 100) if total > 0 else 0
 
 
 def generate_readme():
@@ -218,8 +221,11 @@ def generate_readme():
     ready = full + partial_plus  # interview ready
 
     lines.append("## Progress Summary\n")
-    lines.append(f"**Coverage:** {generate_progress_bar(coverage, total)} ({coverage}/{total})\n")
-    lines.append(f"**Ready:**    {generate_progress_bar(ready, total)} ({ready}/{total})\n")
+    lines.append("| Metric | Progress | % | Count |")
+    lines.append("|--------|----------|---|-------|")
+    lines.append(f"| Coverage | {generate_progress_bar(coverage, total)} | {calc_pct(coverage, total):.1f}% | {coverage}/{total} |")
+    lines.append(f"| Ready | {generate_progress_bar(ready, total)} | {calc_pct(ready, total):.1f}% | {ready}/{total} |")
+    lines.append("")
     lines.append("| Status | Count |")
     lines.append("|--------|-------|")
     lines.append(f"| 🟢 Full | {full} |")
@@ -276,8 +282,11 @@ def generate_readme():
             section_coverage += sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
         lines.append(f"### {section}\n")
-        lines.append(f"**Coverage:** {generate_progress_bar(section_coverage, section_total)} ({section_coverage}/{section_total})\n")
-        lines.append(f"**Ready:**    {generate_progress_bar(section_ready, section_total)} ({section_ready}/{section_total})\n")
+        lines.append("| Metric | Progress | % | Count |")
+        lines.append("|--------|----------|---|-------|")
+        lines.append(f"| Coverage | {generate_progress_bar(section_coverage, section_total)} | {calc_pct(section_coverage, section_total):.1f}% | {section_coverage}/{section_total} |")
+        lines.append(f"| Ready | {generate_progress_bar(section_ready, section_total)} | {calc_pct(section_ready, section_total):.1f}% | {section_ready}/{section_total} |")
+        lines.append("")
 
         # Sort categories by their order in SECTION_STRUCTURE
         section_order = SECTION_STRUCTURE[section]
@@ -296,8 +305,11 @@ def generate_readme():
             cat_coverage = sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
             lines.append(f"#### {category_display}\n")
-            lines.append(f"**Coverage:** {generate_progress_bar(cat_coverage, cat_total)} ({cat_coverage}/{cat_total})\n")
-            lines.append(f"**Ready:**    {generate_progress_bar(cat_ready, cat_total)} ({cat_ready}/{cat_total})\n")
+            lines.append("| Metric | Progress | % | Count |")
+            lines.append("|--------|----------|---|-------|")
+            lines.append(f"| Coverage | {generate_progress_bar(cat_coverage, cat_total)} | {calc_pct(cat_coverage, cat_total):.1f}% | {cat_coverage}/{cat_total} |")
+            lines.append(f"| Ready | {generate_progress_bar(cat_ready, cat_total)} | {calc_pct(cat_ready, cat_total):.1f}% | {cat_ready}/{cat_total} |")
+            lines.append("")
 
             for card in cards:
                 emoji, status, tier = get_status(card['data'])
@@ -322,8 +334,11 @@ def generate_readme():
             cat_coverage = sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
             lines.append(f"#### {category_display}\n")
-            lines.append(f"**Coverage:** {generate_progress_bar(cat_coverage, cat_total)} ({cat_coverage}/{cat_total})\n")
-            lines.append(f"**Ready:**    {generate_progress_bar(cat_ready, cat_total)} ({cat_ready}/{cat_total})\n")
+            lines.append("| Metric | Progress | % | Count |")
+            lines.append("|--------|----------|---|-------|")
+            lines.append(f"| Coverage | {generate_progress_bar(cat_coverage, cat_total)} | {calc_pct(cat_coverage, cat_total):.1f}% | {cat_coverage}/{cat_total} |")
+            lines.append(f"| Ready | {generate_progress_bar(cat_ready, cat_total)} | {calc_pct(cat_ready, cat_total):.1f}% | {cat_ready}/{cat_total} |")
+            lines.append("")
 
             for card in cards:
                 emoji, status, tier = get_status(card['data'])
