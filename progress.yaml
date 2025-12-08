@@ -80,6 +80,8 @@ flashcards:
     - date: '2025-11-28T14:36:20.799548'
       recall: partial-
       notes: Got core concept, not surprise framing
+    - date: '2025-12-07T18:36:30.974723'
+      recall: partial-
   ml-rapid-fire/classical-ml/cross-entropy/02-why-not-mse.md:
     name: 02-why-not-mse
     category: cross-entropy
@@ -87,17 +89,23 @@ flashcards:
     - date: '2025-11-28T14:48:51.788921'
       recall: none
       notes: Needed full explanation of sigmoid saturation and gradient issue
+    - date: '2025-12-07T18:39:06.122284'
+      recall: none
   ml-rapid-fire/classical-ml/cross-entropy/03-binary-cross-entropy-formula.md:
     name: 03-binary-cross-entropy-formula
     category: cross-entropy
     attempts:
     - date: '2025-11-28T14:50:26.073924'
       recall: none
+    - date: '2025-12-07T18:39:28.078969'
+      recall: none
   ml-rapid-fire/classical-ml/cross-entropy/04-confident-correct.md:
     name: 04-confident-correct
     category: cross-entropy
     attempts:
     - date: '2025-11-28T14:50:57.569021'
+      recall: full
+    - date: '2025-12-07T18:41:52.448951'
       recall: full
   ml-rapid-fire/classical-ml/cross-entropy/05-confident-wrong.md:
     name: 05-confident-wrong
@@ -106,6 +114,8 @@ flashcards:
     - date: '2025-11-28T14:53:42.000000'
       recall: partial-
       notes: Knew loss gets high, thought capped at 1 (actually approaches infinity)
+    - date: '2025-12-07T18:42:13.002554'
+      recall: full
   ml-rapid-fire/classical-ml/cross-entropy/06-categorical-cross-entropy.md:
     name: 06-categorical-cross-entropy
     category: cross-entropy
@@ -113,6 +123,8 @@ flashcards:
     - date: '2025-11-28T15:02:15.000000'
       recall: none
       notes: Knew it was for multiple classes, needed formula walkthrough
+    - date: '2025-12-07T18:47:38.905250'
+      recall: partial-
   ml-rapid-fire/classical-ml/cross-entropy/07-calculate-cross-entropy.md:
     name: 07-calculate-cross-entropy
     category: cross-entropy
@@ -120,12 +132,16 @@ flashcards:
     - date: '2025-11-28T15:08:30.000000'
       recall: partial-
       notes: Got formula structure, missed negative sign
+    - date: '2025-12-07T18:50:47.027923'
+      recall: partial+
   ml-rapid-fire/classical-ml/cross-entropy/08-calculate-categorical-cross-entropy.md:
     name: 08-calculate-categorical-cross-entropy
     category: cross-entropy
     attempts:
     - date: '2025-11-28T15:10:45.000000'
       recall: full
+    - date: '2025-12-07T18:53:29.990593'
+      recall: partial+
   ml-rapid-fire/classical-ml/linear-regression/01-what-is-linear-regression.md:
     name: 01-what-is-linear-regression
     category: linear-regression
@@ -1845,3 +1861,9 @@ flashcards:
     name: Regret Bounds
     category: exploration-exploitation
     attempts: []
+  ml-rapid-fire/classical-ml/cross-entropy/09-softmax-vs-categorical-ce.md:
+    name: 09-softmax-vs-categorical-ce
+    category: cross-entropy
+    attempts:
+    - date: '2025-12-07T18:54:37.518653'
+      recall: full

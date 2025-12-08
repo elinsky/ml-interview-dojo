@@ -14,18 +14,18 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-**Coverage:** [█████░░░░░░░░░░░░░░░░░░░░░░░░░] 19.9% (77/386)
+**Coverage:** [██████░░░░░░░░░░░░░░░░░░░░░░░░] 20.2% (78/387)
 
-**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 11.1% (43/386)
+**Ready:** [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] 11.9% (46/387)
 
 | Status | Count |
 |--------|-------|
-| 🟢 Full | 29 |
-| 🔵 Partial+ | 14 |
-| 🟡 Partial- | 21 |
-| 🟠 None | 13 |
+| 🟢 Full | 31 |
+| 🔵 Partial+ | 15 |
+| 🟡 Partial- | 20 |
+| 🟠 None | 12 |
 | ⚫ New | 309 |
-| **Total** | **386** |
+| **Total** | **387** |
 
 ## Quick Start
 
@@ -41,9 +41,9 @@ python3 scripts/generate_readme.py
 
 ### Core ML
 
-**Coverage:** [█████████████████████░░░░░░░░░] 70.6% (48/68)
+**Coverage:** [█████████████████████░░░░░░░░░] 71.0% (49/69)
 
-**Ready:** [███████████████░░░░░░░░░░░░░░░] 50.0% (34/68)
+**Ready:** [████████████████░░░░░░░░░░░░░░] 53.6% (37/69)
 
 #### ML Basics
 
@@ -112,18 +112,19 @@ python3 scripts/generate_readme.py
 
 #### Cross Entropy
 
-**Coverage:** [██████████████████████████████] 100.0% (8/8)
+**Coverage:** [██████████████████████████████] 100.0% (9/9)
 
-**Ready:** [███████░░░░░░░░░░░░░░░░░░░░░░░] 25.0% (2/8)
+**Ready:** [████████████████░░░░░░░░░░░░░░] 55.6% (5/9)
 
-- 🟡 [01-what-is-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/01-what-is-cross-entropy.md) `1 attempts`
-- 🟠 [02-why-not-mse](ml-rapid-fire/classical-ml/cross-entropy/02-why-not-mse.md) `1 attempts`
-- 🟠 [03-binary-cross-entropy-formula](ml-rapid-fire/classical-ml/cross-entropy/03-binary-cross-entropy-formula.md) `1 attempts`
-- 🟢 [04-confident-correct](ml-rapid-fire/classical-ml/cross-entropy/04-confident-correct.md) `1 attempts`
-- 🟡 [05-confident-wrong](ml-rapid-fire/classical-ml/cross-entropy/05-confident-wrong.md) `1 attempts`
-- 🟠 [06-categorical-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/06-categorical-cross-entropy.md) `1 attempts`
-- 🟡 [07-calculate-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/07-calculate-cross-entropy.md) `1 attempts`
-- 🟢 [08-calculate-categorical-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/08-calculate-categorical-cross-entropy.md) `1 attempts`
+- 🟡 [01-what-is-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/01-what-is-cross-entropy.md) `2 attempts`
+- 🟠 [02-why-not-mse](ml-rapid-fire/classical-ml/cross-entropy/02-why-not-mse.md) `2 attempts`
+- 🟠 [03-binary-cross-entropy-formula](ml-rapid-fire/classical-ml/cross-entropy/03-binary-cross-entropy-formula.md) `2 attempts`
+- 🟢 [04-confident-correct](ml-rapid-fire/classical-ml/cross-entropy/04-confident-correct.md) `2 attempts`
+- 🟢 [05-confident-wrong](ml-rapid-fire/classical-ml/cross-entropy/05-confident-wrong.md) `2 attempts`
+- 🟡 [06-categorical-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/06-categorical-cross-entropy.md) `2 attempts`
+- 🔵 [07-calculate-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/07-calculate-cross-entropy.md) `2 attempts`
+- 🟢 [08-calculate-categorical-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/08-calculate-categorical-cross-entropy.md) `2 attempts`
+- 🟢 [09-softmax-vs-categorical-ce](ml-rapid-fire/classical-ml/cross-entropy/09-softmax-vs-categorical-ce.md) `1 attempts`
 
 #### Regularization
 
@@ -730,4 +731,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 16:38:40*
+*Last updated: 2025-12-07 18:55:01*
