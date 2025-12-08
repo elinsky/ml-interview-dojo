@@ -1,5 +1,5 @@
 flashcards:
-  ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md:
+  ml-rapid-fire/core-ml/logistic-regression/01-what-is-logistic-regression.md:
     name: What is Logistic Regression
     category: logistic-regression
     topic: logistic-regression
@@ -9,7 +9,7 @@ flashcards:
       notes: Confused sigmoid with softmax
     - date: '2025-12-07T16:25:48.279525'
       recall: partial+
-  ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md:
+  ml-rapid-fire/core-ml/logistic-regression/02-why-not-linear-regression.md:
     name: Why Not Linear Regression
     category: logistic-regression
     topic: logistic-regression
@@ -18,7 +18,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T16:27:13.590318'
       recall: full
-  ml-rapid-fire/classical-ml/logistic-regression/03-sigmoid-function.md:
+  ml-rapid-fire/core-ml/logistic-regression/03-sigmoid-function.md:
     name: Sigmoid Function
     category: logistic-regression
     topic: logistic-regression
@@ -28,7 +28,7 @@ flashcards:
       notes: Said -1 to 1 (thats tanh), forgot formula
     - date: '2025-12-07T16:27:38.846777'
       recall: none
-  ml-rapid-fire/classical-ml/logistic-regression/04-how-trained.md:
+  ml-rapid-fire/core-ml/logistic-regression/04-how-trained.md:
     name: How Trained
     category: logistic-regression
     topic: logistic-regression
@@ -37,7 +37,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T16:28:24.812809'
       recall: none
-  ml-rapid-fire/classical-ml/logistic-regression/05-coefficient-interpretation.md:
+  ml-rapid-fire/core-ml/logistic-regression/05-coefficient-interpretation.md:
     name: Coefficient Interpretation
     category: logistic-regression
     topic: logistic-regression
@@ -47,7 +47,7 @@ flashcards:
       notes: Knew log odds involved, forgot e^beta relationship
     - date: '2025-12-07T16:31:28.319141'
       recall: none
-  ml-rapid-fire/classical-ml/logistic-regression/06-decision-boundary.md:
+  ml-rapid-fire/core-ml/logistic-regression/06-decision-boundary.md:
     name: Decision Boundary
     category: logistic-regression
     topic: logistic-regression
@@ -57,7 +57,7 @@ flashcards:
       notes: Knew it was linear, but didnt understand why or what it means
     - date: '2025-12-07T16:31:54.860906'
       recall: full
-  ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md:
+  ml-rapid-fire/core-ml/logistic-regression/07-multi-class.md:
     name: Multi-class
     category: logistic-regression
     topic: logistic-regression
@@ -66,14 +66,14 @@ flashcards:
       recall: full
     - date: '2025-12-07T16:36:31.258110'
       recall: none
-  ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md:
+  ml-rapid-fire/core-ml/logistic-regression/08-loss-function.md:
     name: Loss Function
     category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:21:22.926173'
       recall: full
-  ml-rapid-fire/classical-ml/cross-entropy/01-what-is-cross-entropy.md:
+  ml-rapid-fire/core-ml/cross-entropy/01-what-is-cross-entropy.md:
     name: 01-what-is-cross-entropy
     category: cross-entropy
     attempts:
@@ -82,7 +82,7 @@ flashcards:
       notes: Got core concept, not surprise framing
     - date: '2025-12-07T18:36:30.974723'
       recall: partial-
-  ml-rapid-fire/classical-ml/cross-entropy/02-why-not-mse.md:
+  ml-rapid-fire/core-ml/cross-entropy/02-why-not-mse.md:
     name: 02-why-not-mse
     category: cross-entropy
     attempts:
@@ -91,7 +91,7 @@ flashcards:
       notes: Needed full explanation of sigmoid saturation and gradient issue
     - date: '2025-12-07T18:39:06.122284'
       recall: none
-  ml-rapid-fire/classical-ml/cross-entropy/03-binary-cross-entropy-formula.md:
+  ml-rapid-fire/core-ml/cross-entropy/03-binary-cross-entropy-formula.md:
     name: 03-binary-cross-entropy-formula
     category: cross-entropy
     attempts:
@@ -99,7 +99,7 @@ flashcards:
       recall: none
     - date: '2025-12-07T18:39:28.078969'
       recall: none
-  ml-rapid-fire/classical-ml/cross-entropy/04-confident-correct.md:
+  ml-rapid-fire/core-ml/cross-entropy/04-confident-correct.md:
     name: 04-confident-correct
     category: cross-entropy
     attempts:
@@ -107,7 +107,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T18:41:52.448951'
       recall: full
-  ml-rapid-fire/classical-ml/cross-entropy/05-confident-wrong.md:
+  ml-rapid-fire/core-ml/cross-entropy/05-confident-wrong.md:
     name: 05-confident-wrong
     category: cross-entropy
     attempts:
@@ -116,7 +116,7 @@ flashcards:
       notes: Knew loss gets high, thought capped at 1 (actually approaches infinity)
     - date: '2025-12-07T18:42:13.002554'
       recall: full
-  ml-rapid-fire/classical-ml/cross-entropy/06-categorical-cross-entropy.md:
+  ml-rapid-fire/core-ml/cross-entropy/06-categorical-cross-entropy.md:
     name: 06-categorical-cross-entropy
     category: cross-entropy
     attempts:
@@ -125,7 +125,7 @@ flashcards:
       notes: Knew it was for multiple classes, needed formula walkthrough
     - date: '2025-12-07T18:47:38.905250'
       recall: partial-
-  ml-rapid-fire/classical-ml/cross-entropy/07-calculate-cross-entropy.md:
+  ml-rapid-fire/core-ml/cross-entropy/07-calculate-cross-entropy.md:
     name: 07-calculate-cross-entropy
     category: cross-entropy
     attempts:
@@ -134,7 +134,7 @@ flashcards:
       notes: Got formula structure, missed negative sign
     - date: '2025-12-07T18:50:47.027923'
       recall: partial+
-  ml-rapid-fire/classical-ml/cross-entropy/08-calculate-categorical-cross-entropy.md:
+  ml-rapid-fire/core-ml/cross-entropy/08-calculate-categorical-cross-entropy.md:
     name: 08-calculate-categorical-cross-entropy
     category: cross-entropy
     attempts:
@@ -142,7 +142,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T18:53:29.990593'
       recall: partial+
-  ml-rapid-fire/classical-ml/linear-regression/01-what-is-linear-regression.md:
+  ml-rapid-fire/core-ml/linear-regression/01-what-is-linear-regression.md:
     name: 01-what-is-linear-regression
     category: linear-regression
     attempts:
@@ -150,7 +150,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T14:43:59.052827'
       recall: full
-  ml-rapid-fire/classical-ml/linear-regression/02-simple-vs-multiple.md:
+  ml-rapid-fire/core-ml/linear-regression/02-simple-vs-multiple.md:
     name: 02-simple-vs-multiple
     category: linear-regression
     attempts:
@@ -158,7 +158,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T14:44:13.589114'
       recall: full
-  ml-rapid-fire/classical-ml/linear-regression/03-linear-regression-formula.md:
+  ml-rapid-fire/core-ml/linear-regression/03-linear-regression-formula.md:
     name: 03-linear-regression-formula
     category: linear-regression
     attempts:
@@ -167,7 +167,7 @@ flashcards:
       notes: Gave multiple regression formula instead of simple
     - date: '2025-12-07T14:45:30.147019'
       recall: full
-  ml-rapid-fire/classical-ml/linear-regression/04-loss-function.md:
+  ml-rapid-fire/core-ml/linear-regression/04-loss-function.md:
     name: 04-loss-function
     category: linear-regression
     attempts:
@@ -175,7 +175,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T14:54:08.252938'
       recall: partial-
-  ml-rapid-fire/classical-ml/linear-regression/05-ordinary-least-squares.md:
+  ml-rapid-fire/core-ml/linear-regression/05-ordinary-least-squares.md:
     name: 05-ordinary-least-squares
     category: linear-regression
     attempts:
@@ -184,7 +184,7 @@ flashcards:
       notes: Confused OLS method with MSE formula
     - date: '2025-12-07T14:54:11.339569'
       recall: partial-
-  ml-rapid-fire/classical-ml/linear-regression/06-gradient-descent-for-lr.md:
+  ml-rapid-fire/core-ml/linear-regression/06-gradient-descent-for-lr.md:
     name: 06-gradient-descent-for-lr
     category: linear-regression
     attempts:
@@ -192,7 +192,7 @@ flashcards:
       recall: none
     - date: '2025-12-07T14:55:14.124555'
       recall: full
-  ml-rapid-fire/classical-ml/linear-regression/07-coefficient-interpretation.md:
+  ml-rapid-fire/core-ml/linear-regression/07-coefficient-interpretation.md:
     name: 07-coefficient-interpretation
     category: linear-regression
     attempts:
@@ -200,25 +200,25 @@ flashcards:
       recall: full
     - date: '2025-12-07T14:58:31.059210'
       recall: partial+
-  ml-rapid-fire/classical-ml/linear-regression/08-ols-assumptions-overview.md:
+  ml-rapid-fire/core-ml/linear-regression/08-ols-assumptions-overview.md:
     name: 08-ols-assumptions-overview
     category: linear-regression
     attempts:
     - date: '2025-12-07T20:18:00.000000'
       recall: full
-  ml-rapid-fire/classical-ml/linear-regression/09-ols-error-assumptions.md:
+  ml-rapid-fire/core-ml/linear-regression/09-ols-error-assumptions.md:
     name: 09-ols-error-assumptions
     category: linear-regression
     attempts:
     - date: '2025-12-07T20:20:00.000000'
       recall: partial+
-  ml-rapid-fire/classical-ml/linear-regression/10-ols-predictor-assumptions.md:
+  ml-rapid-fire/core-ml/linear-regression/10-ols-predictor-assumptions.md:
     name: 10-ols-predictor-assumptions
     category: linear-regression
     attempts:
     - date: '2025-12-07T20:22:00.000000'
       recall: partial+
-  ml-rapid-fire/classical-ml/linear-regression/11-ridge-vs-lasso.md:
+  ml-rapid-fire/core-ml/linear-regression/11-ridge-vs-lasso.md:
     name: 11-ridge-vs-lasso
     category: linear-regression
     attempts:
@@ -227,13 +227,13 @@ flashcards:
       notes: Knew one squares penalty, other doesnt - missed feature selection aspect
     - date: '2025-12-07T15:19:45.427859'
       recall: partial-
-  ml-rapid-fire/classical-ml/linear-regression/12-ridge-lasso-effects.md:
+  ml-rapid-fire/core-ml/linear-regression/12-ridge-lasso-effects.md:
     name: 12-ridge-lasso-effects
     category: linear-regression
     attempts:
     - date: '2025-12-07T20:25:00.000000'
       recall: partial+
-  ml-rapid-fire/classical-ml/linear-regression/13-r-squared.md:
+  ml-rapid-fire/core-ml/linear-regression/13-r-squared.md:
     name: 13-r-squared
     category: linear-regression
     attempts:
@@ -243,13 +243,13 @@ flashcards:
         forgot interpretation
     - date: '2025-12-07T15:24:55.522286'
       recall: partial+
-  ml-rapid-fire/classical-ml/linear-regression/14-mse-formula.md:
+  ml-rapid-fire/core-ml/linear-regression/14-mse-formula.md:
     name: 14-mse-formula
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:48:00.000000'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/01-what-is-ml.md:
+  ml-rapid-fire/core-ml/ml-basics/01-what-is-ml.md:
     name: 01-what-is-ml
     category: ml-basics
     attempts:
@@ -257,7 +257,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:29:12.057017'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/02-traditional-vs-ml.md:
+  ml-rapid-fire/core-ml/ml-basics/02-traditional-vs-ml.md:
     name: 02-traditional-vs-ml
     category: ml-basics
     attempts:
@@ -265,7 +265,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:30:22.116145'
       recall: none
-  ml-rapid-fire/fundamentals/ml-basics/03-three-components.md:
+  ml-rapid-fire/core-ml/ml-basics/03-three-components.md:
     name: 03-three-components
     category: ml-basics
     attempts:
@@ -274,7 +274,7 @@ flashcards:
       notes: Got concepts, not exact terms (Representation, Evaluation, Optimization)
     - date: '2025-12-07T15:32:09.502748'
       recall: partial-
-  ml-rapid-fire/fundamentals/ml-basics/04-types-of-learning.md:
+  ml-rapid-fire/core-ml/ml-basics/04-types-of-learning.md:
     name: 04-types-of-learning
     category: ml-basics
     attempts:
@@ -282,7 +282,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:34:07.384082'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/05-classification-vs-regression.md:
+  ml-rapid-fire/core-ml/ml-basics/05-classification-vs-regression.md:
     name: 05-classification-vs-regression
     category: ml-basics
     attempts:
@@ -292,7 +292,7 @@ flashcards:
         continuous)
     - date: '2025-12-07T15:35:53.212854'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/06-what-is-a-model.md:
+  ml-rapid-fire/core-ml/ml-basics/06-what-is-a-model.md:
     name: 06-what-is-a-model
     category: ml-basics
     attempts:
@@ -300,7 +300,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:38:27.825554'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/07-what-is-loss-function.md:
+  ml-rapid-fire/core-ml/ml-basics/07-what-is-loss-function.md:
     name: 07-what-is-loss-function
     category: ml-basics
     attempts:
@@ -308,7 +308,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:41:52.945387'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/08-what-is-optimization.md:
+  ml-rapid-fire/core-ml/ml-basics/08-what-is-optimization.md:
     name: 08-what-is-optimization
     category: ml-basics
     attempts:
@@ -318,7 +318,7 @@ flashcards:
         loss)
     - date: '2025-12-07T15:43:18.992480'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/09-loss-vs-metric.md:
+  ml-rapid-fire/core-ml/ml-basics/09-loss-vs-metric.md:
     name: 09-loss-vs-metric
     category: ml-basics
     attempts:
@@ -327,7 +327,7 @@ flashcards:
       notes: Got training vs eval distinction, missed differentiability point
     - date: '2025-12-07T15:45:18.795779'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/10-params-vs-hyperparams.md:
+  ml-rapid-fire/core-ml/ml-basics/10-params-vs-hyperparams.md:
     name: 10-params-vs-hyperparams
     category: ml-basics
     attempts:
@@ -336,7 +336,7 @@ flashcards:
       notes: Missed key distinction - params LEARNED, hyperparams SET BEFORE training
     - date: '2025-12-07T15:49:02.511414'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/11-what-is-regularization.md:
+  ml-rapid-fire/core-ml/ml-basics/11-what-is-regularization.md:
     name: 11-what-is-regularization
     category: ml-basics
     attempts:
@@ -344,7 +344,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:50:33.484550'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/12-training-vs-inference.md:
+  ml-rapid-fire/core-ml/ml-basics/12-training-vs-inference.md:
     name: 12-training-vs-inference
     category: ml-basics
     attempts:
@@ -352,7 +352,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:51:30.352532'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/13-overfitting-underfitting.md:
+  ml-rapid-fire/core-ml/ml-basics/13-overfitting-underfitting.md:
     name: 13-overfitting-underfitting
     category: ml-basics
     attempts:
@@ -360,7 +360,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:53:19.413458'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-tradeoff.md:
+  ml-rapid-fire/core-ml/ml-basics/16-bias-variance-tradeoff.md:
     name: 16-bias-variance-tradeoff
     category: ml-basics
     attempts:
@@ -370,7 +370,7 @@ flashcards:
         of bias and variance
     - date: '2025-12-07T15:54:55.404773'
       recall: partial+
-  ml-rapid-fire/fundamentals/ml-basics/17-when-to-use-ml.md:
+  ml-rapid-fire/core-ml/ml-basics/17-when-to-use-ml.md:
     name: 17-when-to-use-ml
     category: ml-basics
     attempts:
@@ -379,14 +379,14 @@ flashcards:
       notes: Got 3/4, missed "problem changes frequently"
     - date: '2025-12-07T16:06:42.174218'
       recall: partial+
-  ml-rapid-fire/classical-ml/logistic-regression/09-linearly-separable.md:
+  ml-rapid-fire/core-ml/logistic-regression/09-linearly-separable.md:
     name: Linearly Separable
     category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-12-07T16:38:11.487608'
       recall: full
-  ml-rapid-fire/fundamentals/ml-basics/18-bias-variance-decomposition.md:
+  ml-rapid-fire/core-ml/ml-basics/18-bias-variance-decomposition.md:
     name: Bias-Variance Decomposition
     category: ml-basics
     attempts:
@@ -395,7 +395,7 @@ flashcards:
       notes: Got 3 components, missed bias squared and definitions
     - date: '2025-12-07T16:07:25.856727'
       recall: none
-  ml-rapid-fire/fundamentals/ml-basics/19-diagnosing-bias-variance.md:
+  ml-rapid-fire/core-ml/ml-basics/19-diagnosing-bias-variance.md:
     name: Diagnosing Bias vs Variance
     category: ml-basics
     attempts:
@@ -406,7 +406,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T16:11:22.484046'
       recall: partial+
-  ml-rapid-fire/fundamentals/ml-basics/20-causes-high-variance.md:
+  ml-rapid-fire/core-ml/ml-basics/20-causes-high-variance.md:
     name: Causes of High Variance
     category: ml-basics
     attempts:
@@ -416,7 +416,7 @@ flashcards:
         too few examples, train too long, non-parametric'
     - date: '2025-12-07T16:12:10.761402'
       recall: partial-
-  ml-rapid-fire/fundamentals/ml-basics/21-reduce-variance.md:
+  ml-rapid-fire/core-ml/ml-basics/21-reduce-variance.md:
     name: How to Reduce Variance
     category: ml-basics
     attempts:
@@ -424,7 +424,7 @@ flashcards:
       recall: partial-
     - date: '2025-12-07T16:12:46.161614'
       recall: partial+
-  ml-rapid-fire/fundamentals/ml-basics/22-causes-high-bias.md:
+  ml-rapid-fire/core-ml/ml-basics/22-causes-high-bias.md:
     name: Causes of High Bias
     category: ml-basics
     attempts:
@@ -432,7 +432,7 @@ flashcards:
       recall: partial-
     - date: '2025-12-07T16:13:42.333912'
       recall: partial+
-  ml-rapid-fire/fundamentals/ml-basics/23-reduce-bias.md:
+  ml-rapid-fire/core-ml/ml-basics/23-reduce-bias.md:
     name: How to Reduce Bias
     category: ml-basics
     attempts:
@@ -440,7 +440,7 @@ flashcards:
       recall: partial-
     - date: '2025-12-07T16:14:44.486678'
       recall: partial-
-  ml-rapid-fire/classical-ml/regularization/01-l2-ridge-formula.md:
+  ml-rapid-fire/core-ml/regularization/01-l2-ridge-formula.md:
     name: L2 (Ridge) Penalty Formula
     category: regularization
     attempts:
@@ -448,55 +448,55 @@ flashcards:
       recall: full
     - date: '2025-12-07T19:41:27.996682'
       recall: partial+
-  ml-rapid-fire/classical-ml/regularization/02-l1-lasso-formula.md:
+  ml-rapid-fire/core-ml/regularization/02-l1-lasso-formula.md:
     name: L1 (Lasso) Penalty Formula
     category: regularization
     attempts:
     - date: '2025-12-07T19:42:30.250458'
       recall: partial-
-  ml-rapid-fire/classical-ml/regularization/03-why-l1-sparse.md:
+  ml-rapid-fire/core-ml/regularization/03-why-l1-sparse.md:
     name: Why L1 Produces Sparsity
     category: regularization
     attempts:
     - date: '2025-12-07T19:44:02.149964'
       recall: none
-  ml-rapid-fire/classical-ml/regularization/04-why-l2-shrinks.md:
+  ml-rapid-fire/core-ml/regularization/04-why-l2-shrinks.md:
     name: Why L2 Only Shrinks Weights
     category: regularization
     attempts:
     - date: '2025-12-07T19:44:33.102703'
       recall: none
-  ml-rapid-fire/classical-ml/regularization/05-when-l1-lasso.md:
+  ml-rapid-fire/core-ml/regularization/05-when-l1-lasso.md:
     name: When to Choose L1 (Lasso)
     category: regularization
     attempts:
     - date: '2025-12-07T19:57:10.526629'
       recall: full
-  ml-rapid-fire/classical-ml/regularization/06-when-l2-ridge.md:
+  ml-rapid-fire/core-ml/regularization/06-when-l2-ridge.md:
     name: When to Choose L2 (Ridge)
     category: regularization
     attempts:
     - date: '2025-12-07T19:59:49.233063'
       recall: partial+
-  ml-rapid-fire/classical-ml/regularization/07-when-elastic-net.md:
+  ml-rapid-fire/core-ml/regularization/07-when-elastic-net.md:
     name: When to Choose Elastic Net
     category: regularization
     attempts:
     - date: '2025-12-07T20:02:00.000000'
       recall: full
-  ml-rapid-fire/classical-ml/regularization/08-elastic-net.md:
+  ml-rapid-fire/core-ml/regularization/08-elastic-net.md:
     name: Elastic Net
     category: regularization
     attempts:
     - date: '2025-12-07T20:08:00.000000'
       recall: partial-
-  ml-rapid-fire/classical-ml/regularization/09-lambda-hyperparameter.md:
+  ml-rapid-fire/core-ml/regularization/09-lambda-hyperparameter.md:
     name: Regularization Hyperparameter
     category: regularization
     attempts:
     - date: '2025-12-07T20:12:00.000000'
       recall: full
-  ml-rapid-fire/classical-ml/regularization/10-lambda-bias-variance.md:
+  ml-rapid-fire/core-ml/regularization/10-lambda-bias-variance.md:
     name: Lambda Effect on Bias-Variance
     category: regularization
     attempts:
@@ -1903,7 +1903,7 @@ flashcards:
     name: Regret Bounds
     category: exploration-exploitation
     attempts: []
-  ml-rapid-fire/classical-ml/cross-entropy/09-softmax-vs-categorical-ce.md:
+  ml-rapid-fire/core-ml/cross-entropy/09-softmax-vs-categorical-ce.md:
     name: 09-softmax-vs-categorical-ce
     category: cross-entropy
     attempts:
