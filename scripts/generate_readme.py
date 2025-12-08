@@ -288,9 +288,7 @@ def generate_readme():
             section_ready += sum(1 for card in cards if get_best_tier(card['data']) is not None and get_best_tier(card['data']) >= 2)
             section_coverage += sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
-        # Badge with section name (spaces replaced with underscores, URL encoded)
-        badge_name = section.replace(' ', '_').replace('&', '%26')
-        lines.append(f'![{section}](https://img.shields.io/badge/{badge_name}-blue?style=for-the-badge)\n')
+        lines.append(f'<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">{section}</h2></td></tr></table>\n')
         lines.append(format_progress_line("Coverage", section_coverage, section_total))
         lines.append("")
         lines.append(format_progress_line("Ready", section_ready, section_total))
@@ -312,7 +310,9 @@ def generate_readme():
             cat_ready = sum(1 for card in cards if get_best_tier(card['data']) is not None and get_best_tier(card['data']) >= 2)
             cat_coverage = sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
-            lines.append(f"#### {category_display}\n")
+            # Badge for category name
+            badge_name = category_display.replace(' ', '_').replace('&', '%26')
+            lines.append(f'![{category_display}](https://img.shields.io/badge/{badge_name}-lightgrey)\n')
             lines.append(format_progress_line("Coverage", cat_coverage, cat_total))
             lines.append("")
             lines.append(format_progress_line("Ready", cat_ready, cat_total))
@@ -340,7 +340,9 @@ def generate_readme():
             cat_ready = sum(1 for card in cards if get_best_tier(card['data']) is not None and get_best_tier(card['data']) >= 2)
             cat_coverage = sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
-            lines.append(f"#### {category_display}\n")
+            # Badge for category name
+            badge_name = category_display.replace(' ', '_').replace('&', '%26')
+            lines.append(f'![{category_display}](https://img.shields.io/badge/{badge_name}-lightgrey)\n')
             lines.append(format_progress_line("Coverage", cat_coverage, cat_total))
             lines.append("")
             lines.append(format_progress_line("Ready", cat_ready, cat_total))
