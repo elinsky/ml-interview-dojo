@@ -14,18 +14,18 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-<code>Coverage</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 25.1% (98/390)
+<code>Coverage</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 25.3% (99/391)
 
-<code>Ready   </code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.1% (59/390)
+<code>Ready   </code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.1% (59/391)
 
 | Status | Count |
 |--------|-------|
 | 🟢 Full | 40 |
 | 🔵 Partial+ | 19 |
 | 🟡 Partial- | 23 |
-| 🟠 None | 16 |
+| 🟠 None | 17 |
 | ⚫ New | 292 |
-| **Total** | **390** |
+| **Total** | **391** |
 
 ## Quick Start
 
@@ -147,9 +147,9 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Model Evaluation</h2></td></tr></table>
 
-<code>Coverage</code> <code>[████████████████████░░░░░░░░░░]</code> 68.6% (35/51)
+<code>Coverage</code> <code>[████████████████████░░░░░░░░░░]</code> 69.2% (36/52)
 
-<code>Ready   </code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 23.5% (12/51)
+<code>Ready   </code> <code>[██████░░░░░░░░░░░░░░░░░░░░░░░░]</code> 23.1% (12/52)
 
 ![Classification Metrics](https://img.shields.io/badge/Classification_Metrics-blue?style=for-the-badge)
 
@@ -205,15 +205,16 @@ python3 scripts/generate_readme.py
 
 ![Model Selection](https://img.shields.io/badge/Model_Selection-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[████████████░░░░░░░░░░░░░░░░░░]</code> 40.0% (4/10)
+<code>Coverage</code> <code>[█████████████░░░░░░░░░░░░░░░░░]</code> 45.5% (5/11)
 
-<code>Ready   </code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.0% (3/10)
+<code>Ready   </code> <code>[████████░░░░░░░░░░░░░░░░░░░░░░]</code> 27.3% (3/11)
 
 - 🔵 [What is Hyperparameter Tuning](ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md) `1 attempts`
 - 🔵 [Grid Search](ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md) `1 attempts`
 - 🔵 [Random Search](ml-rapid-fire/model-evaluation/model-selection/03-random-search.md) `1 attempts`
 - ⚫ [Bayesian Optimization](ml-rapid-fire/model-evaluation/model-selection/04-bayesian-optimization.md)
 - 🟠 [Cross-Validation for Model Selection](ml-rapid-fire/model-evaluation/model-selection/05-cv-for-model-selection.md) `1 attempts`
+- 🟠 [06-cv-mechanism](ml-rapid-fire/model-evaluation/model-selection/06-cv-mechanism.md) `1 attempts`
 - ⚫ [Learning Curves for Diagnosis](ml-rapid-fire/model-evaluation/model-selection/07-learning-curves.md)
 - ⚫ [Validation Curve](ml-rapid-fire/model-evaluation/model-selection/08-validation-curve.md)
 - ⚫ [Early Stopping as Model Selection](ml-rapid-fire/model-evaluation/model-selection/09-early-stopping.md)
@@ -741,4 +742,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 20:46:02*
+*Last updated: 2025-12-07 20:47:21*

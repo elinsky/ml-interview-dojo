@@ -1921,3 +1921,10 @@ flashcards:
     attempts:
     - date: '2025-12-07T18:54:37.518653'
       recall: full
+  ml-rapid-fire/model-evaluation/model-selection/06-cv-mechanism.md:
+    name: 06-cv-mechanism
+    category: model-selection
+    attempts:
+    - date: '2025-12-07T20:46:31.145429'
+      recall: none
+      notes: New card, not drilled yet
