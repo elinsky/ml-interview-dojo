@@ -45,7 +45,7 @@ python3 scripts/generate_readme.py
 
 <code>Ready   </code> <code>[████████████████░░░░░░░░░░░░░░]</code> 53.6% (37/69)
 
-![ML Basics](https://img.shields.io/badge/ML_Basics-lightgrey)
+![ML Basics](https://img.shields.io/badge/ML_Basics-blue)
 
 <code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (21/21)
 
@@ -73,7 +73,7 @@ python3 scripts/generate_readme.py
 - 🔵 [Causes of High Bias](ml-rapid-fire/fundamentals/ml-basics/22-causes-high-bias.md) `2 attempts`
 - 🟡 [How to Reduce Bias](ml-rapid-fire/fundamentals/ml-basics/23-reduce-bias.md) `2 attempts`
 
-![Linear Regression](https://img.shields.io/badge/Linear_Regression-lightgrey)
+![Linear Regression](https://img.shields.io/badge/Linear_Regression-blue)
 
 <code>Coverage</code> <code>[█████████████████████░░░░░░░░░]</code> 71.4% (10/14)
 
@@ -94,7 +94,7 @@ python3 scripts/generate_readme.py
 - 🔵 [13-r-squared](ml-rapid-fire/classical-ml/linear-regression/13-r-squared.md) `2 attempts`
 - 🟢 [14-mse-formula](ml-rapid-fire/classical-ml/linear-regression/14-mse-formula.md) `1 attempts`
 
-![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-lightgrey)
+![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-blue)
 
 <code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (9/9)
 
@@ -110,7 +110,7 @@ python3 scripts/generate_readme.py
 - 🟢 [Loss Function](ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md) `1 attempts`
 - 🟢 [Linearly Separable](ml-rapid-fire/classical-ml/logistic-regression/09-linearly-separable.md) `1 attempts`
 
-![Cross Entropy](https://img.shields.io/badge/Cross_Entropy-lightgrey)
+![Cross Entropy](https://img.shields.io/badge/Cross_Entropy-blue)
 
 <code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (9/9)
 
@@ -126,7 +126,7 @@ python3 scripts/generate_readme.py
 - 🟢 [08-calculate-categorical-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/08-calculate-categorical-cross-entropy.md) `2 attempts`
 - 🟢 [09-softmax-vs-categorical-ce](ml-rapid-fire/classical-ml/cross-entropy/09-softmax-vs-categorical-ce.md) `1 attempts`
 
-![Regularization](https://img.shields.io/badge/Regularization-lightgrey)
+![Regularization](https://img.shields.io/badge/Regularization-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/16)
 
@@ -157,7 +157,7 @@ python3 scripts/generate_readme.py
 
 <code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/61)
 
-![Decision Trees](https://img.shields.io/badge/Decision_Trees-lightgrey)
+![Decision Trees](https://img.shields.io/badge/Decision_Trees-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/16)
 
@@ -180,7 +180,7 @@ python3 scripts/generate_readme.py
 - ⚫ [XGBoost](ml-rapid-fire/classical-ml/decision-trees/15-xgboost.md)
 - ⚫ [Boosting Bias or Variance](ml-rapid-fire/classical-ml/decision-trees/16-boosting-bias-variance.md)
 
-![SVM](https://img.shields.io/badge/SVM-lightgrey)
+![SVM](https://img.shields.io/badge/SVM-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
@@ -196,7 +196,7 @@ python3 scripts/generate_readme.py
 - ⚫ [SVM Pros and Cons](ml-rapid-fire/classical-ml/svm/08-pros-cons.md)
 - ⚫ [Multiclass SVM](ml-rapid-fire/classical-ml/svm/09-multiclass.md)
 
-![KNN](https://img.shields.io/badge/KNN-lightgrey)
+![KNN](https://img.shields.io/badge/KNN-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
@@ -212,7 +212,7 @@ python3 scripts/generate_readme.py
 - ⚫ [KNN Computational Complexity](ml-rapid-fire/classical-ml/knn/08-computational-complexity.md)
 - ⚫ [KNN Pros and Cons](ml-rapid-fire/classical-ml/knn/09-pros-cons.md)
 
-![Naive Bayes](https://img.shields.io/badge/Naive_Bayes-lightgrey)
+![Naive Bayes](https://img.shields.io/badge/Naive_Bayes-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
@@ -228,7 +228,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Log Probabilities](ml-rapid-fire/classical-ml/naive-bayes/08-log-probabilities.md)
 - ⚫ [Naive Bayes Pros and Cons](ml-rapid-fire/classical-ml/naive-bayes/09-pros-cons.md)
 
-![Clustering](https://img.shields.io/badge/Clustering-lightgrey)
+![Clustering](https://img.shields.io/badge/Clustering-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
@@ -244,7 +244,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Clustering Evaluation](ml-rapid-fire/classical-ml/clustering/08-clustering-evaluation.md)
 - ⚫ [Clustering Algorithm Comparison](ml-rapid-fire/classical-ml/clustering/09-comparison.md)
 
-![Dimensionality Reduction](https://img.shields.io/badge/Dimensionality_Reduction-lightgrey)
+![Dimensionality Reduction](https://img.shields.io/badge/Dimensionality_Reduction-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
@@ -268,7 +268,7 @@ python3 scripts/generate_readme.py
 
 <code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/45)
 
-![Neural Network Basics](https://img.shields.io/badge/Neural_Network_Basics-lightgrey)
+![Neural Network Basics](https://img.shields.io/badge/Neural_Network_Basics-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
@@ -284,7 +284,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Training Loop](ml-rapid-fire/deep-learning/neural-network-basics/08-training-loop.md)
 - ⚫ [Vanishing and Exploding Gradients](ml-rapid-fire/deep-learning/neural-network-basics/09-vanishing-exploding-gradients.md)
 
-![Optimizers](https://img.shields.io/badge/Optimizers-lightgrey)
+![Optimizers](https://img.shields.io/badge/Optimizers-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
@@ -300,7 +300,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Choosing an Optimizer](ml-rapid-fire/deep-learning/optimizers/08-choosing-optimizer.md)
 - ⚫ [Common Optimizer Problems](ml-rapid-fire/deep-learning/optimizers/09-common-problems.md)
 
-![CNNs](https://img.shields.io/badge/CNNs-lightgrey)
+![CNNs](https://img.shields.io/badge/CNNs-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
@@ -316,7 +316,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Famous CNN Architectures](ml-rapid-fire/deep-learning/cnns/08-famous-architectures.md)
 - ⚫ [Transfer Learning in CNNs](ml-rapid-fire/deep-learning/cnns/09-transfer-learning.md)
 
-![RNNs](https://img.shields.io/badge/RNNs-lightgrey)
+![RNNs](https://img.shields.io/badge/RNNs-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
@@ -332,7 +332,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Bidirectional RNNs](ml-rapid-fire/deep-learning/rnns/08-bidirectional-rnn.md)
 - ⚫ [Teacher Forcing](ml-rapid-fire/deep-learning/rnns/09-teacher-forcing.md)
 
-![Transformers](https://img.shields.io/badge/Transformers-lightgrey)
+![Transformers](https://img.shields.io/badge/Transformers-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
@@ -356,7 +356,7 @@ python3 scripts/generate_readme.py
 
 <code>Ready   </code> <code>[█████░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 17.6% (9/51)
 
-![Classification Metrics](https://img.shields.io/badge/Classification_Metrics-lightgrey)
+![Classification Metrics](https://img.shields.io/badge/Classification_Metrics-blue)
 
 <code>Coverage</code> <code>[████████████████████░░░░░░░░░░]</code> 69.2% (9/13)
 
@@ -376,7 +376,7 @@ python3 scripts/generate_readme.py
 - 🟠 [AUC-ROC](ml-rapid-fire/model-evaluation/classification-metrics/12-auc-roc.md) `1 attempts`
 - 🟠 [PR Curve vs ROC](ml-rapid-fire/model-evaluation/classification-metrics/13-pr-curve-vs-roc.md) `1 attempts`
 
-![Regression Metrics](https://img.shields.io/badge/Regression_Metrics-lightgrey)
+![Regression Metrics](https://img.shields.io/badge/Regression_Metrics-blue)
 
 <code>Coverage</code> <code>[██████████████████████████░░░░]</code> 87.5% (7/8)
 
@@ -391,7 +391,7 @@ python3 scripts/generate_readme.py
 - 🟡 [R-Squared Limitations](ml-rapid-fire/model-evaluation/regression-metrics/07-r-squared-limitations.md) `1 attempts`
 - 🟡 [Adjusted R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/08-adjusted-r-squared.md) `1 attempts`
 
-![Validation](https://img.shields.io/badge/Validation-lightgrey)
+![Validation](https://img.shields.io/badge/Validation-blue)
 
 <code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (10/10)
 
@@ -408,7 +408,7 @@ python3 scripts/generate_readme.py
 - 🟠 [Bias-Variance in Cross-Validation](ml-rapid-fire/model-evaluation/validation/09-bias-variance-cv.md) `1 attempts`
 - 🟠 [Nested Cross-Validation](ml-rapid-fire/model-evaluation/validation/10-nested-cross-validation.md) `1 attempts`
 
-![Model Selection](https://img.shields.io/badge/Model_Selection-lightgrey)
+![Model Selection](https://img.shields.io/badge/Model_Selection-blue)
 
 <code>Coverage</code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.0% (3/10)
 
@@ -425,7 +425,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Regularization Path](ml-rapid-fire/model-evaluation/model-selection/09-regularization-path.md)
 - ⚫ [Information Criteria (AIC/BIC)](ml-rapid-fire/model-evaluation/model-selection/10-information-criteria.md)
 
-![Loss Functions](https://img.shields.io/badge/Loss_Functions-lightgrey)
+![Loss Functions](https://img.shields.io/badge/Loss_Functions-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
@@ -450,7 +450,7 @@ python3 scripts/generate_readme.py
 
 <code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/46)
 
-![Probability Basics](https://img.shields.io/badge/Probability_Basics-lightgrey)
+![Probability Basics](https://img.shields.io/badge/Probability_Basics-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
@@ -467,7 +467,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Mutually Exclusive vs Independent](ml-rapid-fire/statistics/probability-basics/09-mutually-exclusive-vs-independent.md)
 - ⚫ [Chain Rule of Probability](ml-rapid-fire/statistics/probability-basics/10-chain-rule-of-probability.md)
 
-![Distributions](https://img.shields.io/badge/Distributions-lightgrey)
+![Distributions](https://img.shields.io/badge/Distributions-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
@@ -484,7 +484,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Central Limit Theorem](ml-rapid-fire/statistics/distributions/09-central-limit-theorem.md)
 - ⚫ [Heavy-Tailed Distributions](ml-rapid-fire/statistics/distributions/10-heavy-tailed-distributions.md)
 
-![Descriptive Stats](https://img.shields.io/badge/Descriptive_Stats-lightgrey)
+![Descriptive Stats](https://img.shields.io/badge/Descriptive_Stats-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
@@ -500,7 +500,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Z-Score (Standardization)](ml-rapid-fire/statistics/descriptive-stats/08-z-score.md)
 - ⚫ [Law of Large Numbers](ml-rapid-fire/statistics/descriptive-stats/09-law-of-large-numbers.md)
 
-![Statistical Inference](https://img.shields.io/badge/Statistical_Inference-lightgrey)
+![Statistical Inference](https://img.shields.io/badge/Statistical_Inference-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
@@ -516,7 +516,7 @@ python3 scripts/generate_readme.py
 - ⚫ [A/B Testing](ml-rapid-fire/statistics/statistical-inference/08-ab-testing.md)
 - ⚫ [Parametric vs Nonparametric Tests](ml-rapid-fire/statistics/statistical-inference/09-parametric-vs-nonparametric.md)
 
-![Mle Estimators](https://img.shields.io/badge/Mle_Estimators-lightgrey)
+![Mle Estimators](https://img.shields.io/badge/Mle_Estimators-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
 
@@ -539,7 +539,7 @@ python3 scripts/generate_readme.py
 
 <code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/40)
 
-![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-lightgrey)
+![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/12)
 
@@ -558,7 +558,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Numeric Feature Engineering](ml-rapid-fire/data-engineering/feature-engineering/11-feature-engineering-numeric.md)
 - ⚫ [Data Leakage](ml-rapid-fire/data-engineering/feature-engineering/12-data-leakage.md)
 
-![Missing Data](https://img.shields.io/badge/Missing_Data-lightgrey)
+![Missing Data](https://img.shields.io/badge/Missing_Data-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
 
@@ -573,7 +573,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Time Series Imputation](ml-rapid-fire/data-engineering/missing-data/07-time-series-imputation.md)
 - ⚫ [Imputation Best Practices](ml-rapid-fire/data-engineering/missing-data/08-imputation-best-practices.md)
 
-![Imbalanced Data](https://img.shields.io/badge/Imbalanced_Data-lightgrey)
+![Imbalanced Data](https://img.shields.io/badge/Imbalanced_Data-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
@@ -590,7 +590,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Ensemble Methods for Imbalanced Data](ml-rapid-fire/data-engineering/imbalanced-data/09-ensemble-methods.md)
 - ⚫ [Cost-Sensitive Learning](ml-rapid-fire/data-engineering/imbalanced-data/10-cost-sensitive-learning.md)
 
-![Text Processing](https://img.shields.io/badge/Text_Processing-lightgrey)
+![Text Processing](https://img.shields.io/badge/Text_Processing-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
@@ -615,7 +615,7 @@ python3 scripts/generate_readme.py
 
 <code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/43)
 
-![Rl Core Concepts](https://img.shields.io/badge/Rl_Core_Concepts-lightgrey)
+![Rl Core Concepts](https://img.shields.io/badge/Rl_Core_Concepts-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/15)
 
@@ -637,7 +637,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Function Approximation in RL](ml-rapid-fire/reinforcement-learning/core-concepts/14-function-approximation.md)
 - ⚫ [Partial Observability (POMDP)](ml-rapid-fire/reinforcement-learning/core-concepts/15-partial-observability.md)
 
-![Rl Algorithms](https://img.shields.io/badge/Rl_Algorithms-lightgrey)
+![Rl Algorithms](https://img.shields.io/badge/Rl_Algorithms-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/18)
 
@@ -662,7 +662,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Hierarchical RL](ml-rapid-fire/reinforcement-learning/algorithms/17-hierarchical-rl.md)
 - ⚫ [Multi-Agent RL](ml-rapid-fire/reinforcement-learning/algorithms/18-multi-agent-rl.md)
 
-![Exploration Exploitation](https://img.shields.io/badge/Exploration_Exploitation-lightgrey)
+![Exploration Exploitation](https://img.shields.io/badge/Exploration_Exploitation-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
@@ -683,7 +683,7 @@ python3 scripts/generate_readme.py
 
 ### Other
 
-![Calculus Optimization](https://img.shields.io/badge/Calculus_Optimization-lightgrey)
+![Calculus Optimization](https://img.shields.io/badge/Calculus_Optimization-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/15)
 
@@ -705,7 +705,7 @@ python3 scripts/generate_readme.py
 - ⚫ [Local Minima and Saddle Points](ml-rapid-fire/mathematics/calculus-optimization/14-local-minima-saddle.md)
 - ⚫ [Lagrange Multipliers](ml-rapid-fire/mathematics/calculus-optimization/15-lagrange-multipliers.md)
 
-![Linear Algebra](https://img.shields.io/badge/Linear_Algebra-lightgrey)
+![Linear Algebra](https://img.shields.io/badge/Linear_Algebra-blue)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/17)
 
@@ -731,4 +731,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 19:25:16*
+*Last updated: 2025-12-07 19:25:56*
