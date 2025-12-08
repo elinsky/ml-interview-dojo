@@ -14,18 +14,18 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-<code>Coverage</code> <code>[██████░░░░░░░░░░░░░░░░░░░░░░░░]</code> 20.2% (78/387)
+<code>Coverage</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 23.6% (92/390)
 
-<code>Ready   </code> <code>[███░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 11.9% (46/387)
+<code>Ready   </code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 14.4% (56/390)
 
 | Status | Count |
 |--------|-------|
-| 🟢 Full | 31 |
-| 🔵 Partial+ | 15 |
-| 🟡 Partial- | 20 |
-| 🟠 None | 12 |
-| ⚫ New | 309 |
-| **Total** | **387** |
+| 🟢 Full | 37 |
+| 🔵 Partial+ | 19 |
+| 🟡 Partial- | 22 |
+| 🟠 None | 14 |
+| ⚫ New | 298 |
+| **Total** | **390** |
 
 ## Quick Start
 
@@ -41,9 +41,9 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Core ML</h2></td></tr></table>
 
-<code>Coverage</code> <code>[████████████████████████░░░░░░]</code> 81.7% (49/60)
+<code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (63/63)
 
-<code>Ready   </code> <code>[██████████████████░░░░░░░░░░░░]</code> 61.7% (37/60)
+<code>Ready   </code> <code>[██████████████████████░░░░░░░░]</code> 74.6% (47/63)
 
 ![ML Basics](https://img.shields.io/badge/ML_Basics-blue?style=for-the-badge)
 
@@ -51,48 +51,48 @@ python3 scripts/generate_readme.py
 
 <code>Ready   </code> <code>[████████████████████████░░░░░░]</code> 81.0% (17/21)
 
-- 🟢 [01-what-is-ml](ml-rapid-fire/fundamentals/ml-basics/01-what-is-ml.md) `2 attempts`
-- 🟢 [02-traditional-vs-ml](ml-rapid-fire/fundamentals/ml-basics/02-traditional-vs-ml.md) `2 attempts`
-- 🟡 [03-three-components](ml-rapid-fire/fundamentals/ml-basics/03-three-components.md) `2 attempts`
-- 🟢 [04-types-of-learning](ml-rapid-fire/fundamentals/ml-basics/04-types-of-learning.md) `2 attempts`
-- 🟢 [05-classification-vs-regression](ml-rapid-fire/fundamentals/ml-basics/05-classification-vs-regression.md) `2 attempts`
-- 🟢 [06-what-is-a-model](ml-rapid-fire/fundamentals/ml-basics/06-what-is-a-model.md) `2 attempts`
-- 🟢 [07-what-is-loss-function](ml-rapid-fire/fundamentals/ml-basics/07-what-is-loss-function.md) `2 attempts`
-- 🟢 [08-what-is-optimization](ml-rapid-fire/fundamentals/ml-basics/08-what-is-optimization.md) `2 attempts`
-- 🟢 [09-loss-vs-metric](ml-rapid-fire/fundamentals/ml-basics/09-loss-vs-metric.md) `2 attempts`
-- 🟢 [10-params-vs-hyperparams](ml-rapid-fire/fundamentals/ml-basics/10-params-vs-hyperparams.md) `2 attempts`
-- 🟢 [11-what-is-regularization](ml-rapid-fire/fundamentals/ml-basics/11-what-is-regularization.md) `2 attempts`
-- 🟢 [12-training-vs-inference](ml-rapid-fire/fundamentals/ml-basics/12-training-vs-inference.md) `2 attempts`
-- 🟢 [13-overfitting-underfitting](ml-rapid-fire/fundamentals/ml-basics/13-overfitting-underfitting.md) `2 attempts`
-- 🔵 [16-bias-variance-tradeoff](ml-rapid-fire/fundamentals/ml-basics/16-bias-variance-tradeoff.md) `2 attempts`
-- 🔵 [17-when-to-use-ml](ml-rapid-fire/fundamentals/ml-basics/17-when-to-use-ml.md) `2 attempts`
-- 🟡 [Bias-Variance Decomposition](ml-rapid-fire/fundamentals/ml-basics/18-bias-variance-decomposition.md) `2 attempts`
-- 🟢 [Diagnosing Bias vs Variance](ml-rapid-fire/fundamentals/ml-basics/19-diagnosing-bias-variance.md) `3 attempts`
-- 🟡 [Causes of High Variance](ml-rapid-fire/fundamentals/ml-basics/20-causes-high-variance.md) `2 attempts`
-- 🔵 [How to Reduce Variance](ml-rapid-fire/fundamentals/ml-basics/21-reduce-variance.md) `2 attempts`
-- 🔵 [Causes of High Bias](ml-rapid-fire/fundamentals/ml-basics/22-causes-high-bias.md) `2 attempts`
-- 🟡 [How to Reduce Bias](ml-rapid-fire/fundamentals/ml-basics/23-reduce-bias.md) `2 attempts`
+- 🟢 [01-what-is-ml](ml-rapid-fire/core-ml/ml-basics/01-what-is-ml.md) `2 attempts`
+- 🟢 [02-traditional-vs-ml](ml-rapid-fire/core-ml/ml-basics/02-traditional-vs-ml.md) `2 attempts`
+- 🟡 [03-three-components](ml-rapid-fire/core-ml/ml-basics/03-three-components.md) `2 attempts`
+- 🟢 [04-types-of-learning](ml-rapid-fire/core-ml/ml-basics/04-types-of-learning.md) `2 attempts`
+- 🟢 [05-classification-vs-regression](ml-rapid-fire/core-ml/ml-basics/05-classification-vs-regression.md) `2 attempts`
+- 🟢 [06-what-is-a-model](ml-rapid-fire/core-ml/ml-basics/06-what-is-a-model.md) `2 attempts`
+- 🟢 [07-what-is-loss-function](ml-rapid-fire/core-ml/ml-basics/07-what-is-loss-function.md) `2 attempts`
+- 🟢 [08-what-is-optimization](ml-rapid-fire/core-ml/ml-basics/08-what-is-optimization.md) `2 attempts`
+- 🟢 [09-loss-vs-metric](ml-rapid-fire/core-ml/ml-basics/09-loss-vs-metric.md) `2 attempts`
+- 🟢 [10-params-vs-hyperparams](ml-rapid-fire/core-ml/ml-basics/10-params-vs-hyperparams.md) `2 attempts`
+- 🟢 [11-what-is-regularization](ml-rapid-fire/core-ml/ml-basics/11-what-is-regularization.md) `2 attempts`
+- 🟢 [12-training-vs-inference](ml-rapid-fire/core-ml/ml-basics/12-training-vs-inference.md) `2 attempts`
+- 🟢 [13-overfitting-underfitting](ml-rapid-fire/core-ml/ml-basics/13-overfitting-underfitting.md) `2 attempts`
+- 🔵 [16-bias-variance-tradeoff](ml-rapid-fire/core-ml/ml-basics/16-bias-variance-tradeoff.md) `2 attempts`
+- 🔵 [17-when-to-use-ml](ml-rapid-fire/core-ml/ml-basics/17-when-to-use-ml.md) `2 attempts`
+- 🟡 [Bias-Variance Decomposition](ml-rapid-fire/core-ml/ml-basics/18-bias-variance-decomposition.md) `2 attempts`
+- 🟢 [Diagnosing Bias vs Variance](ml-rapid-fire/core-ml/ml-basics/19-diagnosing-bias-variance.md) `3 attempts`
+- 🟡 [Causes of High Variance](ml-rapid-fire/core-ml/ml-basics/20-causes-high-variance.md) `2 attempts`
+- 🔵 [How to Reduce Variance](ml-rapid-fire/core-ml/ml-basics/21-reduce-variance.md) `2 attempts`
+- 🔵 [Causes of High Bias](ml-rapid-fire/core-ml/ml-basics/22-causes-high-bias.md) `2 attempts`
+- 🟡 [How to Reduce Bias](ml-rapid-fire/core-ml/ml-basics/23-reduce-bias.md) `2 attempts`
 
 ![Linear Regression](https://img.shields.io/badge/Linear_Regression-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[█████████████████████░░░░░░░░░]</code> 71.4% (10/14)
+<code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (14/14)
 
-<code>Ready   </code> <code>[█████████████████░░░░░░░░░░░░░]</code> 57.1% (8/14)
+<code>Ready   </code> <code>[█████████████████████████░░░░░]</code> 85.7% (12/14)
 
-- 🟢 [01-what-is-linear-regression](ml-rapid-fire/classical-ml/linear-regression/01-what-is-linear-regression.md) `2 attempts`
-- 🟢 [02-simple-vs-multiple](ml-rapid-fire/classical-ml/linear-regression/02-simple-vs-multiple.md) `2 attempts`
-- 🟢 [03-linear-regression-formula](ml-rapid-fire/classical-ml/linear-regression/03-linear-regression-formula.md) `2 attempts`
-- 🟢 [04-loss-function](ml-rapid-fire/classical-ml/linear-regression/04-loss-function.md) `2 attempts`
-- 🟡 [05-ordinary-least-squares](ml-rapid-fire/classical-ml/linear-regression/05-ordinary-least-squares.md) `2 attempts`
-- 🟢 [06-gradient-descent-for-lr](ml-rapid-fire/classical-ml/linear-regression/06-gradient-descent-for-lr.md) `2 attempts`
-- 🟢 [07-coefficient-interpretation](ml-rapid-fire/classical-ml/linear-regression/07-coefficient-interpretation.md) `2 attempts`
-- ⚫ [08-ols-assumptions-overview](ml-rapid-fire/classical-ml/linear-regression/08-ols-assumptions-overview.md)
-- ⚫ [09-ols-error-assumptions](ml-rapid-fire/classical-ml/linear-regression/09-ols-error-assumptions.md)
-- ⚫ [10-ols-predictor-assumptions](ml-rapid-fire/classical-ml/linear-regression/10-ols-predictor-assumptions.md)
-- 🟡 [11-ridge-vs-lasso](ml-rapid-fire/classical-ml/linear-regression/11-ridge-vs-lasso.md) `2 attempts`
-- ⚫ [12-ridge-lasso-effects](ml-rapid-fire/classical-ml/linear-regression/12-ridge-lasso-effects.md)
-- 🔵 [13-r-squared](ml-rapid-fire/classical-ml/linear-regression/13-r-squared.md) `2 attempts`
-- 🟢 [14-mse-formula](ml-rapid-fire/classical-ml/linear-regression/14-mse-formula.md) `1 attempts`
+- 🟢 [01-what-is-linear-regression](ml-rapid-fire/core-ml/linear-regression/01-what-is-linear-regression.md) `2 attempts`
+- 🟢 [02-simple-vs-multiple](ml-rapid-fire/core-ml/linear-regression/02-simple-vs-multiple.md) `2 attempts`
+- 🟢 [03-linear-regression-formula](ml-rapid-fire/core-ml/linear-regression/03-linear-regression-formula.md) `2 attempts`
+- 🟢 [04-loss-function](ml-rapid-fire/core-ml/linear-regression/04-loss-function.md) `2 attempts`
+- 🟡 [05-ordinary-least-squares](ml-rapid-fire/core-ml/linear-regression/05-ordinary-least-squares.md) `2 attempts`
+- 🟢 [06-gradient-descent-for-lr](ml-rapid-fire/core-ml/linear-regression/06-gradient-descent-for-lr.md) `2 attempts`
+- 🟢 [07-coefficient-interpretation](ml-rapid-fire/core-ml/linear-regression/07-coefficient-interpretation.md) `2 attempts`
+- 🟢 [08-ols-assumptions-overview](ml-rapid-fire/core-ml/linear-regression/08-ols-assumptions-overview.md) `1 attempts`
+- 🔵 [09-ols-error-assumptions](ml-rapid-fire/core-ml/linear-regression/09-ols-error-assumptions.md) `1 attempts`
+- 🔵 [10-ols-predictor-assumptions](ml-rapid-fire/core-ml/linear-regression/10-ols-predictor-assumptions.md) `1 attempts`
+- 🟡 [11-ridge-vs-lasso](ml-rapid-fire/core-ml/linear-regression/11-ridge-vs-lasso.md) `2 attempts`
+- 🔵 [12-ridge-lasso-effects](ml-rapid-fire/core-ml/linear-regression/12-ridge-lasso-effects.md) `1 attempts`
+- 🔵 [13-r-squared](ml-rapid-fire/core-ml/linear-regression/13-r-squared.md) `2 attempts`
+- 🟢 [14-mse-formula](ml-rapid-fire/core-ml/linear-regression/14-mse-formula.md) `1 attempts`
 
 ![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-blue?style=for-the-badge)
 
@@ -100,15 +100,15 @@ python3 scripts/generate_readme.py
 
 <code>Ready   </code> <code>[███████████████████████░░░░░░░]</code> 77.8% (7/9)
 
-- 🔵 [What is Logistic Regression](ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md) `2 attempts`
-- 🟢 [Why Not Linear Regression](ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md) `2 attempts`
-- 🟠 [Sigmoid Function](ml-rapid-fire/classical-ml/logistic-regression/03-sigmoid-function.md) `2 attempts`
-- 🟢 [How Trained](ml-rapid-fire/classical-ml/logistic-regression/04-how-trained.md) `2 attempts`
-- 🟡 [Coefficient Interpretation](ml-rapid-fire/classical-ml/logistic-regression/05-coefficient-interpretation.md) `2 attempts`
-- 🟢 [Decision Boundary](ml-rapid-fire/classical-ml/logistic-regression/06-decision-boundary.md) `2 attempts`
-- 🟢 [Multi-class](ml-rapid-fire/classical-ml/logistic-regression/07-multi-class.md) `2 attempts`
-- 🟢 [Loss Function](ml-rapid-fire/classical-ml/logistic-regression/08-loss-function.md) `1 attempts`
-- 🟢 [Linearly Separable](ml-rapid-fire/classical-ml/logistic-regression/09-linearly-separable.md) `1 attempts`
+- 🔵 [What is Logistic Regression](ml-rapid-fire/core-ml/logistic-regression/01-what-is-logistic-regression.md) `2 attempts`
+- 🟢 [Why Not Linear Regression](ml-rapid-fire/core-ml/logistic-regression/02-why-not-linear-regression.md) `2 attempts`
+- 🟠 [Sigmoid Function](ml-rapid-fire/core-ml/logistic-regression/03-sigmoid-function.md) `2 attempts`
+- 🟢 [How Trained](ml-rapid-fire/core-ml/logistic-regression/04-how-trained.md) `2 attempts`
+- 🟡 [Coefficient Interpretation](ml-rapid-fire/core-ml/logistic-regression/05-coefficient-interpretation.md) `2 attempts`
+- 🟢 [Decision Boundary](ml-rapid-fire/core-ml/logistic-regression/06-decision-boundary.md) `2 attempts`
+- 🟢 [Multi-class](ml-rapid-fire/core-ml/logistic-regression/07-multi-class.md) `2 attempts`
+- 🟢 [Loss Function](ml-rapid-fire/core-ml/logistic-regression/08-loss-function.md) `1 attempts`
+- 🟢 [Linearly Separable](ml-rapid-fire/core-ml/logistic-regression/09-linearly-separable.md) `1 attempts`
 
 ![Cross Entropy](https://img.shields.io/badge/Cross_Entropy-blue?style=for-the-badge)
 
@@ -116,29 +116,32 @@ python3 scripts/generate_readme.py
 
 <code>Ready   </code> <code>[████████████████░░░░░░░░░░░░░░]</code> 55.6% (5/9)
 
-- 🟡 [01-what-is-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/01-what-is-cross-entropy.md) `2 attempts`
-- 🟠 [02-why-not-mse](ml-rapid-fire/classical-ml/cross-entropy/02-why-not-mse.md) `2 attempts`
-- 🟠 [03-binary-cross-entropy-formula](ml-rapid-fire/classical-ml/cross-entropy/03-binary-cross-entropy-formula.md) `2 attempts`
-- 🟢 [04-confident-correct](ml-rapid-fire/classical-ml/cross-entropy/04-confident-correct.md) `2 attempts`
-- 🟢 [05-confident-wrong](ml-rapid-fire/classical-ml/cross-entropy/05-confident-wrong.md) `2 attempts`
-- 🟡 [06-categorical-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/06-categorical-cross-entropy.md) `2 attempts`
-- 🔵 [07-calculate-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/07-calculate-cross-entropy.md) `2 attempts`
-- 🟢 [08-calculate-categorical-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/08-calculate-categorical-cross-entropy.md) `2 attempts`
-- 🟢 [09-softmax-vs-categorical-ce](ml-rapid-fire/classical-ml/cross-entropy/09-softmax-vs-categorical-ce.md) `1 attempts`
+- 🟡 [01-what-is-cross-entropy](ml-rapid-fire/core-ml/cross-entropy/01-what-is-cross-entropy.md) `2 attempts`
+- 🟠 [02-why-not-mse](ml-rapid-fire/core-ml/cross-entropy/02-why-not-mse.md) `2 attempts`
+- 🟠 [03-binary-cross-entropy-formula](ml-rapid-fire/core-ml/cross-entropy/03-binary-cross-entropy-formula.md) `2 attempts`
+- 🟢 [04-confident-correct](ml-rapid-fire/core-ml/cross-entropy/04-confident-correct.md) `2 attempts`
+- 🟢 [05-confident-wrong](ml-rapid-fire/core-ml/cross-entropy/05-confident-wrong.md) `2 attempts`
+- 🟡 [06-categorical-cross-entropy](ml-rapid-fire/core-ml/cross-entropy/06-categorical-cross-entropy.md) `2 attempts`
+- 🔵 [07-calculate-cross-entropy](ml-rapid-fire/core-ml/cross-entropy/07-calculate-cross-entropy.md) `2 attempts`
+- 🟢 [08-calculate-categorical-cross-entropy](ml-rapid-fire/core-ml/cross-entropy/08-calculate-categorical-cross-entropy.md) `2 attempts`
+- 🟢 [09-softmax-vs-categorical-ce](ml-rapid-fire/core-ml/cross-entropy/09-softmax-vs-categorical-ce.md) `1 attempts`
 
 ![Regularization](https://img.shields.io/badge/Regularization-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/7)
+<code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (10/10)
 
-<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/7)
+<code>Ready   </code> <code>[██████████████████░░░░░░░░░░░░]</code> 60.0% (6/10)
 
-- ⚫ [L2 (Ridge) Penalty Formula](ml-rapid-fire/classical-ml/regularization/01-l2-ridge-formula.md)
-- ⚫ [L1 (Lasso) Penalty Formula](ml-rapid-fire/classical-ml/regularization/02-l1-lasso-formula.md)
-- ⚫ [Why L1 Produces Sparsity](ml-rapid-fire/classical-ml/regularization/03-why-l1-sparse.md)
-- ⚫ [Why L2 Only Shrinks Weights](ml-rapid-fire/classical-ml/regularization/04-why-l2-shrinks.md)
-- ⚫ [When to Choose L1 vs L2](ml-rapid-fire/classical-ml/regularization/05-when-l1-vs-l2.md)
-- ⚫ [Elastic Net](ml-rapid-fire/classical-ml/regularization/06-elastic-net.md)
-- ⚫ [Regularization Hyperparameter](ml-rapid-fire/classical-ml/regularization/07-lambda-hyperparameter.md)
+- 🟢 [L2 (Ridge) Penalty Formula](ml-rapid-fire/core-ml/regularization/01-l2-ridge-formula.md) `2 attempts`
+- 🟡 [L1 (Lasso) Penalty Formula](ml-rapid-fire/core-ml/regularization/02-l1-lasso-formula.md) `1 attempts`
+- 🟠 [Why L1 Produces Sparsity](ml-rapid-fire/core-ml/regularization/03-why-l1-sparse.md) `1 attempts`
+- 🟠 [Why L2 Only Shrinks Weights](ml-rapid-fire/core-ml/regularization/04-why-l2-shrinks.md) `1 attempts`
+- 🟢 [When to Choose L1 (Lasso)](ml-rapid-fire/core-ml/regularization/05-when-l1-lasso.md) `1 attempts`
+- 🔵 [When to Choose L2 (Ridge)](ml-rapid-fire/core-ml/regularization/06-when-l2-ridge.md) `1 attempts`
+- 🟢 [When to Choose Elastic Net](ml-rapid-fire/core-ml/regularization/07-when-elastic-net.md) `1 attempts`
+- 🟡 [Elastic Net](ml-rapid-fire/core-ml/regularization/08-elastic-net.md) `1 attempts`
+- 🟢 [Regularization Hyperparameter](ml-rapid-fire/core-ml/regularization/09-lambda-hyperparameter.md) `1 attempts`
+- 🟢 [Lambda Effect on Bias-Variance](ml-rapid-fire/core-ml/regularization/10-lambda-bias-variance.md) `1 attempts`
 
 ---
 
@@ -738,4 +741,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 19:32:42*
+*Last updated: 2025-12-07 20:26:30*
