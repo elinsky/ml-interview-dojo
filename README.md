@@ -14,9 +14,9 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-<code>Coverage</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 25.3% (99/391)
+<code>Attempted</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 25.3% (99/391)
 
-<code>Ready   </code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.1% (59/391)
+<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.1% (59/391)
 
 | Status | Count |
 |--------|-------|
@@ -41,11 +41,11 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Core ML</h2></td></tr></table>
 
-<code>Ready   </code> <code>[██████████████████████░░░░░░░░]</code> 74.6% (47/63)
+<code>Mastered</code> <code>[██████████████████████░░░░░░░░]</code> 74.6% (47/63)
 
 ![ML Basics](https://img.shields.io/badge/ML_Basics-blue?style=for-the-badge)
 
-<code>Ready   </code> <code>[████████████████████████░░░░░░]</code> 81.0% (17/21)
+<code>Mastered</code> <code>[████████████████████████░░░░░░]</code> 81.0% (17/21)
 
 - 🟢 [01-what-is-ml](ml-rapid-fire/core-ml/ml-basics/01-what-is-ml.md) `2 attempts`
 - 🟢 [02-traditional-vs-ml](ml-rapid-fire/core-ml/ml-basics/02-traditional-vs-ml.md) `2 attempts`
@@ -71,7 +71,7 @@ python3 scripts/generate_readme.py
 
 ![Linear Regression](https://img.shields.io/badge/Linear_Regression-blue?style=for-the-badge)
 
-<code>Ready   </code> <code>[█████████████████████████░░░░░]</code> 85.7% (12/14)
+<code>Mastered</code> <code>[█████████████████████████░░░░░]</code> 85.7% (12/14)
 
 - 🟢 [01-what-is-linear-regression](ml-rapid-fire/core-ml/linear-regression/01-what-is-linear-regression.md) `2 attempts`
 - 🟢 [02-simple-vs-multiple](ml-rapid-fire/core-ml/linear-regression/02-simple-vs-multiple.md) `2 attempts`
@@ -90,7 +90,7 @@ python3 scripts/generate_readme.py
 
 ![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-blue?style=for-the-badge)
 
-<code>Ready   </code> <code>[███████████████████████░░░░░░░]</code> 77.8% (7/9)
+<code>Mastered</code> <code>[███████████████████████░░░░░░░]</code> 77.8% (7/9)
 
 - 🔵 [What is Logistic Regression](ml-rapid-fire/core-ml/logistic-regression/01-what-is-logistic-regression.md) `2 attempts`
 - 🟢 [Why Not Linear Regression](ml-rapid-fire/core-ml/logistic-regression/02-why-not-linear-regression.md) `2 attempts`
@@ -104,7 +104,7 @@ python3 scripts/generate_readme.py
 
 ![Cross Entropy](https://img.shields.io/badge/Cross_Entropy-blue?style=for-the-badge)
 
-<code>Ready   </code> <code>[████████████████░░░░░░░░░░░░░░]</code> 55.6% (5/9)
+<code>Mastered</code> <code>[████████████████░░░░░░░░░░░░░░]</code> 55.6% (5/9)
 
 - 🟡 [01-what-is-cross-entropy](ml-rapid-fire/core-ml/cross-entropy/01-what-is-cross-entropy.md) `2 attempts`
 - 🟠 [02-why-not-mse](ml-rapid-fire/core-ml/cross-entropy/02-why-not-mse.md) `2 attempts`
@@ -118,7 +118,7 @@ python3 scripts/generate_readme.py
 
 ![Regularization](https://img.shields.io/badge/Regularization-blue?style=for-the-badge)
 
-<code>Ready   </code> <code>[██████████████████░░░░░░░░░░░░]</code> 60.0% (6/10)
+<code>Mastered</code> <code>[██████████████████░░░░░░░░░░░░]</code> 60.0% (6/10)
 
 - 🟢 [L2 (Ridge) Penalty Formula](ml-rapid-fire/core-ml/regularization/01-l2-ridge-formula.md) `2 attempts`
 - 🟡 [L1 (Lasso) Penalty Formula](ml-rapid-fire/core-ml/regularization/02-l1-lasso-formula.md) `1 attempts`
@@ -135,11 +135,11 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Model Evaluation</h2></td></tr></table>
 
-<code>Coverage</code> <code>[████████████████████░░░░░░░░░░]</code> 69.2% (36/52)
+<code>Attempted</code> <code>[████████████████████░░░░░░░░░░]</code> 69.2% (36/52)
 
 ![Classification Metrics](https://img.shields.io/badge/Classification_Metrics-blue?style=for-the-badge)
 
-<code>Ready   </code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.8% (4/13)
+<code>Mastered</code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.8% (4/13)
 
 - 🟢 [TP, FP, TN, FN](ml-rapid-fire/model-evaluation/classification-metrics/01-tp-fp-tn-fn.md) `1 attempts`
 - 🟡 [Confusion Matrix](ml-rapid-fire/model-evaluation/classification-metrics/02-confusion-matrix.md) `1 attempts`
@@ -157,7 +157,7 @@ python3 scripts/generate_readme.py
 
 ![Regression Metrics](https://img.shields.io/badge/Regression_Metrics-blue?style=for-the-badge)
 
-<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
+<code>Mastered</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
 
 - 🟡 [Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/01-mse.md) `1 attempts`
 - 🟠 [Root Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/02-rmse.md) `1 attempts`
@@ -170,7 +170,7 @@ python3 scripts/generate_readme.py
 
 ![Validation](https://img.shields.io/badge/Validation-blue?style=for-the-badge)
 
-<code>Ready   </code> <code>[███████████████░░░░░░░░░░░░░░░]</code> 50.0% (5/10)
+<code>Mastered</code> <code>[███████████████░░░░░░░░░░░░░░░]</code> 50.0% (5/10)
 
 - 🟡 [Train/Test Split](ml-rapid-fire/model-evaluation/validation/01-train-test-split.md) `1 attempts`
 - 🔵 [Validation Set Purpose](ml-rapid-fire/model-evaluation/validation/02-validation-set-purpose.md) `1 attempts`
@@ -185,7 +185,7 @@ python3 scripts/generate_readme.py
 
 ![Model Selection](https://img.shields.io/badge/Model_Selection-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[█████████████░░░░░░░░░░░░░░░░░]</code> 45.5% (5/11)
+<code>Attempted</code> <code>[█████████████░░░░░░░░░░░░░░░░░]</code> 45.5% (5/11)
 
 - 🔵 [What is Hyperparameter Tuning](ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md) `1 attempts`
 - 🔵 [Grid Search](ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md) `1 attempts`
@@ -201,7 +201,7 @@ python3 scripts/generate_readme.py
 
 ![Loss Functions](https://img.shields.io/badge/Loss_Functions-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
 - ⚫ [What is a Loss Function](ml-rapid-fire/model-evaluation/loss-functions/01-what-is-loss-function.md)
 - ⚫ [MSE Loss](ml-rapid-fire/model-evaluation/loss-functions/02-mse-loss.md)
@@ -218,11 +218,11 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Classical ML</h2></td></tr></table>
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/61)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/61)
 
 ![Decision Trees](https://img.shields.io/badge/Decision_Trees-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/16)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/16)
 
 - ⚫ [What is a Decision Tree](ml-rapid-fire/classical-ml/decision-trees/01-what-is-decision-tree.md)
 - ⚫ [How Decision Trees Split](ml-rapid-fire/classical-ml/decision-trees/02-how-splits-decided.md)
@@ -243,7 +243,7 @@ python3 scripts/generate_readme.py
 
 ![SVM](https://img.shields.io/badge/SVM-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is an SVM](ml-rapid-fire/classical-ml/svm/01-what-is-svm.md)
 - ⚫ [Margin and Support Vectors](ml-rapid-fire/classical-ml/svm/02-margin-support-vectors.md)
@@ -257,7 +257,7 @@ python3 scripts/generate_readme.py
 
 ![KNN](https://img.shields.io/badge/KNN-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is KNN](ml-rapid-fire/classical-ml/knn/01-what-is-knn.md)
 - ⚫ [KNN Prediction](ml-rapid-fire/classical-ml/knn/02-prediction.md)
@@ -271,7 +271,7 @@ python3 scripts/generate_readme.py
 
 ![Naive Bayes](https://img.shields.io/badge/Naive_Bayes-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is Naive Bayes](ml-rapid-fire/classical-ml/naive-bayes/01-what-is-naive-bayes.md)
 - ⚫ [Bayes Theorem](ml-rapid-fire/classical-ml/naive-bayes/02-bayes-theorem.md)
@@ -285,7 +285,7 @@ python3 scripts/generate_readme.py
 
 ![Clustering](https://img.shields.io/badge/Clustering-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is Clustering](ml-rapid-fire/classical-ml/clustering/01-what-is-clustering.md)
 - ⚫ [K-Means Clustering](ml-rapid-fire/classical-ml/clustering/02-k-means.md)
@@ -299,7 +299,7 @@ python3 scripts/generate_readme.py
 
 ![Dimensionality Reduction](https://img.shields.io/badge/Dimensionality_Reduction-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is Dimensionality Reduction](ml-rapid-fire/classical-ml/dimensionality-reduction/01-what-is-dimensionality-reduction.md)
 - ⚫ [PCA Overview](ml-rapid-fire/classical-ml/dimensionality-reduction/02-pca-overview.md)
@@ -315,11 +315,11 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Deep Learning</h2></td></tr></table>
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/54)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/54)
 
 ![Neural Network Basics](https://img.shields.io/badge/Neural_Network_Basics-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is a Neural Network](ml-rapid-fire/deep-learning/neural-network-basics/01-what-is-neural-network.md)
 - ⚫ [Forward Pass](ml-rapid-fire/deep-learning/neural-network-basics/02-forward-pass.md)
@@ -333,7 +333,7 @@ python3 scripts/generate_readme.py
 
 ![Optimizers](https://img.shields.io/badge/Optimizers-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is an Optimizer](ml-rapid-fire/deep-learning/optimizers/01-what-is-optimizer.md)
 - ⚫ [Gradient Descent Variants](ml-rapid-fire/deep-learning/optimizers/02-gradient-descent-variants.md)
@@ -347,7 +347,7 @@ python3 scripts/generate_readme.py
 
 ![CNNs](https://img.shields.io/badge/CNNs-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is a CNN](ml-rapid-fire/deep-learning/cnns/01-what-is-cnn.md)
 - ⚫ [Convolution Operation](ml-rapid-fire/deep-learning/cnns/02-convolution-operation.md)
@@ -361,7 +361,7 @@ python3 scripts/generate_readme.py
 
 ![RNNs](https://img.shields.io/badge/RNNs-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is an RNN](ml-rapid-fire/deep-learning/rnns/01-what-is-rnn.md)
 - ⚫ [RNN Applications](ml-rapid-fire/deep-learning/rnns/02-rnn-applications.md)
@@ -375,7 +375,7 @@ python3 scripts/generate_readme.py
 
 ![Transformers](https://img.shields.io/badge/Transformers-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is Attention](ml-rapid-fire/deep-learning/transformers/01-what-is-attention.md)
 - ⚫ [Scaled Dot-Product Attention](ml-rapid-fire/deep-learning/transformers/02-scaled-dot-product-attention.md)
@@ -389,7 +389,7 @@ python3 scripts/generate_readme.py
 
 ![Regularization](https://img.shields.io/badge/Regularization-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is Regularization](ml-rapid-fire/deep-learning/regularization/00-what-is-regularization.md)
 - ⚫ [Dropout](ml-rapid-fire/deep-learning/regularization/01-dropout.md)
@@ -405,11 +405,11 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Probability & Statistics</h2></td></tr></table>
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/46)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/46)
 
 ![Probability Basics](https://img.shields.io/badge/Probability_Basics-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
 - ⚫ [Probability Axioms](ml-rapid-fire/statistics/probability-basics/01-probability-axioms.md)
 - ⚫ [Conditional Probability](ml-rapid-fire/statistics/probability-basics/02-conditional-probability.md)
@@ -424,7 +424,7 @@ python3 scripts/generate_readme.py
 
 ![Distributions](https://img.shields.io/badge/Distributions-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
 - ⚫ [Normal Distribution](ml-rapid-fire/statistics/distributions/01-normal-distribution.md)
 - ⚫ [Binomial Distribution](ml-rapid-fire/statistics/distributions/02-binomial-distribution.md)
@@ -439,7 +439,7 @@ python3 scripts/generate_readme.py
 
 ![Descriptive Stats](https://img.shields.io/badge/Descriptive_Stats-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [Mean, Median, Mode](ml-rapid-fire/statistics/descriptive-stats/01-mean-median-mode.md)
 - ⚫ [Variance and Standard Deviation](ml-rapid-fire/statistics/descriptive-stats/02-variance-std-dev.md)
@@ -453,7 +453,7 @@ python3 scripts/generate_readme.py
 
 ![Statistical Inference](https://img.shields.io/badge/Statistical_Inference-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [Hypothesis Testing Framework](ml-rapid-fire/statistics/statistical-inference/01-hypothesis-testing.md)
 - ⚫ [Type I and Type II Errors](ml-rapid-fire/statistics/statistical-inference/02-type-i-type-ii-errors.md)
@@ -467,7 +467,7 @@ python3 scripts/generate_readme.py
 
 ![Mle Estimators](https://img.shields.io/badge/Mle_Estimators-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
 
 - ⚫ [What is an Estimator?](ml-rapid-fire/statistics/mle-estimators/01-what-is-an-estimator.md)
 - ⚫ [Bias of an Estimator](ml-rapid-fire/statistics/mle-estimators/02-bias-of-estimator.md)
@@ -482,11 +482,11 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Data Engineering</h2></td></tr></table>
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/40)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/40)
 
 ![Feature Engineering](https://img.shields.io/badge/Feature_Engineering-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/12)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/12)
 
 - ⚫ [Why Feature Scaling](ml-rapid-fire/data-engineering/feature-engineering/01-feature-scaling-why.md)
 - ⚫ [Standardization (Z-Score Scaling)](ml-rapid-fire/data-engineering/feature-engineering/02-standardization.md)
@@ -503,7 +503,7 @@ python3 scripts/generate_readme.py
 
 ![Missing Data](https://img.shields.io/badge/Missing_Data-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
 
 - ⚫ [Types of Missing Data](ml-rapid-fire/data-engineering/missing-data/01-types-of-missingness.md)
 - ⚫ [Simple Imputation Methods](ml-rapid-fire/data-engineering/missing-data/02-simple-imputation.md)
@@ -516,7 +516,7 @@ python3 scripts/generate_readme.py
 
 ![Imbalanced Data](https://img.shields.io/badge/Imbalanced_Data-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
 - ⚫ [Why Class Imbalance Matters](ml-rapid-fire/data-engineering/imbalanced-data/01-why-imbalance-matters.md)
 - ⚫ [Metrics for Imbalanced Data](ml-rapid-fire/data-engineering/imbalanced-data/02-metrics-for-imbalanced.md)
@@ -531,7 +531,7 @@ python3 scripts/generate_readme.py
 
 ![Text Processing](https://img.shields.io/badge/Text_Processing-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
 - ⚫ [Tokenization](ml-rapid-fire/data-engineering/text-processing/01-tokenization.md)
 - ⚫ [Text Preprocessing](ml-rapid-fire/data-engineering/text-processing/02-text-preprocessing.md)
@@ -548,11 +548,11 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Reinforcement Learning</h2></td></tr></table>
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/43)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/43)
 
 ![Rl Core Concepts](https://img.shields.io/badge/Rl_Core_Concepts-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/15)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/15)
 
 - ⚫ [RL vs Supervised Learning](ml-rapid-fire/reinforcement-learning/core-concepts/01-rl-vs-supervised.md)
 - ⚫ [Markov Decision Process (MDP)](ml-rapid-fire/reinforcement-learning/core-concepts/02-mdp-definition.md)
@@ -572,7 +572,7 @@ python3 scripts/generate_readme.py
 
 ![Rl Algorithms](https://img.shields.io/badge/Rl_Algorithms-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/18)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/18)
 
 - ⚫ [Value Iteration](ml-rapid-fire/reinforcement-learning/algorithms/01-value-iteration.md)
 - ⚫ [Policy Iteration](ml-rapid-fire/reinforcement-learning/algorithms/02-policy-iteration.md)
@@ -595,7 +595,7 @@ python3 scripts/generate_readme.py
 
 ![Exploration Exploitation](https://img.shields.io/badge/Exploration_Exploitation-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
 - ⚫ [Exploration-Exploitation Dilemma](ml-rapid-fire/reinforcement-learning/exploration-exploitation/01-exploration-exploitation-dilemma.md)
 - ⚫ [Multi-Armed Bandits](ml-rapid-fire/reinforcement-learning/exploration-exploitation/02-multi-armed-bandits.md)
@@ -614,7 +614,7 @@ python3 scripts/generate_readme.py
 
 ![Calculus Optimization](https://img.shields.io/badge/Calculus_Optimization-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/15)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/15)
 
 - ⚫ [Derivative Definition](ml-rapid-fire/mathematics/calculus-optimization/01-derivative-definition.md)
 - ⚫ [Common Derivatives](ml-rapid-fire/mathematics/calculus-optimization/02-common-derivatives.md)
@@ -634,7 +634,7 @@ python3 scripts/generate_readme.py
 
 ![Linear Algebra](https://img.shields.io/badge/Linear_Algebra-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/17)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/17)
 
 - ⚫ [Dot Product](ml-rapid-fire/mathematics/linear-algebra/01-dot-product.md)
 - ⚫ [Matrix Multiplication](ml-rapid-fire/mathematics/linear-algebra/02-matrix-multiplication.md)
@@ -656,4 +656,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 20:49:27*
+*Last updated: 2025-12-07 20:50:47*

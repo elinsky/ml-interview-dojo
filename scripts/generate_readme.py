@@ -231,9 +231,9 @@ def generate_readme():
     ready = full + partial_plus  # interview ready
 
     lines.append("## Progress Summary\n")
-    lines.append(format_progress_line("Coverage", coverage, total))
+    lines.append(format_progress_line("Attempted", coverage, total))
     lines.append("")
-    lines.append(format_progress_line("Ready", ready, total))
+    lines.append(format_progress_line("Mastered", ready, total))
     lines.append("")
     lines.append("| Status | Count |")
     lines.append("|--------|-------|")
@@ -293,9 +293,9 @@ def generate_readme():
         lines.append(f'<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">{section}</h2></td></tr></table>\n')
         # Show coverage if not 100%, otherwise show ready
         if section_coverage < section_total:
-            lines.append(format_progress_line("Coverage", section_coverage, section_total))
+            lines.append(format_progress_line("Attempted", section_coverage, section_total))
         else:
-            lines.append(format_progress_line("Ready", section_ready, section_total))
+            lines.append(format_progress_line("Mastered", section_ready, section_total))
         lines.append("")
 
         # Sort categories by their order in SECTION_STRUCTURE
@@ -319,9 +319,9 @@ def generate_readme():
             lines.append(f'![{category_display}](https://img.shields.io/badge/{badge_name}-blue?style=for-the-badge)\n')
             # Show coverage if not 100%, otherwise show ready
             if cat_coverage < cat_total:
-                lines.append(format_progress_line("Coverage", cat_coverage, cat_total))
+                lines.append(format_progress_line("Attempted", cat_coverage, cat_total))
             else:
-                lines.append(format_progress_line("Ready", cat_ready, cat_total))
+                lines.append(format_progress_line("Mastered", cat_ready, cat_total))
             lines.append("")
 
             for card in cards:
@@ -351,9 +351,9 @@ def generate_readme():
             lines.append(f'![{category_display}](https://img.shields.io/badge/{badge_name}-blue?style=for-the-badge)\n')
             # Show coverage if not 100%, otherwise show ready
             if cat_coverage < cat_total:
-                lines.append(format_progress_line("Coverage", cat_coverage, cat_total))
+                lines.append(format_progress_line("Attempted", cat_coverage, cat_total))
             else:
-                lines.append(format_progress_line("Ready", cat_ready, cat_total))
+                lines.append(format_progress_line("Mastered", cat_ready, cat_total))
             lines.append("")
 
             for card in cards:
