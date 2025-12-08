@@ -5,9 +5,9 @@
 **A:**
 
 - Controls **strength of penalty** (also called alpha)
-- **Higher λ** → more regularization → simpler model → more bias, less variance
-- **Lower λ** → less regularization → complex model → less bias, more variance
-- **Too strong** → underfit; **too weak** → overfit
-- Chosen via **cross-validation**
+- **Higher λ** → more regularization; **Lower λ** → less regularization
+
+**Context:**
+- Chosen via cross-validation
 
 ---

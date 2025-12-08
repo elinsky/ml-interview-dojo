@@ -203,15 +203,21 @@ flashcards:
   ml-rapid-fire/classical-ml/linear-regression/08-ols-assumptions-overview.md:
     name: 08-ols-assumptions-overview
     category: linear-regression
-    attempts: []
+    attempts:
+    - date: '2025-12-07T20:18:00.000000'
+      recall: full
   ml-rapid-fire/classical-ml/linear-regression/09-ols-error-assumptions.md:
     name: 09-ols-error-assumptions
     category: linear-regression
-    attempts: []
+    attempts:
+    - date: '2025-12-07T20:20:00.000000'
+      recall: partial+
   ml-rapid-fire/classical-ml/linear-regression/10-ols-predictor-assumptions.md:
     name: 10-ols-predictor-assumptions
     category: linear-regression
-    attempts: []
+    attempts:
+    - date: '2025-12-07T20:22:00.000000'
+      recall: partial+
   ml-rapid-fire/classical-ml/linear-regression/11-ridge-vs-lasso.md:
     name: 11-ridge-vs-lasso
     category: linear-regression
@@ -224,7 +230,9 @@ flashcards:
   ml-rapid-fire/classical-ml/linear-regression/12-ridge-lasso-effects.md:
     name: 12-ridge-lasso-effects
     category: linear-regression
-    attempts: []
+    attempts:
+    - date: '2025-12-07T20:25:00.000000'
+      recall: partial+
   ml-rapid-fire/classical-ml/linear-regression/13-r-squared.md:
     name: 13-r-squared
     category: linear-regression
@@ -461,23 +469,39 @@ flashcards:
   ml-rapid-fire/classical-ml/regularization/05-when-l1-lasso.md:
     name: When to Choose L1 (Lasso)
     category: regularization
-    attempts: []
+    attempts:
+    - date: '2025-12-07T19:57:10.526629'
+      recall: full
   ml-rapid-fire/classical-ml/regularization/06-when-l2-ridge.md:
     name: When to Choose L2 (Ridge)
     category: regularization
-    attempts: []
+    attempts:
+    - date: '2025-12-07T19:59:49.233063'
+      recall: partial+
   ml-rapid-fire/classical-ml/regularization/07-when-elastic-net.md:
     name: When to Choose Elastic Net
     category: regularization
-    attempts: []
+    attempts:
+    - date: '2025-12-07T20:02:00.000000'
+      recall: full
   ml-rapid-fire/classical-ml/regularization/08-elastic-net.md:
     name: Elastic Net
     category: regularization
-    attempts: []
+    attempts:
+    - date: '2025-12-07T20:08:00.000000'
+      recall: partial-
   ml-rapid-fire/classical-ml/regularization/09-lambda-hyperparameter.md:
     name: Regularization Hyperparameter
     category: regularization
-    attempts: []
+    attempts:
+    - date: '2025-12-07T20:12:00.000000'
+      recall: full
+  ml-rapid-fire/classical-ml/regularization/10-lambda-bias-variance.md:
+    name: Lambda Effect on Bias-Variance
+    category: regularization
+    attempts:
+    - date: '2025-12-07T20:15:00.000000'
+      recall: full
   ml-rapid-fire/classical-ml/decision-trees/01-what-is-decision-tree.md:
     name: What is a Decision Tree
     category: decision-trees

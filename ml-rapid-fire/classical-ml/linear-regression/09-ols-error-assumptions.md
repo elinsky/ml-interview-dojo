@@ -1,6 +1,6 @@
 # OLS Error Assumptions
 
-**Q:** What are the OLS assumptions about errors?
+**Q:** What are the OLS assumptions about errors? (4 assumptions)
 
 **A:**
 - Normally distributed
