@@ -219,7 +219,7 @@ def generate_readme():
 
     lines.append("## Progress Summary\n")
     lines.append(f"**Coverage:** {generate_progress_bar(coverage, total)} ({coverage}/{total})\n")
-    lines.append(f"**Ready:** {generate_progress_bar(ready, total)} ({ready}/{total})\n")
+    lines.append(f"**Ready:**    {generate_progress_bar(ready, total)} ({ready}/{total})\n")
     lines.append("| Status | Count |")
     lines.append("|--------|-------|")
     lines.append(f"| 🟢 Full | {full} |")
@@ -277,7 +277,7 @@ def generate_readme():
 
         lines.append(f"### {section}\n")
         lines.append(f"**Coverage:** {generate_progress_bar(section_coverage, section_total)} ({section_coverage}/{section_total})\n")
-        lines.append(f"**Ready:** {generate_progress_bar(section_ready, section_total)} ({section_ready}/{section_total})\n")
+        lines.append(f"**Ready:**    {generate_progress_bar(section_ready, section_total)} ({section_ready}/{section_total})\n")
 
         # Sort categories by their order in SECTION_STRUCTURE
         section_order = SECTION_STRUCTURE[section]
@@ -297,7 +297,7 @@ def generate_readme():
 
             lines.append(f"#### {category_display}\n")
             lines.append(f"**Coverage:** {generate_progress_bar(cat_coverage, cat_total)} ({cat_coverage}/{cat_total})\n")
-            lines.append(f"**Ready:** {generate_progress_bar(cat_ready, cat_total)} ({cat_ready}/{cat_total})\n")
+            lines.append(f"**Ready:**    {generate_progress_bar(cat_ready, cat_total)} ({cat_ready}/{cat_total})\n")
 
             for card in cards:
                 emoji, status, tier = get_status(card['data'])
@@ -323,7 +323,7 @@ def generate_readme():
 
             lines.append(f"#### {category_display}\n")
             lines.append(f"**Coverage:** {generate_progress_bar(cat_coverage, cat_total)} ({cat_coverage}/{cat_total})\n")
-            lines.append(f"**Ready:** {generate_progress_bar(cat_ready, cat_total)} ({cat_ready}/{cat_total})\n")
+            lines.append(f"**Ready:**    {generate_progress_bar(cat_ready, cat_total)} ({cat_ready}/{cat_total})\n")
 
             for card in cards:
                 emoji, status, tier = get_status(card['data'])
