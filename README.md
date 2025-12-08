@@ -14,9 +14,9 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-<code>Coverage</code> <code>[██████░░░░░░░░░░░░░░░░░░░░░░░░]</code> 20.2% (78/386)
+<code>Coverage</code> <code>[██████░░░░░░░░░░░░░░░░░░░░░░░░]</code> 20.2% (78/387)
 
-<code>Ready   </code> <code>[███░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 11.9% (46/386)
+<code>Ready   </code> <code>[███░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 11.9% (46/387)
 
 | Status | Count |
 |--------|-------|
@@ -24,8 +24,8 @@ Personal repository for ML interview prep flashcards.
 | 🔵 Partial+ | 15 |
 | 🟡 Partial- | 20 |
 | 🟠 None | 12 |
-| ⚫ New | 308 |
-| **Total** | **386** |
+| ⚫ New | 309 |
+| **Total** | **387** |
 
 ## Quick Start
 
@@ -255,9 +255,9 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Deep Learning</h2></td></tr></table>
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/53)
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/54)
 
-<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/53)
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/54)
 
 ![Neural Network Basics](https://img.shields.io/badge/Neural_Network_Basics-blue?style=for-the-badge)
 
@@ -341,10 +341,11 @@ python3 scripts/generate_readme.py
 
 ![Regularization](https://img.shields.io/badge/Regularization-blue?style=for-the-badge)
 
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
-<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
+- ⚫ [What is Regularization](ml-rapid-fire/deep-learning/regularization/00-what-is-regularization.md)
 - ⚫ [Dropout](ml-rapid-fire/deep-learning/regularization/01-dropout.md)
 - ⚫ [Why Dropout Works](ml-rapid-fire/deep-learning/regularization/02-why-dropout-works.md)
 - ⚫ [Batch Normalization](ml-rapid-fire/deep-learning/regularization/03-batch-normalization.md)
@@ -737,4 +738,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 19:29:17*
+*Last updated: 2025-12-07 19:32:42*

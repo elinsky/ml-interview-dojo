@@ -776,6 +776,10 @@ flashcards:
     name: Common Optimizer Problems
     category: optimizers
     attempts: []
+  ml-rapid-fire/deep-learning/regularization/00-what-is-regularization.md:
+    name: What is Regularization
+    category: dl-regularization
+    attempts: []
   ml-rapid-fire/deep-learning/regularization/01-dropout.md:
     name: Dropout
     category: dl-regularization
