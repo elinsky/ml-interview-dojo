@@ -39,7 +39,7 @@ python3 scripts/generate_readme.py
 
 ## Flashcards
 
-### <ins>Core ML</ins>
+<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Core ML</h2></td></tr></table>
 
 <code>Coverage</code> <code>[█████████████████████░░░░░░░░░]</code> 71.0% (49/69)
 
@@ -151,7 +151,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-### <ins>Classical ML</ins>
+<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Classical ML</h2></td></tr></table>
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/61)
 
@@ -262,7 +262,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-### <ins>Deep Learning</ins>
+<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Deep Learning</h2></td></tr></table>
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/45)
 
@@ -350,7 +350,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-### <ins>Model Evaluation</ins>
+<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Model Evaluation</h2></td></tr></table>
 
 <code>Coverage</code> <code>[█████████████████░░░░░░░░░░░░░]</code> 56.9% (29/51)
 
@@ -444,7 +444,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-### <ins>Probability & Statistics</ins>
+<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Probability & Statistics</h2></td></tr></table>
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/46)
 
@@ -533,7 +533,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-### <ins>Data Engineering</ins>
+<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Data Engineering</h2></td></tr></table>
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/40)
 
@@ -609,7 +609,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-### <ins>Reinforcement Learning</ins>
+<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Reinforcement Learning</h2></td></tr></table>
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/43)
 
@@ -731,4 +731,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 19:16:10*
+*Last updated: 2025-12-07 19:20:16*
