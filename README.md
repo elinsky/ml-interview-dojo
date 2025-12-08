@@ -14,10 +14,9 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [██████░░░░░░░░░░░░░░░░░░░░░░░░] | 20.2% | 78/387 |
-| Ready | [███░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 11.9% | 46/387 |
+<code>Coverage</code> <code>[██████░░░░░░░░░░░░░░░░░░░░░░░░]</code> 20.2% (78/387)
+
+<code>Ready   </code> <code>[███░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 11.9% (46/387)
 
 | Status | Count |
 |--------|-------|
@@ -42,17 +41,15 @@ python3 scripts/generate_readme.py
 
 ### Core ML
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [█████████████████████░░░░░░░░░] | 71.0% | 49/69 |
-| Ready | [████████████████░░░░░░░░░░░░░░] | 53.6% | 37/69 |
+<code>Coverage</code> <code>[█████████████████████░░░░░░░░░]</code> 71.0% (49/69)
+
+<code>Ready   </code> <code>[████████████████░░░░░░░░░░░░░░]</code> 53.6% (37/69)
 
 #### ML Basics
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [██████████████████████████████] | 100.0% | 21/21 |
-| Ready | [████████████████████████░░░░░░] | 81.0% | 17/21 |
+<code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (21/21)
+
+<code>Ready   </code> <code>[████████████████████████░░░░░░]</code> 81.0% (17/21)
 
 - 🟢 [01-what-is-ml](ml-rapid-fire/fundamentals/ml-basics/01-what-is-ml.md) `2 attempts`
 - 🟢 [02-traditional-vs-ml](ml-rapid-fire/fundamentals/ml-basics/02-traditional-vs-ml.md) `2 attempts`
@@ -78,10 +75,9 @@ python3 scripts/generate_readme.py
 
 #### Linear Regression
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [█████████████████████░░░░░░░░░] | 71.4% | 10/14 |
-| Ready | [█████████████████░░░░░░░░░░░░░] | 57.1% | 8/14 |
+<code>Coverage</code> <code>[█████████████████████░░░░░░░░░]</code> 71.4% (10/14)
+
+<code>Ready   </code> <code>[█████████████████░░░░░░░░░░░░░]</code> 57.1% (8/14)
 
 - 🟢 [01-what-is-linear-regression](ml-rapid-fire/classical-ml/linear-regression/01-what-is-linear-regression.md) `2 attempts`
 - 🟢 [02-simple-vs-multiple](ml-rapid-fire/classical-ml/linear-regression/02-simple-vs-multiple.md) `2 attempts`
@@ -100,10 +96,9 @@ python3 scripts/generate_readme.py
 
 #### Logistic Regression
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [██████████████████████████████] | 100.0% | 9/9 |
-| Ready | [███████████████████████░░░░░░░] | 77.8% | 7/9 |
+<code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (9/9)
+
+<code>Ready   </code> <code>[███████████████████████░░░░░░░]</code> 77.8% (7/9)
 
 - 🔵 [What is Logistic Regression](ml-rapid-fire/classical-ml/logistic-regression/01-what-is-logistic-regression.md) `2 attempts`
 - 🟢 [Why Not Linear Regression](ml-rapid-fire/classical-ml/logistic-regression/02-why-not-linear-regression.md) `2 attempts`
@@ -117,10 +112,9 @@ python3 scripts/generate_readme.py
 
 #### Cross Entropy
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [██████████████████████████████] | 100.0% | 9/9 |
-| Ready | [████████████████░░░░░░░░░░░░░░] | 55.6% | 5/9 |
+<code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (9/9)
+
+<code>Ready   </code> <code>[████████████████░░░░░░░░░░░░░░]</code> 55.6% (5/9)
 
 - 🟡 [01-what-is-cross-entropy](ml-rapid-fire/classical-ml/cross-entropy/01-what-is-cross-entropy.md) `2 attempts`
 - 🟠 [02-why-not-mse](ml-rapid-fire/classical-ml/cross-entropy/02-why-not-mse.md) `2 attempts`
@@ -134,10 +128,9 @@ python3 scripts/generate_readme.py
 
 #### Regularization
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/16 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/16 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/16)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/16)
 
 - ⚫ [L2 (Ridge) Penalty Formula](ml-rapid-fire/classical-ml/regularization/01-l2-ridge-formula.md)
 - ⚫ [L1 (Lasso) Penalty Formula](ml-rapid-fire/classical-ml/regularization/02-l1-lasso-formula.md)
@@ -160,17 +153,15 @@ python3 scripts/generate_readme.py
 
 ### Classical ML
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/61 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/61 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/61)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/61)
 
 #### Decision Trees
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/16 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/16 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/16)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/16)
 
 - ⚫ [What is a Decision Tree](ml-rapid-fire/classical-ml/decision-trees/01-what-is-decision-tree.md)
 - ⚫ [How Decision Trees Split](ml-rapid-fire/classical-ml/decision-trees/02-how-splits-decided.md)
@@ -191,10 +182,9 @@ python3 scripts/generate_readme.py
 
 #### SVM
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is an SVM](ml-rapid-fire/classical-ml/svm/01-what-is-svm.md)
 - ⚫ [Margin and Support Vectors](ml-rapid-fire/classical-ml/svm/02-margin-support-vectors.md)
@@ -208,10 +198,9 @@ python3 scripts/generate_readme.py
 
 #### KNN
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is KNN](ml-rapid-fire/classical-ml/knn/01-what-is-knn.md)
 - ⚫ [KNN Prediction](ml-rapid-fire/classical-ml/knn/02-prediction.md)
@@ -225,10 +214,9 @@ python3 scripts/generate_readme.py
 
 #### Naive Bayes
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is Naive Bayes](ml-rapid-fire/classical-ml/naive-bayes/01-what-is-naive-bayes.md)
 - ⚫ [Bayes Theorem](ml-rapid-fire/classical-ml/naive-bayes/02-bayes-theorem.md)
@@ -242,10 +230,9 @@ python3 scripts/generate_readme.py
 
 #### Clustering
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is Clustering](ml-rapid-fire/classical-ml/clustering/01-what-is-clustering.md)
 - ⚫ [K-Means Clustering](ml-rapid-fire/classical-ml/clustering/02-k-means.md)
@@ -259,10 +246,9 @@ python3 scripts/generate_readme.py
 
 #### Dimensionality Reduction
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is Dimensionality Reduction](ml-rapid-fire/classical-ml/dimensionality-reduction/01-what-is-dimensionality-reduction.md)
 - ⚫ [PCA Overview](ml-rapid-fire/classical-ml/dimensionality-reduction/02-pca-overview.md)
@@ -278,17 +264,15 @@ python3 scripts/generate_readme.py
 
 ### Deep Learning
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/45 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/45 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/45)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/45)
 
 #### Neural Network Basics
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is a Neural Network](ml-rapid-fire/deep-learning/neural-network-basics/01-what-is-neural-network.md)
 - ⚫ [Forward Pass](ml-rapid-fire/deep-learning/neural-network-basics/02-forward-pass.md)
@@ -302,10 +286,9 @@ python3 scripts/generate_readme.py
 
 #### Optimizers
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is an Optimizer](ml-rapid-fire/deep-learning/optimizers/01-what-is-optimizer.md)
 - ⚫ [Gradient Descent Variants](ml-rapid-fire/deep-learning/optimizers/02-gradient-descent-variants.md)
@@ -319,10 +302,9 @@ python3 scripts/generate_readme.py
 
 #### CNNs
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is a CNN](ml-rapid-fire/deep-learning/cnns/01-what-is-cnn.md)
 - ⚫ [Convolution Operation](ml-rapid-fire/deep-learning/cnns/02-convolution-operation.md)
@@ -336,10 +318,9 @@ python3 scripts/generate_readme.py
 
 #### RNNs
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is an RNN](ml-rapid-fire/deep-learning/rnns/01-what-is-rnn.md)
 - ⚫ [RNN Applications](ml-rapid-fire/deep-learning/rnns/02-rnn-applications.md)
@@ -353,10 +334,9 @@ python3 scripts/generate_readme.py
 
 #### Transformers
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [What is Attention](ml-rapid-fire/deep-learning/transformers/01-what-is-attention.md)
 - ⚫ [Scaled Dot-Product Attention](ml-rapid-fire/deep-learning/transformers/02-scaled-dot-product-attention.md)
@@ -372,17 +352,15 @@ python3 scripts/generate_readme.py
 
 ### Model Evaluation
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [█████████████████░░░░░░░░░░░░░] | 56.9% | 29/51 |
-| Ready | [█████░░░░░░░░░░░░░░░░░░░░░░░░░] | 17.6% | 9/51 |
+<code>Coverage</code> <code>[█████████████████░░░░░░░░░░░░░]</code> 56.9% (29/51)
+
+<code>Ready   </code> <code>[█████░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 17.6% (9/51)
 
 #### Classification Metrics
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [████████████████████░░░░░░░░░░] | 69.2% | 9/13 |
-| Ready | [██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 7.7% | 1/13 |
+<code>Coverage</code> <code>[████████████████████░░░░░░░░░░]</code> 69.2% (9/13)
+
+<code>Ready   </code> <code>[██░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 7.7% (1/13)
 
 - ⚫ [TP, FP, TN, FN](ml-rapid-fire/model-evaluation/classification-metrics/01-tp-fp-tn-fn.md)
 - 🟡 [Confusion Matrix](ml-rapid-fire/model-evaluation/classification-metrics/02-confusion-matrix.md) `1 attempts`
@@ -400,10 +378,9 @@ python3 scripts/generate_readme.py
 
 #### Regression Metrics
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [██████████████████████████░░░░] | 87.5% | 7/8 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/8 |
+<code>Coverage</code> <code>[██████████████████████████░░░░]</code> 87.5% (7/8)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
 
 - 🟡 [Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/01-mse.md) `1 attempts`
 - 🟠 [Root Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/02-rmse.md) `1 attempts`
@@ -416,10 +393,9 @@ python3 scripts/generate_readme.py
 
 #### Validation
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [██████████████████████████████] | 100.0% | 10/10 |
-| Ready | [███████████████░░░░░░░░░░░░░░░] | 50.0% | 5/10 |
+<code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (10/10)
+
+<code>Ready   </code> <code>[███████████████░░░░░░░░░░░░░░░]</code> 50.0% (5/10)
 
 - 🟡 [Train/Test Split](ml-rapid-fire/model-evaluation/validation/01-train-test-split.md) `1 attempts`
 - 🔵 [Validation Set Purpose](ml-rapid-fire/model-evaluation/validation/02-validation-set-purpose.md) `1 attempts`
@@ -434,10 +410,9 @@ python3 scripts/generate_readme.py
 
 #### Model Selection
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [█████████░░░░░░░░░░░░░░░░░░░░░] | 30.0% | 3/10 |
-| Ready | [█████████░░░░░░░░░░░░░░░░░░░░░] | 30.0% | 3/10 |
+<code>Coverage</code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.0% (3/10)
+
+<code>Ready   </code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.0% (3/10)
 
 - 🔵 [What is Hyperparameter Tuning](ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md) `1 attempts`
 - 🔵 [Grid Search](ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md) `1 attempts`
@@ -452,10 +427,9 @@ python3 scripts/generate_readme.py
 
 #### Loss Functions
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/10 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/10 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
 - ⚫ [What is a Loss Function](ml-rapid-fire/model-evaluation/loss-functions/01-what-is-loss-function.md)
 - ⚫ [MSE Loss](ml-rapid-fire/model-evaluation/loss-functions/02-mse-loss.md)
@@ -472,17 +446,15 @@ python3 scripts/generate_readme.py
 
 ### Probability & Statistics
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/46 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/46 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/46)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/46)
 
 #### Probability Basics
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/10 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/10 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
 - ⚫ [Probability Axioms](ml-rapid-fire/statistics/probability-basics/01-probability-axioms.md)
 - ⚫ [Conditional Probability](ml-rapid-fire/statistics/probability-basics/02-conditional-probability.md)
@@ -497,10 +469,9 @@ python3 scripts/generate_readme.py
 
 #### Distributions
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/10 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/10 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
 - ⚫ [Normal Distribution](ml-rapid-fire/statistics/distributions/01-normal-distribution.md)
 - ⚫ [Binomial Distribution](ml-rapid-fire/statistics/distributions/02-binomial-distribution.md)
@@ -515,10 +486,9 @@ python3 scripts/generate_readme.py
 
 #### Descriptive Stats
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [Mean, Median, Mode](ml-rapid-fire/statistics/descriptive-stats/01-mean-median-mode.md)
 - ⚫ [Variance and Standard Deviation](ml-rapid-fire/statistics/descriptive-stats/02-variance-std-dev.md)
@@ -532,10 +502,9 @@ python3 scripts/generate_readme.py
 
 #### Statistical Inference
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/9 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
 
 - ⚫ [Hypothesis Testing Framework](ml-rapid-fire/statistics/statistical-inference/01-hypothesis-testing.md)
 - ⚫ [Type I and Type II Errors](ml-rapid-fire/statistics/statistical-inference/02-type-i-type-ii-errors.md)
@@ -549,10 +518,9 @@ python3 scripts/generate_readme.py
 
 #### Mle Estimators
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/8 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/8 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
 
 - ⚫ [What is an Estimator?](ml-rapid-fire/statistics/mle-estimators/01-what-is-an-estimator.md)
 - ⚫ [Bias of an Estimator](ml-rapid-fire/statistics/mle-estimators/02-bias-of-estimator.md)
@@ -567,17 +535,15 @@ python3 scripts/generate_readme.py
 
 ### Data Engineering
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/40 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/40 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/40)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/40)
 
 #### Feature Engineering
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/12 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/12 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/12)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/12)
 
 - ⚫ [Why Feature Scaling](ml-rapid-fire/data-engineering/feature-engineering/01-feature-scaling-why.md)
 - ⚫ [Standardization (Z-Score Scaling)](ml-rapid-fire/data-engineering/feature-engineering/02-standardization.md)
@@ -594,10 +560,9 @@ python3 scripts/generate_readme.py
 
 #### Missing Data
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/8 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/8 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
 
 - ⚫ [Types of Missing Data](ml-rapid-fire/data-engineering/missing-data/01-types-of-missingness.md)
 - ⚫ [Simple Imputation Methods](ml-rapid-fire/data-engineering/missing-data/02-simple-imputation.md)
@@ -610,10 +575,9 @@ python3 scripts/generate_readme.py
 
 #### Imbalanced Data
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/10 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/10 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
 - ⚫ [Why Class Imbalance Matters](ml-rapid-fire/data-engineering/imbalanced-data/01-why-imbalance-matters.md)
 - ⚫ [Metrics for Imbalanced Data](ml-rapid-fire/data-engineering/imbalanced-data/02-metrics-for-imbalanced.md)
@@ -628,10 +592,9 @@ python3 scripts/generate_readme.py
 
 #### Text Processing
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/10 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/10 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
 - ⚫ [Tokenization](ml-rapid-fire/data-engineering/text-processing/01-tokenization.md)
 - ⚫ [Text Preprocessing](ml-rapid-fire/data-engineering/text-processing/02-text-preprocessing.md)
@@ -648,17 +611,15 @@ python3 scripts/generate_readme.py
 
 ### Reinforcement Learning
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/43 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/43 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/43)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/43)
 
 #### Rl Core Concepts
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/15 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/15 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/15)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/15)
 
 - ⚫ [RL vs Supervised Learning](ml-rapid-fire/reinforcement-learning/core-concepts/01-rl-vs-supervised.md)
 - ⚫ [Markov Decision Process (MDP)](ml-rapid-fire/reinforcement-learning/core-concepts/02-mdp-definition.md)
@@ -678,10 +639,9 @@ python3 scripts/generate_readme.py
 
 #### Rl Algorithms
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/18 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/18 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/18)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/18)
 
 - ⚫ [Value Iteration](ml-rapid-fire/reinforcement-learning/algorithms/01-value-iteration.md)
 - ⚫ [Policy Iteration](ml-rapid-fire/reinforcement-learning/algorithms/02-policy-iteration.md)
@@ -704,10 +664,9 @@ python3 scripts/generate_readme.py
 
 #### Exploration Exploitation
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/10 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/10 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
 
 - ⚫ [Exploration-Exploitation Dilemma](ml-rapid-fire/reinforcement-learning/exploration-exploitation/01-exploration-exploitation-dilemma.md)
 - ⚫ [Multi-Armed Bandits](ml-rapid-fire/reinforcement-learning/exploration-exploitation/02-multi-armed-bandits.md)
@@ -726,10 +685,9 @@ python3 scripts/generate_readme.py
 
 #### Calculus Optimization
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/15 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/15 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/15)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/15)
 
 - ⚫ [Derivative Definition](ml-rapid-fire/mathematics/calculus-optimization/01-derivative-definition.md)
 - ⚫ [Common Derivatives](ml-rapid-fire/mathematics/calculus-optimization/02-common-derivatives.md)
@@ -749,10 +707,9 @@ python3 scripts/generate_readme.py
 
 #### Linear Algebra
 
-| Metric | Progress | % | Count |
-|--------|----------|---|-------|
-| Coverage | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/17 |
-| Ready | [░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] | 0.0% | 0/17 |
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/17)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/17)
 
 - ⚫ [Dot Product](ml-rapid-fire/mathematics/linear-algebra/01-dot-product.md)
 - ⚫ [Matrix Multiplication](ml-rapid-fire/mathematics/linear-algebra/02-matrix-multiplication.md)
@@ -774,4 +731,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 19:10:50*
+*Last updated: 2025-12-07 19:14:29*

@@ -180,6 +180,14 @@ def calc_pct(current, total):
     return (current / total * 100) if total > 0 else 0
 
 
+def format_progress_line(label, current, total, label_width=8):
+    """Generate HTML progress line with fixed-width monospace bar"""
+    bar = generate_progress_bar(current, total)
+    pct = calc_pct(current, total)
+    padded_label = label.ljust(label_width)
+    return f'<code>{padded_label}</code> <code>{bar}</code> {pct:.1f}% ({current}/{total})'
+
+
 def generate_readme():
     progress = load_progress()
     flashcards_by_category = get_flashcards_by_category(progress)
@@ -221,10 +229,9 @@ def generate_readme():
     ready = full + partial_plus  # interview ready
 
     lines.append("## Progress Summary\n")
-    lines.append("| Metric | Progress | % | Count |")
-    lines.append("|--------|----------|---|-------|")
-    lines.append(f"| Coverage | {generate_progress_bar(coverage, total)} | {calc_pct(coverage, total):.1f}% | {coverage}/{total} |")
-    lines.append(f"| Ready | {generate_progress_bar(ready, total)} | {calc_pct(ready, total):.1f}% | {ready}/{total} |")
+    lines.append(format_progress_line("Coverage", coverage, total))
+    lines.append("")
+    lines.append(format_progress_line("Ready", ready, total))
     lines.append("")
     lines.append("| Status | Count |")
     lines.append("|--------|-------|")
@@ -282,10 +289,9 @@ def generate_readme():
             section_coverage += sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
         lines.append(f"### {section}\n")
-        lines.append("| Metric | Progress | % | Count |")
-        lines.append("|--------|----------|---|-------|")
-        lines.append(f"| Coverage | {generate_progress_bar(section_coverage, section_total)} | {calc_pct(section_coverage, section_total):.1f}% | {section_coverage}/{section_total} |")
-        lines.append(f"| Ready | {generate_progress_bar(section_ready, section_total)} | {calc_pct(section_ready, section_total):.1f}% | {section_ready}/{section_total} |")
+        lines.append(format_progress_line("Coverage", section_coverage, section_total))
+        lines.append("")
+        lines.append(format_progress_line("Ready", section_ready, section_total))
         lines.append("")
 
         # Sort categories by their order in SECTION_STRUCTURE
@@ -305,10 +311,9 @@ def generate_readme():
             cat_coverage = sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
             lines.append(f"#### {category_display}\n")
-            lines.append("| Metric | Progress | % | Count |")
-            lines.append("|--------|----------|---|-------|")
-            lines.append(f"| Coverage | {generate_progress_bar(cat_coverage, cat_total)} | {calc_pct(cat_coverage, cat_total):.1f}% | {cat_coverage}/{cat_total} |")
-            lines.append(f"| Ready | {generate_progress_bar(cat_ready, cat_total)} | {calc_pct(cat_ready, cat_total):.1f}% | {cat_ready}/{cat_total} |")
+            lines.append(format_progress_line("Coverage", cat_coverage, cat_total))
+            lines.append("")
+            lines.append(format_progress_line("Ready", cat_ready, cat_total))
             lines.append("")
 
             for card in cards:
@@ -334,10 +339,9 @@ def generate_readme():
             cat_coverage = sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
             lines.append(f"#### {category_display}\n")
-            lines.append("| Metric | Progress | % | Count |")
-            lines.append("|--------|----------|---|-------|")
-            lines.append(f"| Coverage | {generate_progress_bar(cat_coverage, cat_total)} | {calc_pct(cat_coverage, cat_total):.1f}% | {cat_coverage}/{cat_total} |")
-            lines.append(f"| Ready | {generate_progress_bar(cat_ready, cat_total)} | {calc_pct(cat_ready, cat_total):.1f}% | {cat_ready}/{cat_total} |")
+            lines.append(format_progress_line("Coverage", cat_coverage, cat_total))
+            lines.append("")
+            lines.append(format_progress_line("Ready", cat_ready, cat_total))
             lines.append("")
 
             for card in cards:
