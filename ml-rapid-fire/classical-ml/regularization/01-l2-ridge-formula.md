@@ -5,6 +5,8 @@
 **A:**
 
 - **Formula**: Loss = Original Loss + λ × Σ(wᵢ²)
+
+**Context:**
 - Adds **sum of squared weights** to loss
 - Also called **weight decay**, Ridge Regression, Tikhonov regularization
 - Penalizes **larger weights more severely**

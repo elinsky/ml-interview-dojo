@@ -435,28 +435,46 @@ flashcards:
   ml-rapid-fire/classical-ml/regularization/01-l2-ridge-formula.md:
     name: L2 (Ridge) Penalty Formula
     category: regularization
-    attempts: []
+    attempts:
+    - date: '2025-12-07T19:37:09.601588'
+      recall: full
+    - date: '2025-12-07T19:41:27.996682'
+      recall: partial+
   ml-rapid-fire/classical-ml/regularization/02-l1-lasso-formula.md:
     name: L1 (Lasso) Penalty Formula
     category: regularization
-    attempts: []
+    attempts:
+    - date: '2025-12-07T19:42:30.250458'
+      recall: partial-
   ml-rapid-fire/classical-ml/regularization/03-why-l1-sparse.md:
     name: Why L1 Produces Sparsity
     category: regularization
-    attempts: []
+    attempts:
+    - date: '2025-12-07T19:44:02.149964'
+      recall: none
   ml-rapid-fire/classical-ml/regularization/04-why-l2-shrinks.md:
     name: Why L2 Only Shrinks Weights
     category: regularization
-    attempts: []
-  ml-rapid-fire/classical-ml/regularization/05-when-l1-vs-l2.md:
-    name: When to Choose L1 vs L2
+    attempts:
+    - date: '2025-12-07T19:44:33.102703'
+      recall: none
+  ml-rapid-fire/classical-ml/regularization/05-when-l1-lasso.md:
+    name: When to Choose L1 (Lasso)
     category: regularization
     attempts: []
-  ml-rapid-fire/classical-ml/regularization/06-elastic-net.md:
+  ml-rapid-fire/classical-ml/regularization/06-when-l2-ridge.md:
+    name: When to Choose L2 (Ridge)
+    category: regularization
+    attempts: []
+  ml-rapid-fire/classical-ml/regularization/07-when-elastic-net.md:
+    name: When to Choose Elastic Net
+    category: regularization
+    attempts: []
+  ml-rapid-fire/classical-ml/regularization/08-elastic-net.md:
     name: Elastic Net
     category: regularization
     attempts: []
-  ml-rapid-fire/classical-ml/regularization/07-lambda-hyperparameter.md:
+  ml-rapid-fire/classical-ml/regularization/09-lambda-hyperparameter.md:
     name: Regularization Hyperparameter
     category: regularization
     attempts: []
