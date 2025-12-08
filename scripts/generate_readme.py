@@ -288,7 +288,7 @@ def generate_readme():
             section_ready += sum(1 for card in cards if get_best_tier(card['data']) is not None and get_best_tier(card['data']) >= 2)
             section_coverage += sum(1 for card in cards if get_best_tier(card['data']) is not None)
 
-        lines.append(f"### {section}\n")
+        lines.append(f"### <ins>{section}</ins>\n")
         lines.append(format_progress_line("Coverage", section_coverage, section_total))
         lines.append("")
         lines.append(format_progress_line("Ready", section_ready, section_total))

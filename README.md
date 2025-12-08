@@ -39,7 +39,7 @@ python3 scripts/generate_readme.py
 
 ## Flashcards
 
-### Core ML
+### <ins>Core ML</ins>
 
 <code>Coverage</code> <code>[█████████████████████░░░░░░░░░]</code> 71.0% (49/69)
 
@@ -151,7 +151,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-### Classical ML
+### <ins>Classical ML</ins>
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/61)
 
@@ -262,7 +262,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-### Deep Learning
+### <ins>Deep Learning</ins>
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/45)
 
@@ -350,7 +350,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-### Model Evaluation
+### <ins>Model Evaluation</ins>
 
 <code>Coverage</code> <code>[█████████████████░░░░░░░░░░░░░]</code> 56.9% (29/51)
 
@@ -444,7 +444,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-### Probability & Statistics
+### <ins>Probability & Statistics</ins>
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/46)
 
@@ -533,7 +533,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-### Data Engineering
+### <ins>Data Engineering</ins>
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/40)
 
@@ -609,7 +609,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-### Reinforcement Learning
+### <ins>Reinforcement Learning</ins>
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/43)
 
@@ -731,4 +731,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 19:14:29*
+*Last updated: 2025-12-07 19:16:10*
