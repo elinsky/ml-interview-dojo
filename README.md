@@ -192,7 +192,7 @@ python3 scripts/generate_readme.py
 - 🔵 [Random Search](ml-rapid-fire/model-evaluation/model-selection/03-random-search.md) `1 attempts`
 - ⚫ [Bayesian Optimization](ml-rapid-fire/model-evaluation/model-selection/04-bayesian-optimization.md)
 - 🟠 [Cross-Validation for Model Selection](ml-rapid-fire/model-evaluation/model-selection/05-cv-for-model-selection.md) `1 attempts`
-- 🟠 [06-cv-mechanism](ml-rapid-fire/model-evaluation/model-selection/06-cv-mechanism.md) `1 attempts`
+- 🟠 [How CV Works for Hyperparameter Tuning](ml-rapid-fire/model-evaluation/model-selection/06-cv-mechanism.md) `1 attempts`
 - ⚫ [Learning Curves for Diagnosis](ml-rapid-fire/model-evaluation/model-selection/07-learning-curves.md)
 - ⚫ [Validation Curve](ml-rapid-fire/model-evaluation/model-selection/08-validation-curve.md)
 - ⚫ [Early Stopping as Model Selection](ml-rapid-fire/model-evaluation/model-selection/09-early-stopping.md)
@@ -656,4 +656,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 20:50:47*
+*Last updated: 2025-12-07 20:52:28*
