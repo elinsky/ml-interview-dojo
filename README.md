@@ -39,7 +39,7 @@ python3 scripts/generate_readme.py
 
 ## Flashcards
 
-<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Core ML</h2></td></tr></table>
+![Core ML](https://img.shields.io/badge/Core_ML-blue?style=for-the-badge)
 
 <code>Coverage</code> <code>[█████████████████████░░░░░░░░░]</code> 71.0% (49/69)
 
@@ -151,7 +151,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Classical ML</h2></td></tr></table>
+![Classical ML](https://img.shields.io/badge/Classical_ML-blue?style=for-the-badge)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/61)
 
@@ -262,7 +262,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Deep Learning</h2></td></tr></table>
+![Deep Learning](https://img.shields.io/badge/Deep_Learning-blue?style=for-the-badge)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/45)
 
@@ -350,7 +350,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Model Evaluation</h2></td></tr></table>
+![Model Evaluation](https://img.shields.io/badge/Model_Evaluation-blue?style=for-the-badge)
 
 <code>Coverage</code> <code>[█████████████████░░░░░░░░░░░░░]</code> 56.9% (29/51)
 
@@ -444,7 +444,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Probability & Statistics</h2></td></tr></table>
+![Probability & Statistics](https://img.shields.io/badge/Probability_%26_Statistics-blue?style=for-the-badge)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/46)
 
@@ -533,7 +533,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Data Engineering</h2></td></tr></table>
+![Data Engineering](https://img.shields.io/badge/Data_Engineering-blue?style=for-the-badge)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/40)
 
@@ -609,7 +609,7 @@ python3 scripts/generate_readme.py
 
 ---
 
-<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Reinforcement Learning</h2></td></tr></table>
+![Reinforcement Learning](https://img.shields.io/badge/Reinforcement_Learning-blue?style=for-the-badge)
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/43)
 
@@ -731,4 +731,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 19:20:16*
+*Last updated: 2025-12-07 19:23:17*
