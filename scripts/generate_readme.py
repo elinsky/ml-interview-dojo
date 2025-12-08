@@ -31,6 +31,13 @@ SECTION_STRUCTURE = {
         "cross-entropy",
         "regularization",
     ],
+    "Model Evaluation": [
+        "classification-metrics",
+        "regression-metrics",
+        "validation",
+        "model-selection",
+        "loss-functions",
+    ],
     "Classical ML": [
         "decision-trees",
         "svm",
@@ -46,13 +53,6 @@ SECTION_STRUCTURE = {
         "rnns",
         "transformers",
         "dl-regularization",
-    ],
-    "Model Evaluation": [
-        "classification-metrics",
-        "regression-metrics",
-        "validation",
-        "model-selection",
-        "loss-functions",
     ],
     "Probability & Statistics": [
         "probability-basics",

@@ -145,6 +145,100 @@ python3 scripts/generate_readme.py
 
 ---
 
+<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Model Evaluation</h2></td></tr></table>
+
+<code>Coverage</code> <code>[█████████████████░░░░░░░░░░░░░]</code> 56.9% (29/51)
+
+<code>Ready   </code> <code>[█████░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 17.6% (9/51)
+
+![Classification Metrics](https://img.shields.io/badge/Classification_Metrics-blue?style=for-the-badge)
+
+<code>Coverage</code> <code>[████████████████████░░░░░░░░░░]</code> 69.2% (9/13)
+
+<code>Ready   </code> <code>[██░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 7.7% (1/13)
+
+- ⚫ [TP, FP, TN, FN](ml-rapid-fire/model-evaluation/classification-metrics/01-tp-fp-tn-fn.md)
+- 🟡 [Confusion Matrix](ml-rapid-fire/model-evaluation/classification-metrics/02-confusion-matrix.md) `1 attempts`
+- ⚫ [Type I and Type II Errors](ml-rapid-fire/model-evaluation/classification-metrics/03-type-i-type-ii.md)
+- ⚫ [Total](ml-rapid-fire/model-evaluation/classification-metrics/04-total.md)
+- 🟡 [Accuracy](ml-rapid-fire/model-evaluation/classification-metrics/05-accuracy.md) `1 attempts`
+- 🟡 [Precision](ml-rapid-fire/model-evaluation/classification-metrics/06-precision.md) `1 attempts`
+- 🟢 [Recall](ml-rapid-fire/model-evaluation/classification-metrics/07-recall.md) `1 attempts`
+- ⚫ [Specificity](ml-rapid-fire/model-evaluation/classification-metrics/08-specificity.md)
+- 🟠 [F1 Score](ml-rapid-fire/model-evaluation/classification-metrics/09-f1-score.md) `1 attempts`
+- 🟡 [Precision-Recall Tradeoff](ml-rapid-fire/model-evaluation/classification-metrics/10-precision-recall-tradeoff.md) `1 attempts`
+- 🟠 [ROC Curve](ml-rapid-fire/model-evaluation/classification-metrics/11-roc-curve.md) `1 attempts`
+- 🟠 [AUC-ROC](ml-rapid-fire/model-evaluation/classification-metrics/12-auc-roc.md) `1 attempts`
+- 🟠 [PR Curve vs ROC](ml-rapid-fire/model-evaluation/classification-metrics/13-pr-curve-vs-roc.md) `1 attempts`
+
+![Regression Metrics](https://img.shields.io/badge/Regression_Metrics-blue?style=for-the-badge)
+
+<code>Coverage</code> <code>[██████████████████████████░░░░]</code> 87.5% (7/8)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
+
+- 🟡 [Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/01-mse.md) `1 attempts`
+- 🟠 [Root Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/02-rmse.md) `1 attempts`
+- 🟡 [Mean Absolute Error](ml-rapid-fire/model-evaluation/regression-metrics/03-mae.md) `1 attempts`
+- 🟠 [MSE vs MAE](ml-rapid-fire/model-evaluation/regression-metrics/04-mse-vs-mae.md) `1 attempts`
+- ⚫ [Sum of Squares (SST, SSE, SSR)](ml-rapid-fire/model-evaluation/regression-metrics/05-sum-of-squares.md)
+- 🟡 [R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/06-r-squared.md) `1 attempts`
+- 🟡 [R-Squared Limitations](ml-rapid-fire/model-evaluation/regression-metrics/07-r-squared-limitations.md) `1 attempts`
+- 🟡 [Adjusted R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/08-adjusted-r-squared.md) `1 attempts`
+
+![Validation](https://img.shields.io/badge/Validation-blue?style=for-the-badge)
+
+<code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (10/10)
+
+<code>Ready   </code> <code>[███████████████░░░░░░░░░░░░░░░]</code> 50.0% (5/10)
+
+- 🟡 [Train/Test Split](ml-rapid-fire/model-evaluation/validation/01-train-test-split.md) `1 attempts`
+- 🔵 [Validation Set Purpose](ml-rapid-fire/model-evaluation/validation/02-validation-set-purpose.md) `1 attempts`
+- 🔵 [K-Fold Cross-Validation](ml-rapid-fire/model-evaluation/validation/03-k-fold-cross-validation.md) `1 attempts`
+- 🔵 [Stratified K-Fold](ml-rapid-fire/model-evaluation/validation/04-stratified-k-fold.md) `1 attempts`
+- 🟡 [Leave-One-Out Cross-Validation](ml-rapid-fire/model-evaluation/validation/05-loocv.md) `1 attempts`
+- 🟠 [Holdout vs Cross-Validation](ml-rapid-fire/model-evaluation/validation/06-holdout-vs-cv.md) `1 attempts`
+- 🔵 [Data Leakage](ml-rapid-fire/model-evaluation/validation/07-data-leakage.md) `1 attempts`
+- 🔵 [Time Series Validation](ml-rapid-fire/model-evaluation/validation/08-time-series-validation.md) `1 attempts`
+- 🟠 [Bias-Variance in Cross-Validation](ml-rapid-fire/model-evaluation/validation/09-bias-variance-cv.md) `1 attempts`
+- 🟠 [Nested Cross-Validation](ml-rapid-fire/model-evaluation/validation/10-nested-cross-validation.md) `1 attempts`
+
+![Model Selection](https://img.shields.io/badge/Model_Selection-blue?style=for-the-badge)
+
+<code>Coverage</code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.0% (3/10)
+
+<code>Ready   </code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.0% (3/10)
+
+- 🔵 [What is Hyperparameter Tuning](ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md) `1 attempts`
+- 🔵 [Grid Search](ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md) `1 attempts`
+- 🔵 [Random Search](ml-rapid-fire/model-evaluation/model-selection/03-random-search.md) `1 attempts`
+- ⚫ [Bayesian Optimization](ml-rapid-fire/model-evaluation/model-selection/04-bayesian-optimization.md)
+- ⚫ [Cross-Validation for Model Selection](ml-rapid-fire/model-evaluation/model-selection/05-cv-for-model-selection.md)
+- ⚫ [Learning Curves for Diagnosis](ml-rapid-fire/model-evaluation/model-selection/06-learning-curves.md)
+- ⚫ [Validation Curve](ml-rapid-fire/model-evaluation/model-selection/07-validation-curve.md)
+- ⚫ [Early Stopping as Model Selection](ml-rapid-fire/model-evaluation/model-selection/08-early-stopping.md)
+- ⚫ [Regularization Path](ml-rapid-fire/model-evaluation/model-selection/09-regularization-path.md)
+- ⚫ [Information Criteria (AIC/BIC)](ml-rapid-fire/model-evaluation/model-selection/10-information-criteria.md)
+
+![Loss Functions](https://img.shields.io/badge/Loss_Functions-blue?style=for-the-badge)
+
+<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+
+<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+
+- ⚫ [What is a Loss Function](ml-rapid-fire/model-evaluation/loss-functions/01-what-is-loss-function.md)
+- ⚫ [MSE Loss](ml-rapid-fire/model-evaluation/loss-functions/02-mse-loss.md)
+- ⚫ [MAE Loss](ml-rapid-fire/model-evaluation/loss-functions/03-mae-loss.md)
+- ⚫ [Binary Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/04-binary-cross-entropy.md)
+- ⚫ [Categorical Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/05-categorical-cross-entropy.md)
+- ⚫ [Hinge Loss](ml-rapid-fire/model-evaluation/loss-functions/06-hinge-loss.md)
+- ⚫ [Huber Loss](ml-rapid-fire/model-evaluation/loss-functions/07-huber-loss.md)
+- ⚫ [Log Loss vs Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/08-log-loss-vs-cross-entropy.md)
+- ⚫ [Softmax Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/09-softmax-cross-entropy.md)
+- ⚫ [Choosing a Loss Function](ml-rapid-fire/model-evaluation/loss-functions/10-choosing-loss-function.md)
+
+---
+
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Classical ML</h2></td></tr></table>
 
 <code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/61)
@@ -357,100 +451,6 @@ python3 scripts/generate_readme.py
 - ⚫ [Data Augmentation](ml-rapid-fire/deep-learning/regularization/06-data-augmentation.md)
 - ⚫ [Weight Decay](ml-rapid-fire/deep-learning/regularization/07-weight-decay.md)
 - ⚫ [Label Smoothing](ml-rapid-fire/deep-learning/regularization/08-label-smoothing.md)
-
----
-
-<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Model Evaluation</h2></td></tr></table>
-
-<code>Coverage</code> <code>[█████████████████░░░░░░░░░░░░░]</code> 56.9% (29/51)
-
-<code>Ready   </code> <code>[█████░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 17.6% (9/51)
-
-![Classification Metrics](https://img.shields.io/badge/Classification_Metrics-blue?style=for-the-badge)
-
-<code>Coverage</code> <code>[████████████████████░░░░░░░░░░]</code> 69.2% (9/13)
-
-<code>Ready   </code> <code>[██░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 7.7% (1/13)
-
-- ⚫ [TP, FP, TN, FN](ml-rapid-fire/model-evaluation/classification-metrics/01-tp-fp-tn-fn.md)
-- 🟡 [Confusion Matrix](ml-rapid-fire/model-evaluation/classification-metrics/02-confusion-matrix.md) `1 attempts`
-- ⚫ [Type I and Type II Errors](ml-rapid-fire/model-evaluation/classification-metrics/03-type-i-type-ii.md)
-- ⚫ [Total](ml-rapid-fire/model-evaluation/classification-metrics/04-total.md)
-- 🟡 [Accuracy](ml-rapid-fire/model-evaluation/classification-metrics/05-accuracy.md) `1 attempts`
-- 🟡 [Precision](ml-rapid-fire/model-evaluation/classification-metrics/06-precision.md) `1 attempts`
-- 🟢 [Recall](ml-rapid-fire/model-evaluation/classification-metrics/07-recall.md) `1 attempts`
-- ⚫ [Specificity](ml-rapid-fire/model-evaluation/classification-metrics/08-specificity.md)
-- 🟠 [F1 Score](ml-rapid-fire/model-evaluation/classification-metrics/09-f1-score.md) `1 attempts`
-- 🟡 [Precision-Recall Tradeoff](ml-rapid-fire/model-evaluation/classification-metrics/10-precision-recall-tradeoff.md) `1 attempts`
-- 🟠 [ROC Curve](ml-rapid-fire/model-evaluation/classification-metrics/11-roc-curve.md) `1 attempts`
-- 🟠 [AUC-ROC](ml-rapid-fire/model-evaluation/classification-metrics/12-auc-roc.md) `1 attempts`
-- 🟠 [PR Curve vs ROC](ml-rapid-fire/model-evaluation/classification-metrics/13-pr-curve-vs-roc.md) `1 attempts`
-
-![Regression Metrics](https://img.shields.io/badge/Regression_Metrics-blue?style=for-the-badge)
-
-<code>Coverage</code> <code>[██████████████████████████░░░░]</code> 87.5% (7/8)
-
-<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
-
-- 🟡 [Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/01-mse.md) `1 attempts`
-- 🟠 [Root Mean Squared Error](ml-rapid-fire/model-evaluation/regression-metrics/02-rmse.md) `1 attempts`
-- 🟡 [Mean Absolute Error](ml-rapid-fire/model-evaluation/regression-metrics/03-mae.md) `1 attempts`
-- 🟠 [MSE vs MAE](ml-rapid-fire/model-evaluation/regression-metrics/04-mse-vs-mae.md) `1 attempts`
-- ⚫ [Sum of Squares (SST, SSE, SSR)](ml-rapid-fire/model-evaluation/regression-metrics/05-sum-of-squares.md)
-- 🟡 [R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/06-r-squared.md) `1 attempts`
-- 🟡 [R-Squared Limitations](ml-rapid-fire/model-evaluation/regression-metrics/07-r-squared-limitations.md) `1 attempts`
-- 🟡 [Adjusted R-Squared](ml-rapid-fire/model-evaluation/regression-metrics/08-adjusted-r-squared.md) `1 attempts`
-
-![Validation](https://img.shields.io/badge/Validation-blue?style=for-the-badge)
-
-<code>Coverage</code> <code>[██████████████████████████████]</code> 100.0% (10/10)
-
-<code>Ready   </code> <code>[███████████████░░░░░░░░░░░░░░░]</code> 50.0% (5/10)
-
-- 🟡 [Train/Test Split](ml-rapid-fire/model-evaluation/validation/01-train-test-split.md) `1 attempts`
-- 🔵 [Validation Set Purpose](ml-rapid-fire/model-evaluation/validation/02-validation-set-purpose.md) `1 attempts`
-- 🔵 [K-Fold Cross-Validation](ml-rapid-fire/model-evaluation/validation/03-k-fold-cross-validation.md) `1 attempts`
-- 🔵 [Stratified K-Fold](ml-rapid-fire/model-evaluation/validation/04-stratified-k-fold.md) `1 attempts`
-- 🟡 [Leave-One-Out Cross-Validation](ml-rapid-fire/model-evaluation/validation/05-loocv.md) `1 attempts`
-- 🟠 [Holdout vs Cross-Validation](ml-rapid-fire/model-evaluation/validation/06-holdout-vs-cv.md) `1 attempts`
-- 🔵 [Data Leakage](ml-rapid-fire/model-evaluation/validation/07-data-leakage.md) `1 attempts`
-- 🔵 [Time Series Validation](ml-rapid-fire/model-evaluation/validation/08-time-series-validation.md) `1 attempts`
-- 🟠 [Bias-Variance in Cross-Validation](ml-rapid-fire/model-evaluation/validation/09-bias-variance-cv.md) `1 attempts`
-- 🟠 [Nested Cross-Validation](ml-rapid-fire/model-evaluation/validation/10-nested-cross-validation.md) `1 attempts`
-
-![Model Selection](https://img.shields.io/badge/Model_Selection-blue?style=for-the-badge)
-
-<code>Coverage</code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.0% (3/10)
-
-<code>Ready   </code> <code>[█████████░░░░░░░░░░░░░░░░░░░░░]</code> 30.0% (3/10)
-
-- 🔵 [What is Hyperparameter Tuning](ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md) `1 attempts`
-- 🔵 [Grid Search](ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md) `1 attempts`
-- 🔵 [Random Search](ml-rapid-fire/model-evaluation/model-selection/03-random-search.md) `1 attempts`
-- ⚫ [Bayesian Optimization](ml-rapid-fire/model-evaluation/model-selection/04-bayesian-optimization.md)
-- ⚫ [Cross-Validation for Model Selection](ml-rapid-fire/model-evaluation/model-selection/05-cv-for-model-selection.md)
-- ⚫ [Learning Curves for Diagnosis](ml-rapid-fire/model-evaluation/model-selection/06-learning-curves.md)
-- ⚫ [Validation Curve](ml-rapid-fire/model-evaluation/model-selection/07-validation-curve.md)
-- ⚫ [Early Stopping as Model Selection](ml-rapid-fire/model-evaluation/model-selection/08-early-stopping.md)
-- ⚫ [Regularization Path](ml-rapid-fire/model-evaluation/model-selection/09-regularization-path.md)
-- ⚫ [Information Criteria (AIC/BIC)](ml-rapid-fire/model-evaluation/model-selection/10-information-criteria.md)
-
-![Loss Functions](https://img.shields.io/badge/Loss_Functions-blue?style=for-the-badge)
-
-<code>Coverage</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
-
-<code>Ready   </code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
-
-- ⚫ [What is a Loss Function](ml-rapid-fire/model-evaluation/loss-functions/01-what-is-loss-function.md)
-- ⚫ [MSE Loss](ml-rapid-fire/model-evaluation/loss-functions/02-mse-loss.md)
-- ⚫ [MAE Loss](ml-rapid-fire/model-evaluation/loss-functions/03-mae-loss.md)
-- ⚫ [Binary Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/04-binary-cross-entropy.md)
-- ⚫ [Categorical Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/05-categorical-cross-entropy.md)
-- ⚫ [Hinge Loss](ml-rapid-fire/model-evaluation/loss-functions/06-hinge-loss.md)
-- ⚫ [Huber Loss](ml-rapid-fire/model-evaluation/loss-functions/07-huber-loss.md)
-- ⚫ [Log Loss vs Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/08-log-loss-vs-cross-entropy.md)
-- ⚫ [Softmax Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/09-softmax-cross-entropy.md)
-- ⚫ [Choosing a Loss Function](ml-rapid-fire/model-evaluation/loss-functions/10-choosing-loss-function.md)
 
 ---
 
@@ -741,4 +741,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 20:26:30*
+*Last updated: 2025-12-07 20:29:33*
