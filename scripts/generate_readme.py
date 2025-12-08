@@ -312,7 +312,7 @@ def generate_readme():
 
             # Badge for category name
             badge_name = category_display.replace(' ', '_').replace('&', '%26')
-            lines.append(f'![{category_display}](https://img.shields.io/badge/{badge_name}-blue)\n')
+            lines.append(f'![{category_display}](https://img.shields.io/badge/{badge_name}-blue?style=for-the-badge)\n')
             lines.append(format_progress_line("Coverage", cat_coverage, cat_total))
             lines.append("")
             lines.append(format_progress_line("Ready", cat_ready, cat_total))
@@ -342,7 +342,7 @@ def generate_readme():
 
             # Badge for category name
             badge_name = category_display.replace(' ', '_').replace('&', '%26')
-            lines.append(f'![{category_display}](https://img.shields.io/badge/{badge_name}-blue)\n')
+            lines.append(f'![{category_display}](https://img.shields.io/badge/{badge_name}-blue?style=for-the-badge)\n')
             lines.append(format_progress_line("Coverage", cat_coverage, cat_total))
             lines.append("")
             lines.append(format_progress_line("Ready", cat_ready, cat_total))
