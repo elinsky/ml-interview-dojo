@@ -1,5 +1,5 @@
 flashcards:
-  ml-rapid-fire/core-ml/logistic-regression/01-what-is-logistic-regression.md:
+  ml-rapid-fire/01-core-ml/logistic-regression/01-what-is-logistic-regression.md:
     name: What is Logistic Regression
     category: logistic-regression
     topic: logistic-regression
@@ -9,7 +9,7 @@ flashcards:
       notes: Confused sigmoid with softmax
     - date: '2025-12-07T16:25:48.279525'
       recall: partial+
-  ml-rapid-fire/core-ml/logistic-regression/02-why-not-linear-regression.md:
+  ml-rapid-fire/01-core-ml/logistic-regression/02-why-not-linear-regression.md:
     name: Why Not Linear Regression
     category: logistic-regression
     topic: logistic-regression
@@ -18,7 +18,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T16:27:13.590318'
       recall: full
-  ml-rapid-fire/core-ml/logistic-regression/03-sigmoid-function.md:
+  ml-rapid-fire/01-core-ml/logistic-regression/03-sigmoid-function.md:
     name: Sigmoid Function
     category: logistic-regression
     topic: logistic-regression
@@ -28,7 +28,7 @@ flashcards:
       notes: Said -1 to 1 (thats tanh), forgot formula
     - date: '2025-12-07T16:27:38.846777'
       recall: none
-  ml-rapid-fire/core-ml/logistic-regression/04-how-trained.md:
+  ml-rapid-fire/01-core-ml/logistic-regression/04-how-trained.md:
     name: How Trained
     category: logistic-regression
     topic: logistic-regression
@@ -37,7 +37,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T16:28:24.812809'
       recall: none
-  ml-rapid-fire/core-ml/logistic-regression/05-coefficient-interpretation.md:
+  ml-rapid-fire/01-core-ml/logistic-regression/05-coefficient-interpretation.md:
     name: Coefficient Interpretation
     category: logistic-regression
     topic: logistic-regression
@@ -47,7 +47,7 @@ flashcards:
       notes: Knew log odds involved, forgot e^beta relationship
     - date: '2025-12-07T16:31:28.319141'
       recall: none
-  ml-rapid-fire/core-ml/logistic-regression/06-decision-boundary.md:
+  ml-rapid-fire/01-core-ml/logistic-regression/06-decision-boundary.md:
     name: Decision Boundary
     category: logistic-regression
     topic: logistic-regression
@@ -57,7 +57,7 @@ flashcards:
       notes: Knew it was linear, but didnt understand why or what it means
     - date: '2025-12-07T16:31:54.860906'
       recall: full
-  ml-rapid-fire/core-ml/logistic-regression/07-multi-class.md:
+  ml-rapid-fire/01-core-ml/logistic-regression/07-multi-class.md:
     name: Multi-class
     category: logistic-regression
     topic: logistic-regression
@@ -66,14 +66,14 @@ flashcards:
       recall: full
     - date: '2025-12-07T16:36:31.258110'
       recall: none
-  ml-rapid-fire/core-ml/logistic-regression/08-loss-function.md:
+  ml-rapid-fire/01-core-ml/logistic-regression/08-loss-function.md:
     name: Loss Function
     category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-11-28T13:21:22.926173'
       recall: full
-  ml-rapid-fire/core-ml/cross-entropy/01-what-is-cross-entropy.md:
+  ml-rapid-fire/01-core-ml/cross-entropy/01-what-is-cross-entropy.md:
     name: 01-what-is-cross-entropy
     category: cross-entropy
     attempts:
@@ -82,7 +82,7 @@ flashcards:
       notes: Got core concept, not surprise framing
     - date: '2025-12-07T18:36:30.974723'
       recall: partial-
-  ml-rapid-fire/core-ml/cross-entropy/02-why-not-mse.md:
+  ml-rapid-fire/01-core-ml/cross-entropy/02-why-not-mse.md:
     name: 02-why-not-mse
     category: cross-entropy
     attempts:
@@ -91,7 +91,7 @@ flashcards:
       notes: Needed full explanation of sigmoid saturation and gradient issue
     - date: '2025-12-07T18:39:06.122284'
       recall: none
-  ml-rapid-fire/core-ml/cross-entropy/03-binary-cross-entropy-formula.md:
+  ml-rapid-fire/01-core-ml/cross-entropy/03-binary-cross-entropy-formula.md:
     name: 03-binary-cross-entropy-formula
     category: cross-entropy
     attempts:
@@ -99,7 +99,7 @@ flashcards:
       recall: none
     - date: '2025-12-07T18:39:28.078969'
       recall: none
-  ml-rapid-fire/core-ml/cross-entropy/04-confident-correct.md:
+  ml-rapid-fire/01-core-ml/cross-entropy/04-confident-correct.md:
     name: 04-confident-correct
     category: cross-entropy
     attempts:
@@ -107,7 +107,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T18:41:52.448951'
       recall: full
-  ml-rapid-fire/core-ml/cross-entropy/05-confident-wrong.md:
+  ml-rapid-fire/01-core-ml/cross-entropy/05-confident-wrong.md:
     name: 05-confident-wrong
     category: cross-entropy
     attempts:
@@ -116,7 +116,7 @@ flashcards:
       notes: Knew loss gets high, thought capped at 1 (actually approaches infinity)
     - date: '2025-12-07T18:42:13.002554'
       recall: full
-  ml-rapid-fire/core-ml/cross-entropy/06-categorical-cross-entropy.md:
+  ml-rapid-fire/01-core-ml/cross-entropy/06-categorical-cross-entropy.md:
     name: 06-categorical-cross-entropy
     category: cross-entropy
     attempts:
@@ -125,7 +125,7 @@ flashcards:
       notes: Knew it was for multiple classes, needed formula walkthrough
     - date: '2025-12-07T18:47:38.905250'
       recall: partial-
-  ml-rapid-fire/core-ml/cross-entropy/07-calculate-cross-entropy.md:
+  ml-rapid-fire/01-core-ml/cross-entropy/07-calculate-cross-entropy.md:
     name: 07-calculate-cross-entropy
     category: cross-entropy
     attempts:
@@ -134,7 +134,7 @@ flashcards:
       notes: Got formula structure, missed negative sign
     - date: '2025-12-07T18:50:47.027923'
       recall: partial+
-  ml-rapid-fire/core-ml/cross-entropy/08-calculate-categorical-cross-entropy.md:
+  ml-rapid-fire/01-core-ml/cross-entropy/08-calculate-categorical-cross-entropy.md:
     name: 08-calculate-categorical-cross-entropy
     category: cross-entropy
     attempts:
@@ -142,7 +142,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T18:53:29.990593'
       recall: partial+
-  ml-rapid-fire/core-ml/linear-regression/01-what-is-linear-regression.md:
+  ml-rapid-fire/01-core-ml/linear-regression/01-what-is-linear-regression.md:
     name: 01-what-is-linear-regression
     category: linear-regression
     attempts:
@@ -150,7 +150,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T14:43:59.052827'
       recall: full
-  ml-rapid-fire/core-ml/linear-regression/02-simple-vs-multiple.md:
+  ml-rapid-fire/01-core-ml/linear-regression/02-simple-vs-multiple.md:
     name: 02-simple-vs-multiple
     category: linear-regression
     attempts:
@@ -158,7 +158,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T14:44:13.589114'
       recall: full
-  ml-rapid-fire/core-ml/linear-regression/03-linear-regression-formula.md:
+  ml-rapid-fire/01-core-ml/linear-regression/03-linear-regression-formula.md:
     name: 03-linear-regression-formula
     category: linear-regression
     attempts:
@@ -167,7 +167,7 @@ flashcards:
       notes: Gave multiple regression formula instead of simple
     - date: '2025-12-07T14:45:30.147019'
       recall: full
-  ml-rapid-fire/core-ml/linear-regression/04-loss-function.md:
+  ml-rapid-fire/01-core-ml/linear-regression/04-loss-function.md:
     name: 04-loss-function
     category: linear-regression
     attempts:
@@ -175,7 +175,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T14:54:08.252938'
       recall: partial-
-  ml-rapid-fire/core-ml/linear-regression/05-ordinary-least-squares.md:
+  ml-rapid-fire/01-core-ml/linear-regression/05-ordinary-least-squares.md:
     name: 05-ordinary-least-squares
     category: linear-regression
     attempts:
@@ -184,7 +184,7 @@ flashcards:
       notes: Confused OLS method with MSE formula
     - date: '2025-12-07T14:54:11.339569'
       recall: partial-
-  ml-rapid-fire/core-ml/linear-regression/06-gradient-descent-for-lr.md:
+  ml-rapid-fire/01-core-ml/linear-regression/06-gradient-descent-for-lr.md:
     name: 06-gradient-descent-for-lr
     category: linear-regression
     attempts:
@@ -192,7 +192,7 @@ flashcards:
       recall: none
     - date: '2025-12-07T14:55:14.124555'
       recall: full
-  ml-rapid-fire/core-ml/linear-regression/07-coefficient-interpretation.md:
+  ml-rapid-fire/01-core-ml/linear-regression/07-coefficient-interpretation.md:
     name: 07-coefficient-interpretation
     category: linear-regression
     attempts:
@@ -200,25 +200,25 @@ flashcards:
       recall: full
     - date: '2025-12-07T14:58:31.059210'
       recall: partial+
-  ml-rapid-fire/core-ml/linear-regression/08-ols-assumptions-overview.md:
+  ml-rapid-fire/01-core-ml/linear-regression/08-ols-assumptions-overview.md:
     name: 08-ols-assumptions-overview
     category: linear-regression
     attempts:
     - date: '2025-12-07T20:18:00.000000'
       recall: full
-  ml-rapid-fire/core-ml/linear-regression/09-ols-error-assumptions.md:
+  ml-rapid-fire/01-core-ml/linear-regression/09-ols-error-assumptions.md:
     name: 09-ols-error-assumptions
     category: linear-regression
     attempts:
     - date: '2025-12-07T20:20:00.000000'
       recall: partial+
-  ml-rapid-fire/core-ml/linear-regression/10-ols-predictor-assumptions.md:
+  ml-rapid-fire/01-core-ml/linear-regression/10-ols-predictor-assumptions.md:
     name: 10-ols-predictor-assumptions
     category: linear-regression
     attempts:
     - date: '2025-12-07T20:22:00.000000'
       recall: partial+
-  ml-rapid-fire/core-ml/linear-regression/11-ridge-vs-lasso.md:
+  ml-rapid-fire/01-core-ml/linear-regression/11-ridge-vs-lasso.md:
     name: 11-ridge-vs-lasso
     category: linear-regression
     attempts:
@@ -227,13 +227,13 @@ flashcards:
       notes: Knew one squares penalty, other doesnt - missed feature selection aspect
     - date: '2025-12-07T15:19:45.427859'
       recall: partial-
-  ml-rapid-fire/core-ml/linear-regression/12-ridge-lasso-effects.md:
+  ml-rapid-fire/01-core-ml/linear-regression/12-ridge-lasso-effects.md:
     name: 12-ridge-lasso-effects
     category: linear-regression
     attempts:
     - date: '2025-12-07T20:25:00.000000'
       recall: partial+
-  ml-rapid-fire/core-ml/linear-regression/13-r-squared.md:
+  ml-rapid-fire/01-core-ml/linear-regression/13-r-squared.md:
     name: 13-r-squared
     category: linear-regression
     attempts:
@@ -243,13 +243,13 @@ flashcards:
         forgot interpretation
     - date: '2025-12-07T15:24:55.522286'
       recall: partial+
-  ml-rapid-fire/core-ml/linear-regression/14-mse-formula.md:
+  ml-rapid-fire/01-core-ml/linear-regression/14-mse-formula.md:
     name: 14-mse-formula
     category: linear-regression
     attempts:
     - date: '2025-11-28T15:48:00.000000'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/01-what-is-ml.md:
+  ml-rapid-fire/01-core-ml/ml-basics/01-what-is-ml.md:
     name: 01-what-is-ml
     category: ml-basics
     attempts:
@@ -257,7 +257,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:29:12.057017'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/02-traditional-vs-ml.md:
+  ml-rapid-fire/01-core-ml/ml-basics/02-traditional-vs-ml.md:
     name: 02-traditional-vs-ml
     category: ml-basics
     attempts:
@@ -265,7 +265,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:30:22.116145'
       recall: none
-  ml-rapid-fire/core-ml/ml-basics/03-three-components.md:
+  ml-rapid-fire/01-core-ml/ml-basics/03-three-components.md:
     name: 03-three-components
     category: ml-basics
     attempts:
@@ -274,7 +274,7 @@ flashcards:
       notes: Got concepts, not exact terms (Representation, Evaluation, Optimization)
     - date: '2025-12-07T15:32:09.502748'
       recall: partial-
-  ml-rapid-fire/core-ml/ml-basics/04-types-of-learning.md:
+  ml-rapid-fire/01-core-ml/ml-basics/04-types-of-learning.md:
     name: 04-types-of-learning
     category: ml-basics
     attempts:
@@ -282,7 +282,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:34:07.384082'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/05-classification-vs-regression.md:
+  ml-rapid-fire/01-core-ml/ml-basics/05-classification-vs-regression.md:
     name: 05-classification-vs-regression
     category: ml-basics
     attempts:
@@ -292,7 +292,7 @@ flashcards:
         continuous)
     - date: '2025-12-07T15:35:53.212854'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/06-what-is-a-model.md:
+  ml-rapid-fire/01-core-ml/ml-basics/06-what-is-a-model.md:
     name: 06-what-is-a-model
     category: ml-basics
     attempts:
@@ -300,7 +300,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:38:27.825554'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/07-what-is-loss-function.md:
+  ml-rapid-fire/01-core-ml/ml-basics/07-what-is-loss-function.md:
     name: 07-what-is-loss-function
     category: ml-basics
     attempts:
@@ -308,7 +308,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:41:52.945387'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/08-what-is-optimization.md:
+  ml-rapid-fire/01-core-ml/ml-basics/08-what-is-optimization.md:
     name: 08-what-is-optimization
     category: ml-basics
     attempts:
@@ -318,7 +318,7 @@ flashcards:
         loss)
     - date: '2025-12-07T15:43:18.992480'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/09-loss-vs-metric.md:
+  ml-rapid-fire/01-core-ml/ml-basics/09-loss-vs-metric.md:
     name: 09-loss-vs-metric
     category: ml-basics
     attempts:
@@ -327,7 +327,7 @@ flashcards:
       notes: Got training vs eval distinction, missed differentiability point
     - date: '2025-12-07T15:45:18.795779'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/10-params-vs-hyperparams.md:
+  ml-rapid-fire/01-core-ml/ml-basics/10-params-vs-hyperparams.md:
     name: 10-params-vs-hyperparams
     category: ml-basics
     attempts:
@@ -336,7 +336,7 @@ flashcards:
       notes: Missed key distinction - params LEARNED, hyperparams SET BEFORE training
     - date: '2025-12-07T15:49:02.511414'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/11-what-is-regularization.md:
+  ml-rapid-fire/01-core-ml/ml-basics/11-what-is-regularization.md:
     name: 11-what-is-regularization
     category: ml-basics
     attempts:
@@ -344,7 +344,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:50:33.484550'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/12-training-vs-inference.md:
+  ml-rapid-fire/01-core-ml/ml-basics/12-training-vs-inference.md:
     name: 12-training-vs-inference
     category: ml-basics
     attempts:
@@ -352,7 +352,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:51:30.352532'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/13-overfitting-underfitting.md:
+  ml-rapid-fire/01-core-ml/ml-basics/13-overfitting-underfitting.md:
     name: 13-overfitting-underfitting
     category: ml-basics
     attempts:
@@ -360,7 +360,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:53:19.413458'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/16-bias-variance-tradeoff.md:
+  ml-rapid-fire/01-core-ml/ml-basics/16-bias-variance-tradeoff.md:
     name: 16-bias-variance-tradeoff
     category: ml-basics
     attempts:
@@ -370,7 +370,7 @@ flashcards:
         of bias and variance
     - date: '2025-12-07T15:54:55.404773'
       recall: partial+
-  ml-rapid-fire/core-ml/ml-basics/17-when-to-use-ml.md:
+  ml-rapid-fire/01-core-ml/ml-basics/17-when-to-use-ml.md:
     name: 17-when-to-use-ml
     category: ml-basics
     attempts:
@@ -379,14 +379,14 @@ flashcards:
       notes: Got 3/4, missed "problem changes frequently"
     - date: '2025-12-07T16:06:42.174218'
       recall: partial+
-  ml-rapid-fire/core-ml/logistic-regression/09-linearly-separable.md:
+  ml-rapid-fire/01-core-ml/logistic-regression/09-linearly-separable.md:
     name: Linearly Separable
     category: logistic-regression
     topic: logistic-regression
     attempts:
     - date: '2025-12-07T16:38:11.487608'
       recall: full
-  ml-rapid-fire/core-ml/ml-basics/18-bias-variance-decomposition.md:
+  ml-rapid-fire/01-core-ml/ml-basics/18-bias-variance-decomposition.md:
     name: Bias-Variance Decomposition
     category: ml-basics
     attempts:
@@ -395,7 +395,7 @@ flashcards:
       notes: Got 3 components, missed bias squared and definitions
     - date: '2025-12-07T16:07:25.856727'
       recall: none
-  ml-rapid-fire/core-ml/ml-basics/19-diagnosing-bias-variance.md:
+  ml-rapid-fire/01-core-ml/ml-basics/19-diagnosing-bias-variance.md:
     name: Diagnosing Bias vs Variance
     category: ml-basics
     attempts:
@@ -406,7 +406,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T16:11:22.484046'
       recall: partial+
-  ml-rapid-fire/core-ml/ml-basics/20-causes-high-variance.md:
+  ml-rapid-fire/01-core-ml/ml-basics/20-causes-high-variance.md:
     name: Causes of High Variance
     category: ml-basics
     attempts:
@@ -416,7 +416,7 @@ flashcards:
         too few examples, train too long, non-parametric'
     - date: '2025-12-07T16:12:10.761402'
       recall: partial-
-  ml-rapid-fire/core-ml/ml-basics/21-reduce-variance.md:
+  ml-rapid-fire/01-core-ml/ml-basics/21-reduce-variance.md:
     name: How to Reduce Variance
     category: ml-basics
     attempts:
@@ -424,7 +424,7 @@ flashcards:
       recall: partial-
     - date: '2025-12-07T16:12:46.161614'
       recall: partial+
-  ml-rapid-fire/core-ml/ml-basics/22-causes-high-bias.md:
+  ml-rapid-fire/01-core-ml/ml-basics/22-causes-high-bias.md:
     name: Causes of High Bias
     category: ml-basics
     attempts:
@@ -432,7 +432,7 @@ flashcards:
       recall: partial-
     - date: '2025-12-07T16:13:42.333912'
       recall: partial+
-  ml-rapid-fire/core-ml/ml-basics/23-reduce-bias.md:
+  ml-rapid-fire/01-core-ml/ml-basics/23-reduce-bias.md:
     name: How to Reduce Bias
     category: ml-basics
     attempts:
@@ -440,7 +440,7 @@ flashcards:
       recall: partial-
     - date: '2025-12-07T16:14:44.486678'
       recall: partial-
-  ml-rapid-fire/core-ml/regularization/01-l2-ridge-formula.md:
+  ml-rapid-fire/01-core-ml/regularization/01-l2-ridge-formula.md:
     name: L2 (Ridge) Penalty Formula
     category: regularization
     attempts:
@@ -448,576 +448,576 @@ flashcards:
       recall: full
     - date: '2025-12-07T19:41:27.996682'
       recall: partial+
-  ml-rapid-fire/core-ml/regularization/02-l1-lasso-formula.md:
+  ml-rapid-fire/01-core-ml/regularization/02-l1-lasso-formula.md:
     name: L1 (Lasso) Penalty Formula
     category: regularization
     attempts:
     - date: '2025-12-07T19:42:30.250458'
       recall: partial-
-  ml-rapid-fire/core-ml/regularization/03-why-l1-sparse.md:
+  ml-rapid-fire/01-core-ml/regularization/03-why-l1-sparse.md:
     name: Why L1 Produces Sparsity
     category: regularization
     attempts:
     - date: '2025-12-07T19:44:02.149964'
       recall: none
-  ml-rapid-fire/core-ml/regularization/04-why-l2-shrinks.md:
+  ml-rapid-fire/01-core-ml/regularization/04-why-l2-shrinks.md:
     name: Why L2 Only Shrinks Weights
     category: regularization
     attempts:
     - date: '2025-12-07T19:44:33.102703'
       recall: none
-  ml-rapid-fire/core-ml/regularization/05-when-l1-lasso.md:
+  ml-rapid-fire/01-core-ml/regularization/05-when-l1-lasso.md:
     name: When to Choose L1 (Lasso)
     category: regularization
     attempts:
     - date: '2025-12-07T19:57:10.526629'
       recall: full
-  ml-rapid-fire/core-ml/regularization/06-when-l2-ridge.md:
+  ml-rapid-fire/01-core-ml/regularization/06-when-l2-ridge.md:
     name: When to Choose L2 (Ridge)
     category: regularization
     attempts:
     - date: '2025-12-07T19:59:49.233063'
       recall: partial+
-  ml-rapid-fire/core-ml/regularization/07-when-elastic-net.md:
+  ml-rapid-fire/01-core-ml/regularization/07-when-elastic-net.md:
     name: When to Choose Elastic Net
     category: regularization
     attempts:
     - date: '2025-12-07T20:02:00.000000'
       recall: full
-  ml-rapid-fire/core-ml/regularization/08-elastic-net.md:
+  ml-rapid-fire/01-core-ml/regularization/08-elastic-net.md:
     name: Elastic Net
     category: regularization
     attempts:
     - date: '2025-12-07T20:08:00.000000'
       recall: partial-
-  ml-rapid-fire/core-ml/regularization/09-lambda-hyperparameter.md:
+  ml-rapid-fire/01-core-ml/regularization/09-lambda-hyperparameter.md:
     name: Regularization Hyperparameter
     category: regularization
     attempts:
     - date: '2025-12-07T20:12:00.000000'
       recall: full
-  ml-rapid-fire/core-ml/regularization/10-lambda-bias-variance.md:
+  ml-rapid-fire/01-core-ml/regularization/10-lambda-bias-variance.md:
     name: Lambda Effect on Bias-Variance
     category: regularization
     attempts:
     - date: '2025-12-07T20:15:00.000000'
       recall: full
-  ml-rapid-fire/classical-ml/decision-trees/01-what-is-decision-tree.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/01-what-is-decision-tree.md:
     name: What is a Decision Tree
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/02-how-splits-decided.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/02-how-splits-decided.md:
     name: How Decision Trees Split
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/03-gini-impurity.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/03-gini-impurity.md:
     name: Gini Impurity
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/04-information-gain.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/04-information-gain.md:
     name: Information Gain / Entropy
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/05-prevent-overfitting.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/05-prevent-overfitting.md:
     name: Preventing Overfitting in Decision Trees
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/06-pros-cons.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/06-pros-cons.md:
     name: Decision Tree Pros and Cons
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/07-ensemble-methods.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/07-ensemble-methods.md:
     name: Ensemble Methods
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/08-bagging.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/08-bagging.md:
     name: Bagging
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/09-random-forest.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/09-random-forest.md:
     name: Random Forest
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/10-why-rf-reduces-variance.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/10-why-rf-reduces-variance.md:
     name: Why Random Forest Reduces Variance
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/11-boosting.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/11-boosting.md:
     name: Boosting
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/12-bagging-vs-boosting.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/12-bagging-vs-boosting.md:
     name: Bagging vs Boosting
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/13-adaboost.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/13-adaboost.md:
     name: AdaBoost
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/14-gradient-boosting.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/14-gradient-boosting.md:
     name: Gradient Boosting
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/15-xgboost.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/15-xgboost.md:
     name: XGBoost
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/decision-trees/16-boosting-bias-variance.md:
+  ml-rapid-fire/06-classical-ml/decision-trees/16-boosting-bias-variance.md:
     name: Boosting Bias or Variance
     category: decision-trees
     attempts: []
-  ml-rapid-fire/classical-ml/svm/01-what-is-svm.md:
+  ml-rapid-fire/06-classical-ml/svm/01-what-is-svm.md:
     name: What is an SVM
     category: svm
     attempts: []
-  ml-rapid-fire/classical-ml/svm/02-margin-support-vectors.md:
+  ml-rapid-fire/06-classical-ml/svm/02-margin-support-vectors.md:
     name: Margin and Support Vectors
     category: svm
     attempts: []
-  ml-rapid-fire/classical-ml/svm/03-hard-vs-soft-margin.md:
+  ml-rapid-fire/06-classical-ml/svm/03-hard-vs-soft-margin.md:
     name: Hard Margin vs Soft Margin
     category: svm
     attempts: []
-  ml-rapid-fire/classical-ml/svm/04-kernel-trick.md:
+  ml-rapid-fire/06-classical-ml/svm/04-kernel-trick.md:
     name: The Kernel Trick
     category: svm
     attempts: []
-  ml-rapid-fire/classical-ml/svm/05-common-kernels.md:
+  ml-rapid-fire/06-classical-ml/svm/05-common-kernels.md:
     name: Common Kernel Functions
     category: svm
     attempts: []
-  ml-rapid-fire/classical-ml/svm/06-c-parameter.md:
+  ml-rapid-fire/06-classical-ml/svm/06-c-parameter.md:
     name: The C Parameter
     category: svm
     attempts: []
-  ml-rapid-fire/classical-ml/svm/07-gamma-parameter.md:
+  ml-rapid-fire/06-classical-ml/svm/07-gamma-parameter.md:
     name: The Gamma Parameter
     category: svm
     attempts: []
-  ml-rapid-fire/classical-ml/svm/08-pros-cons.md:
+  ml-rapid-fire/06-classical-ml/svm/08-pros-cons.md:
     name: SVM Pros and Cons
     category: svm
     attempts: []
-  ml-rapid-fire/classical-ml/svm/09-multiclass.md:
+  ml-rapid-fire/06-classical-ml/svm/09-multiclass.md:
     name: Multiclass SVM
     category: svm
     attempts: []
-  ml-rapid-fire/classical-ml/knn/01-what-is-knn.md:
+  ml-rapid-fire/06-classical-ml/knn/01-what-is-knn.md:
     name: What is KNN
     category: knn
     attempts: []
-  ml-rapid-fire/classical-ml/knn/02-prediction.md:
+  ml-rapid-fire/06-classical-ml/knn/02-prediction.md:
     name: KNN Prediction
     category: knn
     attempts: []
-  ml-rapid-fire/classical-ml/knn/03-distance-metrics.md:
+  ml-rapid-fire/06-classical-ml/knn/03-distance-metrics.md:
     name: Distance Metrics
     category: knn
     attempts: []
-  ml-rapid-fire/classical-ml/knn/04-choosing-k.md:
+  ml-rapid-fire/06-classical-ml/knn/04-choosing-k.md:
     name: Choosing K
     category: knn
     attempts: []
-  ml-rapid-fire/classical-ml/knn/05-curse-of-dimensionality.md:
+  ml-rapid-fire/06-classical-ml/knn/05-curse-of-dimensionality.md:
     name: Curse of Dimensionality
     category: knn
     attempts: []
-  ml-rapid-fire/classical-ml/knn/06-feature-scaling.md:
+  ml-rapid-fire/06-classical-ml/knn/06-feature-scaling.md:
     name: Feature Scaling for KNN
     category: knn
     attempts: []
-  ml-rapid-fire/classical-ml/knn/07-weighted-knn.md:
+  ml-rapid-fire/06-classical-ml/knn/07-weighted-knn.md:
     name: Weighted KNN
     category: knn
     attempts: []
-  ml-rapid-fire/classical-ml/knn/08-computational-complexity.md:
+  ml-rapid-fire/06-classical-ml/knn/08-computational-complexity.md:
     name: KNN Computational Complexity
     category: knn
     attempts: []
-  ml-rapid-fire/classical-ml/knn/09-pros-cons.md:
+  ml-rapid-fire/06-classical-ml/knn/09-pros-cons.md:
     name: KNN Pros and Cons
     category: knn
     attempts: []
-  ml-rapid-fire/classical-ml/naive-bayes/01-what-is-naive-bayes.md:
+  ml-rapid-fire/06-classical-ml/naive-bayes/01-what-is-naive-bayes.md:
     name: What is Naive Bayes
     category: naive-bayes
     attempts: []
-  ml-rapid-fire/classical-ml/naive-bayes/02-bayes-theorem.md:
+  ml-rapid-fire/06-classical-ml/naive-bayes/02-bayes-theorem.md:
     name: Bayes Theorem
     category: naive-bayes
     attempts: []
-  ml-rapid-fire/classical-ml/naive-bayes/03-naive-assumption.md:
+  ml-rapid-fire/06-classical-ml/naive-bayes/03-naive-assumption.md:
     name: The Naive Assumption
     category: naive-bayes
     attempts: []
-  ml-rapid-fire/classical-ml/naive-bayes/04-types-of-naive-bayes.md:
+  ml-rapid-fire/06-classical-ml/naive-bayes/04-types-of-naive-bayes.md:
     name: Types of Naive Bayes
     category: naive-bayes
     attempts: []
-  ml-rapid-fire/classical-ml/naive-bayes/05-gaussian-naive-bayes.md:
+  ml-rapid-fire/06-classical-ml/naive-bayes/05-gaussian-naive-bayes.md:
     name: Gaussian Naive Bayes
     category: naive-bayes
     attempts: []
-  ml-rapid-fire/classical-ml/naive-bayes/06-multinomial-naive-bayes.md:
+  ml-rapid-fire/06-classical-ml/naive-bayes/06-multinomial-naive-bayes.md:
     name: Multinomial Naive Bayes
     category: naive-bayes
     attempts: []
-  ml-rapid-fire/classical-ml/naive-bayes/07-laplace-smoothing.md:
+  ml-rapid-fire/06-classical-ml/naive-bayes/07-laplace-smoothing.md:
     name: Laplace Smoothing
     category: naive-bayes
     attempts: []
-  ml-rapid-fire/classical-ml/naive-bayes/08-log-probabilities.md:
+  ml-rapid-fire/06-classical-ml/naive-bayes/08-log-probabilities.md:
     name: Log Probabilities
     category: naive-bayes
     attempts: []
-  ml-rapid-fire/classical-ml/naive-bayes/09-pros-cons.md:
+  ml-rapid-fire/06-classical-ml/naive-bayes/09-pros-cons.md:
     name: Naive Bayes Pros and Cons
     category: naive-bayes
     attempts: []
-  ml-rapid-fire/classical-ml/clustering/01-what-is-clustering.md:
+  ml-rapid-fire/06-classical-ml/clustering/01-what-is-clustering.md:
     name: What is Clustering
     category: clustering
     attempts: []
-  ml-rapid-fire/classical-ml/clustering/02-k-means.md:
+  ml-rapid-fire/06-classical-ml/clustering/02-k-means.md:
     name: K-Means Clustering
     category: clustering
     attempts: []
-  ml-rapid-fire/classical-ml/clustering/03-k-means-plus-plus.md:
+  ml-rapid-fire/06-classical-ml/clustering/03-k-means-plus-plus.md:
     name: K-Means++ Initialization
     category: clustering
     attempts: []
-  ml-rapid-fire/classical-ml/clustering/04-choosing-k.md:
+  ml-rapid-fire/06-classical-ml/clustering/04-choosing-k.md:
     name: Choosing K
     category: clustering
     attempts: []
-  ml-rapid-fire/classical-ml/clustering/05-dbscan.md:
+  ml-rapid-fire/06-classical-ml/clustering/05-dbscan.md:
     name: DBSCAN
     category: clustering
     attempts: []
-  ml-rapid-fire/classical-ml/clustering/06-hierarchical-clustering.md:
+  ml-rapid-fire/06-classical-ml/clustering/06-hierarchical-clustering.md:
     name: Hierarchical Clustering
     category: clustering
     attempts: []
-  ml-rapid-fire/classical-ml/clustering/07-linkage-methods.md:
+  ml-rapid-fire/06-classical-ml/clustering/07-linkage-methods.md:
     name: Linkage Methods
     category: clustering
     attempts: []
-  ml-rapid-fire/classical-ml/clustering/08-clustering-evaluation.md:
+  ml-rapid-fire/06-classical-ml/clustering/08-clustering-evaluation.md:
     name: Clustering Evaluation
     category: clustering
     attempts: []
-  ml-rapid-fire/classical-ml/clustering/09-comparison.md:
+  ml-rapid-fire/06-classical-ml/clustering/09-comparison.md:
     name: Clustering Algorithm Comparison
     category: clustering
     attempts: []
-  ml-rapid-fire/classical-ml/dimensionality-reduction/01-what-is-dimensionality-reduction.md:
+  ml-rapid-fire/06-classical-ml/dimensionality-reduction/01-what-is-dimensionality-reduction.md:
     name: What is Dimensionality Reduction
     category: dimensionality-reduction
     attempts: []
-  ml-rapid-fire/classical-ml/dimensionality-reduction/02-pca-overview.md:
+  ml-rapid-fire/06-classical-ml/dimensionality-reduction/02-pca-overview.md:
     name: PCA Overview
     category: dimensionality-reduction
     attempts: []
-  ml-rapid-fire/classical-ml/dimensionality-reduction/03-pca-algorithm.md:
+  ml-rapid-fire/06-classical-ml/dimensionality-reduction/03-pca-algorithm.md:
     name: PCA Algorithm
     category: dimensionality-reduction
     attempts: []
-  ml-rapid-fire/classical-ml/dimensionality-reduction/04-choosing-components.md:
+  ml-rapid-fire/06-classical-ml/dimensionality-reduction/04-choosing-components.md:
     name: Choosing PCA Components
     category: dimensionality-reduction
     attempts: []
-  ml-rapid-fire/classical-ml/dimensionality-reduction/05-pca-limitations.md:
+  ml-rapid-fire/06-classical-ml/dimensionality-reduction/05-pca-limitations.md:
     name: PCA Limitations
     category: dimensionality-reduction
     attempts: []
-  ml-rapid-fire/classical-ml/dimensionality-reduction/06-tsne-overview.md:
+  ml-rapid-fire/06-classical-ml/dimensionality-reduction/06-tsne-overview.md:
     name: t-SNE Overview
     category: dimensionality-reduction
     attempts: []
-  ml-rapid-fire/classical-ml/dimensionality-reduction/07-tsne-algorithm.md:
+  ml-rapid-fire/06-classical-ml/dimensionality-reduction/07-tsne-algorithm.md:
     name: t-SNE Algorithm
     category: dimensionality-reduction
     attempts: []
-  ml-rapid-fire/classical-ml/dimensionality-reduction/08-tsne-pitfalls.md:
+  ml-rapid-fire/06-classical-ml/dimensionality-reduction/08-tsne-pitfalls.md:
     name: t-SNE Pitfalls
     category: dimensionality-reduction
     attempts: []
-  ml-rapid-fire/classical-ml/dimensionality-reduction/09-pca-vs-tsne.md:
+  ml-rapid-fire/06-classical-ml/dimensionality-reduction/09-pca-vs-tsne.md:
     name: PCA vs t-SNE
     category: dimensionality-reduction
     attempts: []
-  ml-rapid-fire/deep-learning/neural-network-basics/01-what-is-neural-network.md:
+  ml-rapid-fire/03-deep-learning/neural-network-basics/01-what-is-neural-network.md:
     name: What is a Neural Network
     category: neural-network-basics
     attempts: []
-  ml-rapid-fire/deep-learning/neural-network-basics/02-forward-pass.md:
+  ml-rapid-fire/03-deep-learning/neural-network-basics/02-forward-pass.md:
     name: Forward Pass
     category: neural-network-basics
     attempts: []
-  ml-rapid-fire/deep-learning/neural-network-basics/03-backpropagation.md:
+  ml-rapid-fire/03-deep-learning/neural-network-basics/03-backpropagation.md:
     name: Backpropagation
     category: neural-network-basics
     attempts: []
-  ml-rapid-fire/deep-learning/neural-network-basics/04-why-activation-functions.md:
+  ml-rapid-fire/03-deep-learning/neural-network-basics/04-why-activation-functions.md:
     name: Why Activation Functions
     category: neural-network-basics
     attempts: []
-  ml-rapid-fire/deep-learning/neural-network-basics/05-common-activations.md:
+  ml-rapid-fire/03-deep-learning/neural-network-basics/05-common-activations.md:
     name: Common Activation Functions
     category: neural-network-basics
     attempts: []
-  ml-rapid-fire/deep-learning/neural-network-basics/06-loss-functions.md:
+  ml-rapid-fire/03-deep-learning/neural-network-basics/06-loss-functions.md:
     name: Loss Functions
     category: neural-network-basics
     attempts: []
-  ml-rapid-fire/deep-learning/neural-network-basics/07-weight-initialization.md:
+  ml-rapid-fire/03-deep-learning/neural-network-basics/07-weight-initialization.md:
     name: Weight Initialization
     category: neural-network-basics
     attempts: []
-  ml-rapid-fire/deep-learning/neural-network-basics/08-training-loop.md:
+  ml-rapid-fire/03-deep-learning/neural-network-basics/08-training-loop.md:
     name: Training Loop
     category: neural-network-basics
     attempts: []
-  ml-rapid-fire/deep-learning/neural-network-basics/09-vanishing-exploding-gradients.md:
+  ml-rapid-fire/03-deep-learning/neural-network-basics/09-vanishing-exploding-gradients.md:
     name: Vanishing and Exploding Gradients
     category: neural-network-basics
     attempts: []
-  ml-rapid-fire/deep-learning/optimizers/01-what-is-optimizer.md:
+  ml-rapid-fire/03-deep-learning/optimizers/01-what-is-optimizer.md:
     name: What is an Optimizer
     category: optimizers
     attempts: []
-  ml-rapid-fire/deep-learning/optimizers/02-gradient-descent-variants.md:
+  ml-rapid-fire/03-deep-learning/optimizers/02-gradient-descent-variants.md:
     name: Gradient Descent Variants
     category: optimizers
     attempts: []
-  ml-rapid-fire/deep-learning/optimizers/03-learning-rate.md:
+  ml-rapid-fire/03-deep-learning/optimizers/03-learning-rate.md:
     name: Learning Rate
     category: optimizers
     attempts: []
-  ml-rapid-fire/deep-learning/optimizers/04-learning-rate-schedules.md:
+  ml-rapid-fire/03-deep-learning/optimizers/04-learning-rate-schedules.md:
     name: Learning Rate Schedules
     category: optimizers
     attempts: []
-  ml-rapid-fire/deep-learning/optimizers/05-momentum.md:
+  ml-rapid-fire/03-deep-learning/optimizers/05-momentum.md:
     name: Momentum
     category: optimizers
     attempts: []
-  ml-rapid-fire/deep-learning/optimizers/06-rmsprop.md:
+  ml-rapid-fire/03-deep-learning/optimizers/06-rmsprop.md:
     name: RMSprop
     category: optimizers
     attempts: []
-  ml-rapid-fire/deep-learning/optimizers/07-adam.md:
+  ml-rapid-fire/03-deep-learning/optimizers/07-adam.md:
     name: Adam Optimizer
     category: optimizers
     attempts: []
-  ml-rapid-fire/deep-learning/optimizers/08-choosing-optimizer.md:
+  ml-rapid-fire/03-deep-learning/optimizers/08-choosing-optimizer.md:
     name: Choosing an Optimizer
     category: optimizers
     attempts: []
-  ml-rapid-fire/deep-learning/optimizers/09-common-problems.md:
+  ml-rapid-fire/03-deep-learning/optimizers/09-common-problems.md:
     name: Common Optimizer Problems
     category: optimizers
     attempts: []
-  ml-rapid-fire/deep-learning/regularization/00-what-is-regularization.md:
+  ml-rapid-fire/03-deep-learning/regularization/00-what-is-regularization.md:
     name: What is Regularization
     category: dl-regularization
     attempts: []
-  ml-rapid-fire/deep-learning/regularization/01-dropout.md:
+  ml-rapid-fire/03-deep-learning/regularization/01-dropout.md:
     name: Dropout
     category: dl-regularization
     attempts: []
-  ml-rapid-fire/deep-learning/regularization/02-why-dropout-works.md:
+  ml-rapid-fire/03-deep-learning/regularization/02-why-dropout-works.md:
     name: Why Dropout Works
     category: dl-regularization
     attempts: []
-  ml-rapid-fire/deep-learning/regularization/03-batch-normalization.md:
+  ml-rapid-fire/03-deep-learning/regularization/03-batch-normalization.md:
     name: Batch Normalization
     category: dl-regularization
     attempts: []
-  ml-rapid-fire/deep-learning/regularization/04-why-batch-norm-works.md:
+  ml-rapid-fire/03-deep-learning/regularization/04-why-batch-norm-works.md:
     name: Why Batch Norm Works
     category: dl-regularization
     attempts: []
-  ml-rapid-fire/deep-learning/regularization/05-early-stopping.md:
+  ml-rapid-fire/03-deep-learning/regularization/05-early-stopping.md:
     name: Early Stopping
     category: dl-regularization
     attempts: []
-  ml-rapid-fire/deep-learning/regularization/06-data-augmentation.md:
+  ml-rapid-fire/03-deep-learning/regularization/06-data-augmentation.md:
     name: Data Augmentation
     category: dl-regularization
     attempts: []
-  ml-rapid-fire/deep-learning/regularization/07-weight-decay.md:
+  ml-rapid-fire/03-deep-learning/regularization/07-weight-decay.md:
     name: Weight Decay
     category: dl-regularization
     attempts: []
-  ml-rapid-fire/deep-learning/regularization/08-label-smoothing.md:
+  ml-rapid-fire/03-deep-learning/regularization/08-label-smoothing.md:
     name: Label Smoothing
     category: dl-regularization
     attempts: []
-  ml-rapid-fire/deep-learning/cnns/01-what-is-cnn.md:
+  ml-rapid-fire/03-deep-learning/cnns/01-what-is-cnn.md:
     name: What is a CNN
     category: cnns
     attempts: []
-  ml-rapid-fire/deep-learning/cnns/02-convolution-operation.md:
+  ml-rapid-fire/03-deep-learning/cnns/02-convolution-operation.md:
     name: Convolution Operation
     category: cnns
     attempts: []
-  ml-rapid-fire/deep-learning/cnns/03-cnn-hyperparameters.md:
+  ml-rapid-fire/03-deep-learning/cnns/03-cnn-hyperparameters.md:
     name: CNN Hyperparameters
     category: cnns
     attempts: []
-  ml-rapid-fire/deep-learning/cnns/04-pooling.md:
+  ml-rapid-fire/03-deep-learning/cnns/04-pooling.md:
     name: Pooling
     category: cnns
     attempts: []
-  ml-rapid-fire/deep-learning/cnns/05-cnn-architecture.md:
+  ml-rapid-fire/03-deep-learning/cnns/05-cnn-architecture.md:
     name: CNN Architecture
     category: cnns
     attempts: []
-  ml-rapid-fire/deep-learning/cnns/06-receptive-field.md:
+  ml-rapid-fire/03-deep-learning/cnns/06-receptive-field.md:
     name: Receptive Field
     category: cnns
     attempts: []
-  ml-rapid-fire/deep-learning/cnns/07-1x1-convolutions.md:
+  ml-rapid-fire/03-deep-learning/cnns/07-1x1-convolutions.md:
     name: 1x1 Convolutions
     category: cnns
     attempts: []
-  ml-rapid-fire/deep-learning/cnns/08-famous-architectures.md:
+  ml-rapid-fire/03-deep-learning/cnns/08-famous-architectures.md:
     name: Famous CNN Architectures
     category: cnns
     attempts: []
-  ml-rapid-fire/deep-learning/cnns/09-transfer-learning.md:
+  ml-rapid-fire/03-deep-learning/cnns/09-transfer-learning.md:
     name: Transfer Learning in CNNs
     category: cnns
     attempts: []
-  ml-rapid-fire/deep-learning/rnns/01-what-is-rnn.md:
+  ml-rapid-fire/03-deep-learning/rnns/01-what-is-rnn.md:
     name: What is an RNN
     category: rnns
     attempts: []
-  ml-rapid-fire/deep-learning/rnns/02-rnn-applications.md:
+  ml-rapid-fire/03-deep-learning/rnns/02-rnn-applications.md:
     name: RNN Applications
     category: rnns
     attempts: []
-  ml-rapid-fire/deep-learning/rnns/03-rnn-limitations.md:
+  ml-rapid-fire/03-deep-learning/rnns/03-rnn-limitations.md:
     name: RNN Limitations
     category: rnns
     attempts: []
-  ml-rapid-fire/deep-learning/rnns/04-lstm.md:
+  ml-rapid-fire/03-deep-learning/rnns/04-lstm.md:
     name: LSTM
     category: rnns
     attempts: []
-  ml-rapid-fire/deep-learning/rnns/05-lstm-gates.md:
+  ml-rapid-fire/03-deep-learning/rnns/05-lstm-gates.md:
     name: LSTM Gates
     category: rnns
     attempts: []
-  ml-rapid-fire/deep-learning/rnns/06-gru.md:
+  ml-rapid-fire/03-deep-learning/rnns/06-gru.md:
     name: GRU
     category: rnns
     attempts: []
-  ml-rapid-fire/deep-learning/rnns/07-seq2seq.md:
+  ml-rapid-fire/03-deep-learning/rnns/07-seq2seq.md:
     name: Sequence-to-Sequence
     category: rnns
     attempts: []
-  ml-rapid-fire/deep-learning/rnns/08-bidirectional-rnn.md:
+  ml-rapid-fire/03-deep-learning/rnns/08-bidirectional-rnn.md:
     name: Bidirectional RNNs
     category: rnns
     attempts: []
-  ml-rapid-fire/deep-learning/rnns/09-teacher-forcing.md:
+  ml-rapid-fire/03-deep-learning/rnns/09-teacher-forcing.md:
     name: Teacher Forcing
     category: rnns
     attempts: []
-  ml-rapid-fire/deep-learning/transformers/01-what-is-attention.md:
+  ml-rapid-fire/03-deep-learning/transformers/01-what-is-attention.md:
     name: What is Attention
     category: transformers
     attempts: []
-  ml-rapid-fire/deep-learning/transformers/02-scaled-dot-product-attention.md:
+  ml-rapid-fire/03-deep-learning/transformers/02-scaled-dot-product-attention.md:
     name: Scaled Dot-Product Attention
     category: transformers
     attempts: []
-  ml-rapid-fire/deep-learning/transformers/03-self-vs-cross-attention.md:
+  ml-rapid-fire/03-deep-learning/transformers/03-self-vs-cross-attention.md:
     name: Self-Attention vs Cross-Attention
     category: transformers
     attempts: []
-  ml-rapid-fire/deep-learning/transformers/04-multi-head-attention.md:
+  ml-rapid-fire/03-deep-learning/transformers/04-multi-head-attention.md:
     name: Multi-Head Attention
     category: transformers
     attempts: []
-  ml-rapid-fire/deep-learning/transformers/05-positional-encoding.md:
+  ml-rapid-fire/03-deep-learning/transformers/05-positional-encoding.md:
     name: Positional Encoding
     category: transformers
     attempts: []
-  ml-rapid-fire/deep-learning/transformers/06-transformer-architecture.md:
+  ml-rapid-fire/03-deep-learning/transformers/06-transformer-architecture.md:
     name: Transformer Architecture
     category: transformers
     attempts: []
-  ml-rapid-fire/deep-learning/transformers/07-bert-pretraining.md:
+  ml-rapid-fire/03-deep-learning/transformers/07-bert-pretraining.md:
     name: BERT Pre-training
     category: transformers
     attempts: []
-  ml-rapid-fire/deep-learning/transformers/08-gpt-vs-bert.md:
+  ml-rapid-fire/03-deep-learning/transformers/08-gpt-vs-bert.md:
     name: GPT vs BERT
     category: transformers
     attempts: []
-  ml-rapid-fire/deep-learning/transformers/09-encoder-vs-decoder-models.md:
+  ml-rapid-fire/03-deep-learning/transformers/09-encoder-vs-decoder-models.md:
     name: Encoder vs Decoder Models
     category: transformers
     attempts: []
-  ml-rapid-fire/model-evaluation/classification-metrics/01-tp-fp-tn-fn.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/01-tp-fp-tn-fn.md:
     name: TP, FP, TN, FN
     category: classification-metrics
     attempts:
     - date: '2025-12-07T20:32:05.298402'
       recall: full
-  ml-rapid-fire/model-evaluation/classification-metrics/02-confusion-matrix.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/02-confusion-matrix.md:
     name: Confusion Matrix
     category: classification-metrics
     attempts:
     - date: '2025-11-29T13:13:46.393402'
       recall: partial-
-  ml-rapid-fire/model-evaluation/classification-metrics/03-type-i-type-ii.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/03-type-i-type-ii.md:
     name: Type I and Type II Errors
     category: classification-metrics
     attempts:
     - date: '2025-12-07T20:34:58.389967'
       recall: full
-  ml-rapid-fire/model-evaluation/classification-metrics/04-total.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/04-total.md:
     name: Total
     category: classification-metrics
     attempts:
     - date: '2025-12-07T20:41:20.072854'
       recall: full
-  ml-rapid-fire/model-evaluation/classification-metrics/05-accuracy.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/05-accuracy.md:
     name: Accuracy
     category: classification-metrics
     attempts:
     - date: '2025-11-29T13:23:35.288084'
       recall: partial-
-  ml-rapid-fire/model-evaluation/classification-metrics/06-precision.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/06-precision.md:
     name: Precision
     category: classification-metrics
     attempts:
     - date: '2025-11-29T13:32:57.250643'
       recall: partial-
-  ml-rapid-fire/model-evaluation/classification-metrics/07-recall.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/07-recall.md:
     name: Recall
     category: classification-metrics
     attempts:
     - date: '2025-11-29T14:15:00.000000'
       recall: full
       notes: Got 4/5 - missed alternative names (sensitivity, TPR)
-  ml-rapid-fire/model-evaluation/classification-metrics/08-specificity.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/08-specificity.md:
     name: Specificity
     category: classification-metrics
     attempts:
     - date: '2025-12-07T20:37:16.305301'
       recall: none
-  ml-rapid-fire/model-evaluation/classification-metrics/09-f1-score.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/09-f1-score.md:
     name: F1 Score
     category: classification-metrics
     attempts:
     - date: '2025-11-29T14:18:00.000000'
       recall: none
-  ml-rapid-fire/model-evaluation/classification-metrics/10-precision-recall-tradeoff.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/10-precision-recall-tradeoff.md:
     name: Precision-Recall Tradeoff
     category: classification-metrics
     attempts:
@@ -1025,66 +1025,66 @@ flashcards:
       recall: partial-
       notes: Got tradeoff concept with examples, said 'accuracy' instead of 'precision',
         missed threshold framing
-  ml-rapid-fire/model-evaluation/classification-metrics/11-roc-curve.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/11-roc-curve.md:
     name: ROC Curve
     category: classification-metrics
     attempts:
     - date: '2025-11-29T17:18:14.708641'
       recall: none
-  ml-rapid-fire/model-evaluation/classification-metrics/12-auc-roc.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/12-auc-roc.md:
     name: AUC-ROC
     category: classification-metrics
     attempts:
     - date: '2025-11-29T18:07:37.484874'
       recall: none
-  ml-rapid-fire/model-evaluation/classification-metrics/13-pr-curve-vs-roc.md:
+  ml-rapid-fire/02-model-evaluation/classification-metrics/13-pr-curve-vs-roc.md:
     name: PR Curve vs ROC
     category: classification-metrics
     attempts:
     - date: '2025-11-29T18:14:16.291418'
       recall: none
-  ml-rapid-fire/model-evaluation/regression-metrics/01-mse.md:
+  ml-rapid-fire/02-model-evaluation/regression-metrics/01-mse.md:
     name: Mean Squared Error
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:07:34.403692'
       recall: partial-
       notes: Got formula, missed loss function definition and OLS distinction
-  ml-rapid-fire/model-evaluation/regression-metrics/02-rmse.md:
+  ml-rapid-fire/02-model-evaluation/regression-metrics/02-rmse.md:
     name: Root Mean Squared Error
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:08:16.822233'
       recall: none
       notes: Didn't remember
-  ml-rapid-fire/model-evaluation/regression-metrics/03-mae.md:
+  ml-rapid-fire/02-model-evaluation/regression-metrics/03-mae.md:
     name: Mean Absolute Error
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:18:19.289113'
       recall: partial-
       notes: Got formula and outlier robustness, missed optimization tradeoff
-  ml-rapid-fire/model-evaluation/regression-metrics/04-mse-vs-mae.md:
+  ml-rapid-fire/02-model-evaluation/regression-metrics/04-mse-vs-mae.md:
     name: MSE vs MAE
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:21:10.609439'
       recall: none
       notes: Looked at answer, summary card
-  ml-rapid-fire/model-evaluation/regression-metrics/05-sum-of-squares.md:
+  ml-rapid-fire/02-model-evaluation/regression-metrics/05-sum-of-squares.md:
     name: Sum of Squares (SST, SSE, SSR)
     category: regression-metrics
     attempts:
     - date: '2025-12-07T20:39:42.397907'
       recall: partial-
-  ml-rapid-fire/model-evaluation/regression-metrics/06-r-squared.md:
+  ml-rapid-fire/02-model-evaluation/regression-metrics/06-r-squared.md:
     name: R-Squared
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:22:20.245453'
       recall: partial-
       notes: Got variance explained concept, missed formula and baseline interpretation
-  ml-rapid-fire/model-evaluation/regression-metrics/07-r-squared-limitations.md:
+  ml-rapid-fire/02-model-evaluation/regression-metrics/07-r-squared-limitations.md:
     name: R-Squared Limitations
     category: regression-metrics
     attempts:
@@ -1092,7 +1092,7 @@ flashcards:
       recall: partial-
       notes: Got key limitation (always increases with features), missed bias/overfitting/negative
         values
-  ml-rapid-fire/model-evaluation/regression-metrics/08-adjusted-r-squared.md:
+  ml-rapid-fire/02-model-evaluation/regression-metrics/08-adjusted-r-squared.md:
     name: Adjusted R-Squared
     category: regression-metrics
     attempts:
@@ -1100,7 +1100,7 @@ flashcards:
       recall: partial-
       notes: Got key purpose (addresses complexity limitation), missed formula and
         mechanics
-  ml-rapid-fire/model-evaluation/validation/01-train-test-split.md:
+  ml-rapid-fire/02-model-evaluation/validation/01-train-test-split.md:
     name: Train/Test Split
     category: validation
     attempts:
@@ -1108,21 +1108,21 @@ flashcards:
       recall: partial-
       notes: Got generalization, missed train purpose and once-only rule (no criteria
         in Q)
-  ml-rapid-fire/model-evaluation/validation/02-validation-set-purpose.md:
+  ml-rapid-fire/02-model-evaluation/validation/02-validation-set-purpose.md:
     name: Validation Set Purpose
     category: validation
     attempts:
     - date: '2025-11-29T20:42:18.511144'
       recall: partial+
       notes: Got validation/test purposes and workflow, missed split ratios
-  ml-rapid-fire/model-evaluation/validation/03-k-fold-cross-validation.md:
+  ml-rapid-fire/02-model-evaluation/validation/03-k-fold-cross-validation.md:
     name: K-Fold Cross-Validation
     category: validation
     attempts:
     - date: '2025-11-29T20:44:53.143863'
       recall: partial+
       notes: Got k-fold rotation mechanics with examples, missed averaging step
-  ml-rapid-fire/model-evaluation/validation/04-stratified-k-fold.md:
+  ml-rapid-fire/02-model-evaluation/validation/04-stratified-k-fold.md:
     name: Stratified K-Fold
     category: validation
     attempts:
@@ -1130,7 +1130,7 @@ flashcards:
       recall: partial+
       notes: Got class distribution preservation, imbalanced use case, good example;
         missed variance reduction benefit
-  ml-rapid-fire/model-evaluation/validation/05-loocv.md:
+  ml-rapid-fire/02-model-evaluation/validation/05-loocv.md:
     name: Leave-One-Out Cross-Validation
     category: validation
     attempts:
@@ -1138,14 +1138,14 @@ flashcards:
       recall: partial-
       notes: Got mechanics (train n-1, test 1, rotate n times), missed tradeoffs (expensive,
         high variance) and use case (small datasets)
-  ml-rapid-fire/model-evaluation/validation/06-holdout-vs-cv.md:
+  ml-rapid-fire/02-model-evaluation/validation/06-holdout-vs-cv.md:
     name: Holdout vs Cross-Validation
     category: validation
     attempts:
     - date: '2025-11-29T21:02:12.960236'
       recall: none
       notes: Reviewed answer, learned holdout vs CV tradeoffs
-  ml-rapid-fire/model-evaluation/validation/07-data-leakage.md:
+  ml-rapid-fire/02-model-evaluation/validation/07-data-leakage.md:
     name: Data Leakage
     category: validation
     attempts:
@@ -1153,7 +1153,7 @@ flashcards:
       recall: partial+
       notes: Got target leakage concept with great quant finance example (OHLC), missed
         preprocessing leakage and prevention strategies
-  ml-rapid-fire/model-evaluation/validation/08-time-series-validation.md:
+  ml-rapid-fire/02-model-evaluation/validation/08-time-series-validation.md:
     name: Time Series Validation
     category: validation
     attempts:
@@ -1161,7 +1161,7 @@ flashcards:
       recall: partial+
       notes: Got core principle (train past, validate future); provided extended answer
         with 3 IID reasons and window approaches
-  ml-rapid-fire/model-evaluation/validation/09-bias-variance-cv.md:
+  ml-rapid-fire/02-model-evaluation/validation/09-bias-variance-cv.md:
     name: Bias-Variance in Cross-Validation
     category: validation
     attempts:
@@ -1169,7 +1169,7 @@ flashcards:
       recall: none
       notes: Reviewed in depth; clarified that bias/variance refers to CV estimate,
         not model
-  ml-rapid-fire/model-evaluation/validation/10-nested-cross-validation.md:
+  ml-rapid-fire/02-model-evaluation/validation/10-nested-cross-validation.md:
     name: Nested Cross-Validation
     category: validation
     attempts:
@@ -1177,7 +1177,7 @@ flashcards:
       recall: none
       notes: Reviewed with visual; understood after explanation - CV inside CV to
         avoid optimistic bias
-  ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md:
+  ml-rapid-fire/02-model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md:
     name: What is Hyperparameter Tuning
     category: model-selection
     attempts:
@@ -1185,7 +1185,7 @@ flashcards:
       recall: partial+
       notes: Got core concepts with good examples (tree depth, num trees); mentioned
         grid search; good insight on why necessary
-  ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md:
+  ml-rapid-fire/02-model-evaluation/model-selection/02-grid-search.md:
     name: Grid Search
     category: model-selection
     attempts:
@@ -1193,7 +1193,7 @@ flashcards:
       recall: partial+
       notes: Got core concept of grid formation and search process; missed exhaustive
         nature and computational cost
-  ml-rapid-fire/model-evaluation/model-selection/03-random-search.md:
+  ml-rapid-fire/02-model-evaluation/model-selection/03-random-search.md:
     name: Random Search
     category: model-selection
     attempts:
@@ -1201,791 +1201,791 @@ flashcards:
       recall: partial+
       notes: Got mechanics and curse of dimensionality; missed Bergstra insight about
         important hyperparameters
-  ml-rapid-fire/model-evaluation/model-selection/04-bayesian-optimization.md:
+  ml-rapid-fire/02-model-evaluation/model-selection/04-bayesian-optimization.md:
     name: Bayesian Optimization
     category: model-selection
     attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/07-cv-for-model-selection.md:
+  ml-rapid-fire/02-model-evaluation/model-selection/07-cv-for-model-selection.md:
     name: Cross-Validation for Model Selection
     category: model-selection
     attempts:
     - date: '2025-12-07T20:42:18.009140'
       recall: none
-  ml-rapid-fire/model-evaluation/model-selection/09-learning-curves.md:
+  ml-rapid-fire/02-model-evaluation/model-selection/09-learning-curves.md:
     name: Learning Curves
     category: model-selection
     attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/11-validation-curve.md:
+  ml-rapid-fire/02-model-evaluation/model-selection/11-validation-curve.md:
     name: Validation Curve
     category: model-selection
     attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/14-early-stopping.md:
+  ml-rapid-fire/02-model-evaluation/model-selection/14-early-stopping.md:
     name: Early Stopping as Model Selection
     category: model-selection
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/01-what-is-loss-function.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/01-what-is-loss-function.md:
     name: What is a Loss Function
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/02-loss-function-properties.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/02-loss-function-properties.md:
     name: Loss Function Properties
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/03-mse.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/03-mse.md:
     name: MSE (Mean Squared Error)
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/04-mse-formula.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/04-mse-formula.md:
     name: MSE Formula
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/05-mse-properties.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/05-mse-properties.md:
     name: MSE Properties
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/06-mse-when-to-use.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/06-mse-when-to-use.md:
     name: MSE When to Use
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/07-mae.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/07-mae.md:
     name: MAE (Mean Absolute Error)
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/08-mae-formula.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/08-mae-formula.md:
     name: MAE Formula
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/09-mae-properties.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/09-mae-properties.md:
     name: MAE Properties
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/10-mae-when-to-use.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/10-mae-when-to-use.md:
     name: MAE When to Use
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/11-binary-cross-entropy.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/11-binary-cross-entropy.md:
     name: Binary Cross-Entropy
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/12-binary-cross-entropy-formula.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/12-binary-cross-entropy-formula.md:
     name: Binary Cross-Entropy Formula
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/13-binary-cross-entropy-properties.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/13-binary-cross-entropy-properties.md:
     name: Binary Cross-Entropy Properties
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/14-binary-cross-entropy-when-to-use.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/14-binary-cross-entropy-when-to-use.md:
     name: Binary Cross-Entropy When to Use
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/15-binary-cross-entropy-how-to-use.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/15-binary-cross-entropy-how-to-use.md:
     name: Binary Cross-Entropy How to Use
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/16-categorical-cross-entropy.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/16-categorical-cross-entropy.md:
     name: Categorical Cross-Entropy
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/17-categorical-cross-entropy-formula.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/17-categorical-cross-entropy-formula.md:
     name: Categorical Cross-Entropy Formula
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/18-categorical-cross-entropy-properties.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/18-categorical-cross-entropy-properties.md:
     name: Categorical Cross-Entropy Properties
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/19-categorical-cross-entropy-when-to-use.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/19-categorical-cross-entropy-when-to-use.md:
     name: Categorical Cross-Entropy When to Use
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/20-categorical-cross-entropy-how-to-use.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/20-categorical-cross-entropy-how-to-use.md:
     name: Categorical Cross-Entropy How to Use
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/21-huber-loss.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/21-huber-loss.md:
     name: Huber Loss
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/22-huber-loss-formula.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/22-huber-loss-formula.md:
     name: Huber Loss Formula
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/23-huber-loss-properties.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/23-huber-loss-properties.md:
     name: Huber Loss Properties
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/24-huber-loss-when-to-use.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/24-huber-loss-when-to-use.md:
     name: Huber Loss When to Use
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/25-huber-loss-how-to-use.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/25-huber-loss-how-to-use.md:
     name: Huber Loss How to Use
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/26-log-loss-vs-cross-entropy.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/26-log-loss-vs-cross-entropy.md:
     name: Log Loss vs Cross-Entropy
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/27-softmax-cross-entropy.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/27-softmax-cross-entropy.md:
     name: Softmax Cross-Entropy
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/28-choosing-loss-function.md:
+  ml-rapid-fire/02-model-evaluation/loss-functions/28-choosing-loss-function.md:
     name: Choosing a Loss Function
     category: loss-functions
     attempts: []
-  ml-rapid-fire/statistics/probability-basics/01-probability-axioms.md:
+  ml-rapid-fire/04-statistics/probability-basics/01-probability-axioms.md:
     name: Probability Axioms
     category: probability-basics
     attempts: []
-  ml-rapid-fire/statistics/probability-basics/02-conditional-probability.md:
+  ml-rapid-fire/04-statistics/probability-basics/02-conditional-probability.md:
     name: Conditional Probability
     category: probability-basics
     attempts: []
-  ml-rapid-fire/statistics/probability-basics/03-bayes-theorem.md:
+  ml-rapid-fire/04-statistics/probability-basics/03-bayes-theorem.md:
     name: Bayes' Theorem
     category: probability-basics
     attempts: []
-  ml-rapid-fire/statistics/probability-basics/04-prior-likelihood-posterior.md:
+  ml-rapid-fire/04-statistics/probability-basics/04-prior-likelihood-posterior.md:
     name: Prior, Likelihood, Posterior
     category: probability-basics
     attempts: []
-  ml-rapid-fire/statistics/probability-basics/05-independence.md:
+  ml-rapid-fire/04-statistics/probability-basics/05-independence.md:
     name: Independence
     category: probability-basics
     attempts: []
-  ml-rapid-fire/statistics/probability-basics/06-conditional-independence.md:
+  ml-rapid-fire/04-statistics/probability-basics/06-conditional-independence.md:
     name: Conditional Independence
     category: probability-basics
     attempts: []
-  ml-rapid-fire/statistics/probability-basics/07-law-of-total-probability.md:
+  ml-rapid-fire/04-statistics/probability-basics/07-law-of-total-probability.md:
     name: Law of Total Probability
     category: probability-basics
     attempts: []
-  ml-rapid-fire/statistics/probability-basics/08-joint-vs-marginal-probability.md:
+  ml-rapid-fire/04-statistics/probability-basics/08-joint-vs-marginal-probability.md:
     name: Joint vs Marginal Probability
     category: probability-basics
     attempts: []
-  ml-rapid-fire/statistics/probability-basics/09-mutually-exclusive-vs-independent.md:
+  ml-rapid-fire/04-statistics/probability-basics/09-mutually-exclusive-vs-independent.md:
     name: Mutually Exclusive vs Independent
     category: probability-basics
     attempts: []
-  ml-rapid-fire/statistics/probability-basics/10-chain-rule-of-probability.md:
+  ml-rapid-fire/04-statistics/probability-basics/10-chain-rule-of-probability.md:
     name: Chain Rule of Probability
     category: probability-basics
     attempts: []
-  ml-rapid-fire/statistics/distributions/01-normal-distribution.md:
+  ml-rapid-fire/04-statistics/distributions/01-normal-distribution.md:
     name: Normal Distribution
     category: distributions
     attempts: []
-  ml-rapid-fire/statistics/distributions/02-binomial-distribution.md:
+  ml-rapid-fire/04-statistics/distributions/02-binomial-distribution.md:
     name: Binomial Distribution
     category: distributions
     attempts: []
-  ml-rapid-fire/statistics/distributions/03-poisson-distribution.md:
+  ml-rapid-fire/04-statistics/distributions/03-poisson-distribution.md:
     name: Poisson Distribution
     category: distributions
     attempts: []
-  ml-rapid-fire/statistics/distributions/04-uniform-distribution.md:
+  ml-rapid-fire/04-statistics/distributions/04-uniform-distribution.md:
     name: Uniform Distribution
     category: distributions
     attempts: []
-  ml-rapid-fire/statistics/distributions/05-exponential-distribution.md:
+  ml-rapid-fire/04-statistics/distributions/05-exponential-distribution.md:
     name: Exponential Distribution
     category: distributions
     attempts: []
-  ml-rapid-fire/statistics/distributions/06-geometric-distribution.md:
+  ml-rapid-fire/04-statistics/distributions/06-geometric-distribution.md:
     name: Geometric Distribution
     category: distributions
     attempts: []
-  ml-rapid-fire/statistics/distributions/07-beta-distribution.md:
+  ml-rapid-fire/04-statistics/distributions/07-beta-distribution.md:
     name: Beta Distribution
     category: distributions
     attempts: []
-  ml-rapid-fire/statistics/distributions/08-log-normal-distribution.md:
+  ml-rapid-fire/04-statistics/distributions/08-log-normal-distribution.md:
     name: Log-Normal Distribution
     category: distributions
     attempts: []
-  ml-rapid-fire/statistics/distributions/09-central-limit-theorem.md:
+  ml-rapid-fire/04-statistics/distributions/09-central-limit-theorem.md:
     name: Central Limit Theorem
     category: distributions
     attempts: []
-  ml-rapid-fire/statistics/distributions/10-heavy-tailed-distributions.md:
+  ml-rapid-fire/04-statistics/distributions/10-heavy-tailed-distributions.md:
     name: Heavy-Tailed Distributions
     category: distributions
     attempts: []
-  ml-rapid-fire/statistics/descriptive-stats/01-mean-median-mode.md:
+  ml-rapid-fire/04-statistics/descriptive-stats/01-mean-median-mode.md:
     name: Mean, Median, Mode
     category: descriptive-stats
     attempts: []
-  ml-rapid-fire/statistics/descriptive-stats/02-variance-std-dev.md:
+  ml-rapid-fire/04-statistics/descriptive-stats/02-variance-std-dev.md:
     name: Variance and Standard Deviation
     category: descriptive-stats
     attempts: []
-  ml-rapid-fire/statistics/descriptive-stats/03-covariance.md:
+  ml-rapid-fire/04-statistics/descriptive-stats/03-covariance.md:
     name: Covariance
     category: descriptive-stats
     attempts: []
-  ml-rapid-fire/statistics/descriptive-stats/04-correlation.md:
+  ml-rapid-fire/04-statistics/descriptive-stats/04-correlation.md:
     name: Correlation (Pearson)
     category: descriptive-stats
     attempts: []
-  ml-rapid-fire/statistics/descriptive-stats/05-pearson-vs-spearman.md:
+  ml-rapid-fire/04-statistics/descriptive-stats/05-pearson-vs-spearman.md:
     name: Pearson vs Spearman Correlation
     category: descriptive-stats
     attempts: []
-  ml-rapid-fire/statistics/descriptive-stats/06-skewness.md:
+  ml-rapid-fire/04-statistics/descriptive-stats/06-skewness.md:
     name: Skewness
     category: descriptive-stats
     attempts: []
-  ml-rapid-fire/statistics/descriptive-stats/07-kurtosis.md:
+  ml-rapid-fire/04-statistics/descriptive-stats/07-kurtosis.md:
     name: Kurtosis
     category: descriptive-stats
     attempts: []
-  ml-rapid-fire/statistics/descriptive-stats/08-z-score.md:
+  ml-rapid-fire/04-statistics/descriptive-stats/08-z-score.md:
     name: Z-Score (Standardization)
     category: descriptive-stats
     attempts: []
-  ml-rapid-fire/statistics/descriptive-stats/09-law-of-large-numbers.md:
+  ml-rapid-fire/04-statistics/descriptive-stats/09-law-of-large-numbers.md:
     name: Law of Large Numbers
     category: descriptive-stats
     attempts: []
-  ml-rapid-fire/statistics/statistical-inference/01-hypothesis-testing.md:
+  ml-rapid-fire/04-statistics/statistical-inference/01-hypothesis-testing.md:
     name: Hypothesis Testing Framework
     category: statistical-inference
     attempts: []
-  ml-rapid-fire/statistics/statistical-inference/02-type-i-type-ii-errors.md:
+  ml-rapid-fire/04-statistics/statistical-inference/02-type-i-type-ii-errors.md:
     name: Type I and Type II Errors
     category: statistical-inference
     attempts: []
-  ml-rapid-fire/statistics/statistical-inference/03-p-values.md:
+  ml-rapid-fire/04-statistics/statistical-inference/03-p-values.md:
     name: P-Values
     category: statistical-inference
     attempts: []
-  ml-rapid-fire/statistics/statistical-inference/04-confidence-intervals.md:
+  ml-rapid-fire/04-statistics/statistical-inference/04-confidence-intervals.md:
     name: Confidence Intervals
     category: statistical-inference
     attempts: []
-  ml-rapid-fire/statistics/statistical-inference/05-t-test-vs-z-test.md:
+  ml-rapid-fire/04-statistics/statistical-inference/05-t-test-vs-z-test.md:
     name: T-Test vs Z-Test
     category: statistical-inference
     attempts: []
-  ml-rapid-fire/statistics/statistical-inference/06-statistical-power.md:
+  ml-rapid-fire/04-statistics/statistical-inference/06-statistical-power.md:
     name: Statistical Power
     category: statistical-inference
     attempts: []
-  ml-rapid-fire/statistics/statistical-inference/07-multiple-testing.md:
+  ml-rapid-fire/04-statistics/statistical-inference/07-multiple-testing.md:
     name: Multiple Testing Problem
     category: statistical-inference
     attempts: []
-  ml-rapid-fire/statistics/statistical-inference/08-ab-testing.md:
+  ml-rapid-fire/04-statistics/statistical-inference/08-ab-testing.md:
     name: A/B Testing
     category: statistical-inference
     attempts: []
-  ml-rapid-fire/statistics/statistical-inference/09-parametric-vs-nonparametric.md:
+  ml-rapid-fire/04-statistics/statistical-inference/09-parametric-vs-nonparametric.md:
     name: Parametric vs Nonparametric Tests
     category: statistical-inference
     attempts: []
-  ml-rapid-fire/statistics/mle-estimators/01-what-is-an-estimator.md:
+  ml-rapid-fire/04-statistics/mle-estimators/01-what-is-an-estimator.md:
     name: What is an Estimator?
     category: mle-estimators
     attempts: []
-  ml-rapid-fire/statistics/mle-estimators/02-bias-of-estimator.md:
+  ml-rapid-fire/04-statistics/mle-estimators/02-bias-of-estimator.md:
     name: Bias of an Estimator
     category: mle-estimators
     attempts: []
-  ml-rapid-fire/statistics/mle-estimators/03-variance-and-mse.md:
+  ml-rapid-fire/04-statistics/mle-estimators/03-variance-and-mse.md:
     name: Variance and MSE of Estimators
     category: mle-estimators
     attempts: []
-  ml-rapid-fire/statistics/mle-estimators/04-consistency.md:
+  ml-rapid-fire/04-statistics/mle-estimators/04-consistency.md:
     name: Consistency of Estimators
     category: mle-estimators
     attempts: []
-  ml-rapid-fire/statistics/mle-estimators/05-mle-intuition.md:
+  ml-rapid-fire/04-statistics/mle-estimators/05-mle-intuition.md:
     name: Maximum Likelihood Estimation (Intuition)
     category: mle-estimators
     attempts: []
-  ml-rapid-fire/statistics/mle-estimators/06-mle-derivation.md:
+  ml-rapid-fire/04-statistics/mle-estimators/06-mle-derivation.md:
     name: MLE Derivation Process
     category: mle-estimators
     attempts: []
-  ml-rapid-fire/statistics/mle-estimators/07-mle-vs-map.md:
+  ml-rapid-fire/04-statistics/mle-estimators/07-mle-vs-map.md:
     name: MLE vs MAP
     category: mle-estimators
     attempts: []
-  ml-rapid-fire/statistics/mle-estimators/08-method-of-moments.md:
+  ml-rapid-fire/04-statistics/mle-estimators/08-method-of-moments.md:
     name: Method of Moments
     category: mle-estimators
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/01-dot-product.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/01-dot-product.md:
     name: Dot Product
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/02-matrix-multiplication.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/02-matrix-multiplication.md:
     name: Matrix Multiplication
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/03-transpose.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/03-transpose.md:
     name: Matrix Transpose
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/04-vector-norms.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/04-vector-norms.md:
     name: Vector Norms
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/05-matrix-inverse.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/05-matrix-inverse.md:
     name: Matrix Inverse
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/06-rank.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/06-rank.md:
     name: Matrix Rank
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/07-orthogonality.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/07-orthogonality.md:
     name: Orthogonality
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/08-positive-definite.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/08-positive-definite.md:
     name: Positive Definite Matrices
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/09-linear-independence.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/09-linear-independence.md:
     name: Linear Independence
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/10-determinant.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/10-determinant.md:
     name: Determinant
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/11-eigenvalues-definition.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/11-eigenvalues-definition.md:
     name: Eigenvalues and Eigenvectors Definition
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/12-eigenvalue-properties.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/12-eigenvalue-properties.md:
     name: Eigenvalue Properties
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/13-spectral-theorem.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/13-spectral-theorem.md:
     name: Spectral Theorem
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/14-pca-connection.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/14-pca-connection.md:
     name: PCA and Eigenvalues
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/15-svd-definition.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/15-svd-definition.md:
     name: SVD Definition
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/16-svd-applications.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/16-svd-applications.md:
     name: SVD Applications
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/linear-algebra/17-matrix-decompositions.md:
+  ml-rapid-fire/07-mathematics/linear-algebra/17-matrix-decompositions.md:
     name: Matrix Decompositions
     category: linear-algebra
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/01-derivative-definition.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/01-derivative-definition.md:
     name: Derivative Definition
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/02-common-derivatives.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/02-common-derivatives.md:
     name: Common Derivatives
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/03-chain-rule.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/03-chain-rule.md:
     name: Chain Rule
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/04-partial-derivatives.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/04-partial-derivatives.md:
     name: Partial Derivatives
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/05-gradient.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/05-gradient.md:
     name: Gradient
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/06-jacobian.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/06-jacobian.md:
     name: Jacobian
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/07-hessian.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/07-hessian.md:
     name: Hessian
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/08-convex-functions.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/08-convex-functions.md:
     name: Convex Functions
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/09-convex-sets.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/09-convex-sets.md:
     name: Convex Sets and Optimization
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/10-gradient-descent-basics.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/10-gradient-descent-basics.md:
     name: Gradient Descent Basics
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/11-sgd-vs-batch.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/11-sgd-vs-batch.md:
     name: SGD vs Batch Gradient Descent
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/12-momentum.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/12-momentum.md:
     name: Momentum
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/13-learning-rate-schedules.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/13-learning-rate-schedules.md:
     name: Learning Rate Schedules
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/14-local-minima-saddle.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/14-local-minima-saddle.md:
     name: Local Minima and Saddle Points
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/mathematics/calculus-optimization/15-lagrange-multipliers.md:
+  ml-rapid-fire/07-mathematics/calculus-optimization/15-lagrange-multipliers.md:
     name: Lagrange Multipliers
     category: calculus-optimization
     attempts: []
-  ml-rapid-fire/data-engineering/feature-engineering/01-feature-scaling-why.md:
+  ml-rapid-fire/08-data-engineering/feature-engineering/01-feature-scaling-why.md:
     name: Why Feature Scaling
     category: feature-engineering
     attempts: []
-  ml-rapid-fire/data-engineering/feature-engineering/02-standardization.md:
+  ml-rapid-fire/08-data-engineering/feature-engineering/02-standardization.md:
     name: Standardization (Z-Score Scaling)
     category: feature-engineering
     attempts: []
-  ml-rapid-fire/data-engineering/feature-engineering/03-min-max-scaling.md:
+  ml-rapid-fire/08-data-engineering/feature-engineering/03-min-max-scaling.md:
     name: Min-Max Scaling
     category: feature-engineering
     attempts: []
-  ml-rapid-fire/data-engineering/feature-engineering/04-robust-scaling.md:
+  ml-rapid-fire/08-data-engineering/feature-engineering/04-robust-scaling.md:
     name: Robust Scaling
     category: feature-engineering
     attempts: []
-  ml-rapid-fire/data-engineering/feature-engineering/05-one-hot-encoding.md:
+  ml-rapid-fire/08-data-engineering/feature-engineering/05-one-hot-encoding.md:
     name: One-Hot Encoding
     category: feature-engineering
     attempts: []
-  ml-rapid-fire/data-engineering/feature-engineering/06-label-encoding.md:
+  ml-rapid-fire/08-data-engineering/feature-engineering/06-label-encoding.md:
     name: Label Encoding
     category: feature-engineering
     attempts: []
-  ml-rapid-fire/data-engineering/feature-engineering/07-target-encoding.md:
+  ml-rapid-fire/08-data-engineering/feature-engineering/07-target-encoding.md:
     name: Target Encoding
     category: feature-engineering
     attempts: []
-  ml-rapid-fire/data-engineering/feature-engineering/08-feature-selection-filter.md:
+  ml-rapid-fire/08-data-engineering/feature-engineering/08-feature-selection-filter.md:
     name: Filter Methods for Feature Selection
     category: feature-engineering
     attempts: []
-  ml-rapid-fire/data-engineering/feature-engineering/09-feature-selection-wrapper.md:
+  ml-rapid-fire/08-data-engineering/feature-engineering/09-feature-selection-wrapper.md:
     name: Wrapper Methods for Feature Selection
     category: feature-engineering
     attempts: []
-  ml-rapid-fire/data-engineering/feature-engineering/10-feature-selection-embedded.md:
+  ml-rapid-fire/08-data-engineering/feature-engineering/10-feature-selection-embedded.md:
     name: Embedded Methods for Feature Selection
     category: feature-engineering
     attempts: []
-  ml-rapid-fire/data-engineering/feature-engineering/11-feature-engineering-numeric.md:
+  ml-rapid-fire/08-data-engineering/feature-engineering/11-feature-engineering-numeric.md:
     name: Numeric Feature Engineering
     category: feature-engineering
     attempts: []
-  ml-rapid-fire/data-engineering/feature-engineering/12-data-leakage.md:
+  ml-rapid-fire/08-data-engineering/feature-engineering/12-data-leakage.md:
     name: Data Leakage
     category: feature-engineering
     attempts: []
-  ml-rapid-fire/data-engineering/missing-data/01-types-of-missingness.md:
+  ml-rapid-fire/08-data-engineering/missing-data/01-types-of-missingness.md:
     name: Types of Missing Data
     category: missing-data
     attempts: []
-  ml-rapid-fire/data-engineering/missing-data/02-simple-imputation.md:
+  ml-rapid-fire/08-data-engineering/missing-data/02-simple-imputation.md:
     name: Simple Imputation Methods
     category: missing-data
     attempts: []
-  ml-rapid-fire/data-engineering/missing-data/03-knn-imputation.md:
+  ml-rapid-fire/08-data-engineering/missing-data/03-knn-imputation.md:
     name: KNN Imputation
     category: missing-data
     attempts: []
-  ml-rapid-fire/data-engineering/missing-data/04-mice-imputation.md:
+  ml-rapid-fire/08-data-engineering/missing-data/04-mice-imputation.md:
     name: MICE (Multiple Imputation by Chained Equations)
     category: missing-data
     attempts: []
-  ml-rapid-fire/data-engineering/missing-data/05-missing-indicator.md:
+  ml-rapid-fire/08-data-engineering/missing-data/05-missing-indicator.md:
     name: Missing Indicator Features
     category: missing-data
     attempts: []
-  ml-rapid-fire/data-engineering/missing-data/06-deletion-methods.md:
+  ml-rapid-fire/08-data-engineering/missing-data/06-deletion-methods.md:
     name: Deletion Methods for Missing Data
     category: missing-data
     attempts: []
-  ml-rapid-fire/data-engineering/missing-data/07-time-series-imputation.md:
+  ml-rapid-fire/08-data-engineering/missing-data/07-time-series-imputation.md:
     name: Time Series Imputation
     category: missing-data
     attempts: []
-  ml-rapid-fire/data-engineering/missing-data/08-imputation-best-practices.md:
+  ml-rapid-fire/08-data-engineering/missing-data/08-imputation-best-practices.md:
     name: Imputation Best Practices
     category: missing-data
     attempts: []
-  ml-rapid-fire/data-engineering/imbalanced-data/01-why-imbalance-matters.md:
+  ml-rapid-fire/08-data-engineering/imbalanced-data/01-why-imbalance-matters.md:
     name: Why Class Imbalance Matters
     category: imbalanced-data
     attempts: []
-  ml-rapid-fire/data-engineering/imbalanced-data/02-metrics-for-imbalanced.md:
+  ml-rapid-fire/08-data-engineering/imbalanced-data/02-metrics-for-imbalanced.md:
     name: Metrics for Imbalanced Data
     category: imbalanced-data
     attempts: []
-  ml-rapid-fire/data-engineering/imbalanced-data/03-random-oversampling.md:
+  ml-rapid-fire/08-data-engineering/imbalanced-data/03-random-oversampling.md:
     name: Random Oversampling
     category: imbalanced-data
     attempts: []
-  ml-rapid-fire/data-engineering/imbalanced-data/04-random-undersampling.md:
+  ml-rapid-fire/08-data-engineering/imbalanced-data/04-random-undersampling.md:
     name: Random Undersampling
     category: imbalanced-data
     attempts: []
-  ml-rapid-fire/data-engineering/imbalanced-data/05-smote.md:
+  ml-rapid-fire/08-data-engineering/imbalanced-data/05-smote.md:
     name: SMOTE
     category: imbalanced-data
     attempts: []
-  ml-rapid-fire/data-engineering/imbalanced-data/06-smote-variants.md:
+  ml-rapid-fire/08-data-engineering/imbalanced-data/06-smote-variants.md:
     name: SMOTE Variants
     category: imbalanced-data
     attempts: []
-  ml-rapid-fire/data-engineering/imbalanced-data/07-class-weights.md:
+  ml-rapid-fire/08-data-engineering/imbalanced-data/07-class-weights.md:
     name: Class Weights
     category: imbalanced-data
     attempts: []
-  ml-rapid-fire/data-engineering/imbalanced-data/08-threshold-tuning.md:
+  ml-rapid-fire/08-data-engineering/imbalanced-data/08-threshold-tuning.md:
     name: Threshold Tuning
     category: imbalanced-data
     attempts: []
-  ml-rapid-fire/data-engineering/imbalanced-data/09-ensemble-methods.md:
+  ml-rapid-fire/08-data-engineering/imbalanced-data/09-ensemble-methods.md:
     name: Ensemble Methods for Imbalanced Data
     category: imbalanced-data
     attempts: []
-  ml-rapid-fire/data-engineering/imbalanced-data/10-cost-sensitive-learning.md:
+  ml-rapid-fire/08-data-engineering/imbalanced-data/10-cost-sensitive-learning.md:
     name: Cost-Sensitive Learning
     category: imbalanced-data
     attempts: []
-  ml-rapid-fire/data-engineering/text-processing/01-tokenization.md:
+  ml-rapid-fire/08-data-engineering/text-processing/01-tokenization.md:
     name: Tokenization
     category: text-processing
     attempts: []
-  ml-rapid-fire/data-engineering/text-processing/02-text-preprocessing.md:
+  ml-rapid-fire/08-data-engineering/text-processing/02-text-preprocessing.md:
     name: Text Preprocessing
     category: text-processing
     attempts: []
-  ml-rapid-fire/data-engineering/text-processing/03-bag-of-words.md:
+  ml-rapid-fire/08-data-engineering/text-processing/03-bag-of-words.md:
     name: Bag of Words
     category: text-processing
     attempts: []
-  ml-rapid-fire/data-engineering/text-processing/04-tfidf.md:
+  ml-rapid-fire/08-data-engineering/text-processing/04-tfidf.md:
     name: TF-IDF
     category: text-processing
     attempts: []
-  ml-rapid-fire/data-engineering/text-processing/05-ngrams.md:
+  ml-rapid-fire/08-data-engineering/text-processing/05-ngrams.md:
     name: N-grams
     category: text-processing
     attempts: []
-  ml-rapid-fire/data-engineering/text-processing/06-word-embeddings-intro.md:
+  ml-rapid-fire/08-data-engineering/text-processing/06-word-embeddings-intro.md:
     name: Word Embeddings Introduction
     category: text-processing
     attempts: []
-  ml-rapid-fire/data-engineering/text-processing/07-word2vec.md:
+  ml-rapid-fire/08-data-engineering/text-processing/07-word2vec.md:
     name: Word2Vec
     category: text-processing
     attempts: []
-  ml-rapid-fire/data-engineering/text-processing/08-glove.md:
+  ml-rapid-fire/08-data-engineering/text-processing/08-glove.md:
     name: GloVe
     category: text-processing
     attempts: []
-  ml-rapid-fire/data-engineering/text-processing/09-document-embeddings.md:
+  ml-rapid-fire/08-data-engineering/text-processing/09-document-embeddings.md:
     name: Document Embeddings
     category: text-processing
     attempts: []
-  ml-rapid-fire/data-engineering/text-processing/10-text-classification-pipeline.md:
+  ml-rapid-fire/08-data-engineering/text-processing/10-text-classification-pipeline.md:
     name: Text Classification Pipeline
     category: text-processing
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/01-rl-vs-supervised.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/01-rl-vs-supervised.md:
     name: RL vs Supervised Learning
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/02-mdp-definition.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/02-mdp-definition.md:
     name: Markov Decision Process (MDP)
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/03-policy.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/03-policy.md:
     name: Policy
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/04-value-function.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/04-value-function.md:
     name: Value Function
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/05-action-value-function.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/05-action-value-function.md:
     name: Action-Value Function (Q-function)
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/06-bellman-equation.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/06-bellman-equation.md:
     name: Bellman Equation
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/07-discount-factor.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/07-discount-factor.md:
     name: Discount Factor
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/08-reward-design.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/08-reward-design.md:
     name: Reward Design
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/09-model-based-vs-free.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/09-model-based-vs-free.md:
     name: Model-Based vs Model-Free RL
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/10-on-vs-off-policy.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/10-on-vs-off-policy.md:
     name: On-Policy vs Off-Policy Learning
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/11-temporal-difference.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/11-temporal-difference.md:
     name: Temporal Difference Learning
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/12-return-types.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/12-return-types.md:
     name: Return - Episodic vs Continuing Tasks
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/13-advantage-function.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/13-advantage-function.md:
     name: Advantage Function
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/14-function-approximation.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/14-function-approximation.md:
     name: Function Approximation in RL
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/core-concepts/15-partial-observability.md:
+  ml-rapid-fire/05-reinforcement-learning/core-concepts/15-partial-observability.md:
     name: Partial Observability (POMDP)
     category: rl-core-concepts
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/01-value-iteration.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/01-value-iteration.md:
     name: Value Iteration
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/02-policy-iteration.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/02-policy-iteration.md:
     name: Policy Iteration
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/03-monte-carlo-methods.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/03-monte-carlo-methods.md:
     name: Monte Carlo Methods
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/04-q-learning.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/04-q-learning.md:
     name: Q-Learning
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/05-sarsa.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/05-sarsa.md:
     name: SARSA
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/06-experience-replay.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/06-experience-replay.md:
     name: Experience Replay
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/07-dqn.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/07-dqn.md:
     name: DQN (Deep Q-Network)
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/08-double-dqn.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/08-double-dqn.md:
     name: Double DQN
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/09-policy-gradient-basics.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/09-policy-gradient-basics.md:
     name: Policy Gradient Basics
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/10-actor-critic.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/10-actor-critic.md:
     name: Actor-Critic Methods
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/11-ppo.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/11-ppo.md:
     name: PPO (Proximal Policy Optimization)
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/12-ddpg.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/12-ddpg.md:
     name: DDPG (Deep Deterministic Policy Gradient)
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/13-sac.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/13-sac.md:
     name: SAC (Soft Actor-Critic)
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/14-imitation-learning.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/14-imitation-learning.md:
     name: Imitation Learning
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/15-inverse-rl.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/15-inverse-rl.md:
     name: Inverse Reinforcement Learning
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/16-model-based-planning.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/16-model-based-planning.md:
     name: Model-Based Planning
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/17-hierarchical-rl.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/17-hierarchical-rl.md:
     name: Hierarchical RL
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/algorithms/18-multi-agent-rl.md:
+  ml-rapid-fire/05-reinforcement-learning/algorithms/18-multi-agent-rl.md:
     name: Multi-Agent RL
     category: rl-algorithms
     attempts: []
-  ml-rapid-fire/reinforcement-learning/exploration-exploitation/01-exploration-exploitation-dilemma.md:
+  ml-rapid-fire/05-reinforcement-learning/exploration-exploitation/01-exploration-exploitation-dilemma.md:
     name: Exploration-Exploitation Dilemma
     category: exploration-exploitation
     attempts: []
-  ml-rapid-fire/reinforcement-learning/exploration-exploitation/02-multi-armed-bandits.md:
+  ml-rapid-fire/05-reinforcement-learning/exploration-exploitation/02-multi-armed-bandits.md:
     name: Multi-Armed Bandits
     category: exploration-exploitation
     attempts: []
-  ml-rapid-fire/reinforcement-learning/exploration-exploitation/03-epsilon-greedy.md:
+  ml-rapid-fire/05-reinforcement-learning/exploration-exploitation/03-epsilon-greedy.md:
     name: Epsilon-Greedy
     category: exploration-exploitation
     attempts: []
-  ml-rapid-fire/reinforcement-learning/exploration-exploitation/04-ucb.md:
+  ml-rapid-fire/05-reinforcement-learning/exploration-exploitation/04-ucb.md:
     name: UCB (Upper Confidence Bound)
     category: exploration-exploitation
     attempts: []
-  ml-rapid-fire/reinforcement-learning/exploration-exploitation/05-thompson-sampling.md:
+  ml-rapid-fire/05-reinforcement-learning/exploration-exploitation/05-thompson-sampling.md:
     name: Thompson Sampling
     category: exploration-exploitation
     attempts: []
-  ml-rapid-fire/reinforcement-learning/exploration-exploitation/06-softmax-exploration.md:
+  ml-rapid-fire/05-reinforcement-learning/exploration-exploitation/06-softmax-exploration.md:
     name: Softmax (Boltzmann) Exploration
     category: exploration-exploitation
     attempts: []
-  ml-rapid-fire/reinforcement-learning/exploration-exploitation/07-intrinsic-motivation.md:
+  ml-rapid-fire/05-reinforcement-learning/exploration-exploitation/07-intrinsic-motivation.md:
     name: Intrinsic Motivation
     category: exploration-exploitation
     attempts: []
-  ml-rapid-fire/reinforcement-learning/exploration-exploitation/08-contextual-bandits.md:
+  ml-rapid-fire/05-reinforcement-learning/exploration-exploitation/08-contextual-bandits.md:
     name: Contextual Bandits
     category: exploration-exploitation
     attempts: []
-  ml-rapid-fire/reinforcement-learning/exploration-exploitation/09-exploration-deep-rl.md:
+  ml-rapid-fire/05-reinforcement-learning/exploration-exploitation/09-exploration-deep-rl.md:
     name: Exploration in Deep RL
     category: exploration-exploitation
     attempts: []
-  ml-rapid-fire/reinforcement-learning/exploration-exploitation/10-regret-bounds.md:
+  ml-rapid-fire/05-reinforcement-learning/exploration-exploitation/10-regret-bounds.md:
     name: Regret Bounds
     category: exploration-exploitation
     attempts: []
-  ml-rapid-fire/core-ml/cross-entropy/09-softmax-vs-categorical-ce.md:
+  ml-rapid-fire/01-core-ml/cross-entropy/09-softmax-vs-categorical-ce.md:
     name: 09-softmax-vs-categorical-ce
     category: cross-entropy
     attempts:
     - date: '2025-12-07T18:54:37.518653'
       recall: full
-  ml-rapid-fire/model-evaluation/model-selection/08-cv-mechanism.md:
+  ml-rapid-fire/02-model-evaluation/model-selection/08-cv-mechanism.md:
     name: How CV Works for Hyperparameter Tuning
     category: model-selection
     attempts:
