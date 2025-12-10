@@ -14,9 +14,9 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-<code>Attempted</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 25.3% (99/391)
+<code>Attempted</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 25.4% (99/389)
 
-<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.1% (59/391)
+<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.2% (59/389)
 
 | Status | Count |
 |--------|-------|
@@ -24,8 +24,8 @@ Personal repository for ML interview prep flashcards.
 | 🔵 Partial+ | 19 |
 | 🟡 Partial- | 23 |
 | 🟠 None | 17 |
-| ⚫ New | 292 |
-| **Total** | **391** |
+| ⚫ New | 290 |
+| **Total** | **389** |
 
 ## Quick Start
 
@@ -135,7 +135,7 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Model Evaluation</h2></td></tr></table>
 
-<code>Attempted</code> <code>[████████████████████░░░░░░░░░░]</code> 69.2% (36/52)
+<code>Attempted</code> <code>[█████████████████████░░░░░░░░░]</code> 72.0% (36/50)
 
 ![Classification Metrics](https://img.shields.io/badge/Classification_Metrics-blue?style=for-the-badge)
 
@@ -185,19 +185,17 @@ python3 scripts/generate_readme.py
 
 ![Model Selection](https://img.shields.io/badge/Model_Selection-blue?style=for-the-badge)
 
-<code>Attempted</code> <code>[█████████████░░░░░░░░░░░░░░░░░]</code> 45.5% (5/11)
+<code>Attempted</code> <code>[████████████████░░░░░░░░░░░░░░]</code> 55.6% (5/9)
 
 - 🔵 [What is Hyperparameter Tuning](ml-rapid-fire/model-evaluation/model-selection/01-what-is-hyperparameter-tuning.md) `1 attempts`
 - 🔵 [Grid Search](ml-rapid-fire/model-evaluation/model-selection/02-grid-search.md) `1 attempts`
 - 🔵 [Random Search](ml-rapid-fire/model-evaluation/model-selection/03-random-search.md) `1 attempts`
 - ⚫ [Bayesian Optimization](ml-rapid-fire/model-evaluation/model-selection/04-bayesian-optimization.md)
-- 🟠 [Cross-Validation for Model Selection](ml-rapid-fire/model-evaluation/model-selection/05-cv-for-model-selection.md) `1 attempts`
-- 🟠 [How CV Works for Hyperparameter Tuning](ml-rapid-fire/model-evaluation/model-selection/06-cv-mechanism.md) `1 attempts`
-- ⚫ [Learning Curves for Diagnosis](ml-rapid-fire/model-evaluation/model-selection/07-learning-curves.md)
-- ⚫ [Validation Curve](ml-rapid-fire/model-evaluation/model-selection/08-validation-curve.md)
-- ⚫ [Early Stopping as Model Selection](ml-rapid-fire/model-evaluation/model-selection/09-early-stopping.md)
-- ⚫ [Regularization Path](ml-rapid-fire/model-evaluation/model-selection/10-regularization-path.md)
-- ⚫ [Information Criteria (AIC/BIC)](ml-rapid-fire/model-evaluation/model-selection/11-information-criteria.md)
+- 🟠 [Cross-Validation for Model Selection](ml-rapid-fire/model-evaluation/model-selection/07-cv-for-model-selection.md) `1 attempts`
+- 🟠 [How CV Works for Hyperparameter Tuning](ml-rapid-fire/model-evaluation/model-selection/08-cv-mechanism.md) `1 attempts`
+- ⚫ [Learning Curves](ml-rapid-fire/model-evaluation/model-selection/09-learning-curves.md)
+- ⚫ [Validation Curve](ml-rapid-fire/model-evaluation/model-selection/11-validation-curve.md)
+- ⚫ [Early Stopping as Model Selection](ml-rapid-fire/model-evaluation/model-selection/14-early-stopping.md)
 
 ![Loss Functions](https://img.shields.io/badge/Loss_Functions-blue?style=for-the-badge)
 
@@ -656,4 +654,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-07 20:52:28*
+*Last updated: 2025-12-09 20:36:01*

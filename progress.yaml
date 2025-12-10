@@ -1205,30 +1205,22 @@ flashcards:
     name: Bayesian Optimization
     category: model-selection
     attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/05-cv-for-model-selection.md:
+  ml-rapid-fire/model-evaluation/model-selection/07-cv-for-model-selection.md:
     name: Cross-Validation for Model Selection
     category: model-selection
     attempts:
     - date: '2025-12-07T20:42:18.009140'
       recall: none
-  ml-rapid-fire/model-evaluation/model-selection/07-learning-curves.md:
-    name: Learning Curves for Diagnosis
+  ml-rapid-fire/model-evaluation/model-selection/09-learning-curves.md:
+    name: Learning Curves
     category: model-selection
     attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/08-validation-curve.md:
+  ml-rapid-fire/model-evaluation/model-selection/11-validation-curve.md:
     name: Validation Curve
     category: model-selection
     attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/09-early-stopping.md:
+  ml-rapid-fire/model-evaluation/model-selection/14-early-stopping.md:
     name: Early Stopping as Model Selection
-    category: model-selection
-    attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/10-regularization-path.md:
-    name: Regularization Path
-    category: model-selection
-    attempts: []
-  ml-rapid-fire/model-evaluation/model-selection/11-information-criteria.md:
-    name: Information Criteria (AIC/BIC)
     category: model-selection
     attempts: []
   ml-rapid-fire/model-evaluation/loss-functions/01-what-is-loss-function.md:
@@ -1921,7 +1913,7 @@ flashcards:
     attempts:
     - date: '2025-12-07T18:54:37.518653'
       recall: full
-  ml-rapid-fire/model-evaluation/model-selection/06-cv-mechanism.md:
+  ml-rapid-fire/model-evaluation/model-selection/08-cv-mechanism.md:
     name: How CV Works for Hyperparameter Tuning
     category: model-selection
     attempts:
