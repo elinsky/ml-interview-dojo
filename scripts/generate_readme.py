@@ -38,14 +38,6 @@ SECTION_STRUCTURE = {
         "model-selection",
         "loss-functions",
     ],
-    "Classical ML": [
-        "decision-trees",
-        "svm",
-        "knn",
-        "naive-bayes",
-        "clustering",
-        "dimensionality-reduction",
-    ],
     "Deep Learning": [
         "neural-network-basics",
         "optimizers",
@@ -53,6 +45,14 @@ SECTION_STRUCTURE = {
         "rnns",
         "transformers",
         "dl-regularization",
+    ],
+    "Classical ML": [
+        "decision-trees",
+        "svm",
+        "knn",
+        "naive-bayes",
+        "clustering",
+        "dimensionality-reduction",
     ],
     "Probability & Statistics": [
         "probability-basics",

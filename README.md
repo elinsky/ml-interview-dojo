@@ -214,6 +214,96 @@ python3 scripts/generate_readme.py
 
 ---
 
+<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Deep Learning</h2></td></tr></table>
+
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/54)
+
+![Neural Network Basics](https://img.shields.io/badge/Neural_Network_Basics-blue?style=for-the-badge)
+
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+- ⚫ [What is a Neural Network](ml-rapid-fire/deep-learning/neural-network-basics/01-what-is-neural-network.md)
+- ⚫ [Forward Pass](ml-rapid-fire/deep-learning/neural-network-basics/02-forward-pass.md)
+- ⚫ [Backpropagation](ml-rapid-fire/deep-learning/neural-network-basics/03-backpropagation.md)
+- ⚫ [Why Activation Functions](ml-rapid-fire/deep-learning/neural-network-basics/04-why-activation-functions.md)
+- ⚫ [Common Activation Functions](ml-rapid-fire/deep-learning/neural-network-basics/05-common-activations.md)
+- ⚫ [Loss Functions](ml-rapid-fire/deep-learning/neural-network-basics/06-loss-functions.md)
+- ⚫ [Weight Initialization](ml-rapid-fire/deep-learning/neural-network-basics/07-weight-initialization.md)
+- ⚫ [Training Loop](ml-rapid-fire/deep-learning/neural-network-basics/08-training-loop.md)
+- ⚫ [Vanishing and Exploding Gradients](ml-rapid-fire/deep-learning/neural-network-basics/09-vanishing-exploding-gradients.md)
+
+![Optimizers](https://img.shields.io/badge/Optimizers-blue?style=for-the-badge)
+
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+- ⚫ [What is an Optimizer](ml-rapid-fire/deep-learning/optimizers/01-what-is-optimizer.md)
+- ⚫ [Gradient Descent Variants](ml-rapid-fire/deep-learning/optimizers/02-gradient-descent-variants.md)
+- ⚫ [Learning Rate](ml-rapid-fire/deep-learning/optimizers/03-learning-rate.md)
+- ⚫ [Learning Rate Schedules](ml-rapid-fire/deep-learning/optimizers/04-learning-rate-schedules.md)
+- ⚫ [Momentum](ml-rapid-fire/deep-learning/optimizers/05-momentum.md)
+- ⚫ [RMSprop](ml-rapid-fire/deep-learning/optimizers/06-rmsprop.md)
+- ⚫ [Adam Optimizer](ml-rapid-fire/deep-learning/optimizers/07-adam.md)
+- ⚫ [Choosing an Optimizer](ml-rapid-fire/deep-learning/optimizers/08-choosing-optimizer.md)
+- ⚫ [Common Optimizer Problems](ml-rapid-fire/deep-learning/optimizers/09-common-problems.md)
+
+![CNNs](https://img.shields.io/badge/CNNs-blue?style=for-the-badge)
+
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+- ⚫ [What is a CNN](ml-rapid-fire/deep-learning/cnns/01-what-is-cnn.md)
+- ⚫ [Convolution Operation](ml-rapid-fire/deep-learning/cnns/02-convolution-operation.md)
+- ⚫ [CNN Hyperparameters](ml-rapid-fire/deep-learning/cnns/03-cnn-hyperparameters.md)
+- ⚫ [Pooling](ml-rapid-fire/deep-learning/cnns/04-pooling.md)
+- ⚫ [CNN Architecture](ml-rapid-fire/deep-learning/cnns/05-cnn-architecture.md)
+- ⚫ [Receptive Field](ml-rapid-fire/deep-learning/cnns/06-receptive-field.md)
+- ⚫ [1x1 Convolutions](ml-rapid-fire/deep-learning/cnns/07-1x1-convolutions.md)
+- ⚫ [Famous CNN Architectures](ml-rapid-fire/deep-learning/cnns/08-famous-architectures.md)
+- ⚫ [Transfer Learning in CNNs](ml-rapid-fire/deep-learning/cnns/09-transfer-learning.md)
+
+![RNNs](https://img.shields.io/badge/RNNs-blue?style=for-the-badge)
+
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+- ⚫ [What is an RNN](ml-rapid-fire/deep-learning/rnns/01-what-is-rnn.md)
+- ⚫ [RNN Applications](ml-rapid-fire/deep-learning/rnns/02-rnn-applications.md)
+- ⚫ [RNN Limitations](ml-rapid-fire/deep-learning/rnns/03-rnn-limitations.md)
+- ⚫ [LSTM](ml-rapid-fire/deep-learning/rnns/04-lstm.md)
+- ⚫ [LSTM Gates](ml-rapid-fire/deep-learning/rnns/05-lstm-gates.md)
+- ⚫ [GRU](ml-rapid-fire/deep-learning/rnns/06-gru.md)
+- ⚫ [Sequence-to-Sequence](ml-rapid-fire/deep-learning/rnns/07-seq2seq.md)
+- ⚫ [Bidirectional RNNs](ml-rapid-fire/deep-learning/rnns/08-bidirectional-rnn.md)
+- ⚫ [Teacher Forcing](ml-rapid-fire/deep-learning/rnns/09-teacher-forcing.md)
+
+![Transformers](https://img.shields.io/badge/Transformers-blue?style=for-the-badge)
+
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+- ⚫ [What is Attention](ml-rapid-fire/deep-learning/transformers/01-what-is-attention.md)
+- ⚫ [Scaled Dot-Product Attention](ml-rapid-fire/deep-learning/transformers/02-scaled-dot-product-attention.md)
+- ⚫ [Self-Attention vs Cross-Attention](ml-rapid-fire/deep-learning/transformers/03-self-vs-cross-attention.md)
+- ⚫ [Multi-Head Attention](ml-rapid-fire/deep-learning/transformers/04-multi-head-attention.md)
+- ⚫ [Positional Encoding](ml-rapid-fire/deep-learning/transformers/05-positional-encoding.md)
+- ⚫ [Transformer Architecture](ml-rapid-fire/deep-learning/transformers/06-transformer-architecture.md)
+- ⚫ [BERT Pre-training](ml-rapid-fire/deep-learning/transformers/07-bert-pretraining.md)
+- ⚫ [GPT vs BERT](ml-rapid-fire/deep-learning/transformers/08-gpt-vs-bert.md)
+- ⚫ [Encoder vs Decoder Models](ml-rapid-fire/deep-learning/transformers/09-encoder-vs-decoder-models.md)
+
+![Regularization](https://img.shields.io/badge/Regularization-blue?style=for-the-badge)
+
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
+
+- ⚫ [What is Regularization](ml-rapid-fire/deep-learning/regularization/00-what-is-regularization.md)
+- ⚫ [Dropout](ml-rapid-fire/deep-learning/regularization/01-dropout.md)
+- ⚫ [Why Dropout Works](ml-rapid-fire/deep-learning/regularization/02-why-dropout-works.md)
+- ⚫ [Batch Normalization](ml-rapid-fire/deep-learning/regularization/03-batch-normalization.md)
+- ⚫ [Why Batch Norm Works](ml-rapid-fire/deep-learning/regularization/04-why-batch-norm-works.md)
+- ⚫ [Early Stopping](ml-rapid-fire/deep-learning/regularization/05-early-stopping.md)
+- ⚫ [Data Augmentation](ml-rapid-fire/deep-learning/regularization/06-data-augmentation.md)
+- ⚫ [Weight Decay](ml-rapid-fire/deep-learning/regularization/07-weight-decay.md)
+- ⚫ [Label Smoothing](ml-rapid-fire/deep-learning/regularization/08-label-smoothing.md)
+
+---
+
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Classical ML</h2></td></tr></table>
 
 <code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/61)
@@ -308,96 +398,6 @@ python3 scripts/generate_readme.py
 - ⚫ [t-SNE Algorithm](ml-rapid-fire/classical-ml/dimensionality-reduction/07-tsne-algorithm.md)
 - ⚫ [t-SNE Pitfalls](ml-rapid-fire/classical-ml/dimensionality-reduction/08-tsne-pitfalls.md)
 - ⚫ [PCA vs t-SNE](ml-rapid-fire/classical-ml/dimensionality-reduction/09-pca-vs-tsne.md)
-
----
-
-<table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Deep Learning</h2></td></tr></table>
-
-<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/54)
-
-![Neural Network Basics](https://img.shields.io/badge/Neural_Network_Basics-blue?style=for-the-badge)
-
-<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
-
-- ⚫ [What is a Neural Network](ml-rapid-fire/deep-learning/neural-network-basics/01-what-is-neural-network.md)
-- ⚫ [Forward Pass](ml-rapid-fire/deep-learning/neural-network-basics/02-forward-pass.md)
-- ⚫ [Backpropagation](ml-rapid-fire/deep-learning/neural-network-basics/03-backpropagation.md)
-- ⚫ [Why Activation Functions](ml-rapid-fire/deep-learning/neural-network-basics/04-why-activation-functions.md)
-- ⚫ [Common Activation Functions](ml-rapid-fire/deep-learning/neural-network-basics/05-common-activations.md)
-- ⚫ [Loss Functions](ml-rapid-fire/deep-learning/neural-network-basics/06-loss-functions.md)
-- ⚫ [Weight Initialization](ml-rapid-fire/deep-learning/neural-network-basics/07-weight-initialization.md)
-- ⚫ [Training Loop](ml-rapid-fire/deep-learning/neural-network-basics/08-training-loop.md)
-- ⚫ [Vanishing and Exploding Gradients](ml-rapid-fire/deep-learning/neural-network-basics/09-vanishing-exploding-gradients.md)
-
-![Optimizers](https://img.shields.io/badge/Optimizers-blue?style=for-the-badge)
-
-<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
-
-- ⚫ [What is an Optimizer](ml-rapid-fire/deep-learning/optimizers/01-what-is-optimizer.md)
-- ⚫ [Gradient Descent Variants](ml-rapid-fire/deep-learning/optimizers/02-gradient-descent-variants.md)
-- ⚫ [Learning Rate](ml-rapid-fire/deep-learning/optimizers/03-learning-rate.md)
-- ⚫ [Learning Rate Schedules](ml-rapid-fire/deep-learning/optimizers/04-learning-rate-schedules.md)
-- ⚫ [Momentum](ml-rapid-fire/deep-learning/optimizers/05-momentum.md)
-- ⚫ [RMSprop](ml-rapid-fire/deep-learning/optimizers/06-rmsprop.md)
-- ⚫ [Adam Optimizer](ml-rapid-fire/deep-learning/optimizers/07-adam.md)
-- ⚫ [Choosing an Optimizer](ml-rapid-fire/deep-learning/optimizers/08-choosing-optimizer.md)
-- ⚫ [Common Optimizer Problems](ml-rapid-fire/deep-learning/optimizers/09-common-problems.md)
-
-![CNNs](https://img.shields.io/badge/CNNs-blue?style=for-the-badge)
-
-<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
-
-- ⚫ [What is a CNN](ml-rapid-fire/deep-learning/cnns/01-what-is-cnn.md)
-- ⚫ [Convolution Operation](ml-rapid-fire/deep-learning/cnns/02-convolution-operation.md)
-- ⚫ [CNN Hyperparameters](ml-rapid-fire/deep-learning/cnns/03-cnn-hyperparameters.md)
-- ⚫ [Pooling](ml-rapid-fire/deep-learning/cnns/04-pooling.md)
-- ⚫ [CNN Architecture](ml-rapid-fire/deep-learning/cnns/05-cnn-architecture.md)
-- ⚫ [Receptive Field](ml-rapid-fire/deep-learning/cnns/06-receptive-field.md)
-- ⚫ [1x1 Convolutions](ml-rapid-fire/deep-learning/cnns/07-1x1-convolutions.md)
-- ⚫ [Famous CNN Architectures](ml-rapid-fire/deep-learning/cnns/08-famous-architectures.md)
-- ⚫ [Transfer Learning in CNNs](ml-rapid-fire/deep-learning/cnns/09-transfer-learning.md)
-
-![RNNs](https://img.shields.io/badge/RNNs-blue?style=for-the-badge)
-
-<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
-
-- ⚫ [What is an RNN](ml-rapid-fire/deep-learning/rnns/01-what-is-rnn.md)
-- ⚫ [RNN Applications](ml-rapid-fire/deep-learning/rnns/02-rnn-applications.md)
-- ⚫ [RNN Limitations](ml-rapid-fire/deep-learning/rnns/03-rnn-limitations.md)
-- ⚫ [LSTM](ml-rapid-fire/deep-learning/rnns/04-lstm.md)
-- ⚫ [LSTM Gates](ml-rapid-fire/deep-learning/rnns/05-lstm-gates.md)
-- ⚫ [GRU](ml-rapid-fire/deep-learning/rnns/06-gru.md)
-- ⚫ [Sequence-to-Sequence](ml-rapid-fire/deep-learning/rnns/07-seq2seq.md)
-- ⚫ [Bidirectional RNNs](ml-rapid-fire/deep-learning/rnns/08-bidirectional-rnn.md)
-- ⚫ [Teacher Forcing](ml-rapid-fire/deep-learning/rnns/09-teacher-forcing.md)
-
-![Transformers](https://img.shields.io/badge/Transformers-blue?style=for-the-badge)
-
-<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
-
-- ⚫ [What is Attention](ml-rapid-fire/deep-learning/transformers/01-what-is-attention.md)
-- ⚫ [Scaled Dot-Product Attention](ml-rapid-fire/deep-learning/transformers/02-scaled-dot-product-attention.md)
-- ⚫ [Self-Attention vs Cross-Attention](ml-rapid-fire/deep-learning/transformers/03-self-vs-cross-attention.md)
-- ⚫ [Multi-Head Attention](ml-rapid-fire/deep-learning/transformers/04-multi-head-attention.md)
-- ⚫ [Positional Encoding](ml-rapid-fire/deep-learning/transformers/05-positional-encoding.md)
-- ⚫ [Transformer Architecture](ml-rapid-fire/deep-learning/transformers/06-transformer-architecture.md)
-- ⚫ [BERT Pre-training](ml-rapid-fire/deep-learning/transformers/07-bert-pretraining.md)
-- ⚫ [GPT vs BERT](ml-rapid-fire/deep-learning/transformers/08-gpt-vs-bert.md)
-- ⚫ [Encoder vs Decoder Models](ml-rapid-fire/deep-learning/transformers/09-encoder-vs-decoder-models.md)
-
-![Regularization](https://img.shields.io/badge/Regularization-blue?style=for-the-badge)
-
-<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/9)
-
-- ⚫ [What is Regularization](ml-rapid-fire/deep-learning/regularization/00-what-is-regularization.md)
-- ⚫ [Dropout](ml-rapid-fire/deep-learning/regularization/01-dropout.md)
-- ⚫ [Why Dropout Works](ml-rapid-fire/deep-learning/regularization/02-why-dropout-works.md)
-- ⚫ [Batch Normalization](ml-rapid-fire/deep-learning/regularization/03-batch-normalization.md)
-- ⚫ [Why Batch Norm Works](ml-rapid-fire/deep-learning/regularization/04-why-batch-norm-works.md)
-- ⚫ [Early Stopping](ml-rapid-fire/deep-learning/regularization/05-early-stopping.md)
-- ⚫ [Data Augmentation](ml-rapid-fire/deep-learning/regularization/06-data-augmentation.md)
-- ⚫ [Weight Decay](ml-rapid-fire/deep-learning/regularization/07-weight-decay.md)
-- ⚫ [Label Smoothing](ml-rapid-fire/deep-learning/regularization/08-label-smoothing.md)
 
 ---
 
@@ -654,4 +654,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-09 20:36:01*
+*Last updated: 2025-12-09 20:39:56*
