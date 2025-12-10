@@ -1227,39 +1227,111 @@ flashcards:
     name: What is a Loss Function
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/02-mse-loss.md:
-    name: MSE Loss
+  ml-rapid-fire/model-evaluation/loss-functions/02-loss-function-properties.md:
+    name: Loss Function Properties
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/03-mae-loss.md:
-    name: MAE Loss
+  ml-rapid-fire/model-evaluation/loss-functions/03-mse.md:
+    name: MSE (Mean Squared Error)
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/04-binary-cross-entropy.md:
+  ml-rapid-fire/model-evaluation/loss-functions/04-mse-formula.md:
+    name: MSE Formula
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/05-mse-properties.md:
+    name: MSE Properties
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/06-mse-when-to-use.md:
+    name: MSE When to Use
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/07-mae.md:
+    name: MAE (Mean Absolute Error)
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/08-mae-formula.md:
+    name: MAE Formula
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/09-mae-properties.md:
+    name: MAE Properties
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/10-mae-when-to-use.md:
+    name: MAE When to Use
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/11-binary-cross-entropy.md:
     name: Binary Cross-Entropy
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/05-categorical-cross-entropy.md:
+  ml-rapid-fire/model-evaluation/loss-functions/12-binary-cross-entropy-formula.md:
+    name: Binary Cross-Entropy Formula
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/13-binary-cross-entropy-properties.md:
+    name: Binary Cross-Entropy Properties
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/14-binary-cross-entropy-when-to-use.md:
+    name: Binary Cross-Entropy When to Use
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/15-binary-cross-entropy-how-to-use.md:
+    name: Binary Cross-Entropy How to Use
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/16-categorical-cross-entropy.md:
     name: Categorical Cross-Entropy
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/06-hinge-loss.md:
-    name: Hinge Loss
+  ml-rapid-fire/model-evaluation/loss-functions/17-categorical-cross-entropy-formula.md:
+    name: Categorical Cross-Entropy Formula
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/07-huber-loss.md:
+  ml-rapid-fire/model-evaluation/loss-functions/18-categorical-cross-entropy-properties.md:
+    name: Categorical Cross-Entropy Properties
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/19-categorical-cross-entropy-when-to-use.md:
+    name: Categorical Cross-Entropy When to Use
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/20-categorical-cross-entropy-how-to-use.md:
+    name: Categorical Cross-Entropy How to Use
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/21-huber-loss.md:
     name: Huber Loss
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/08-log-loss-vs-cross-entropy.md:
+  ml-rapid-fire/model-evaluation/loss-functions/22-huber-loss-formula.md:
+    name: Huber Loss Formula
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/23-huber-loss-properties.md:
+    name: Huber Loss Properties
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/24-huber-loss-when-to-use.md:
+    name: Huber Loss When to Use
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/25-huber-loss-how-to-use.md:
+    name: Huber Loss How to Use
+    category: loss-functions
+    attempts: []
+  ml-rapid-fire/model-evaluation/loss-functions/26-log-loss-vs-cross-entropy.md:
     name: Log Loss vs Cross-Entropy
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/09-softmax-cross-entropy.md:
+  ml-rapid-fire/model-evaluation/loss-functions/27-softmax-cross-entropy.md:
     name: Softmax Cross-Entropy
     category: loss-functions
     attempts: []
-  ml-rapid-fire/model-evaluation/loss-functions/10-choosing-loss-function.md:
+  ml-rapid-fire/model-evaluation/loss-functions/28-choosing-loss-function.md:
     name: Choosing a Loss Function
     category: loss-functions
     attempts: []

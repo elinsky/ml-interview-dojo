@@ -14,9 +14,9 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-<code>Attempted</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 25.4% (99/389)
+<code>Attempted</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 24.3% (99/407)
 
-<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.2% (59/389)
+<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 14.5% (59/407)
 
 | Status | Count |
 |--------|-------|
@@ -24,8 +24,8 @@ Personal repository for ML interview prep flashcards.
 | 🔵 Partial+ | 19 |
 | 🟡 Partial- | 23 |
 | 🟠 None | 17 |
-| ⚫ New | 290 |
-| **Total** | **389** |
+| ⚫ New | 308 |
+| **Total** | **407** |
 
 ## Quick Start
 
@@ -135,7 +135,7 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Model Evaluation</h2></td></tr></table>
 
-<code>Attempted</code> <code>[█████████████████████░░░░░░░░░]</code> 72.0% (36/50)
+<code>Attempted</code> <code>[███████████████░░░░░░░░░░░░░░░]</code> 52.9% (36/68)
 
 ![Classification Metrics](https://img.shields.io/badge/Classification_Metrics-blue?style=for-the-badge)
 
@@ -199,18 +199,36 @@ python3 scripts/generate_readme.py
 
 ![Loss Functions](https://img.shields.io/badge/Loss_Functions-blue?style=for-the-badge)
 
-<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/10)
+<code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/28)
 
 - ⚫ [What is a Loss Function](ml-rapid-fire/model-evaluation/loss-functions/01-what-is-loss-function.md)
-- ⚫ [MSE Loss](ml-rapid-fire/model-evaluation/loss-functions/02-mse-loss.md)
-- ⚫ [MAE Loss](ml-rapid-fire/model-evaluation/loss-functions/03-mae-loss.md)
-- ⚫ [Binary Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/04-binary-cross-entropy.md)
-- ⚫ [Categorical Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/05-categorical-cross-entropy.md)
-- ⚫ [Hinge Loss](ml-rapid-fire/model-evaluation/loss-functions/06-hinge-loss.md)
-- ⚫ [Huber Loss](ml-rapid-fire/model-evaluation/loss-functions/07-huber-loss.md)
-- ⚫ [Log Loss vs Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/08-log-loss-vs-cross-entropy.md)
-- ⚫ [Softmax Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/09-softmax-cross-entropy.md)
-- ⚫ [Choosing a Loss Function](ml-rapid-fire/model-evaluation/loss-functions/10-choosing-loss-function.md)
+- ⚫ [Loss Function Properties](ml-rapid-fire/model-evaluation/loss-functions/02-loss-function-properties.md)
+- ⚫ [MSE (Mean Squared Error)](ml-rapid-fire/model-evaluation/loss-functions/03-mse.md)
+- ⚫ [MSE Formula](ml-rapid-fire/model-evaluation/loss-functions/04-mse-formula.md)
+- ⚫ [MSE Properties](ml-rapid-fire/model-evaluation/loss-functions/05-mse-properties.md)
+- ⚫ [MSE When to Use](ml-rapid-fire/model-evaluation/loss-functions/06-mse-when-to-use.md)
+- ⚫ [MAE (Mean Absolute Error)](ml-rapid-fire/model-evaluation/loss-functions/07-mae.md)
+- ⚫ [MAE Formula](ml-rapid-fire/model-evaluation/loss-functions/08-mae-formula.md)
+- ⚫ [MAE Properties](ml-rapid-fire/model-evaluation/loss-functions/09-mae-properties.md)
+- ⚫ [MAE When to Use](ml-rapid-fire/model-evaluation/loss-functions/10-mae-when-to-use.md)
+- ⚫ [Binary Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/11-binary-cross-entropy.md)
+- ⚫ [Binary Cross-Entropy Formula](ml-rapid-fire/model-evaluation/loss-functions/12-binary-cross-entropy-formula.md)
+- ⚫ [Binary Cross-Entropy Properties](ml-rapid-fire/model-evaluation/loss-functions/13-binary-cross-entropy-properties.md)
+- ⚫ [Binary Cross-Entropy When to Use](ml-rapid-fire/model-evaluation/loss-functions/14-binary-cross-entropy-when-to-use.md)
+- ⚫ [Binary Cross-Entropy How to Use](ml-rapid-fire/model-evaluation/loss-functions/15-binary-cross-entropy-how-to-use.md)
+- ⚫ [Categorical Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/16-categorical-cross-entropy.md)
+- ⚫ [Categorical Cross-Entropy Formula](ml-rapid-fire/model-evaluation/loss-functions/17-categorical-cross-entropy-formula.md)
+- ⚫ [Categorical Cross-Entropy Properties](ml-rapid-fire/model-evaluation/loss-functions/18-categorical-cross-entropy-properties.md)
+- ⚫ [Categorical Cross-Entropy When to Use](ml-rapid-fire/model-evaluation/loss-functions/19-categorical-cross-entropy-when-to-use.md)
+- ⚫ [Categorical Cross-Entropy How to Use](ml-rapid-fire/model-evaluation/loss-functions/20-categorical-cross-entropy-how-to-use.md)
+- ⚫ [Huber Loss](ml-rapid-fire/model-evaluation/loss-functions/21-huber-loss.md)
+- ⚫ [Huber Loss Formula](ml-rapid-fire/model-evaluation/loss-functions/22-huber-loss-formula.md)
+- ⚫ [Huber Loss Properties](ml-rapid-fire/model-evaluation/loss-functions/23-huber-loss-properties.md)
+- ⚫ [Huber Loss When to Use](ml-rapid-fire/model-evaluation/loss-functions/24-huber-loss-when-to-use.md)
+- ⚫ [Huber Loss How to Use](ml-rapid-fire/model-evaluation/loss-functions/25-huber-loss-how-to-use.md)
+- ⚫ [Log Loss vs Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/26-log-loss-vs-cross-entropy.md)
+- ⚫ [Softmax Cross-Entropy](ml-rapid-fire/model-evaluation/loss-functions/27-softmax-cross-entropy.md)
+- ⚫ [Choosing a Loss Function](ml-rapid-fire/model-evaluation/loss-functions/28-choosing-loss-function.md)
 
 ---
 
@@ -654,4 +672,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-09 20:39:56*
+*Last updated: 2025-12-09 21:07:26*

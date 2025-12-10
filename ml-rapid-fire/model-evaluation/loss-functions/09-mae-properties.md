@@ -1,10 +1,9 @@
-# MAE Loss
+# MAE Properties
 
-**Q:** What is Mean Absolute Error loss and when do you use it?
+**Q:** What are the key properties of MAE loss?
 
 **A:**
 
-- MAE = (1/n) Σ|y - ŷ|
 - More robust to outliers than MSE
 - Not differentiable at zero (use subgradient)
 - Produces median-like predictions
