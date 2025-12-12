@@ -14,18 +14,18 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-<code>Attempted</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 24.3% (99/407)
+<code>Attempted</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 26.0% (107/411)
 
-<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 14.5% (59/407)
+<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.3% (63/411)
 
 | Status | Count |
 |--------|-------|
-| 🟢 Full | 40 |
-| 🔵 Partial+ | 19 |
-| 🟡 Partial- | 23 |
-| 🟠 None | 17 |
-| ⚫ New | 308 |
-| **Total** | **407** |
+| 🟢 Full | 41 |
+| 🔵 Partial+ | 22 |
+| 🟡 Partial- | 26 |
+| 🟠 None | 18 |
+| ⚫ New | 304 |
+| **Total** | **411** |
 
 ## Quick Start
 
@@ -135,7 +135,7 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Model Evaluation</h2></td></tr></table>
 
-<code>Attempted</code> <code>[███████████████░░░░░░░░░░░░░░░]</code> 52.9% (36/68)
+<code>Attempted</code> <code>[█████████████████░░░░░░░░░░░░░]</code> 58.8% (40/68)
 
 ![Classification Metrics](https://img.shields.io/badge/Classification_Metrics-blue?style=for-the-badge)
 
@@ -185,17 +185,17 @@ python3 scripts/generate_readme.py
 
 ![Model Selection](https://img.shields.io/badge/Model_Selection-blue?style=for-the-badge)
 
-<code>Attempted</code> <code>[████████████████░░░░░░░░░░░░░░]</code> 55.6% (5/9)
+<code>Mastered</code> <code>[████████████████░░░░░░░░░░░░░░]</code> 55.6% (5/9)
 
 - 🔵 [What is Hyperparameter Tuning](ml-rapid-fire/02-model-evaluation/04-model-selection/01-what-is-hyperparameter-tuning.md) `1 attempts`
 - 🔵 [Grid Search](ml-rapid-fire/02-model-evaluation/04-model-selection/02-grid-search.md) `1 attempts`
 - 🔵 [Random Search](ml-rapid-fire/02-model-evaluation/04-model-selection/03-random-search.md) `1 attempts`
-- ⚫ [Bayesian Optimization](ml-rapid-fire/02-model-evaluation/04-model-selection/04-bayesian-optimization.md)
+- 🔵 [Bayesian Optimization](ml-rapid-fire/02-model-evaluation/04-model-selection/04-bayesian-optimization.md) `1 attempts`
 - 🟠 [Cross-Validation for Model Selection](ml-rapid-fire/02-model-evaluation/04-model-selection/07-cv-for-model-selection.md) `1 attempts`
 - 🟠 [How CV Works for Hyperparameter Tuning](ml-rapid-fire/02-model-evaluation/04-model-selection/08-cv-mechanism.md) `1 attempts`
-- ⚫ [Learning Curves](ml-rapid-fire/02-model-evaluation/04-model-selection/09-learning-curves.md)
-- ⚫ [Validation Curve](ml-rapid-fire/02-model-evaluation/04-model-selection/11-validation-curve.md)
-- ⚫ [Early Stopping as Model Selection](ml-rapid-fire/02-model-evaluation/04-model-selection/14-early-stopping.md)
+- 🟡 [Learning Curves](ml-rapid-fire/02-model-evaluation/04-model-selection/09-learning-curves.md) `1 attempts`
+- 🟡 [Validation Curve](ml-rapid-fire/02-model-evaluation/04-model-selection/11-validation-curve.md) `1 attempts`
+- 🔵 [Early Stopping as Model Selection](ml-rapid-fire/02-model-evaluation/04-model-selection/14-early-stopping.md) `1 attempts`
 
 ![Loss Functions](https://img.shields.io/badge/Loss_Functions-blue?style=for-the-badge)
 
@@ -628,6 +628,15 @@ python3 scripts/generate_readme.py
 
 ### Other
 
+![04 Model Selection](https://img.shields.io/badge/04_Model_Selection-blue?style=for-the-badge)
+
+<code>Mastered</code> <code>[███████████████░░░░░░░░░░░░░░░]</code> 50.0% (2/4)
+
+- 🔵 [05-bayesian-optimization-steps](ml-rapid-fire/02-model-evaluation/04-model-selection/05-bayesian-optimization-steps.md) `1 attempts`
+- 🟢 [10-learning-curve-interpretation](ml-rapid-fire/02-model-evaluation/04-model-selection/10-learning-curve-interpretation.md) `1 attempts`
+- 🟠 [12-validation-curve-interpretation](ml-rapid-fire/02-model-evaluation/04-model-selection/12-validation-curve-interpretation.md) `1 attempts`
+- 🟡 [13-validation-curve-usage](ml-rapid-fire/02-model-evaluation/04-model-selection/13-validation-curve-usage.md) `1 attempts`
+
 ![Calculus Optimization](https://img.shields.io/badge/Calculus_Optimization-blue?style=for-the-badge)
 
 <code>Attempted</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/15)
@@ -672,4 +681,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-09 21:15:25*
+*Last updated: 2025-12-12 16:49:45*

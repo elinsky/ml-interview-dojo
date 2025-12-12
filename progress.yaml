@@ -1204,7 +1204,9 @@ flashcards:
   ml-rapid-fire/02-model-evaluation/04-model-selection/04-bayesian-optimization.md:
     name: Bayesian Optimization
     category: model-selection
-    attempts: []
+    attempts:
+    - date: '2025-12-12T16:48:42.941862'
+      recall: partial+
   ml-rapid-fire/02-model-evaluation/04-model-selection/07-cv-for-model-selection.md:
     name: Cross-Validation for Model Selection
     category: model-selection
@@ -1214,15 +1216,21 @@ flashcards:
   ml-rapid-fire/02-model-evaluation/04-model-selection/09-learning-curves.md:
     name: Learning Curves
     category: model-selection
-    attempts: []
+    attempts:
+    - date: '2025-12-12T16:48:58.108879'
+      recall: partial-
   ml-rapid-fire/02-model-evaluation/04-model-selection/11-validation-curve.md:
     name: Validation Curve
     category: model-selection
-    attempts: []
+    attempts:
+    - date: '2025-12-12T16:49:01.842160'
+      recall: partial-
   ml-rapid-fire/02-model-evaluation/04-model-selection/14-early-stopping.md:
     name: Early Stopping as Model Selection
     category: model-selection
-    attempts: []
+    attempts:
+    - date: '2025-12-12T16:49:39.200966'
+      recall: partial+
   ml-rapid-fire/02-model-evaluation/05-loss-functions/01-what-is-loss-function.md:
     name: What is a Loss Function
     category: loss-functions
@@ -1992,3 +2000,27 @@ flashcards:
     - date: '2025-12-07T20:46:31.145429'
       recall: none
       notes: New card, not drilled yet
+  ml-rapid-fire/02-model-evaluation/04-model-selection/05-bayesian-optimization-steps.md:
+    name: 05-bayesian-optimization-steps
+    category: 04-model-selection
+    attempts:
+    - date: '2025-12-12T16:48:49.195405'
+      recall: partial+
+  ml-rapid-fire/02-model-evaluation/04-model-selection/10-learning-curve-interpretation.md:
+    name: 10-learning-curve-interpretation
+    category: 04-model-selection
+    attempts:
+    - date: '2025-12-12T16:48:59.682464'
+      recall: full
+  ml-rapid-fire/02-model-evaluation/04-model-selection/12-validation-curve-interpretation.md:
+    name: 12-validation-curve-interpretation
+    category: 04-model-selection
+    attempts:
+    - date: '2025-12-12T16:49:04.208728'
+      recall: none
+  ml-rapid-fire/02-model-evaluation/04-model-selection/13-validation-curve-usage.md:
+    name: 13-validation-curve-usage
+    category: 04-model-selection
+    attempts:
+    - date: '2025-12-12T16:49:07.162448'
+      recall: partial-
