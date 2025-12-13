@@ -1149,7 +1149,7 @@ flashcards:
     - date: '2025-11-29T21:02:12.960236'
       recall: none
       notes: Reviewed answer, learned holdout vs CV tradeoffs
-  ml-rapid-fire/02-model-evaluation/03-validation/07-data-leakage.md:
+  ml-rapid-fire/02-model-evaluation/03-validation/07-data-leakage-definition.md:
     name: Data Leakage
     category: validation
     attempts:
@@ -1157,7 +1157,7 @@ flashcards:
       recall: partial+
       notes: Got target leakage concept with great quant finance example (OHLC), missed
         preprocessing leakage and prevention strategies
-  ml-rapid-fire/02-model-evaluation/03-validation/08-time-series-validation.md:
+  ml-rapid-fire/02-model-evaluation/03-validation/09-time-series-no-shuffle.md:
     name: Time Series Validation
     category: validation
     attempts:
@@ -1165,7 +1165,7 @@ flashcards:
       recall: partial+
       notes: Got core principle (train past, validate future); provided extended answer
         with 3 IID reasons and window approaches
-  ml-rapid-fire/02-model-evaluation/03-validation/09-bias-variance-cv.md:
+  ml-rapid-fire/02-model-evaluation/03-validation/11-bias-variance-cv.md:
     name: Bias-Variance in Cross-Validation
     category: validation
     attempts:
@@ -1173,7 +1173,7 @@ flashcards:
       recall: none
       notes: Reviewed in depth; clarified that bias/variance refers to CV estimate,
         not model
-  ml-rapid-fire/02-model-evaluation/03-validation/10-nested-cross-validation.md:
+  ml-rapid-fire/02-model-evaluation/03-validation/12-nested-cross-validation.md:
     name: Nested Cross-Validation
     category: validation
     attempts:

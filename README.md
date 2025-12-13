@@ -178,10 +178,10 @@ python3 scripts/generate_readme.py
 - 🔵 [Stratified K-Fold](ml-rapid-fire/02-model-evaluation/03-validation/04-stratified-k-fold.md) `1 attempts`
 - 🟡 [Leave-One-Out Cross-Validation](ml-rapid-fire/02-model-evaluation/03-validation/05-loocv.md) `1 attempts`
 - 🟠 [Holdout vs Cross-Validation](ml-rapid-fire/02-model-evaluation/03-validation/06-holdout-vs-cv.md) `1 attempts`
-- 🔵 [Data Leakage](ml-rapid-fire/02-model-evaluation/03-validation/07-data-leakage.md) `1 attempts`
-- 🔵 [Time Series Validation](ml-rapid-fire/02-model-evaluation/03-validation/08-time-series-validation.md) `1 attempts`
-- 🟠 [Bias-Variance in Cross-Validation](ml-rapid-fire/02-model-evaluation/03-validation/09-bias-variance-cv.md) `1 attempts`
-- 🟠 [Nested Cross-Validation](ml-rapid-fire/02-model-evaluation/03-validation/10-nested-cross-validation.md) `1 attempts`
+- 🔵 [Data Leakage](ml-rapid-fire/02-model-evaluation/03-validation/07-data-leakage-definition.md) `1 attempts`
+- 🔵 [Time Series Validation](ml-rapid-fire/02-model-evaluation/03-validation/09-time-series-no-shuffle.md) `1 attempts`
+- 🟠 [Bias-Variance in Cross-Validation](ml-rapid-fire/02-model-evaluation/03-validation/11-bias-variance-cv.md) `1 attempts`
+- 🟠 [Nested Cross-Validation](ml-rapid-fire/02-model-evaluation/03-validation/12-nested-cross-validation.md) `1 attempts`
 
 ![Model Selection](https://img.shields.io/badge/Model_Selection-blue?style=for-the-badge)
 
@@ -681,4 +681,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-13 16:20:53*
+*Last updated: 2025-12-13 16:22:28*
