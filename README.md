@@ -16,13 +16,13 @@ Personal repository for ML interview prep flashcards.
 
 <code>Attempted</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 26.0% (107/411)
 
-<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.3% (63/411)
+<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.6% (64/411)
 
 | Status | Count |
 |--------|-------|
-| 🟢 Full | 41 |
+| 🟢 Full | 42 |
 | 🔵 Partial+ | 22 |
-| 🟡 Partial- | 26 |
+| 🟡 Partial- | 25 |
 | 🟠 None | 18 |
 | ⚫ New | 304 |
 | **Total** | **411** |
@@ -41,16 +41,16 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Core ML</h2></td></tr></table>
 
-<code>Mastered</code> <code>[██████████████████████░░░░░░░░]</code> 74.6% (47/63)
+<code>Mastered</code> <code>[██████████████████████░░░░░░░░]</code> 76.2% (48/63)
 
 ![ML Basics](https://img.shields.io/badge/ML_Basics-blue?style=for-the-badge)
 
-<code>Mastered</code> <code>[████████████████████████░░░░░░]</code> 81.0% (17/21)
+<code>Mastered</code> <code>[█████████████████████████░░░░░]</code> 85.7% (18/21)
 
 - 🟢 [01-what-is-ml](ml-rapid-fire/01-core-ml/01-ml-basics/01-what-is-ml.md) `2 attempts`
 - 🟢 [02-traditional-vs-ml](ml-rapid-fire/01-core-ml/01-ml-basics/02-traditional-vs-ml.md) `2 attempts`
-- 🟡 [03-three-components](ml-rapid-fire/01-core-ml/01-ml-basics/03-three-components.md) `2 attempts`
-- 🟢 [04-types-of-learning](ml-rapid-fire/01-core-ml/01-ml-basics/04-types-of-learning.md) `2 attempts`
+- 🟢 [03-three-components](ml-rapid-fire/01-core-ml/01-ml-basics/03-three-components.md) `3 attempts`
+- 🟢 [04-types-of-learning](ml-rapid-fire/01-core-ml/01-ml-basics/04-types-of-learning.md) `3 attempts`
 - 🟢 [05-classification-vs-regression](ml-rapid-fire/01-core-ml/01-ml-basics/05-classification-vs-regression.md) `2 attempts`
 - 🟢 [06-what-is-a-model](ml-rapid-fire/01-core-ml/01-ml-basics/06-what-is-a-model.md) `2 attempts`
 - 🟢 [07-what-is-loss-function](ml-rapid-fire/01-core-ml/01-ml-basics/07-what-is-loss-function.md) `2 attempts`
@@ -681,4 +681,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-12 16:49:45*
+*Last updated: 2025-12-13 15:57:01*

@@ -49,3 +49,24 @@
 ## 11. Simple is good
 - Simple questions with straightforward answers are valuable
 - Don't assume something is "too obvious" - rusty knowledge needs reinforcement
+
+---
+
+# Quiz Grading
+
+## Grading Scale
+| Level | Criteria |
+|-------|----------|
+| 🟢 Full | Got everything |
+| 🔵 Partial+ | More than half of checklist |
+| 🟡 Partial- | Less than half of checklist |
+| 🟠 None | Didn't know it |
+| ⚫ New | Not yet attempted |
+
+## Grading Process
+1. Go bullet by bullet, marking each as ✅ made or ❌ missed
+2. Propose overall grade based on the scale above
+3. Wait for user sign-off before logging the attempt
+4. Log the attempt using `scripts/log_attempt.py --file <path> --recall <none|partial-|partial+|full>` after user confirms
+5. Audit cards as we go: if a card is too broad, unclear, or doesn't meet the flashcard design principles, propose edits (split, reword, clarify) before continuing
+6. At end of session, run `scripts/generate_readme.py` to update the README

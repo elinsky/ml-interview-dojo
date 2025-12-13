@@ -274,6 +274,8 @@ flashcards:
       notes: Got concepts, not exact terms (Representation, Evaluation, Optimization)
     - date: '2025-12-07T15:32:09.502748'
       recall: partial-
+    - date: '2025-12-13T15:55:48.218589'
+      recall: full
   ml-rapid-fire/01-core-ml/01-ml-basics/04-types-of-learning.md:
     name: 04-types-of-learning
     category: ml-basics
@@ -281,6 +283,8 @@ flashcards:
     - date: '2025-11-28T16:48:00.000000'
       recall: full
     - date: '2025-12-07T15:34:07.384082'
+      recall: full
+    - date: '2025-12-13T15:56:29.340506'
       recall: full
   ml-rapid-fire/01-core-ml/01-ml-basics/05-classification-vs-regression.md:
     name: 05-classification-vs-regression
