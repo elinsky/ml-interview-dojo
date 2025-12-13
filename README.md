@@ -14,9 +14,9 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-<code>Attempted</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 26.0% (107/411)
+<code>Attempted</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 25.3% (107/423)
 
-<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.6% (64/411)
+<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.1% (64/423)
 
 | Status | Count |
 |--------|-------|
@@ -24,8 +24,8 @@ Personal repository for ML interview prep flashcards.
 | 🔵 Partial+ | 22 |
 | 🟡 Partial- | 25 |
 | 🟠 None | 18 |
-| ⚫ New | 304 |
-| **Total** | **411** |
+| ⚫ New | 316 |
+| **Total** | **423** |
 
 ## Quick Start
 
@@ -135,7 +135,7 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Model Evaluation</h2></td></tr></table>
 
-<code>Attempted</code> <code>[█████████████████░░░░░░░░░░░░░]</code> 58.8% (40/68)
+<code>Attempted</code> <code>[███████████████░░░░░░░░░░░░░░░]</code> 50.0% (40/80)
 
 ![Classification Metrics](https://img.shields.io/badge/Classification_Metrics-blue?style=for-the-badge)
 
@@ -157,20 +157,25 @@ python3 scripts/generate_readme.py
 
 ![Regression Metrics](https://img.shields.io/badge/Regression_Metrics-blue?style=for-the-badge)
 
-<code>Mastered</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
+<code>Attempted</code> <code>[██████████████████░░░░░░░░░░░░]</code> 61.5% (8/13)
 
 - 🟡 [Mean Squared Error](ml-rapid-fire/02-model-evaluation/02-regression-metrics/01-mse.md) `1 attempts`
+- ⚫ [MSE Properties](ml-rapid-fire/02-model-evaluation/02-regression-metrics/02-mse-properties.md)
 - 🟠 [Root Mean Squared Error](ml-rapid-fire/02-model-evaluation/02-regression-metrics/03-rmse.md) `1 attempts`
+- ⚫ [Why RMSE over MSE](ml-rapid-fire/02-model-evaluation/02-regression-metrics/04-rmse-vs-mse.md)
 - 🟡 [Mean Absolute Error](ml-rapid-fire/02-model-evaluation/02-regression-metrics/05-mae.md) `1 attempts`
+- ⚫ [MAE Properties](ml-rapid-fire/02-model-evaluation/02-regression-metrics/06-mae-properties.md)
 - 🟠 [MSE vs MAE](ml-rapid-fire/02-model-evaluation/02-regression-metrics/07-mse-vs-mae.md) `1 attempts`
 - 🟡 [Sum of Squares (SST, SSE, SSR)](ml-rapid-fire/02-model-evaluation/02-regression-metrics/08-sum-of-squares.md) `1 attempts`
 - 🟡 [R-Squared](ml-rapid-fire/02-model-evaluation/02-regression-metrics/09-r-squared.md) `1 attempts`
+- ⚫ [R² Interpretation](ml-rapid-fire/02-model-evaluation/02-regression-metrics/10-r-squared-interpretation.md)
 - 🟡 [R-Squared Limitations](ml-rapid-fire/02-model-evaluation/02-regression-metrics/11-r-squared-limitations.md) `1 attempts`
 - 🟡 [Adjusted R-Squared](ml-rapid-fire/02-model-evaluation/02-regression-metrics/12-adjusted-r-squared.md) `1 attempts`
+- ⚫ [When to Use Adjusted R²](ml-rapid-fire/02-model-evaluation/02-regression-metrics/13-adjusted-r-squared-when.md)
 
 ![Validation](https://img.shields.io/badge/Validation-blue?style=for-the-badge)
 
-<code>Mastered</code> <code>[███████████████░░░░░░░░░░░░░░░]</code> 50.0% (5/10)
+<code>Attempted</code> <code>[█████████████████████████░░░░░]</code> 83.3% (10/12)
 
 - 🟡 [Train/Test Split](ml-rapid-fire/02-model-evaluation/03-validation/01-train-test-split.md) `1 attempts`
 - 🔵 [Validation Set Purpose](ml-rapid-fire/02-model-evaluation/03-validation/02-validation-set-purpose.md) `1 attempts`
@@ -179,23 +184,30 @@ python3 scripts/generate_readme.py
 - 🟡 [Leave-One-Out Cross-Validation](ml-rapid-fire/02-model-evaluation/03-validation/05-loocv.md) `1 attempts`
 - 🟠 [Holdout vs Cross-Validation](ml-rapid-fire/02-model-evaluation/03-validation/06-holdout-vs-cv.md) `1 attempts`
 - 🔵 [Data Leakage](ml-rapid-fire/02-model-evaluation/03-validation/07-data-leakage-definition.md) `1 attempts`
+- ⚫ [Preventing Data Leakage](ml-rapid-fire/02-model-evaluation/03-validation/08-data-leakage-prevention.md)
 - 🔵 [Time Series Validation](ml-rapid-fire/02-model-evaluation/03-validation/09-time-series-no-shuffle.md) `1 attempts`
+- ⚫ [Walk-Forward Validation](ml-rapid-fire/02-model-evaluation/03-validation/10-walk-forward-validation.md)
 - 🟠 [Bias-Variance in Cross-Validation](ml-rapid-fire/02-model-evaluation/03-validation/11-bias-variance-cv.md) `1 attempts`
 - 🟠 [Nested Cross-Validation](ml-rapid-fire/02-model-evaluation/03-validation/12-nested-cross-validation.md) `1 attempts`
 
 ![Model Selection](https://img.shields.io/badge/Model_Selection-blue?style=for-the-badge)
 
-<code>Mastered</code> <code>[████████████████░░░░░░░░░░░░░░]</code> 55.6% (5/9)
+<code>Attempted</code> <code>[███████████████████░░░░░░░░░░░]</code> 64.3% (9/14)
 
 - 🔵 [What is Hyperparameter Tuning](ml-rapid-fire/02-model-evaluation/04-model-selection/01-hyperparameters.md) `1 attempts`
+- ⚫ [5 Components of Hyperparameter Tuning](ml-rapid-fire/02-model-evaluation/04-model-selection/02-tuning-components.md)
 - 🔵 [Grid Search](ml-rapid-fire/02-model-evaluation/04-model-selection/03-grid-search.md) `1 attempts`
 - 🔵 [Random Search](ml-rapid-fire/02-model-evaluation/04-model-selection/04-random-search.md) `1 attempts`
 - 🔵 [Bayesian Optimization](ml-rapid-fire/02-model-evaluation/04-model-selection/05-bayesian-optimization.md) `1 attempts`
+- ⚫ [Grid vs Random vs Bayesian Search](ml-rapid-fire/02-model-evaluation/04-model-selection/07-search-method-comparison.md)
 - 🟠 [Cross-Validation for Model Selection](ml-rapid-fire/02-model-evaluation/04-model-selection/08-cv-for-model-selection.md) `1 attempts`
 - 🟠 [How CV Works for Hyperparameter Tuning](ml-rapid-fire/02-model-evaluation/04-model-selection/09-cv-mechanism.md) `1 attempts`
 - 🟡 [Learning Curves](ml-rapid-fire/02-model-evaluation/04-model-selection/10-learning-curves.md) `1 attempts`
 - 🟡 [Validation Curve](ml-rapid-fire/02-model-evaluation/04-model-selection/12-validation-curve.md) `1 attempts`
 - 🔵 [Early Stopping as Model Selection](ml-rapid-fire/02-model-evaluation/04-model-selection/15-early-stopping.md) `1 attempts`
+- ⚫ [AIC (Akaike Information Criterion)](ml-rapid-fire/02-model-evaluation/04-model-selection/16-aic.md)
+- ⚫ [BIC (Bayesian Information Criterion)](ml-rapid-fire/02-model-evaluation/04-model-selection/17-bic.md)
+- ⚫ [Information Criteria for Model Selection](ml-rapid-fire/02-model-evaluation/04-model-selection/18-information-criteria-for-model-selection.md)
 
 ![Loss Functions](https://img.shields.io/badge/Loss_Functions-blue?style=for-the-badge)
 
@@ -681,4 +693,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-13 16:24:13*
+*Last updated: 2025-12-13 16:26:33*

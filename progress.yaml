@@ -1054,6 +1054,9 @@ flashcards:
     - date: '2025-11-29T19:07:34.403692'
       recall: partial-
       notes: Got formula, missed loss function definition and OLS distinction
+  ml-rapid-fire/02-model-evaluation/02-regression-metrics/02-mse-properties.md:
+    name: MSE Properties
+    category: regression-metrics
   ml-rapid-fire/02-model-evaluation/02-regression-metrics/03-rmse.md:
     name: Root Mean Squared Error
     category: regression-metrics
@@ -1061,6 +1064,9 @@ flashcards:
     - date: '2025-11-29T19:08:16.822233'
       recall: none
       notes: Didn't remember
+  ml-rapid-fire/02-model-evaluation/02-regression-metrics/04-rmse-vs-mse.md:
+    name: Why RMSE over MSE
+    category: regression-metrics
   ml-rapid-fire/02-model-evaluation/02-regression-metrics/05-mae.md:
     name: Mean Absolute Error
     category: regression-metrics
@@ -1068,6 +1074,9 @@ flashcards:
     - date: '2025-11-29T19:18:19.289113'
       recall: partial-
       notes: Got formula and outlier robustness, missed optimization tradeoff
+  ml-rapid-fire/02-model-evaluation/02-regression-metrics/06-mae-properties.md:
+    name: MAE Properties
+    category: regression-metrics
   ml-rapid-fire/02-model-evaluation/02-regression-metrics/07-mse-vs-mae.md:
     name: MSE vs MAE
     category: regression-metrics
@@ -1088,6 +1097,9 @@ flashcards:
     - date: '2025-11-29T19:22:20.245453'
       recall: partial-
       notes: Got variance explained concept, missed formula and baseline interpretation
+  ml-rapid-fire/02-model-evaluation/02-regression-metrics/10-r-squared-interpretation.md:
+    name: R² Interpretation
+    category: regression-metrics
   ml-rapid-fire/02-model-evaluation/02-regression-metrics/11-r-squared-limitations.md:
     name: R-Squared Limitations
     category: regression-metrics
@@ -1104,6 +1116,9 @@ flashcards:
       recall: partial-
       notes: Got key purpose (addresses complexity limitation), missed formula and
         mechanics
+  ml-rapid-fire/02-model-evaluation/02-regression-metrics/13-adjusted-r-squared-when.md:
+    name: When to Use Adjusted R²
+    category: regression-metrics
   ml-rapid-fire/02-model-evaluation/03-validation/01-train-test-split.md:
     name: Train/Test Split
     category: validation
@@ -1157,6 +1172,9 @@ flashcards:
       recall: partial+
       notes: Got target leakage concept with great quant finance example (OHLC), missed
         preprocessing leakage and prevention strategies
+  ml-rapid-fire/02-model-evaluation/03-validation/08-data-leakage-prevention.md:
+    name: Preventing Data Leakage
+    category: validation
   ml-rapid-fire/02-model-evaluation/03-validation/09-time-series-no-shuffle.md:
     name: Time Series Validation
     category: validation
@@ -1165,6 +1183,9 @@ flashcards:
       recall: partial+
       notes: Got core principle (train past, validate future); provided extended answer
         with 3 IID reasons and window approaches
+  ml-rapid-fire/02-model-evaluation/03-validation/10-walk-forward-validation.md:
+    name: Walk-Forward Validation
+    category: validation
   ml-rapid-fire/02-model-evaluation/03-validation/11-bias-variance-cv.md:
     name: Bias-Variance in Cross-Validation
     category: validation
@@ -1189,6 +1210,9 @@ flashcards:
       recall: partial+
       notes: Got core concepts with good examples (tree depth, num trees); mentioned
         grid search; good insight on why necessary
+  ml-rapid-fire/02-model-evaluation/04-model-selection/02-tuning-components.md:
+    name: 5 Components of Hyperparameter Tuning
+    category: model-selection
   ml-rapid-fire/02-model-evaluation/04-model-selection/03-grid-search.md:
     name: Grid Search
     category: model-selection
@@ -1211,6 +1235,12 @@ flashcards:
     attempts:
     - date: '2025-12-12T16:48:42.941862'
       recall: partial+
+  ml-rapid-fire/02-model-evaluation/04-model-selection/06-bayesian-optimization-steps.md:
+    name: Bayesian Optimization Steps
+    category: model-selection
+  ml-rapid-fire/02-model-evaluation/04-model-selection/07-search-method-comparison.md:
+    name: Grid vs Random vs Bayesian Search
+    category: model-selection
   ml-rapid-fire/02-model-evaluation/04-model-selection/08-cv-for-model-selection.md:
     name: Cross-Validation for Model Selection
     category: model-selection
@@ -1235,6 +1265,15 @@ flashcards:
     attempts:
     - date: '2025-12-12T16:49:39.200966'
       recall: partial+
+  ml-rapid-fire/02-model-evaluation/04-model-selection/16-aic.md:
+    name: AIC (Akaike Information Criterion)
+    category: model-selection
+  ml-rapid-fire/02-model-evaluation/04-model-selection/17-bic.md:
+    name: BIC (Bayesian Information Criterion)
+    category: model-selection
+  ml-rapid-fire/02-model-evaluation/04-model-selection/18-information-criteria-for-model-selection.md:
+    name: Information Criteria for Model Selection
+    category: model-selection
   ml-rapid-fire/02-model-evaluation/05-loss-functions/01-what-is-loss-function.md:
     name: What is a Loss Function
     category: loss-functions
