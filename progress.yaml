@@ -1054,41 +1054,41 @@ flashcards:
     - date: '2025-11-29T19:07:34.403692'
       recall: partial-
       notes: Got formula, missed loss function definition and OLS distinction
-  ml-rapid-fire/02-model-evaluation/02-regression-metrics/02-rmse.md:
+  ml-rapid-fire/02-model-evaluation/02-regression-metrics/03-rmse.md:
     name: Root Mean Squared Error
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:08:16.822233'
       recall: none
       notes: Didn't remember
-  ml-rapid-fire/02-model-evaluation/02-regression-metrics/03-mae.md:
+  ml-rapid-fire/02-model-evaluation/02-regression-metrics/05-mae.md:
     name: Mean Absolute Error
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:18:19.289113'
       recall: partial-
       notes: Got formula and outlier robustness, missed optimization tradeoff
-  ml-rapid-fire/02-model-evaluation/02-regression-metrics/04-mse-vs-mae.md:
+  ml-rapid-fire/02-model-evaluation/02-regression-metrics/07-mse-vs-mae.md:
     name: MSE vs MAE
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:21:10.609439'
       recall: none
       notes: Looked at answer, summary card
-  ml-rapid-fire/02-model-evaluation/02-regression-metrics/05-sum-of-squares.md:
+  ml-rapid-fire/02-model-evaluation/02-regression-metrics/08-sum-of-squares.md:
     name: Sum of Squares (SST, SSE, SSR)
     category: regression-metrics
     attempts:
     - date: '2025-12-07T20:39:42.397907'
       recall: partial-
-  ml-rapid-fire/02-model-evaluation/02-regression-metrics/06-r-squared.md:
+  ml-rapid-fire/02-model-evaluation/02-regression-metrics/09-r-squared.md:
     name: R-Squared
     category: regression-metrics
     attempts:
     - date: '2025-11-29T19:22:20.245453'
       recall: partial-
       notes: Got variance explained concept, missed formula and baseline interpretation
-  ml-rapid-fire/02-model-evaluation/02-regression-metrics/07-r-squared-limitations.md:
+  ml-rapid-fire/02-model-evaluation/02-regression-metrics/11-r-squared-limitations.md:
     name: R-Squared Limitations
     category: regression-metrics
     attempts:
@@ -1096,7 +1096,7 @@ flashcards:
       recall: partial-
       notes: Got key limitation (always increases with features), missed bias/overfitting/negative
         values
-  ml-rapid-fire/02-model-evaluation/02-regression-metrics/08-adjusted-r-squared.md:
+  ml-rapid-fire/02-model-evaluation/02-regression-metrics/12-adjusted-r-squared.md:
     name: Adjusted R-Squared
     category: regression-metrics
     attempts:

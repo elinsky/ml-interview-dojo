@@ -160,13 +160,13 @@ python3 scripts/generate_readme.py
 <code>Mastered</code> <code>[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 0.0% (0/8)
 
 - 🟡 [Mean Squared Error](ml-rapid-fire/02-model-evaluation/02-regression-metrics/01-mse.md) `1 attempts`
-- 🟠 [Root Mean Squared Error](ml-rapid-fire/02-model-evaluation/02-regression-metrics/02-rmse.md) `1 attempts`
-- 🟡 [Mean Absolute Error](ml-rapid-fire/02-model-evaluation/02-regression-metrics/03-mae.md) `1 attempts`
-- 🟠 [MSE vs MAE](ml-rapid-fire/02-model-evaluation/02-regression-metrics/04-mse-vs-mae.md) `1 attempts`
-- 🟡 [Sum of Squares (SST, SSE, SSR)](ml-rapid-fire/02-model-evaluation/02-regression-metrics/05-sum-of-squares.md) `1 attempts`
-- 🟡 [R-Squared](ml-rapid-fire/02-model-evaluation/02-regression-metrics/06-r-squared.md) `1 attempts`
-- 🟡 [R-Squared Limitations](ml-rapid-fire/02-model-evaluation/02-regression-metrics/07-r-squared-limitations.md) `1 attempts`
-- 🟡 [Adjusted R-Squared](ml-rapid-fire/02-model-evaluation/02-regression-metrics/08-adjusted-r-squared.md) `1 attempts`
+- 🟠 [Root Mean Squared Error](ml-rapid-fire/02-model-evaluation/02-regression-metrics/03-rmse.md) `1 attempts`
+- 🟡 [Mean Absolute Error](ml-rapid-fire/02-model-evaluation/02-regression-metrics/05-mae.md) `1 attempts`
+- 🟠 [MSE vs MAE](ml-rapid-fire/02-model-evaluation/02-regression-metrics/07-mse-vs-mae.md) `1 attempts`
+- 🟡 [Sum of Squares (SST, SSE, SSR)](ml-rapid-fire/02-model-evaluation/02-regression-metrics/08-sum-of-squares.md) `1 attempts`
+- 🟡 [R-Squared](ml-rapid-fire/02-model-evaluation/02-regression-metrics/09-r-squared.md) `1 attempts`
+- 🟡 [R-Squared Limitations](ml-rapid-fire/02-model-evaluation/02-regression-metrics/11-r-squared-limitations.md) `1 attempts`
+- 🟡 [Adjusted R-Squared](ml-rapid-fire/02-model-evaluation/02-regression-metrics/12-adjusted-r-squared.md) `1 attempts`
 
 ![Validation](https://img.shields.io/badge/Validation-blue?style=for-the-badge)
 
@@ -681,4 +681,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-13 16:16:02*
+*Last updated: 2025-12-13 16:20:53*
