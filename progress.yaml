@@ -978,50 +978,50 @@ flashcards:
     attempts:
     - date: '2025-11-29T13:13:46.393402'
       recall: partial-
-  ml-rapid-fire/02-model-evaluation/01-classification-metrics/03-type-i-type-ii.md:
+  ml-rapid-fire/02-model-evaluation/01-classification-metrics/04-type-i-type-ii.md:
     name: Type I and Type II Errors
     category: classification-metrics
     attempts:
     - date: '2025-12-07T20:34:58.389967'
       recall: full
-  ml-rapid-fire/02-model-evaluation/01-classification-metrics/04-total.md:
+  ml-rapid-fire/02-model-evaluation/01-classification-metrics/05-total.md:
     name: Total
     category: classification-metrics
     attempts:
     - date: '2025-12-07T20:41:20.072854'
       recall: full
-  ml-rapid-fire/02-model-evaluation/01-classification-metrics/05-accuracy.md:
+  ml-rapid-fire/02-model-evaluation/01-classification-metrics/06-accuracy.md:
     name: Accuracy
     category: classification-metrics
     attempts:
     - date: '2025-11-29T13:23:35.288084'
       recall: partial-
-  ml-rapid-fire/02-model-evaluation/01-classification-metrics/06-precision.md:
+  ml-rapid-fire/02-model-evaluation/01-classification-metrics/08-precision.md:
     name: Precision
     category: classification-metrics
     attempts:
     - date: '2025-11-29T13:32:57.250643'
       recall: partial-
-  ml-rapid-fire/02-model-evaluation/01-classification-metrics/07-recall.md:
+  ml-rapid-fire/02-model-evaluation/01-classification-metrics/10-recall.md:
     name: Recall
     category: classification-metrics
     attempts:
     - date: '2025-11-29T14:15:00.000000'
       recall: full
       notes: Got 4/5 - missed alternative names (sensitivity, TPR)
-  ml-rapid-fire/02-model-evaluation/01-classification-metrics/08-specificity.md:
+  ml-rapid-fire/02-model-evaluation/01-classification-metrics/12-specificity.md:
     name: Specificity
     category: classification-metrics
     attempts:
     - date: '2025-12-07T20:37:16.305301'
       recall: none
-  ml-rapid-fire/02-model-evaluation/01-classification-metrics/09-f1-score.md:
+  ml-rapid-fire/02-model-evaluation/01-classification-metrics/14-f1-score.md:
     name: F1 Score
     category: classification-metrics
     attempts:
     - date: '2025-11-29T14:18:00.000000'
       recall: none
-  ml-rapid-fire/02-model-evaluation/01-classification-metrics/10-precision-recall-tradeoff.md:
+  ml-rapid-fire/02-model-evaluation/01-classification-metrics/16-precision-recall-tradeoff.md:
     name: Precision-Recall Tradeoff
     category: classification-metrics
     attempts:
@@ -1029,19 +1029,19 @@ flashcards:
       recall: partial-
       notes: Got tradeoff concept with examples, said 'accuracy' instead of 'precision',
         missed threshold framing
-  ml-rapid-fire/02-model-evaluation/01-classification-metrics/11-roc-curve.md:
+  ml-rapid-fire/02-model-evaluation/01-classification-metrics/18-roc-curve.md:
     name: ROC Curve
     category: classification-metrics
     attempts:
     - date: '2025-11-29T17:18:14.708641'
       recall: none
-  ml-rapid-fire/02-model-evaluation/01-classification-metrics/12-auc-roc.md:
+  ml-rapid-fire/02-model-evaluation/01-classification-metrics/20-auc-roc.md:
     name: AUC-ROC
     category: classification-metrics
     attempts:
     - date: '2025-11-29T18:07:37.484874'
       recall: none
-  ml-rapid-fire/02-model-evaluation/01-classification-metrics/13-pr-curve-vs-roc.md:
+  ml-rapid-fire/02-model-evaluation/01-classification-metrics/22-pr-curve-vs-roc.md:
     name: PR Curve vs ROC
     category: classification-metrics
     attempts:

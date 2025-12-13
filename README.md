@@ -143,17 +143,17 @@ python3 scripts/generate_readme.py
 
 - 🟢 [TP, FP, TN, FN](ml-rapid-fire/02-model-evaluation/01-classification-metrics/01-tp-fp-tn-fn.md) `1 attempts`
 - 🟡 [Confusion Matrix](ml-rapid-fire/02-model-evaluation/01-classification-metrics/02-confusion-matrix.md) `1 attempts`
-- 🟢 [Type I and Type II Errors](ml-rapid-fire/02-model-evaluation/01-classification-metrics/03-type-i-type-ii.md) `1 attempts`
-- 🟢 [Total](ml-rapid-fire/02-model-evaluation/01-classification-metrics/04-total.md) `1 attempts`
-- 🟡 [Accuracy](ml-rapid-fire/02-model-evaluation/01-classification-metrics/05-accuracy.md) `1 attempts`
-- 🟡 [Precision](ml-rapid-fire/02-model-evaluation/01-classification-metrics/06-precision.md) `1 attempts`
-- 🟢 [Recall](ml-rapid-fire/02-model-evaluation/01-classification-metrics/07-recall.md) `1 attempts`
-- 🟠 [Specificity](ml-rapid-fire/02-model-evaluation/01-classification-metrics/08-specificity.md) `1 attempts`
-- 🟠 [F1 Score](ml-rapid-fire/02-model-evaluation/01-classification-metrics/09-f1-score.md) `1 attempts`
-- 🟡 [Precision-Recall Tradeoff](ml-rapid-fire/02-model-evaluation/01-classification-metrics/10-precision-recall-tradeoff.md) `1 attempts`
-- 🟠 [ROC Curve](ml-rapid-fire/02-model-evaluation/01-classification-metrics/11-roc-curve.md) `1 attempts`
-- 🟠 [AUC-ROC](ml-rapid-fire/02-model-evaluation/01-classification-metrics/12-auc-roc.md) `1 attempts`
-- 🟠 [PR Curve vs ROC](ml-rapid-fire/02-model-evaluation/01-classification-metrics/13-pr-curve-vs-roc.md) `1 attempts`
+- 🟢 [Type I and Type II Errors](ml-rapid-fire/02-model-evaluation/01-classification-metrics/04-type-i-type-ii.md) `1 attempts`
+- 🟢 [Total](ml-rapid-fire/02-model-evaluation/01-classification-metrics/05-total.md) `1 attempts`
+- 🟡 [Accuracy](ml-rapid-fire/02-model-evaluation/01-classification-metrics/06-accuracy.md) `1 attempts`
+- 🟡 [Precision](ml-rapid-fire/02-model-evaluation/01-classification-metrics/08-precision.md) `1 attempts`
+- 🟢 [Recall](ml-rapid-fire/02-model-evaluation/01-classification-metrics/10-recall.md) `1 attempts`
+- 🟠 [Specificity](ml-rapid-fire/02-model-evaluation/01-classification-metrics/12-specificity.md) `1 attempts`
+- 🟠 [F1 Score](ml-rapid-fire/02-model-evaluation/01-classification-metrics/14-f1-score.md) `1 attempts`
+- 🟡 [Precision-Recall Tradeoff](ml-rapid-fire/02-model-evaluation/01-classification-metrics/16-precision-recall-tradeoff.md) `1 attempts`
+- 🟠 [ROC Curve](ml-rapid-fire/02-model-evaluation/01-classification-metrics/18-roc-curve.md) `1 attempts`
+- 🟠 [AUC-ROC](ml-rapid-fire/02-model-evaluation/01-classification-metrics/20-auc-roc.md) `1 attempts`
+- 🟠 [PR Curve vs ROC](ml-rapid-fire/02-model-evaluation/01-classification-metrics/22-pr-curve-vs-roc.md) `1 attempts`
 
 ![Regression Metrics](https://img.shields.io/badge/Regression_Metrics-blue?style=for-the-badge)
 
@@ -681,4 +681,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-13 16:08:30*
+*Last updated: 2025-12-13 16:16:02*
