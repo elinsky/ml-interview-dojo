@@ -28,7 +28,7 @@ flashcards:
       notes: Said -1 to 1 (thats tanh), forgot formula
     - date: '2025-12-07T16:27:38.846777'
       recall: none
-  ml-rapid-fire/01-core-ml/03-logistic-regression/04-how-trained.md:
+  ml-rapid-fire/01-core-ml/03-logistic-regression/05-how-trained.md:
     name: How Trained
     category: logistic-regression
     topic: logistic-regression
@@ -37,7 +37,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T16:28:24.812809'
       recall: none
-  ml-rapid-fire/01-core-ml/03-logistic-regression/05-coefficient-interpretation.md:
+  ml-rapid-fire/01-core-ml/03-logistic-regression/06-coefficient-interpretation.md:
     name: Coefficient Interpretation
     category: logistic-regression
     topic: logistic-regression
@@ -47,7 +47,7 @@ flashcards:
       notes: Knew log odds involved, forgot e^beta relationship
     - date: '2025-12-07T16:31:28.319141'
       recall: none
-  ml-rapid-fire/01-core-ml/03-logistic-regression/06-decision-boundary.md:
+  ml-rapid-fire/01-core-ml/03-logistic-regression/07-decision-boundary.md:
     name: Decision Boundary
     category: logistic-regression
     topic: logistic-regression
@@ -57,7 +57,7 @@ flashcards:
       notes: Knew it was linear, but didnt understand why or what it means
     - date: '2025-12-07T16:31:54.860906'
       recall: full
-  ml-rapid-fire/01-core-ml/03-logistic-regression/07-multi-class.md:
+  ml-rapid-fire/01-core-ml/03-logistic-regression/08-multi-class.md:
     name: Multi-class
     category: logistic-regression
     topic: logistic-regression
@@ -66,7 +66,7 @@ flashcards:
       recall: full
     - date: '2025-12-07T16:36:31.258110'
       recall: none
-  ml-rapid-fire/01-core-ml/03-logistic-regression/08-loss-function.md:
+  ml-rapid-fire/01-core-ml/03-logistic-regression/09-loss-function.md:
     name: Loss Function
     category: logistic-regression
     topic: logistic-regression
@@ -243,7 +243,7 @@ flashcards:
         forgot interpretation
     - date: '2025-12-07T15:24:55.522286'
       recall: partial+
-  ml-rapid-fire/01-core-ml/02-linear-regression/14-mse-formula.md:
+  ml-rapid-fire/01-core-ml/02-linear-regression/16-mse-formula.md:
     name: 14-mse-formula
     category: linear-regression
     attempts:
@@ -383,7 +383,7 @@ flashcards:
       notes: Got 3/4, missed "problem changes frequently"
     - date: '2025-12-07T16:06:42.174218'
       recall: partial+
-  ml-rapid-fire/01-core-ml/03-logistic-regression/09-linearly-separable.md:
+  ml-rapid-fire/01-core-ml/03-logistic-regression/11-linearly-separable.md:
     name: Linearly Separable
     category: logistic-regression
     topic: logistic-regression
@@ -494,13 +494,13 @@ flashcards:
     attempts:
     - date: '2025-12-07T20:08:00.000000'
       recall: partial-
-  ml-rapid-fire/01-core-ml/05-regularization/09-lambda-hyperparameter.md:
+  ml-rapid-fire/01-core-ml/05-regularization/10-lambda-hyperparameter.md:
     name: Regularization Hyperparameter
     category: regularization
     attempts:
     - date: '2025-12-07T20:12:00.000000'
       recall: full
-  ml-rapid-fire/01-core-ml/05-regularization/10-lambda-bias-variance.md:
+  ml-rapid-fire/01-core-ml/05-regularization/11-lambda-bias-variance.md:
     name: Lambda Effect on Bias-Variance
     category: regularization
     attempts:

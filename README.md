@@ -86,7 +86,7 @@ python3 scripts/generate_readme.py
 - 🟡 [11-ridge-vs-lasso](ml-rapid-fire/01-core-ml/02-linear-regression/11-ridge-vs-lasso.md) `2 attempts`
 - 🔵 [12-ridge-lasso-effects](ml-rapid-fire/01-core-ml/02-linear-regression/12-ridge-lasso-effects.md) `1 attempts`
 - 🔵 [13-r-squared](ml-rapid-fire/01-core-ml/02-linear-regression/13-r-squared.md) `2 attempts`
-- 🟢 [14-mse-formula](ml-rapid-fire/01-core-ml/02-linear-regression/14-mse-formula.md) `1 attempts`
+- 🟢 [14-mse-formula](ml-rapid-fire/01-core-ml/02-linear-regression/16-mse-formula.md) `1 attempts`
 
 ![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-blue?style=for-the-badge)
 
@@ -95,12 +95,12 @@ python3 scripts/generate_readme.py
 - 🔵 [What is Logistic Regression](ml-rapid-fire/01-core-ml/03-logistic-regression/01-what-is-logistic-regression.md) `2 attempts`
 - 🟢 [Why Not Linear Regression](ml-rapid-fire/01-core-ml/03-logistic-regression/02-why-not-linear-regression.md) `2 attempts`
 - 🟠 [Sigmoid Function](ml-rapid-fire/01-core-ml/03-logistic-regression/03-sigmoid-function.md) `2 attempts`
-- 🟢 [How Trained](ml-rapid-fire/01-core-ml/03-logistic-regression/04-how-trained.md) `2 attempts`
-- 🟡 [Coefficient Interpretation](ml-rapid-fire/01-core-ml/03-logistic-regression/05-coefficient-interpretation.md) `2 attempts`
-- 🟢 [Decision Boundary](ml-rapid-fire/01-core-ml/03-logistic-regression/06-decision-boundary.md) `2 attempts`
-- 🟢 [Multi-class](ml-rapid-fire/01-core-ml/03-logistic-regression/07-multi-class.md) `2 attempts`
-- 🟢 [Loss Function](ml-rapid-fire/01-core-ml/03-logistic-regression/08-loss-function.md) `1 attempts`
-- 🟢 [Linearly Separable](ml-rapid-fire/01-core-ml/03-logistic-regression/09-linearly-separable.md) `1 attempts`
+- 🟢 [How Trained](ml-rapid-fire/01-core-ml/03-logistic-regression/05-how-trained.md) `2 attempts`
+- 🟡 [Coefficient Interpretation](ml-rapid-fire/01-core-ml/03-logistic-regression/06-coefficient-interpretation.md) `2 attempts`
+- 🟢 [Decision Boundary](ml-rapid-fire/01-core-ml/03-logistic-regression/07-decision-boundary.md) `2 attempts`
+- 🟢 [Multi-class](ml-rapid-fire/01-core-ml/03-logistic-regression/08-multi-class.md) `2 attempts`
+- 🟢 [Loss Function](ml-rapid-fire/01-core-ml/03-logistic-regression/09-loss-function.md) `1 attempts`
+- 🟢 [Linearly Separable](ml-rapid-fire/01-core-ml/03-logistic-regression/11-linearly-separable.md) `1 attempts`
 
 ![Cross Entropy](https://img.shields.io/badge/Cross_Entropy-blue?style=for-the-badge)
 
@@ -128,8 +128,8 @@ python3 scripts/generate_readme.py
 - 🔵 [When to Choose L2 (Ridge)](ml-rapid-fire/01-core-ml/05-regularization/06-when-l2-ridge.md) `1 attempts`
 - 🟢 [When to Choose Elastic Net](ml-rapid-fire/01-core-ml/05-regularization/07-when-elastic-net.md) `1 attempts`
 - 🟡 [Elastic Net](ml-rapid-fire/01-core-ml/05-regularization/08-elastic-net.md) `1 attempts`
-- 🟢 [Regularization Hyperparameter](ml-rapid-fire/01-core-ml/05-regularization/09-lambda-hyperparameter.md) `1 attempts`
-- 🟢 [Lambda Effect on Bias-Variance](ml-rapid-fire/01-core-ml/05-regularization/10-lambda-bias-variance.md) `1 attempts`
+- 🟢 [Regularization Hyperparameter](ml-rapid-fire/01-core-ml/05-regularization/10-lambda-hyperparameter.md) `1 attempts`
+- 🟢 [Lambda Effect on Bias-Variance](ml-rapid-fire/01-core-ml/05-regularization/11-lambda-bias-variance.md) `1 attempts`
 
 ---
 
@@ -681,4 +681,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-13 15:57:01*
+*Last updated: 2025-12-13 16:08:30*
