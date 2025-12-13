@@ -14,9 +14,9 @@ Personal repository for ML interview prep flashcards.
 
 ## Progress Summary
 
-<code>Attempted</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 25.3% (107/423)
+<code>Attempted</code> <code>[███████░░░░░░░░░░░░░░░░░░░░░░░]</code> 24.9% (107/430)
 
-<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 15.1% (64/423)
+<code>Mastered</code> <code>[████░░░░░░░░░░░░░░░░░░░░░░░░░░]</code> 14.9% (64/430)
 
 | Status | Count |
 |--------|-------|
@@ -24,8 +24,8 @@ Personal repository for ML interview prep flashcards.
 | 🔵 Partial+ | 22 |
 | 🟡 Partial- | 25 |
 | 🟠 None | 18 |
-| ⚫ New | 316 |
-| **Total** | **423** |
+| ⚫ New | 323 |
+| **Total** | **430** |
 
 ## Quick Start
 
@@ -41,11 +41,11 @@ python3 scripts/generate_readme.py
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Core ML</h2></td></tr></table>
 
-<code>Mastered</code> <code>[██████████████████████░░░░░░░░]</code> 76.2% (48/63)
+<code>Attempted</code> <code>[███████████████████████████░░░]</code> 90.0% (63/70)
 
 ![ML Basics](https://img.shields.io/badge/ML_Basics-blue?style=for-the-badge)
 
-<code>Mastered</code> <code>[█████████████████████████░░░░░]</code> 85.7% (18/21)
+<code>Attempted</code> <code>[███████████████████████████░░░]</code> 91.3% (21/23)
 
 - 🟢 [01-what-is-ml](ml-rapid-fire/01-core-ml/01-ml-basics/01-what-is-ml.md) `2 attempts`
 - 🟢 [02-traditional-vs-ml](ml-rapid-fire/01-core-ml/01-ml-basics/02-traditional-vs-ml.md) `2 attempts`
@@ -60,6 +60,8 @@ python3 scripts/generate_readme.py
 - 🟢 [11-what-is-regularization](ml-rapid-fire/01-core-ml/01-ml-basics/11-what-is-regularization.md) `2 attempts`
 - 🟢 [12-training-vs-inference](ml-rapid-fire/01-core-ml/01-ml-basics/12-training-vs-inference.md) `2 attempts`
 - 🟢 [13-overfitting-underfitting](ml-rapid-fire/01-core-ml/01-ml-basics/13-overfitting-underfitting.md) `2 attempts`
+- ⚫ [What is Variance](ml-rapid-fire/01-core-ml/01-ml-basics/14-what-is-variance.md)
+- ⚫ [What is Bias](ml-rapid-fire/01-core-ml/01-ml-basics/15-what-is-bias.md)
 - 🔵 [16-bias-variance-tradeoff](ml-rapid-fire/01-core-ml/01-ml-basics/16-bias-variance-tradeoff.md) `2 attempts`
 - 🔵 [17-when-to-use-ml](ml-rapid-fire/01-core-ml/01-ml-basics/17-when-to-use-ml.md) `2 attempts`
 - 🟡 [Bias-Variance Decomposition](ml-rapid-fire/01-core-ml/01-ml-basics/18-bias-variance-decomposition.md) `2 attempts`
@@ -71,7 +73,7 @@ python3 scripts/generate_readme.py
 
 ![Linear Regression](https://img.shields.io/badge/Linear_Regression-blue?style=for-the-badge)
 
-<code>Mastered</code> <code>[█████████████████████████░░░░░]</code> 85.7% (12/14)
+<code>Attempted</code> <code>[██████████████████████████░░░░]</code> 87.5% (14/16)
 
 - 🟢 [01-what-is-linear-regression](ml-rapid-fire/01-core-ml/02-linear-regression/01-what-is-linear-regression.md) `2 attempts`
 - 🟢 [02-simple-vs-multiple](ml-rapid-fire/01-core-ml/02-linear-regression/02-simple-vs-multiple.md) `2 attempts`
@@ -86,20 +88,24 @@ python3 scripts/generate_readme.py
 - 🟡 [11-ridge-vs-lasso](ml-rapid-fire/01-core-ml/02-linear-regression/11-ridge-vs-lasso.md) `2 attempts`
 - 🔵 [12-ridge-lasso-effects](ml-rapid-fire/01-core-ml/02-linear-regression/12-ridge-lasso-effects.md) `1 attempts`
 - 🔵 [13-r-squared](ml-rapid-fire/01-core-ml/02-linear-regression/13-r-squared.md) `2 attempts`
+- ⚫ [R-Squared Formula](ml-rapid-fire/01-core-ml/02-linear-regression/14-r-squared-formula.md)
+- ⚫ [R-Squared Properties](ml-rapid-fire/01-core-ml/02-linear-regression/15-r-squared-properties.md)
 - 🟢 [14-mse-formula](ml-rapid-fire/01-core-ml/02-linear-regression/16-mse-formula.md) `1 attempts`
 
 ![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-blue?style=for-the-badge)
 
-<code>Mastered</code> <code>[███████████████████████░░░░░░░]</code> 77.8% (7/9)
+<code>Attempted</code> <code>[████████████████████████░░░░░░]</code> 81.8% (9/11)
 
 - 🔵 [What is Logistic Regression](ml-rapid-fire/01-core-ml/03-logistic-regression/01-what-is-logistic-regression.md) `2 attempts`
 - 🟢 [Why Not Linear Regression](ml-rapid-fire/01-core-ml/03-logistic-regression/02-why-not-linear-regression.md) `2 attempts`
 - 🟠 [Sigmoid Function](ml-rapid-fire/01-core-ml/03-logistic-regression/03-sigmoid-function.md) `2 attempts`
+- ⚫ [Sigmoid Formula](ml-rapid-fire/01-core-ml/03-logistic-regression/04-sigmoid-formula.md)
 - 🟢 [How Trained](ml-rapid-fire/01-core-ml/03-logistic-regression/05-how-trained.md) `2 attempts`
 - 🟡 [Coefficient Interpretation](ml-rapid-fire/01-core-ml/03-logistic-regression/06-coefficient-interpretation.md) `2 attempts`
 - 🟢 [Decision Boundary](ml-rapid-fire/01-core-ml/03-logistic-regression/07-decision-boundary.md) `2 attempts`
 - 🟢 [Multi-class](ml-rapid-fire/01-core-ml/03-logistic-regression/08-multi-class.md) `2 attempts`
 - 🟢 [Loss Function](ml-rapid-fire/01-core-ml/03-logistic-regression/09-loss-function.md) `1 attempts`
+- ⚫ [Loss Function Formula](ml-rapid-fire/01-core-ml/03-logistic-regression/10-loss-function-formula.md)
 - 🟢 [Linearly Separable](ml-rapid-fire/01-core-ml/03-logistic-regression/11-linearly-separable.md) `1 attempts`
 
 ![Cross Entropy](https://img.shields.io/badge/Cross_Entropy-blue?style=for-the-badge)
@@ -118,7 +124,7 @@ python3 scripts/generate_readme.py
 
 ![Regularization](https://img.shields.io/badge/Regularization-blue?style=for-the-badge)
 
-<code>Mastered</code> <code>[██████████████████░░░░░░░░░░░░]</code> 60.0% (6/10)
+<code>Attempted</code> <code>[███████████████████████████░░░]</code> 90.9% (10/11)
 
 - 🟢 [L2 (Ridge) Penalty Formula](ml-rapid-fire/01-core-ml/05-regularization/01-l2-ridge-formula.md) `2 attempts`
 - 🟡 [L1 (Lasso) Penalty Formula](ml-rapid-fire/01-core-ml/05-regularization/02-l1-lasso-formula.md) `1 attempts`
@@ -128,6 +134,7 @@ python3 scripts/generate_readme.py
 - 🔵 [When to Choose L2 (Ridge)](ml-rapid-fire/01-core-ml/05-regularization/06-when-l2-ridge.md) `1 attempts`
 - 🟢 [When to Choose Elastic Net](ml-rapid-fire/01-core-ml/05-regularization/07-when-elastic-net.md) `1 attempts`
 - 🟡 [Elastic Net](ml-rapid-fire/01-core-ml/05-regularization/08-elastic-net.md) `1 attempts`
+- ⚫ [Elastic Net Formula](ml-rapid-fire/01-core-ml/05-regularization/09-elastic-net-formula.md)
 - 🟢 [Regularization Hyperparameter](ml-rapid-fire/01-core-ml/05-regularization/10-lambda-hyperparameter.md) `1 attempts`
 - 🟢 [Lambda Effect on Bias-Variance](ml-rapid-fire/01-core-ml/05-regularization/11-lambda-bias-variance.md) `1 attempts`
 
@@ -693,4 +700,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-13 16:26:33*
+*Last updated: 2025-12-13 16:29:25*

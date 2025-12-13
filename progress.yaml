@@ -28,6 +28,9 @@ flashcards:
       notes: Said -1 to 1 (thats tanh), forgot formula
     - date: '2025-12-07T16:27:38.846777'
       recall: none
+  ml-rapid-fire/01-core-ml/03-logistic-regression/04-sigmoid-formula.md:
+    name: Sigmoid Formula
+    category: logistic-regression
   ml-rapid-fire/01-core-ml/03-logistic-regression/05-how-trained.md:
     name: How Trained
     category: logistic-regression
@@ -73,6 +76,12 @@ flashcards:
     attempts:
     - date: '2025-11-28T13:21:22.926173'
       recall: full
+  ml-rapid-fire/01-core-ml/03-logistic-regression/10-loss-function-formula.md:
+    name: Loss Function Formula
+    category: logistic-regression
+  ml-rapid-fire/01-core-ml/03-logistic-regression/11-linearly-separable.md:
+    name: Linearly Separable
+    category: logistic-regression
   ml-rapid-fire/01-core-ml/04-cross-entropy/01-what-is-cross-entropy.md:
     name: 01-what-is-cross-entropy
     category: cross-entropy
@@ -243,6 +252,12 @@ flashcards:
         forgot interpretation
     - date: '2025-12-07T15:24:55.522286'
       recall: partial+
+  ml-rapid-fire/01-core-ml/02-linear-regression/14-r-squared-formula.md:
+    name: R-Squared Formula
+    category: linear-regression
+  ml-rapid-fire/01-core-ml/02-linear-regression/15-r-squared-properties.md:
+    name: R-Squared Properties
+    category: linear-regression
   ml-rapid-fire/01-core-ml/02-linear-regression/16-mse-formula.md:
     name: 14-mse-formula
     category: linear-regression
@@ -364,6 +379,12 @@ flashcards:
       recall: full
     - date: '2025-12-07T15:53:19.413458'
       recall: full
+  ml-rapid-fire/01-core-ml/01-ml-basics/14-what-is-variance.md:
+    name: What is Variance
+    category: ml-basics
+  ml-rapid-fire/01-core-ml/01-ml-basics/15-what-is-bias.md:
+    name: What is Bias
+    category: ml-basics
   ml-rapid-fire/01-core-ml/01-ml-basics/16-bias-variance-tradeoff.md:
     name: 16-bias-variance-tradeoff
     category: ml-basics
@@ -494,6 +515,9 @@ flashcards:
     attempts:
     - date: '2025-12-07T20:08:00.000000'
       recall: partial-
+  ml-rapid-fire/01-core-ml/05-regularization/09-elastic-net-formula.md:
+    name: Elastic Net Formula
+    category: regularization
   ml-rapid-fire/01-core-ml/05-regularization/10-lambda-hyperparameter.md:
     name: Regularization Hyperparameter
     category: regularization
