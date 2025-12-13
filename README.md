@@ -187,15 +187,15 @@ python3 scripts/generate_readme.py
 
 <code>Mastered</code> <code>[████████████████░░░░░░░░░░░░░░]</code> 55.6% (5/9)
 
-- 🔵 [What is Hyperparameter Tuning](ml-rapid-fire/02-model-evaluation/04-model-selection/01-what-is-hyperparameter-tuning.md) `1 attempts`
-- 🔵 [Grid Search](ml-rapid-fire/02-model-evaluation/04-model-selection/02-grid-search.md) `1 attempts`
-- 🔵 [Random Search](ml-rapid-fire/02-model-evaluation/04-model-selection/03-random-search.md) `1 attempts`
-- 🔵 [Bayesian Optimization](ml-rapid-fire/02-model-evaluation/04-model-selection/04-bayesian-optimization.md) `1 attempts`
-- 🟠 [Cross-Validation for Model Selection](ml-rapid-fire/02-model-evaluation/04-model-selection/07-cv-for-model-selection.md) `1 attempts`
-- 🟠 [How CV Works for Hyperparameter Tuning](ml-rapid-fire/02-model-evaluation/04-model-selection/08-cv-mechanism.md) `1 attempts`
-- 🟡 [Learning Curves](ml-rapid-fire/02-model-evaluation/04-model-selection/09-learning-curves.md) `1 attempts`
-- 🟡 [Validation Curve](ml-rapid-fire/02-model-evaluation/04-model-selection/11-validation-curve.md) `1 attempts`
-- 🔵 [Early Stopping as Model Selection](ml-rapid-fire/02-model-evaluation/04-model-selection/14-early-stopping.md) `1 attempts`
+- 🔵 [What is Hyperparameter Tuning](ml-rapid-fire/02-model-evaluation/04-model-selection/01-hyperparameters.md) `1 attempts`
+- 🔵 [Grid Search](ml-rapid-fire/02-model-evaluation/04-model-selection/03-grid-search.md) `1 attempts`
+- 🔵 [Random Search](ml-rapid-fire/02-model-evaluation/04-model-selection/04-random-search.md) `1 attempts`
+- 🔵 [Bayesian Optimization](ml-rapid-fire/02-model-evaluation/04-model-selection/05-bayesian-optimization.md) `1 attempts`
+- 🟠 [Cross-Validation for Model Selection](ml-rapid-fire/02-model-evaluation/04-model-selection/08-cv-for-model-selection.md) `1 attempts`
+- 🟠 [How CV Works for Hyperparameter Tuning](ml-rapid-fire/02-model-evaluation/04-model-selection/09-cv-mechanism.md) `1 attempts`
+- 🟡 [Learning Curves](ml-rapid-fire/02-model-evaluation/04-model-selection/10-learning-curves.md) `1 attempts`
+- 🟡 [Validation Curve](ml-rapid-fire/02-model-evaluation/04-model-selection/12-validation-curve.md) `1 attempts`
+- 🔵 [Early Stopping as Model Selection](ml-rapid-fire/02-model-evaluation/04-model-selection/15-early-stopping.md) `1 attempts`
 
 ![Loss Functions](https://img.shields.io/badge/Loss_Functions-blue?style=for-the-badge)
 
@@ -632,10 +632,10 @@ python3 scripts/generate_readme.py
 
 <code>Mastered</code> <code>[███████████████░░░░░░░░░░░░░░░]</code> 50.0% (2/4)
 
-- 🔵 [05-bayesian-optimization-steps](ml-rapid-fire/02-model-evaluation/04-model-selection/05-bayesian-optimization-steps.md) `1 attempts`
-- 🟢 [10-learning-curve-interpretation](ml-rapid-fire/02-model-evaluation/04-model-selection/10-learning-curve-interpretation.md) `1 attempts`
-- 🟠 [12-validation-curve-interpretation](ml-rapid-fire/02-model-evaluation/04-model-selection/12-validation-curve-interpretation.md) `1 attempts`
-- 🟡 [13-validation-curve-usage](ml-rapid-fire/02-model-evaluation/04-model-selection/13-validation-curve-usage.md) `1 attempts`
+- 🔵 [05-bayesian-optimization-steps](ml-rapid-fire/02-model-evaluation/04-model-selection/06-bayesian-optimization-steps.md) `1 attempts`
+- 🟢 [10-learning-curve-interpretation](ml-rapid-fire/02-model-evaluation/04-model-selection/11-learning-curve-interpretation.md) `1 attempts`
+- 🟠 [12-validation-curve-interpretation](ml-rapid-fire/02-model-evaluation/04-model-selection/13-validation-curve-interpretation.md) `1 attempts`
+- 🟡 [13-validation-curve-usage](ml-rapid-fire/02-model-evaluation/04-model-selection/14-validation-curve-usage.md) `1 attempts`
 
 ![Calculus Optimization](https://img.shields.io/badge/Calculus_Optimization-blue?style=for-the-badge)
 
@@ -681,4 +681,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-13 16:22:28*
+*Last updated: 2025-12-13 16:24:13*
