@@ -8,8 +8,14 @@ from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
 
+from burndown import (
+    generate_chart, calculate_burndown_stats, generate_burndown_section,
+    TOTAL_SUBSECTIONS
+)
+
 PROGRESS_FILE = Path(__file__).parent.parent / "progress.yaml"
 README_FILE = Path(__file__).parent.parent / "README.md"
+IMAGES_DIR = Path(__file__).parent.parent / "images"
 
 # Display names for categories (when different from kebab-case title)
 CATEGORY_DISPLAY_NAMES = {
@@ -254,6 +260,19 @@ def generate_readme():
     lines.append("# Update this README")
     lines.append("python3 scripts/generate_readme.py")
     lines.append("```\n")
+
+    # Burndown section
+    IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+    burndown_image = IMAGES_DIR / 'burndown.png'
+    generate_chart(PROGRESS_FILE, burndown_image)
+
+    burndown_stats = calculate_burndown_stats(progress)
+    burndown_config = progress.get('burndown', {
+        'start_subsections_remaining': TOTAL_SUBSECTIONS,
+        'start_cards_needing_mastery': 0,
+    })
+    burndown_lines = generate_burndown_section(burndown_stats, burndown_config)
+    lines.extend(burndown_lines)
 
     # Group categories by section
     categories_by_section = defaultdict(list)

@@ -1,3 +1,80 @@
+# Development Environment
+
+This project uses pyenv with a virtualenv named `ml-interview-dojo`. The `.python-version` file specifies this.
+
+When running Python scripts, use the virtualenv:
+```bash
+~/.pyenv/versions/ml-interview-dojo/bin/python scripts/script_name.py
+```
+
+---
+
+# Study Plan & Goals
+
+## Timeline
+- **Now → Jan 15, 2026**: Get all 36 subsections stable
+- **Now → Jan 31, 2026**: Master all cards in stable subsections
+
+## What "Stable" Means
+A subsection is stable after 3 passes through it without making any changes to the cards. This ensures card quality is locked in before focusing on mastery.
+
+## Workflow
+1. **Stabilize subsections** - Review cards, refine questions/answers until no changes needed for 3 passes
+2. **Mark stable** - Once stable, cards enter the mastery burndown
+3. **Master cards** - Drill stable cards until all are at partial+ or full recall
+
+---
+
+# Progress Tracking System
+
+## Burndown Charts
+Two burndowns track progress toward Jan 31 goals:
+1. **Stability** - 36 subsections → 0 (target: Jan 15)
+2. **Mastery** - Cards needing work in stable subsections → 0 (target: Jan 31)
+
+## Scripts
+
+### Log a stability pass
+After reviewing all cards in a subsection:
+```bash
+# No changes during pass (increments counter)
+~/.pyenv/versions/ml-interview-dojo/bin/python scripts/log_stability_pass.py --subsection ml-basics
+
+# Had changes to cards (resets counter to 0)
+~/.pyenv/versions/ml-interview-dojo/bin/python scripts/log_stability_pass.py --subsection ml-basics --changes
+
+# List all subsections and their status
+~/.pyenv/versions/ml-interview-dojo/bin/python scripts/log_stability_pass.py --list
+```
+
+### Mark a subsection stable
+After 3 passes without changes:
+```bash
+~/.pyenv/versions/ml-interview-dojo/bin/python scripts/mark_stable.py --subsection ml-basics
+
+# List stable subsections
+~/.pyenv/versions/ml-interview-dojo/bin/python scripts/mark_stable.py --list
+
+# Remove stable status (if needed)
+~/.pyenv/versions/ml-interview-dojo/bin/python scripts/mark_stable.py --subsection ml-basics --unmark
+```
+
+### Log a card attempt
+```bash
+~/.pyenv/versions/ml-interview-dojo/bin/python scripts/log_attempt.py --file "ml-rapid-fire/path/to/card.md" --recall full
+```
+
+### Update README with burndown
+```bash
+~/.pyenv/versions/ml-interview-dojo/bin/python scripts/generate_readme.py
+```
+
+## Mastery Definition
+- **Mastered** = most recent attempt is partial+ or full
+- Cards can regress (if latest attempt is worse, they need work again)
+
+---
+
 # Flashcard Design Principles
 
 ## 1. Question guides the answer

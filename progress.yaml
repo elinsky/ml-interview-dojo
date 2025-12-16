@@ -82,6 +82,10 @@ flashcards:
   ml-rapid-fire/01-core-ml/03-logistic-regression/11-linearly-separable.md:
     name: Linearly Separable
     category: logistic-regression
+    topic: logistic-regression
+    attempts:
+    - date: '2025-12-07T16:38:11.487608'
+      recall: full
   ml-rapid-fire/01-core-ml/04-cross-entropy/01-what-is-cross-entropy.md:
     name: 01-what-is-cross-entropy
     category: cross-entropy
@@ -404,13 +408,6 @@ flashcards:
       notes: Got 3/4, missed "problem changes frequently"
     - date: '2025-12-07T16:06:42.174218'
       recall: partial+
-  ml-rapid-fire/01-core-ml/03-logistic-regression/11-linearly-separable.md:
-    name: Linearly Separable
-    category: logistic-regression
-    topic: logistic-regression
-    attempts:
-    - date: '2025-12-07T16:38:11.487608'
-      recall: full
   ml-rapid-fire/01-core-ml/01-ml-basics/18-bias-variance-decomposition.md:
     name: Bias-Variance Decomposition
     category: ml-basics
@@ -1260,8 +1257,11 @@ flashcards:
     - date: '2025-12-12T16:48:42.941862'
       recall: partial+
   ml-rapid-fire/02-model-evaluation/04-model-selection/06-bayesian-optimization-steps.md:
-    name: Bayesian Optimization Steps
-    category: model-selection
+    name: 05-bayesian-optimization-steps
+    category: 04-model-selection
+    attempts:
+    - date: '2025-12-12T16:48:49.195405'
+      recall: partial+
   ml-rapid-fire/02-model-evaluation/04-model-selection/07-search-method-comparison.md:
     name: Grid vs Random vs Bayesian Search
     category: model-selection
@@ -2067,12 +2067,6 @@ flashcards:
     - date: '2025-12-07T20:46:31.145429'
       recall: none
       notes: New card, not drilled yet
-  ml-rapid-fire/02-model-evaluation/04-model-selection/06-bayesian-optimization-steps.md:
-    name: 05-bayesian-optimization-steps
-    category: 04-model-selection
-    attempts:
-    - date: '2025-12-12T16:48:49.195405'
-      recall: partial+
   ml-rapid-fire/02-model-evaluation/04-model-selection/11-learning-curve-interpretation.md:
     name: 10-learning-curve-interpretation
     category: 04-model-selection
@@ -2091,3 +2085,195 @@ flashcards:
     attempts:
     - date: '2025-12-12T16:49:07.162448'
       recall: partial-
+stability:
+  01-core-ml/01-ml-basics:
+    passes_without_changes: 0
+    last_pass_date: '2025-12-16T11:13:05.175771'
+    stable: false
+    stable_date: null
+  01-core-ml/02-linear-regression:
+    passes_without_changes: 0
+    last_pass_date: '2025-12-16T11:09:50.540272'
+    stable: false
+    stable_date: null
+  01-core-ml/03-logistic-regression:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  01-core-ml/04-cross-entropy:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  01-core-ml/05-regularization:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  02-model-evaluation/01-classification-metrics:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  02-model-evaluation/02-regression-metrics:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  02-model-evaluation/03-validation:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  02-model-evaluation/04-model-selection:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  02-model-evaluation/05-loss-functions:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  03-deep-learning/01-neural-network-basics:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  03-deep-learning/02-optimizers:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  03-deep-learning/03-regularization:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  03-deep-learning/04-cnns:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  03-deep-learning/05-rnns:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  03-deep-learning/06-transformers:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  04-statistics/01-probability-basics:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  04-statistics/02-distributions:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  04-statistics/03-descriptive-stats:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  04-statistics/04-statistical-inference:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  04-statistics/05-mle-estimators:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  05-reinforcement-learning/01-core-concepts:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  05-reinforcement-learning/02-algorithms:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  05-reinforcement-learning/03-exploration-exploitation:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  06-classical-ml/01-decision-trees:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  06-classical-ml/02-svm:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  06-classical-ml/03-knn:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  06-classical-ml/04-naive-bayes:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  06-classical-ml/05-clustering:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  06-classical-ml/06-dimensionality-reduction:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  07-mathematics/01-linear-algebra:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  07-mathematics/02-calculus-optimization:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  08-data-engineering/01-feature-engineering:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  08-data-engineering/02-missing-data:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  08-data-engineering/03-imbalanced-data:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+  08-data-engineering/04-text-processing:
+    passes_without_changes: 0
+    last_pass_date: null
+    stable: false
+    stable_date: null
+burndown:
+  start_date: '2025-12-16'
+  stability_target_date: '2026-01-15'
+  mastery_target_date: '2026-01-31'
+  start_subsections_remaining: 36
+  start_cards_needing_mastery: 0
+  history:
+  - date: '2025-12-16'
+    subsections_remaining: 36
+    cards_needing_mastery: 0
+    cards_in_stable: 0

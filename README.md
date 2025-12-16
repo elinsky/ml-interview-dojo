@@ -37,6 +37,23 @@ python3 scripts/log_attempt.py --file "ml-rapid-fire/path/to/card.md" --recall f
 python3 scripts/generate_readme.py
 ```
 
+## Burndown Progress
+
+![Burndown Chart](images/burndown.png)
+
+### Stability
+
+| Metric | Value |
+|--------|-------|
+| Remaining | 36/36 subsections |
+| Target Date | Jan 15, 2026 (30d) |
+| Rate Needed | 1.2/day |
+| Status | **-1.2 behind** |
+
+### Mastery
+
+*No stable subsections yet. Mark subsections stable to start tracking mastery.*
+
 ## Flashcards
 
 <table><tr><td bgcolor="#4a86e8"><h2 style="color:white;margin:0;padding:5px">Core ML</h2></td></tr></table>
@@ -700,4 +717,4 @@ python3 scripts/generate_readme.py
 
 ---
 
-*Last updated: 2025-12-13 16:29:25*
+*Last updated: 2025-12-16 11:13:10*
